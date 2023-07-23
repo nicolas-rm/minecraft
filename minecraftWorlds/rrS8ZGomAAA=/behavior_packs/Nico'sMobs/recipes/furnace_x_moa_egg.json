@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "nicothekid:furnace_x_moa_egg"
+    },
+    "tags": [
+      "furnace",
+      "campfire"
+    ],
+    "input": {
+      "item": "nicothekid:moa_egg"
+    },
+    "output": {
+      "item": "nicothekid:fried_moa_egg",
+      "count": 1
+    }
+  }
+}

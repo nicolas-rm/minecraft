@@ -1,0 +1,49 @@
+{
+  "minecraft:client_entity" : {
+    "description" : {
+      "render_controllers" : [
+        "controller.render.villager"
+      ],
+      "materials" : {
+        "default" : "villager"
+      },
+      "geometry" : {
+        "default" : "geometry.villager.v1.8"
+      },
+      "animations" : {
+        "look_at_target" : "animation.common.look_at_target",
+        "move" : "animation.villager.move",
+        "general" : "animation.villager.general",
+        "baby_transform" : "animation.villager.baby_transform"
+      },
+      "spawn_egg" : {
+        "texture" : "cc:spy_villager",
+        "texture_index" : 0
+      },
+      "identifier" : "cc:spy_villager",
+      "scripts" : {
+        "scale" : "0.9375"
+      },
+      "min_engine_version" : "1.8.0",
+      "animation_controllers" : [
+        {
+          "general" : "controller.animation.villager.general"
+        },
+        {
+          "move" : "controller.animation.villager.move"
+        },
+        {
+          "baby" : "controller.animation.villager.baby"
+        }
+      ],
+      "textures" : {
+        "farmer" : "textures\/entity\/craftycraft\/cc_spy_villager",
+        "librarian" : "textures\/entity\/craftycraft\/cc_spy_villager",
+        "priest" : "textures\/entity\/craftycraft\/cc_spy_villager",
+        "smith" : "textures\/entity\/craftycraft\/cc_spy_villager",
+        "butcher" : "textures\/entity\/craftycraft\/cc_spy_villager"
+      }
+    }
+  },
+  "format_version" : "1.8.0"
+}

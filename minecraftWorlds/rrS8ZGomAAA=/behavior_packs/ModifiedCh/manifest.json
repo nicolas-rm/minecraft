@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "This addon will modify the loot of some common chests in the game. by LanDay",
+    "name": "Modified Chest Loot Challenger",
+    "uuid": "7a882659-a391-4d63-990d-de4c13d125cc",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      8,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "This addon will modify the loot of some common chests in the game. by LanDay",
+      "type": "data",
+      "uuid": "442cc57d-a764-4514-b65f-67f5e44d105d",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

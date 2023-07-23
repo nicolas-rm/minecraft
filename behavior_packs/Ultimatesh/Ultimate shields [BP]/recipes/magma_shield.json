@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "magma_shield"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "AAA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:magma"
+      },
+      "B": {
+        "item": "minecraft:lava_bucket"
+      }
+    },
+    "result": {
+      "item": "magma_shield:shield"
+    }
+  }
+}

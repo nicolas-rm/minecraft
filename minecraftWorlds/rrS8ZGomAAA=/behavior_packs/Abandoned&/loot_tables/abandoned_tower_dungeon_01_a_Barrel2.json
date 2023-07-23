@@ -1,0 +1,421 @@
+{
+   "pools": [
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:glass_bottle",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "empty"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:glass_bottle",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:glass_bottle",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:splash_potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 41
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "empty"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:lingering_potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 4
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:lingering_potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 25
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "empty"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:splash_potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 2
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 12
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:glass_bottle",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:glass_bottle",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "empty"
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 4
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:glass_bottle",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:splash_potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 20
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:glass_bottle",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 17
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:glass_bottle",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 21
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": [ 1, 1, 0 ],
+  "nicothekid:jellyfish_slime_block_pink": {
+    "textures": "nicothekid_jellyfish_slime_block_pink",
+    "sound": "slime"
+  },
+  "nicothekid:moa_egg_block": {
+    "textures": "nicothekid_moa_egg_block",
+    "sound": "tuff"
+  },
+  "nicothekid:mud_soil": {
+    "textures": "nicothekid_mud_soil",
+    "sound": "honey_block"
+  },
+  "nicothekid:mud_soil_bricks": {
+    "textures": "nicothekid_mud_soil_bricks",
+    "sound": "stone"
+  },
+  "nicothekid:mud_soil_bricks_slab": {
+    "textures": "nicothekid_mud_soil_bricks_slab",
+    "sound": "stone"
+  },
+  "nicothekid:mud_soil_bricks_stairs": {
+    "textures": "nicothekid_mud_soil_bricks_stairs",
+    "sound": "stone"
+  }
+}

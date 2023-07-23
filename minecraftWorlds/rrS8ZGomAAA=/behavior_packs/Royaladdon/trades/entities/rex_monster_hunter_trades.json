@@ -1,0 +1,106 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:essence_of_the_beyond",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 25
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:blackessence",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:corruptedrawmeat",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:corruptedstring",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:puregem",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 20
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:puregem",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pure_gem_necklace",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:corruptedglowstonedust",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.log",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "pole",
+					"pivot": [0, 6, 10],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{"origin": [10.8, 6.8, 10], "size": [0, 0, 1], "inflate": 0.01, "pivot": [0, -14, 10], "rotation": [0, 90, 0], "uv": [-1, -1]}
+					]
+				}
+			]
+		}
+	]
+}

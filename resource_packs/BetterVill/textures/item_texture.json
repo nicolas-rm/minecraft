@@ -1,0 +1,108 @@
+{
+  "resource_pack_name" : "CraftyCraft[Resource]",
+  "texture_name" : "atlas.items",
+  "texture_data" : {
+    "cc:villager_armorer" : {
+      "textures" : "textures\/items\/craftycraft\/cc_villager_armorer"
+    },
+    "cc:santa_villager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_santa_villager"
+    },
+    "cc:lumberjack" : {
+      "textures" : "textures\/items\/craftycraft\/cc_lumberjack"
+    },
+    "cc:snow_illager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_snow_illager"
+    },
+    "cc:pirate" : {
+      "textures" : "textures\/items\/craftycraft\/cc_pirate"
+    },
+    "cc:villager_construction_worker" : {
+      "textures" : "textures\/items\/craftycraft\/cc_villager_construction_worker"
+    },
+    "cc:illusioner" : {
+      "textures" : "textures\/items\/craftycraft\/cc_illusioner"
+    },
+    "cc:illusionist" : {
+      "textures" : "textures\/items\/craftycraft\/cc_illusionist"
+    },
+    "cc:spy_villager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_spy_villager"
+    },
+    "cc:villager_pizza_guy" : {
+      "textures" : "textures\/items\/craftycraft\/cc_villager_pizza_guy"
+    },
+    "cc:soldier_villager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_soldier_villager"
+    },
+    "cc:villager_butcher" : {
+      "textures" : "textures\/items\/craftycraft\/cc_villager_butcher"
+    },
+    "cc:mummy" : {
+      "textures" : "textures\/items\/craftycraft\/cc_mummy"
+    },
+    "cc:illager_peon" : {
+      "textures" : "textures\/items\/craftycraft\/cc_illager_peon"
+    },
+    "cc:mutant_villager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_mutant_villager"
+    },
+    "cc:villager_wizard" : {
+      "textures" : "textures\/items\/craftycraft\/cc_villager_wizard"
+    },
+    "cc:enchanter" : {
+      "textures" : "textures\/items\/craftycraft\/cc_enchanter"
+    },
+    "cc:librarian_villager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_librarian_villager"
+    },
+    "cc:villager_king" : {
+      "textures" : "textures\/items\/craftycraft\/cc_villager_king"
+    },
+    "cc:ninja" : {
+      "textures" : "textures\/items\/craftycraft\/cc_ninja"
+    },
+    "cc:skeleton_villager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_skeleton_villager"
+    },
+    "cc:villager_guard" : {
+      "textures" : "textures\/items\/craftycraft\/cc_villager_guard"
+    },
+    "cc:villager_clerk" : {
+      "textures" : "textures\/items\/craftycraft\/cc_villager_clerk"
+    },
+    "cc:evil_wizard" : {
+      "textures" : "textures\/items\/craftycraft\/cc_evil_wizard"
+    },
+    "cc:mutant_illager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_mutant_illager"
+    },
+    "cc:illager_docter" : {
+      "textures" : "textures\/items\/craftycraft\/cc_illager_docter"
+    },
+    "cc:sensei_villager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_sensei_villager"
+    },
+    "cc:the_wandering_trader_illager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_the_wandering_trader_illager"
+    },
+    "cc:army_commando_villager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_army_commando_villager"
+    },
+    "cc:ender_villager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_ender_villager"
+    },
+    "cc:villager_priest" : {
+      "textures" : "textures\/items\/craftycraft\/cc_villager_priest"
+    },
+    "cc:villager_guard_v2" : {
+      "textures" : "textures\/items\/craftycraft\/cc_villager_guard_v2"
+    },
+    "cc:female_villager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_female_villager"
+    },
+    "cc:king_illager" : {
+      "textures" : "textures\/items\/craftycraft\/cc_king_illager"
+    }
+  }
+}

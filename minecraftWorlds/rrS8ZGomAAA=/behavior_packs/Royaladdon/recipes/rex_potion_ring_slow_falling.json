@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "potion_ring_slow_falling_b8a5586e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:effect_stone_slow_fall",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:golden_ring",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:potion_ring_slow_falling",
+      "count": 1
+    }
+  }
+}

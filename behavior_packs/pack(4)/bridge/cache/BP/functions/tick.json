@@ -1,0 +1,23 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's Tree Capitator\\functions\\tick.json",
+	"file_type": "function_tick",
+	"format_version": 1,
+	"file_uuid": "d1be6976_789c_496d_a418_dc0d305eb4f5",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"values": [
+						"tree_tick"
+					]
+				},
+				"key": "values",
+				"is_minified": true,
+				"children": [
+					"tree_tick"
+				]
+			}
+		]
+	}
+}

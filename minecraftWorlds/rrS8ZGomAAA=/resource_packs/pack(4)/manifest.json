@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"pat"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.1"
+			],
+			"dash": [
+				"0.10.10"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			19,
+			50
+		],
+		"uuid": "9ff9d993-caf5-4fff-a362-6f45201032fd",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "e9ffe241-601b-4d63-ae67-6e4cefbdc6c5",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "8ebe0de4-c1b2-44c5-8489-cfaea575b42e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

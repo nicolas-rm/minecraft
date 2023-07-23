@@ -1,0 +1,46 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:aventureiro",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": true,
+      "minecraft:icon": {
+        "texture": "rex:aventureiro"
+      },
+      "minecraft:display_name": {
+        "value": "adventurer (ranking 1)"
+      },
+      "minecraft:cooldown": {
+        "category": "aventureiro",
+        "duration": 1
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "on_use_event"
+        }
+      }
+    },
+    "events": {
+      "on_use_event": {
+        "swing": {},
+        "run_command": {
+          "command": [
+            "function giveaventureiro"
+          ]
+        }
+      },
+      "hurt": {
+        "damage": {
+          "type": "magic",
+          "amount": 1,
+          "target": "self"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+item.wooden_shield:shield.name=Wooden Shield
+item.dripstone_shield:shield.name=Dripstone Shield
+item.copper_shield:shield.name=Copper Shield
+item.gold_shield:shield.name=Gold Shield
+item.iron_shield:shield.name=Iron Shield
+item.diamond_shield:shield.name=Diamond Shield
+item.netherite_shield:shield.name=Netherite Shield
+item.wooden_shield:shield.name=Wooden Shield
+
+item.classic_shield:shield.name=Classic shield
+item.gold_classic_shield:shield.name=Gold Classic Shield
+item.diamond_classic_shield:shield.name=Diamond Classic Shield
+item.netherite_classic_shield:shield.name=Netherite Classic Shield
+
+item.circle_shield:shield.name=Viking Shield
+item.gold_viking_shield:shield.name=Gold Viking Shield
+item.diamond_circle_shield:shield.name=Diamond Viking Shield
+item.netherite_circle_shield:shield.name=Netherite Viking Shield
+
+item.magma_shield:shield.name=Magma Shield

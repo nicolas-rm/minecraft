@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "nicothekid:furnace_x_moa_raw"
+    },
+    "tags": [
+      "furnace", "campfire"
+    ],
+    "input": {
+      "item": "nicothekid:moa_raw"
+    },
+    "output": {
+      "item": "nicothekid:moa_cooked",
+      "count": 1
+    }
+  }
+}

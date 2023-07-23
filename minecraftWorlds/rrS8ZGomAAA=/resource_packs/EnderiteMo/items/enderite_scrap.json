@@ -1,0 +1,12 @@
+//bridge-file-version: #17
+{
+	"minecraft:item": {
+		"description": {
+			"identifier": "ed:enderite_scrap"
+		},
+		"components": {
+			"minecraft:icon": "enderite_scrap"
+		}
+	},
+	"format_version": "1.16.0"
+}

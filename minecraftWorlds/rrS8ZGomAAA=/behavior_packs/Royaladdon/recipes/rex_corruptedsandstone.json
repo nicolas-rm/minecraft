@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedsandstone_19ba4349"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedsand",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedsandstone",
+      "count": 1
+    }
+  }
+}

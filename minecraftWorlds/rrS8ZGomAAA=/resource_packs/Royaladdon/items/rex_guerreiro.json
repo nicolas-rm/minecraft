@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:guerreiro",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:guerreiro",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

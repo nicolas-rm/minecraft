@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nicothekid:stonecut_x_mud_soil_bricks_x_mud_soil_bricks_slab"
+    },
+    "priority": 0,
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "nicothekid:mud_soil_bricks"
+      }
+    ],
+    "result": {
+      "item": "nicothekid:mud_soil_bricks_slab",
+      "count": 2
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "crafting:recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" # ",
+			"eCe",
+			" e "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:ender_pearl"
+			},
+			"e": {
+				"item": "ed:ingot3"
+			},
+			"C": {
+				"item": "minecraft:crafting_table"
+			}
+		},
+		"result": {
+			"item": "ed:end_crafting_table",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,492 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rex:pironaxe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "rex:pgoldaxe",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rex:pgoldpickaxe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "rex:pdiamondpickaxe",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rex:stonestick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },        
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rex:stonemold",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rex:pickaxeheadmold",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rex:swordheadmold",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rex:goldenstick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rex:diamondstick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rex:cablemold",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_nugget",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rex:pironshovel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cobblestone",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rex:blackessence",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 3
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },    
+    {
+      "rolls": 1,
+      "entries": [    
+        {
+          "type": "item",
+          "name": "rex:blackessence",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rex:ironstick",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }        
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:redstone",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:astral",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_ingot",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:raw_iron",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 4
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rex:pdiamondsword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },    
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "rex:pgoldpickaxe",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rex:toolsguide",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rex:swordheadmold",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }        
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:redstone",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stone",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:obsidian",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+  ]
+}
+}
+  ]
+}}
+  ]
+}
+}

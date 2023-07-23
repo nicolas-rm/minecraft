@@ -1,0 +1,50 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "witchsword_818529c6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      " G "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:obsidianingot",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:sugar",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:glowstone_dust",
+        "data": 0
+      },
+      "E": {
+        "item": "rex:insignarei",
+        "data": 0
+      },
+      "F": {
+        "item": "minecraft:nether_wart",
+        "data": 0
+      },
+      "G": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:witchsword",
+      "count": 1
+    }
+  }
+}

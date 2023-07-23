@@ -1,0 +1,426 @@
+{
+   "pools": [
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:arrow",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:web",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:bow",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:lead",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:double_stone_slab",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:wheat",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:emerald",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:enchanted_book",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "specific_enchants",
+                     "enchants": [
+                        {
+                           "id": "power",
+                           "level": 2
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:wheat",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:golden_chestplate",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:emerald",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:arrow",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:bread",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:iron_shovel",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:bread",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:arrow",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 9
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:egg",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:book",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:leather",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:web",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:iron_ingot",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:leather",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:brown_mushroom",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:arrow",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 27
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:bread",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:wheat",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:raw_shine_ore",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:raw_shine_ore",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

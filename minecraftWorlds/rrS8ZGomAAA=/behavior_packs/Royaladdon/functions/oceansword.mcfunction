@@ -1,0 +1,1 @@
+effect @p conduit_power 40 2

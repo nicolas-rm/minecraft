@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.rex_dragon_boots": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "walking": "(1.0)"
+            }
+          ],
+          "on_entry": [
+            "/function rex_dragon_boots"
+          ]
+        },
+        "walking": {
+          "transitions": [
+            {
+              "default": "query.get_equipped_item_name=='dragon_boots' && query.is_using_item"
+            }
+          ],
+          "on_entry": [
+            "/function rex_dragon_boots"
+          ]
+        }
+      }
+    }
+  }
+}

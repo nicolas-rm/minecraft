@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "jade_axe_9fb7c42e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      "AB ",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:jade",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:jade_axe",
+      "count": 1
+    }
+  }
+}

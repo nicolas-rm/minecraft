@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "nicothekid:craft_x_pumpkin_pie_x_sparrow_egg"
+    },
+    "priority": 4,
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nicothekid:sparrow_egg"
+      },
+      {
+        "item": "minecraft:pumpkin"
+      },
+      {
+        "item": "minecraft:sugar"
+      }
+    ],
+    "result": {
+      "item": "minecraft:pumpkin_pie"
+    }
+  }
+}

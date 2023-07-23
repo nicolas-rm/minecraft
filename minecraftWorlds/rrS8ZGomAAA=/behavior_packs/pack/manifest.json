@@ -1,0 +1,46 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"uuid": "8ed23a56-de29-458b-8af7-8627defef040",
+		"version": [
+			1,
+			0,
+			2
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "cee39f4e-0277-4d31-8782-153cd2d62457",
+			"version": [
+				1,
+				0,
+				2
+			]
+		}
+	],
+     "subpacks": [
+          {
+               "folder_name": "low",
+               "name": "§eDim §f- Emits a light level of 6",
+               "memory_tier": 0
+          },
+          {
+               "folder_name": "medium",
+               "name": "§6Medium §f- Emits a light level of 10",
+               "memory_tier": 1
+          },
+          {
+               "folder_name": "bright",
+               "name": "§cBright §f- Emits a light level of 14",
+               "memory_tier": 2
+          }
+     ]
+}

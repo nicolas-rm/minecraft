@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ed:enderite_sword_tp_l4"
+		},
+		"tags": [
+			"craftingtools"
+		],
+		"pattern": [
+			"   ",
+			"X Y",
+			"   "
+		],
+		"key": {
+			"X": {
+				"item": "ed:enderite_sword_tp_l3"
+			},
+			"Y": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"result": [
+			{
+				"item": "ed:enderite_sword_tp_l4",
+				"count": 1
+			}
+		]
+	}
+}

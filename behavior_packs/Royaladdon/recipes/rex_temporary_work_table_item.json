@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "temporary_work_table_item_ba892076"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:shinebar",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:crafting_table",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:temporary_work_table_item",
+      "count": 1
+    }
+  }
+}

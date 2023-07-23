@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "battle_axe_of_beyond_fda4fc14"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:bar_from_beyond",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:stick_from_beyond",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:battle_axe_of_beyond",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "minecraft:recipe_shaped" : {
+    "result" : {
+      "count" : 1,
+      "data" : "query.get_actor_info_id('cc:king_illager')",
+      "item" : "spawn_egg"
+    },
+    "tags" : [
+      "crafting_table"
+    ],
+    "key" : {
+      "A" : {
+        "item" : "minecraft:skull"
+      },
+      "D" : {
+        "item" : "minecraft:appleenchanted"
+      },
+      "B" : {
+        "item" : "minecraft:diamond"
+      },
+      "C" : {
+        "item" : "minecraft:totem"
+      }
+    },
+    "pattern" : [
+      " A ",
+      "BCB",
+      " D "
+    ],
+    "description" : {
+      "identifier" : "cc:cc:king_illager"
+    }
+  },
+  "format_version" : "1.10"
+}

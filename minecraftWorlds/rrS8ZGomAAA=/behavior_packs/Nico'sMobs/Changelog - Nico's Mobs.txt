@@ -1,0 +1,72 @@
+Nico's Mobs
+
+[Version: 1.5]
+          "Changes & Fixes"
+MOBS:
+- Mobs will now follow their targets even they can't reach them.
+- Hostile Mobs will no longer be aggressive towards to your tamed Cave Wolf, Troot, and also on your sitted mobs.
+
+Cave Dweller:
+- Emerald drop chance is decreased.
+
+Cave Wolf:
+- Has now a begging animation.
+- Can now be tempted using Bone.
+- Deceased the healing amount of Rotten Flesh when feeding them.
+- Following the owner distance is increased.
+- Fixed the behavior of a baby tamed Cave Wolf.
+
+Enchanter Apprentice
+- can now only attack there target once they see it.
+
+Firefly:
+- Spawn rate is increased.
+- Will now also spawn in Mangrove Swamp & Cherry Grove biome.
+
+Forest Guardian:
+- Spawn rate is improved.
+
+Forest Wisp:
+- Experience reward on death is now corrected.
+- Spawn rate is improved.
+- Will now also spawn in Cherry Grove biome.
+
+Giant Moa:
+- Health value is increased.
+- Following the owner distance is increased.
+- Spawn rate is improved.
+
+Jellyfish:
+- Spawn rate is improved.
+
+Shroom:
+- Spawn rate on Mushroom Island is decreased.
+- Following the owner distance is increased.
+
+Skeleton Warriors:
+- Loot drops are decreased.
+
+Sparrow:
+- Spawn rate is improved.
+- Will now also spawn in Cherry Grove biome.
+
+Squirrel:
+- Can now be tamed using Apple.
+- Can now be feeded using Carrots, Melon, Pumpkin Slice, & Moss Berry.
+- Retextured.
+- Improved animation.
+- Lead position is fixed.
+- Will now also spawn in Cherry Grove biome.
+
+Wandering Collector:
+- Will now change their trades in every 3 day in Minecraft.
+- Spawn rate is increased.
+
+
+BLOCKS:
+- Mud Soil Bricks Slab and Stairs is fixed.
+
+ITEMS:
+- Fixed the bug where repairing the Scorpion Gauntlet with the same item it will come out with full durability. They were now repaired base on both item's remaining durability.
+
+

@@ -1,0 +1,70 @@
+{
+  "id": "1647615241635",
+  "name": "zombiecorrupted",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_data",
+              "data": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "rex:corruptedstick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "rex:corruptnugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

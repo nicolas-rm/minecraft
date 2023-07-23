@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "potion_ring_strength_2f877c2b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:effect_stone_strength",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:golden_ring",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:potion_ring_strength",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "nicothekid:forest_wisp",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false 
+    },
+    "component_groups": {
+			"component:interaction_with_experience": {
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "cooldown": 2.5,
+              "cooldown_after_being_attacked": 2.5,
+              "health_amount": 0,
+              "hurt_item": 0,
+              "swing": false,
+              "use_item": true,
+              "play_sounds": "bucket.fill_water",
+              "transform_to_item": "minecraft:experience_bottle",
+              "interact_text": "action.interact.fill_experience",
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "has_equipment",
+                      "domain": "hand",
+                      "subject": "other",
+                      "value": "glass_bottle"
+                    }
+                  ]
+                },
+                "event": "event:uninteractable"
+              }
+            }
+          ]
+        }
+      },
+      "component:interaction_timer": {
+        "minecraft:timer": {
+          "looping": false,
+          "time": 100,
+          "time_down_event": {
+            "event": "event:interactable"
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:can_fly": {},
+      "minecraft:collision_box": {
+        "width": 0.60,
+        "height": 0.60
+      },
+      "minecraft:flying_speed": {
+        "value": 0.10
+      },
+      "minecraft:health": {
+        "value": 12,
+        "max": 12
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:movement": {
+        "value": 0.20
+      },
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      "minecraft:type_family": {
+        "family": [
+          "forest_wisp",
+          "wisp",
+          "spirits",
+          "mob"
+        ]
+      },
+      
+      "minecraft:breathable": {
+        "breathes_air": true,
+        "breathes_lava": false,
+        "breathes_solids": false,
+        "breathes_water": true,
+        "generates_bubbles": false,
+        "inhale_time": 0,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": false,
+						"damage_modifier": 0.0,
+						"damage_multiplier": 1.0
+          }
+        ]
+      },
+      "minecraft:despawn": {
+        "despawn_from_chance": true,
+        "despawn_from_inactivity": true,
+        "despawn_from_simulation_edge": true,
+        "remove_child_entities": false,
+        "min_range_inactivity_timer": 30,
+        "min_range_random_chance": 800,
+        "despawn_from_distance": {
+          "max_distance": 128,
+          "min_distance": 32
+        }
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:jump.static": {
+        "jump_power": 0.42
+      },
+      "minecraft:movement.hover": {
+        "max_turn": 30.0
+      },
+      "minecraft:nameable": {
+        "allow_name_tag_renaming": true,
+        "always_show": false
+      },
+      "minecraft:navigation.hover": {	
+        "avoid_damage_blocks": true,
+        "avoid_portals": false,
+        "avoid_sun": false,
+        "avoid_water": true,
+        "can_breach": false,
+        "can_break_doors": false,
+        "can_jump": true,
+        "can_open_doors": false,
+        "can_open_iron_doors": false,
+        "can_pass_doors": true,
+        "can_path_from_air": true,
+        "can_path_over_lava": false,
+        "can_path_over_water": true,
+        "can_sink": false,
+        "can_swim": false,
+        "can_walk": true,
+        "can_walk_in_lava": false,
+        "is_amphibious": false
+      },
+      "minecraft:physics": {
+        "has_collision": true,
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true 
+      },
+      
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.panic": {
+        "priority": 1,
+        "force": false,
+        "ignore_mob_damage": false,
+        "prefer_water": false,
+        "speed_multiplier": 1.25
+      },
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 2,
+        "remove_target": false,
+        "avoid_target_xz": 16,
+        "avoid_target_y": 7,
+        "max_dist": 3.0,
+        "max_flee": 10.0,
+        "probability_per_strength": 1.0,
+        "sprint_distance": 7.0,
+        "sprint_speed_multiplier": 1.10,
+        "walk_speed_multiplier": 1.10,
+        "entity_types": [
+          {
+            "must_see": true,
+            "reevaluate_description": false,
+            "max_dist": 8,
+            "walk_speed_multiplier": 1.10,
+            "sprint_speed_multiplier": 1.10,
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value":  "player",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value":  "illager",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value":  "warden",
+                  "operator": "=="
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:behavior.random_hover": {
+        "priority": 3,
+        "hover_height": [ 1, 3 ],
+        "interval": 1,
+        "xz_dist": 8,
+        "y_dist": 7,
+        "y_offset": 0
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 4,
+        "probability": 0.02,
+        "angle_of_view_horizontal": 360,
+        "angle_of_view_vertical": 360,
+        "look_distance": 8.0,
+        "look_time": [ 2, 4 ]
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 5,
+        "look_time": [ 1, 2 ]
+      },
+      "minecraft:behavior.look_at_entity": {
+        "priority": 6,
+        "probability": 0.02,
+        "angle_of_view_horizontal": 360,
+        "angle_of_view_vertical": 360,
+        "look_distance": 8.0,
+        "look_time": [ 1, 2 ],
+        "filters": {
+          "any_of": [
+            {
+              "test": "is_family",
+              "subject": "other",
+              "value": "mob",
+              "operator": "=="
+            }
+          ]
+        }
+      },
+      
+      "minecraft:experience_reward": {
+        "on_death": "25"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/nicos_mobs/entities/nicothekid_forest_wisp.json"
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "component:interaction_with_experience"
+          ]
+        }
+      },
+      "event:uninteractable": {
+        "remove": {
+					"component_groups": [
+						"component:interaction_with_experience"
+					]
+				},
+        "add": {
+					"component_groups": [
+						"component:interaction_timer"
+					]
+				}
+      },
+      "event:interactable": {
+        "remove": {
+					"component_groups": [
+						"component:interaction_timer"
+					]
+				},
+        "add": {
+					"component_groups": [
+						"component:interaction_with_experience"
+					]
+				}
+      }
+    }
+  }
+}

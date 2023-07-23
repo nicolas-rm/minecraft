@@ -1,0 +1,166 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 11
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:effect_stone_jump_boost",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 11
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:effect_stone_slow_fall",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 16
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:effect_stone_strength",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 15
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:effect_stone_regeneration",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:effect_stone_water_breathing",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:effect_stone_speed",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 16
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:stone_effect_fire_resistance",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 15
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:stone_effect_night_vision",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 15
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:effect_stone_empty",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:stone_effect_resistance",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:gold_ingot",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:golden_ring",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cdiamantpastralaxe_70c229fe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:pastralaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:diamondstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cdiamantpastralaxe",
+      "count": 1
+    }
+  }
+}

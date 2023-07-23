@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:goldhelmet",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:goldhelmet",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

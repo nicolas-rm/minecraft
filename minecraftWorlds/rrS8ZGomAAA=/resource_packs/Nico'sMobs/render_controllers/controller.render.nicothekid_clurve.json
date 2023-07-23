@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.nicothekid_clurve": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.skins[query.has_target]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.variant_0",
+						"Texture.variant_1"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "shovel_from_beyond_81298e80"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:bar_from_beyond",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:stick_from_beyond",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:shovel_from_beyond",
+      "count": 1
+    }
+  }
+}

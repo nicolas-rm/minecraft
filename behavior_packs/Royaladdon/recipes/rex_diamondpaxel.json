@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "diamondpaxel_d5c0a46e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond_pickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:diamond_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:diamond_axe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:diamondpaxel",
+      "count": 1
+    }
+  }
+}

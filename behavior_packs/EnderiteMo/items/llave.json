@@ -1,0 +1,39 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ed:llave"
+		},
+		"components": {
+			"minecraft:allow_off_hand": false,
+			"minecraft:max_stack_size": 1,
+			"minecraft:cooldown": {
+				"category": "llave",
+				"duration": 1
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "ed:llave"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "llave"
+			},
+			"minecraft:foil": true
+		},
+		"events": {
+			"ed:llave": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"function teleHome"
+							],
+							"target": "self"
+						}
+					}
+				]
+			}
+		}
+	}
+}

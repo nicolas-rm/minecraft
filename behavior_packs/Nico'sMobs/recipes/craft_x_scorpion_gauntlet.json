@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_scorpion_gauntlet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "SSS",
+      "LLL",
+      " L "
+    ],
+    "key": {
+      "S": {
+        "item": "nicothekid:scorpion_telson"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "nicothekid:scorpion_gauntlet",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_ba86fc55"
+    },
+    "tags": [
+      "crafting_table",
+      "Block_tool improvement table_custom"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:obsidian",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:cdiamondpironhoe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cdiamondpironhoemobsidian",
+      "count": 1
+    }
+  }
+}

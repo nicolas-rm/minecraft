@@ -1,0 +1,434 @@
+{
+   "pools": [
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:web",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:flint",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:book",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:charcoal",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:stick",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:bowl",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:emerald",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:bone",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:stone_pressure_plate",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:torch",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:enchanted_book",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "specific_enchants",
+                     "enchants": [
+                        {
+                           "id": "sharpness",
+                           "level": 1
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:iron_axe",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:splash_potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 31
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:gold_nugget",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:repeater",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:iron_ingot",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:charcoal",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:arrow",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 18
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:iron_ingot",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:bone",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:web",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:emerald",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:stick",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:web",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:bone",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:arrow",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 18
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:banner",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 3
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

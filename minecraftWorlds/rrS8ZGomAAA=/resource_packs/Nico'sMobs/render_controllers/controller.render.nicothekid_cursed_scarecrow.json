@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.nicothekid_cursed_scarecrow": {
+      "geometry": "geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.default"
+      ]
+    }
+  }
+}

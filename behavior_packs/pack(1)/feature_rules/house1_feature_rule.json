@@ -1,0 +1,45 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "toxirust1:house1_feature_rule",
+			"places_feature": "toxirust1:house1_feature"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "overworld"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "overworld_generation"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 1,
+			"scatter_chance": 10,
+			"x": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			},
+			"y": "query.heightmap(v.worldx, v.worldz) -13 ",
+			"z": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			}
+		}
+	}
+}

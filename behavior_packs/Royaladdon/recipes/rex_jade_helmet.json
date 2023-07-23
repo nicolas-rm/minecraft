@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "jade_helmet_e7b79a1b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:jade",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:jade_helmet",
+      "count": 1
+    }
+  }
+}

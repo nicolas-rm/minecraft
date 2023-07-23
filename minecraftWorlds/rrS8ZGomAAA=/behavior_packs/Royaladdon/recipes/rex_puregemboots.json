@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "puregemboots_b5342990"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:puregem",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:puregemboots",
+      "count": 1
+    }
+  }
+}

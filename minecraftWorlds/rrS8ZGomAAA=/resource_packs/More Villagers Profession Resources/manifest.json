@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "§l§bSubscribe Now for more addons & thanks for download my addon by §l§4Creator Add-ons§f:Panda Craft Game",
+    "name": "§l§eMore Villager Professions §bV2§a-MCPEDL",
+    "uuid": "dd147c86-93e4-438d-8f41-1650f2774af0",
+    "version": [
+      2,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      19,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "description": "§l§bSubscribe Now for more addons & thanks for download my addon by §l§4Creator Add-ons§f:Panda Craft Game",
+      "type": "resources",
+      "uuid": "7e13378f-371e-42d7-bf17-1b17c0b9fa1d",
+      "version": [
+        2,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "29764288-7001-497c-853b-b3a0d97c0654",
+      "version": [
+        2,
+        0,
+        1
+      ]
+    }
+  ]
+}

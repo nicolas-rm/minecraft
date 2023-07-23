@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:effect_stone_slow_fall",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:effect_stone_slow_fall",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

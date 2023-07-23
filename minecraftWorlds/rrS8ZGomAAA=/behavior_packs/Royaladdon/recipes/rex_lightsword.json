@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lightsword_e6502327"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "BDB",
+      "CBA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:glowstone",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:glowstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:lightsword",
+      "count": 1
+    }
+  }
+}

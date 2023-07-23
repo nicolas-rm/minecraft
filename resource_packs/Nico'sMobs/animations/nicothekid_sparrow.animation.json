@@ -1,0 +1,72 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nicothekid_sparrow.baby_transform": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "scale": 1.6
+        }
+      }
+    },
+		"animation.nicothekid_sparrow.flying": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"wing0": {
+					"rotation": {
+						"0.0": [-60, -45, 0],
+						"0.25": [10.72858, -68.90942, -79.27142],
+						"0.5": [-60, -45, 0]
+					}
+				},
+				"wing1": {
+					"rotation": {
+						"0.0": [-60, 45, 0],
+						"0.25": [10.72858, 68.90942, 79.27142],
+						"0.5": [-60, 45, 0]
+					}
+				},
+				"leg0": {
+					"rotation": {
+						"0.0": [45, 0, 0],
+						"0.5": [45, 0, 0]
+					}
+				},
+				"leg1": {
+					"rotation": {
+						"0.0": [45, 0, 0],
+						"0.5": [45, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.nicothekid_sparrow.look_at_target": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [
+						"query.target_x_rotation - this",
+						"query.target_y_rotation - this",
+						0.0
+					]
+				}
+			}
+		},
+		"animation.nicothekid_sparrow.walking": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"leg0": {
+					"rotation": [ "math.cos(query.anim_time * 38.17) *  70.0", 0.0, 0.0 ]
+				},
+				"leg1": {
+					"rotation": [ "math.cos(query.anim_time * 38.17) * -70.0", 0.0, 0.0 ]
+				}
+			}
+		}
+	}
+}

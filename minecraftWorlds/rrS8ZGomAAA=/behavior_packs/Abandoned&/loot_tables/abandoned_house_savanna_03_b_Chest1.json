@@ -1,0 +1,421 @@
+{
+   "pools": [
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:copper_ingot",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:leather",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:feather",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:fermented_spider_eye",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:experience_bottle",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:book",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:leather_leggings",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:arrow",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 38
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:glass",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:redstone",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:raw_gold",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:sugar",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:iron_ingot",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:deadbush",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:candle",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:beetroot_seeds",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:leather",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:lingering_potion",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 35
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:book",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:raw_gold",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:iron_horse_armor",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:golden_axe",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:bowl",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:iron_ingot",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:coral",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:arrow",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  },
+                  {
+                     "function": "set_data",
+                     "data": 38
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:feather",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

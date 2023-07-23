@@ -1,0 +1,87 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:emerald_helmet",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "rex_emerald_helmet"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.helmet"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_head"
+      },
+      "minecraft:durability": {
+        "max_durability": 900,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "protection": 0.2
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": true,
+      "minecraft:wearable": {
+        "slot": "slot.armor.head"
+      },
+      "minecraft:render_offsets": {
+        "main_hand": {
+          "third_person": {
+            "scale": [
+              0.05,
+              0.05,
+              0.05
+            ]
+          },
+          "first_person": {
+            "scale": [
+              0.018999999999988602,
+              0.018999999999988602,
+              0.018999999999988602
+            ]
+          }
+        },
+        "off_hand": {
+          "third_person": {
+            "scale": [
+              0.05,
+              0.05,
+              0.05
+            ]
+          },
+          "first_person": {
+            "scale": [
+              0.018999999999988602,
+              0.018999999999988602,
+              0.018999999999988602
+            ]
+          }
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:emerald",
+              "rex:emerald_helmet"
+            ],
+            "repair_amount": 10
+          }
+        ]
+      },
+      "minecraft:armor": {
+        "protection": 4
+      },
+      "minecraft:display_name": {}
+    }
+  }
+}

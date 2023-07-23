@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pastralpickaxe_5afd50ca"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:astral",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:pickaxeheadmold",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:pastralpickaxe",
+      "count": 1
+    }
+  }
+}

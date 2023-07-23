@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.sword": {
+			"loop": true,
+			"animation_length": 3.6875,
+			"bones": {
+				"rightArm": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": [0, -20, 0],
+						"0.4375": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

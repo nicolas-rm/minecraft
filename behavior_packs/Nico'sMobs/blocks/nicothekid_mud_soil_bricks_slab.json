@@ -1,0 +1,106 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:mud_soil_bricks_slab",
+      "menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.slab"
+			},
+      "properties": {
+				"nicothekid:slab_position": [
+					0,
+					1
+				]
+			}
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_mud_soil_bricks_slab",
+          "render_method": "opaque",
+          "ambient_occlusion": true,
+					"face_dimming": true
+        }
+      },
+      "minecraft:geometry": "geometry.block.nicothekid_slab_up",
+      "minecraft:map_color": "#7B603D",
+      "minecraft:breathability": "air",
+      "minecraft:collision_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 8, 16 ]
+			},
+			"minecraft:selection_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 8, 16 ]
+			},
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      },
+      "minecraft:loot": "loot_tables/nicos_mobs/blocks/nicothekid_mud_soil_bricks_slab.json",
+			"minecraft:on_player_placing": {
+				"event": "nicothekid:place_direction"
+			},
+      
+      "tag:mud_soil_bricks_slab": {},
+      "tag:stones_slab": {},
+      "tag:custom_slab": {},
+      "tag:stone": {}
+    },
+    "permutations": [
+			{
+				"condition": "query.block_property('nicothekid:slab_position') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.block.nicothekid_slab_down",
+					"minecraft:collision_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 8, 16 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 8, 16 ]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nicothekid:slab_position') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.block.nicothekid_slab_up",
+					"minecraft:collision_box": {
+						"origin": [ -8, 8, -8 ],
+						"size": [ 16, 8, 16 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -8, 8, -8 ],
+						"size": [ 16, 8, 16 ]
+					}
+				}
+			}
+		],
+		"events": {
+			"nicothekid:place_direction": {
+				"sequence": [
+					{
+						"condition": "query.target_x_rotation>=0",
+						"set_block_property": {
+							"nicothekid:slab_position": 0
+						}
+					},
+					{
+						"condition": "query.target_x_rotation<=0",
+						"set_block_property": {
+							"nicothekid:slab_position": 1
+						}
+					}
+				]
+			}
+		}
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 6,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "name": "minecraft:iron_nugget"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 2
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 3
+            }
+          ],
+          "name": "rex:temporary_work_table_item"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "name": "minecraft:stone"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "name": "minecraft:torch"
+        },
+        {
+          "type": "item",
+          "name": "rex:corruptnugget"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "name": "minecraft:web"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "name": "rex:granitesword"
+        },
+        {
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "name": "minecraft:arrow"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "name": "minecraft:log"
+        }
+      ]
+    }
+  ]
+}]
+}} }
+  ]
+}]
+}

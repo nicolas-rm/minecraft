@@ -1,0 +1,96 @@
+//bridge-file-version: #101
+{
+	"format_version": "1.18.0",
+	"minecraft:entity": {
+		"description": {
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"identifier": "raiyon:sprint_kb",
+			"runtime_identifier": "minecraft:egg"
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"max_optimized_distance": 80,
+					"max_dropped_ticks": 7,
+					"use_motion_prediction_hints": true
+				}
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": [
+							-1,
+							-1
+						],
+						"knockback": true,
+						"destroy_on_hit": true
+					},
+					"arrow_effect": {},
+					"definition_event": {
+						"event_trigger": {
+							"event": "despawn",
+							"target": "self"
+						},
+						"affect_projectile": true
+					},
+					"remove_on_hit": {}
+				},
+				"power": 2,
+				"gravity": 0,
+				"uncertainty_base": 0,
+				"uncertainty_multiplier": 0,
+				"anchor": 0,
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"multiple_targets": false
+			},
+			"minecraft:type_family": {
+				"family": [
+					"kb_sprint"
+				]
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					1,
+					1
+				],
+				"time_down_event": {
+					"event": "despawn",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:desejo",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:netheritehelmet",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:desejo",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:bedrocksword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:desejo",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:herobrine_beef",
+              "quantity": 64
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

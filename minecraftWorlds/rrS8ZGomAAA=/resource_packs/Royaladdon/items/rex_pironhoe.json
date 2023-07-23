@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:pironhoe",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:pironhoe",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

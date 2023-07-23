@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "nicothekid:craft_x_cake_x_sparrow_egg"
+    },
+    "priority": 4,
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "MMM",
+      "SES",
+      "WWW"
+    ],
+    "key": {
+      "E": {
+        "item": "nicothekid:sparrow_egg"
+      },
+      "M": {
+        "item": "minecraft:bucket",
+        "data": 1
+      },
+      "S": {
+        "item": "minecraft:sugar"
+      },
+      "W": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:cake",
+        "count": 1
+      },
+      {
+        "item": "minecraft:bucket",
+        "data": 0,
+        "count": 3
+      }
+    ]
+  }
+}

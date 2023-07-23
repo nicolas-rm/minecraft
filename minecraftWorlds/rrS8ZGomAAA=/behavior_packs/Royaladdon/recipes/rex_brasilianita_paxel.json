@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "brasilianita_paxel_b1a83cab"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:brasilianitapickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:brasilianitashovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:brasilianitaaxe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:brasilianita_paxel",
+      "count": 1
+    }
+  }
+}

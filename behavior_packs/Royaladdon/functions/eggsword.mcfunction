@@ -1,0 +1,16 @@
+summon egg 3~~10~1
+summon egg 3~~10~
+summon egg 4~~10~1
+summon egg 4~~10~
+summon egg -3~~10~1
+summon egg -3~~10~
+summon egg -4~~10~1
+summon egg -4~~10~
+summon egg ~~10~3
+summon egg ~~10~-3
+summon egg ~~10~4
+summon egg ~~10~-4
+summon egg ~~10~5
+summon egg ~~10~-5
+summon egg ~~10~6
+summon egg ~~10~-6

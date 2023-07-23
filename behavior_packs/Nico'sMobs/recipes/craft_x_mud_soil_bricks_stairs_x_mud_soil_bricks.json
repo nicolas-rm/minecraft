@@ -1,0 +1,26 @@
+
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "nicothekid:craft_x_mud_soil_bricks_stairs_x_mud_soil_bricks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"  P",
+			" PP",
+			"PPP"
+		],
+		"key": {
+			"P": {
+				"item": "nicothekid:mud_soil_bricks"
+			}
+		},
+		"result": {
+			"item": "nicothekid:mud_soil_bricks_stairs",
+			"count": 4
+		}
+	}
+}

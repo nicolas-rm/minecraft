@@ -1,0 +1,8 @@
+{
+  "mob.rex_piratestatue.death": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/rex_piratestatue/death"
+    ]
+  }
+}

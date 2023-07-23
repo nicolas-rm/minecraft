@@ -1,0 +1,13 @@
+summon pillager ~~3~
+summon pillager ~~3~
+summon pillager ~~3~
+summon rex:pillagerguard ~~3~
+summon rex:pillagerguard ~~3~
+summon rex:pillagerguard ~~3~
+summon rex:helitepillagerguard ~~3~
+summon rex:helitepillagerguard ~~3~
+summon rex:pillagerblacksmith ~~3~
+summon rex:pillagerblacksmith ~~3~
+summon pillager ~~3~
+fill ~~~~~~ stone
+gamerule commandblockoutput false

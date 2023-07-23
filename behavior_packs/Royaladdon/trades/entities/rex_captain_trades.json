@@ -1,0 +1,240 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 12
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_sword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 15
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_helmet",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 25
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_chestplate",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_leggings",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 15
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_boots",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:bow",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 30
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:crossbow",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:arrows",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:insignacapitao",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald_block",
+              "quantity": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:goldenbattleaxe",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 64
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:diamondbattleaxe",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 45
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:emeraldbattleaxe",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:insignaaventureiro",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:aventureiro",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:insignaguerreiro",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:guerreiro",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagersummonsguard",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald_block",
+              "quantity": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 30
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:co",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

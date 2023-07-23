@@ -1,0 +1,76 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "nicothekid:mossy_cobblestone_golem",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:weight": {
+          "default": 10
+        },
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_on_block_filter": [
+          "minecraft:dirt",
+          "minecraft:dirt_with_roots",
+          "minecraft:grass",
+          "minecraft:moss_block",
+          "minecraft:mossy_cobblestone",
+          "minecraft:mud",
+          "minecraft:muddy_mangrove_roots",
+          "minecraft:podzol"
+        ],
+        "minecraft:biome_filter": [
+          {
+            "all_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "cold"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "extreme_hills"
+              },
+              {
+                "any_of": [
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "flower_forest"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "forest"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "jungle"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "taiga"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": false
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "CANAL DO CRIADOR: yBrothers, Explore seus mundos com novas estruturas incríveis e de geração natural!",
+        "name": "yStructures",
+        "uuid": "fa8f39d9-bc92-48d1-907e-a9f057ed7d2b",
+        "version": [1, 0, 2],
+        "min_engine_version": [ 1,8,0 ]
+    },
+    "modules": [
+        {
+            "description": "CANAL DO CRIADOR: yBrothers, Explore seus mundos com novas estruturas incríveis e de geração natural!",
+            "type": "data",
+            "uuid": "e90af022-e2dd-45f5-ad46-df8346400f0a",
+            "version": [1, 0, 2]
+        }
+    ]
+}

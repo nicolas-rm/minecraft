@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:pdiamondaxe",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:pdiamondaxe",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

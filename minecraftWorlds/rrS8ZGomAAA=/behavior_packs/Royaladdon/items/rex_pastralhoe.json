@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:pastralhoe",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": false,
+      "minecraft:stack_by_data": true,
+      "minecraft:icon": {
+        "texture": "rex:pastralhoe"
+      },
+      "minecraft:display_name": {
+        "value": "p astral hoe§8 (§e+4 efic §8+500 dur§1 astral§8)"
+      }
+    }
+  }
+}

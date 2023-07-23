@@ -1,0 +1,50 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:desejo",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:wither_power",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:desejo",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:potionsword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:desejo",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:orb_of_purification",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

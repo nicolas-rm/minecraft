@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vampiresword_4614bf98"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "ACA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:wickedcrystal",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:fermented_spider_eye",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:lifesword",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:vampiresword",
+      "count": 1
+    }
+  }
+}

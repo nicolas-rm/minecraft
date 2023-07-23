@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:night_vision",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:night_vision",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

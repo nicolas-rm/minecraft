@@ -1,0 +1,50 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:desejo",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:battle_axe_of_beyond",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:desejo",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:damagesword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:desejo",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:fire_boots",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

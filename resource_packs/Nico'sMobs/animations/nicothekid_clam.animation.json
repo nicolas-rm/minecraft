@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+	  "animation.nicothekid_clam.closing": {
+			"loop": "hold_on_last_frame",
+			"override_previous_animation": true,
+			"animation_length": 1,
+			"bones": {
+				"lid": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-45, 0, 0]
+					}
+				}
+			}
+		},
+	  "animation.nicothekid_clam.opening": {
+			"loop": "hold_on_last_frame",
+			"override_previous_animation": true,
+			"animation_length": 1,
+			"bones": {
+				"lid": {
+					"rotation": {
+						"0.0": [-45, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

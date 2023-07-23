@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "obsidianhelmet_19859a43"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:obsidianingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:obsidianhelmet",
+      "count": 1
+    }
+  }
+}

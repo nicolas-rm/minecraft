@@ -1,0 +1,46 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:animals_summon",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": true,
+      "minecraft:icon": {
+        "texture": "rex:animals_summon"
+      },
+      "minecraft:display_name": {
+        "value": "\"§2animals§f\""
+      },
+      "minecraft:cooldown": {
+        "category": "animals_summon",
+        "duration": 1
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "on_use_event"
+        }
+      }
+    },
+    "events": {
+      "on_use_event": {
+        "swing": {},
+        "run_command": {
+          "command": [
+            "function paccificmobs"
+          ]
+        }
+      },
+      "hurt": {
+        "damage": {
+          "type": "magic",
+          "amount": 1,
+          "target": "self"
+        }
+      }
+    }
+  }
+}

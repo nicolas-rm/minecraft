@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_jellyfish_slime_block_pink"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "JJJ",
+      "JJJ",
+      "JJJ"
+    ],
+    "key": {
+      "J": {
+        "item": "nicothekid:jellyfish_slime"
+      }
+    },
+    "result": {
+      "item": "nicothekid:jellyfish_slime_block_pink",
+      "count": 1
+    }
+  }
+}

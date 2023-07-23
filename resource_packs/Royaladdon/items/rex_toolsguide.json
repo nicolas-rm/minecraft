@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:toolsguide",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:toolsguide",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

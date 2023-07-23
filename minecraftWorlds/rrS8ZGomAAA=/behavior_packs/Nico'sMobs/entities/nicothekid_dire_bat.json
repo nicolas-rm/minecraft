@@ -1,0 +1,279 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "nicothekid:dire_bat",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+    },
+    "components": {
+      "minecraft:can_fly": {},
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 1.2
+      },
+      "minecraft:flying_speed": {
+        "value": 0.20
+      },
+      "minecraft:health": {
+        "value": 14,
+        "max": 14
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:movement": {
+        "value": 0.25
+      },
+      "minecraft:scale": {
+        "value": 0.8
+      },
+      "minecraft:type_family": {
+        "family": [
+          "dire_bat",
+          "bat",
+          "monster",
+          "mob"
+        ]
+      },
+      
+      "minecraft:attack" : {
+        "damage": 2,
+        "effect_name": "hunger",
+        "effect_duration": 8
+      },
+      "minecraft:breathable": {
+        "breathes_air": true,
+        "breathes_lava": false,
+        "breathes_solids": false,
+        "breathes_water": false,
+        "generates_bubbles": true,
+        "inhale_time": 0,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": false,
+						"damage_modifier": 0.0,
+						"damage_multiplier": 1.0
+          }
+        ]
+      },
+      "minecraft:despawn": {
+        "despawn_from_chance": true,
+        "despawn_from_inactivity": true,
+        "despawn_from_simulation_edge": true,
+        "remove_child_entities": false,
+        "min_range_inactivity_timer": 30,
+        "min_range_random_chance": 800,
+        "despawn_from_distance": {
+          "max_distance": 128,
+          "min_distance": 32
+        }
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:jump.static": {
+        "jump_power": 0.42
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0
+      },
+      "minecraft:movement.hover": {
+        "max_turn": 30.0
+      },
+      "minecraft:nameable": {
+        "allow_name_tag_renaming": true,
+        "always_show": false
+      },
+      "minecraft:navigation.hover": {	
+        "avoid_damage_blocks": true,
+        "avoid_portals": false,
+        "avoid_sun": true,
+        "avoid_water": true,
+        "can_breach": false,
+        "can_break_doors": false,
+        "can_jump": true,
+        "can_open_doors": false,
+        "can_open_iron_doors": false,
+        "can_pass_doors": true,
+        "can_path_from_air": true,
+        "can_path_over_lava": false,
+        "can_path_over_water": true,
+        "can_sink": false,
+        "can_swim": false,
+        "can_walk": true,
+        "can_walk_in_lava": false,
+        "is_amphibious": false
+      },
+      "minecraft:physics": {
+        "has_collision": true,
+        "has_gravity": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true 
+      },
+      
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1,
+        "alert_same_type": false,
+        "hurt_owner": false,
+        "entity_types": [
+          {
+            "must_see": false,
+            "reevaluate_description": false,
+            "max_dist": 16,
+            "walk_speed_multiplier": 1.0,
+            "sprint_speed_multiplier": 1.0,
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "creeper",
+                  "operator": "!="
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "attack_owner": false,
+        "must_reach": false,
+        "must_see": true,
+        "reselect_targets": true,
+        "set_persistent": false,
+        "attack_interval": 0,
+        "attack_interval_min": 0,
+        "persist_time": 0.0,
+        "scan_interval": 10,
+        "target_invisible_multiplier": 0.7,
+        "target_search_height": -1.0,
+        "target_sneak_visibility_multiplier": 0.8,
+        "within_radius": 16.0,
+        "entity_types": [
+          {
+            "must_see": true,
+            "reevaluate_description": false,
+            "max_dist": 16,
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "irongolem",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "snowgolem",
+                  "operator": "=="
+                }
+              ]
+            }
+          },
+          {
+            "must_see": true,
+            "reevaluate_description": false,
+            "max_dist": 16,
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player_tamed_aggressive",
+                  "operator": "=="
+                },
+                {
+                  "test": "has_component",
+                  "subject": "other",
+                  "value": "minecraft:behavior.stay_while_sitting",
+                  "operator": "!="
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "attack_once": false,
+        "track_target": true,
+        "require_complete_path": false,
+        "cooldown_time": 1,
+        "speed_multiplier": 1.10
+      },
+      "minecraft:behavior.move_towards_target": {
+        "priority": 4,
+        "speed_multiplier": 1.10,
+        "within_radius": 32
+      },
+      "minecraft:behavior.look_at_target": {
+        "priority": 5,
+        "probability": 0.02,
+        "angle_of_view_horizontal": 360,
+        "angle_of_view_vertical": 360,
+        "look_distance": 8.0,
+        "look_time": [ 2, 4 ]
+      },
+      "minecraft:behavior.random_hover": {
+        "priority": 6,
+        "hover_height": [ 3, 6 ],
+        "interval": 1,
+        "xz_dist": 8,
+        "y_dist": 8,
+        "y_offset": -1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "probability": 0.02,
+        "angle_of_view_horizontal": 360,
+        "angle_of_view_vertical": 360,
+        "look_distance": 8.0,
+        "look_time": [ 2, 4 ]
+      },
+      
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/nicos_mobs/entities/nicothekid_dire_bat.json"
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    },
+    "events": {
+    }
+  }
+}

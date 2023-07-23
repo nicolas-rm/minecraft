@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pgoldshovel_5b052aea"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:shovelheadmold",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:pgoldshovel",
+      "count": 1
+    }
+  }
+}

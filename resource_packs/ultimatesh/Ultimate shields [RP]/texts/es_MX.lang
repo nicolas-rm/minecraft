@@ -1,0 +1,19 @@
+item.wooden_shield:shield.name=Escudo de madera
+item.dripstone_shield:shield.name=Escudo de espeleotema
+item.copper_shield:shield.name=Escudo de cobre
+item.gold_shield:shield.name=Escudo de oro
+item.iron_shield:shield.name=Escudo de hierro
+item.diamond_shield:shield.name=Escudo de diamante
+item.netherite_shield:shield.name=Escudo de inframundita
+
+item.classic_shield:shield.name=Escudo clasico
+item.gold_classic_shield:shield.name=Escudo clasico dorado
+item.diamond_classic_shield:shield.name=Escudo clasico de diamante
+item.netherite_classic_shield:shield.name=Escudo clasico de inframundita
+
+item.circle_shield:shield.name=Escudo vikingo
+item.gold_viking_shield:shield.name=Escudo vikingo de oro
+item.diamond_circle_shield:shield.name=Escudo vikingo de diamante
+item.netherite_circle_shield:shield.name=Escudo vikingo de inframundita
+
+item.magma_shield:shield.name=Escudo volcano

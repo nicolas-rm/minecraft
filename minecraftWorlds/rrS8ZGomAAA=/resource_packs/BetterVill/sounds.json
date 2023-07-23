@@ -1,0 +1,640 @@
+{
+  "entity_sounds" : {
+    "entities" : {
+      "cc:villager_armorer" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:santa_villager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:lumberjack" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:snow_illager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:pirate" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "celebrate" : "mob.pillager.celebrate",
+          "ambient" : "mob.pillager.idle",
+          "ambient.in.raid" : {
+            "pitch" : [
+              0.80000000000000004,
+              1.2
+            ],
+            "sound" : "mob.pillager.idle",
+            "volume" : 3
+          },
+          "death" : "mob.pillager.death",
+          "hurt" : "mob.pillager.hurt"
+        }
+      },
+      "cc:villager_construction_worker" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:illusioner" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "hurt" : "mob.cc_illusioner.hurt",
+          "prepare.wololo" : "mob.cc_illusioner.prepare_wololo",
+          "death" : "mob.cc_illusioner.death",
+          "prepare.attack" : "mob.cc_illusioner.prepare_attack",
+          "cast.spell" : "mob.cc_illusioner.cast_spell",
+          "celebrate" : "mob.cc_illusioner.celebrate",
+          "ambient.in.raid" : {
+            "pitch" : [
+              0.80000000000000004,
+              1.2
+            ],
+            "sound" : "mob.cc_illusioner.ambient",
+            "volume" : 3
+          },
+          "ambient" : "mob.cc_illusioner.ambient",
+          "prepare.summon" : "mob.cc_illusioner.prepare_summon"
+        }
+      },
+      "cc:illusionist" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "hurt" : "mob.evocation_illager.hurt",
+          "prepare.wololo" : "mob.evocation_illager.prepare_wololo",
+          "death" : "mob.evocation_illager.death",
+          "prepare.attack" : "mob.evocation_illager.prepare_attack",
+          "cast.spell" : "mob.evocation_illager.cast_spell",
+          "celebrate" : "mob.evocation_illager.celebrate",
+          "ambient.in.raid" : {
+            "pitch" : [
+              0.80000000000000004,
+              1.2
+            ],
+            "sound" : "mob.evocation_illager.ambient",
+            "volume" : 3
+          },
+          "ambient" : "mob.evocation_illager.ambient",
+          "prepare.summon" : "mob.evocation_illager.prepare_summon"
+        }
+      },
+      "cc:spy_villager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:villager_pizza_guy" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:soldier_villager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:villager_butcher" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:mummy" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:illager_peon" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:mutant_villager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "throw" : {
+            "pitch" : 1,
+            "sound" : "mob.irongolem.throw",
+            "volume" : 1
+          },
+          "ambient" : "mob.irongolem.say",
+          "hurt" : "mob.irongolem.hit",
+          "death" : "mob.irongolem.death",
+          "step" : {
+            "pitch" : 1,
+            "sound" : "mob.irongolem.walk",
+            "volume" : 1
+          }
+        }
+      },
+      "cc:villager_wizard" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "hurt" : "mob.witch.hurt",
+          "throw" : {
+            "pitch" : 1,
+            "sound" : "mob.witch.throw",
+            "volume" : 1
+          },
+          "death" : "mob.witch.death",
+          "drink" : {
+            "pitch" : 1,
+            "sound" : "mob.witch.drink",
+            "volume" : 1
+          },
+          "celebrate" : "mob.witch.celebrate",
+          "ambient.in.raid" : {
+            "pitch" : [
+              0.80000000000000004,
+              1.2
+            ],
+            "sound" : "mob.witch.ambient",
+            "volume" : 3
+          },
+          "ambient" : "mob.witch.ambient"
+        }
+      },
+      "cc:enchanter" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "hurt" : "mob.witch.hurt",
+          "throw" : {
+            "pitch" : 1,
+            "sound" : "mob.witch.throw",
+            "volume" : 1
+          },
+          "death" : "mob.witch.death",
+          "drink" : {
+            "pitch" : 1,
+            "sound" : "mob.witch.drink",
+            "volume" : 1
+          },
+          "celebrate" : "mob.witch.celebrate",
+          "ambient.in.raid" : {
+            "pitch" : [
+              0.80000000000000004,
+              1.2
+            ],
+            "sound" : "mob.witch.ambient",
+            "volume" : 3
+          },
+          "ambient" : "mob.witch.ambient"
+        }
+      },
+      "cc:librarian_villager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:villager_king" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:ninja" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "celebrate" : "mob.vindicator.celebrate",
+          "ambient" : "mob.vindicator.idle",
+          "ambient.in.raid" : {
+            "pitch" : [
+              0.80000000000000004,
+              1.2
+            ],
+            "sound" : "mob.vindicator.idle",
+            "volume" : 3
+          },
+          "death" : "mob.vindicator.death",
+          "hurt" : "mob.vindicator.hurt"
+        }
+      },
+      "cc:skeleton_villager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:villager_guard" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:army_commando_villager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:villager_clerk" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:evil_wizard" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "hurt" : "mob.witch.hurt",
+          "throw" : {
+            "pitch" : 1,
+            "sound" : "mob.witch.throw",
+            "volume" : 1
+          },
+          "death" : "mob.witch.death",
+          "drink" : {
+            "pitch" : 1,
+            "sound" : "mob.witch.drink",
+            "volume" : 1
+          },
+          "celebrate" : "mob.witch.celebrate",
+          "ambient.in.raid" : {
+            "pitch" : [
+              0.80000000000000004,
+              1.2
+            ],
+            "sound" : "mob.witch.ambient",
+            "volume" : 3
+          },
+          "ambient" : "mob.witch.ambient"
+        }
+      },
+      "cc:mutant_illager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "throw" : {
+            "pitch" : 1,
+            "sound" : "mob.irongolem.throw",
+            "volume" : 1
+          },
+          "ambient" : "mob.irongolem.say",
+          "step" : {
+            "pitch" : 1,
+            "sound" : "mob.irongolem.walk",
+            "volume" : 1
+          },
+          "death" : "mob.irongolem.death",
+          "hurt" : "mob.irongolem.hit"
+        }
+      },
+      "cc:sensei_villager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:illager_docter" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "celebrate" : "mob.pillager.celebrate",
+          "ambient" : "mob.pillager.idle",
+          "ambient.in.raid" : {
+            "pitch" : [
+              0.80000000000000004,
+              1.2
+            ],
+            "sound" : "mob.pillager.idle",
+            "volume" : 3
+          },
+          "death" : "mob.pillager.death",
+          "hurt" : "mob.pillager.hurt"
+        }
+      },
+      "cc:the_wandering_trader_illager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:ender_villager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:villager_priest" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:villager_guard_v2" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:female_villager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      },
+      "cc:king_illager" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "haggle" : "mob.villager.haggle",
+          "hurt" : "mob.villager.hit",
+          "death" : "mob.villager.death",
+          "haggle.yes" : "mob.villager.yes",
+          "death.to.zombie" : "mob.villager.death",
+          "ambient" : "mob.villager.idle",
+          "haggle.no" : "mob.villager.no"
+        }
+      }
+    }
+  }
+}

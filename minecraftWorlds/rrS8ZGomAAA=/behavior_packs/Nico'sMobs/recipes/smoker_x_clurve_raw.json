@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "nicothekid:smoker_x_clurve_raw"
+    },
+    "tags": [
+      "smoker"
+    ],
+    "input": {
+      "item": "nicothekid:clurve_raw",
+      "data": 0
+    },
+    "output": {
+      "item": "nicothekid:clurve_cooked",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

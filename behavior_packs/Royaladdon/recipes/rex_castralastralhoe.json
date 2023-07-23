@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "castralastralhoe_2f2b3422"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:pastralhoe",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:astralstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:castralastralhoe",
+      "count": 1
+    }
+  }
+}

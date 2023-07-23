@@ -1,0 +1,37 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "nicothekid:jellyfish",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:weight": {
+          "default": 10
+        },
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_underwater": {},
+        "minecraft:biome_filter": [
+          {
+            "all_of": [
+              {
+                "any_of": [
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "ocean"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "minecraft:herd": {
+          "min_size": 2,
+          "max_size": 4
+        }
+      }
+    ]
+  }
+}

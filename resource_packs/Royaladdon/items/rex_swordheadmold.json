@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:swordheadmold",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:swordheadmold",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

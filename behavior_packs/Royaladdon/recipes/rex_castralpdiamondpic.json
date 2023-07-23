@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "castralpdiamondpic_cc8e403e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:pdiamondpickaxe",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:astralstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:castralpdiamondpic",
+      "count": 1
+    }
+  }
+}

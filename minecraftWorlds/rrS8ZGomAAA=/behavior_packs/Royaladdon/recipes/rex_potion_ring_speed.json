@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "potion_ring_speed_7108a63a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:effect_stone_speed",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:golden_ring",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:potion_ring_speed",
+      "count": 1
+    }
+  }
+}

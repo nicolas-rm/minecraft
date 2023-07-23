@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "castralpiron_112ee692"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:pironsword",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:astralstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:castralpiron",
+      "count": 1
+    }
+  }
+}

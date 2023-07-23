@@ -1,0 +1,136 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.dachshund.angry": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"dachshund_angry"
+					]
+				}
+			}
+		},
+		"controller.animation.dachshund.baby_scaling": {
+			"initial_state": "default",
+			"states": {
+				"baby": {
+					"animations": [
+						"dachshund_baby_scaling"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_baby"
+						}
+					]
+				},
+				"default": {
+					"transitions": [
+						{
+							"baby": "query.is_baby"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.dachshund.head_rot_z": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"rot": "query.is_interested||query.is_shaking_wetness"
+						}
+					]
+				},
+				"rot": {
+					"animations": [
+						"dachshund_head_rot_z"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_interested&&!query.is_shaking_wetness"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.dachshund.look_at": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"dachshund_look_at"
+					]
+				}
+			}
+		},
+		"controller.animation.dachshund.setup": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"dachshund_setup"
+					]
+				}
+			}
+		},
+		"controller.animation.dachshund.shaking": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"shaking": "query.is_shaking_wetness"
+						}
+					]
+				},
+				"shaking": {
+					"animations": [
+						"dachshund_shaking"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_shaking_wetness"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.dachshund.sitting": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"dachshund_leg_default"
+					],
+					"transitions": [
+						{
+							"sitting": "query.is_sitting"
+						}
+					]
+				},
+				"sitting": {
+					"animations": [
+						"dachshund_sitting"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_sitting"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.dachshund.tail_default": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"dachshund_tail_default"
+					]
+				}
+			}
+		}
+	}
+}

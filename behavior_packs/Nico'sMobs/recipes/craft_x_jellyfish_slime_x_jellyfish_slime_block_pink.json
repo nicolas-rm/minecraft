@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "nicothekid:craft_x_jellyfish_slime_x_jellyfish_slime_block_pink"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "nicothekid:jellyfish_slime_block_pink"
+      }
+    ],
+    "result": {
+      "item": "nicothekid:jellyfish_slime",
+      "count": 9
+    }
+  }
+}

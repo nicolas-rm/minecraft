@@ -1,0 +1,14 @@
+//bridge-file-version: #27
+{
+	"values": [
+		"nada_cooldown",
+		"attacking",
+		"critical_hit",
+		"kb_sprint",
+		"shield_controller/blocking_facing",
+		"shield_controller/disable_shield",
+		"variable_attack_time/attack_time",
+		"uhc/death",
+		"tick_java_combat"
+	]
+}

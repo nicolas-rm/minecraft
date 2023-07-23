@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:power_gem",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": true,
+      "minecraft:stack_by_data": true,
+      "minecraft:icon": {
+        "texture": "rex:power_gem"
+      },
+      "minecraft:display_name": {
+        "value": "§5power gem"
+      }
+    }
+  }
+}

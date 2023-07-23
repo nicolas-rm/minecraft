@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "castralpironhoe_cf9beadb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:pironhoe",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:astralstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:castralpironhoe",
+      "count": 1
+    }
+  }
+}

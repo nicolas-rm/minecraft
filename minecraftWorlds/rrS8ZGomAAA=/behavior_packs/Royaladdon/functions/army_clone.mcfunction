@@ -1,0 +1,11 @@
+summon rex:guard ~~~
+summon rex:guard ~~~
+summon rex:guard ~~~
+summon rex:eliteguard ~~~
+summon rex:eliteguard ~~~
+summon rex:eliteguard ~~~
+summon rex:eliteguard ~~~
+summon rex:guard ~~~
+summon rex:eliteguard ~~~
+summon rex:king_heroi ~~~
+summon rex:guard ~~~

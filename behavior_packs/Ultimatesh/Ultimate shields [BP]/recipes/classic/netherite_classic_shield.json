@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "netherite_classic_shield"
+		},
+		"tags": [ "smithing_table" ],
+		"ingredients": [
+			{
+				"item": "diamond_classic_shield:shield"
+			},
+			{
+				"item": "minecraft:netherite_ingot"
+			}
+		],
+		"result":
+			{
+				"item":"netherite_classic_shield:shield"
+			}
+	}
+}

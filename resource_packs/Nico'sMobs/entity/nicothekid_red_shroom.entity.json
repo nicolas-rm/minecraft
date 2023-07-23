@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:red_shroom",
+      "textures": {
+        "shroom_wild_awake_variant_0": "textures/entity/nicos_mobs/red_shroom/nicothekid_red_shroom_wild_awake",
+        "shroom_wild_sleep_variant_1": "textures/entity/nicos_mobs/red_shroom/nicothekid_red_shroom_wild_sleep",
+        "shroom_tamed_variant_2": "textures/entity/nicos_mobs/red_shroom/nicothekid_red_shroom_tamed"
+      },
+      "spawn_egg": {
+        "base_color": "#C92B29",
+        "overlay_color": "#D3CCC4"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_red_shroom"
+      },
+      "materials": {
+        "default": "shroom",
+        "invisible": "shroom_invisible"
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_red_shroom"
+      ],
+      "animations": {
+        "look_at_target": "animation.nicothekid_red_shroom.look_at_target",
+        "sitting": "animation.nicothekid_red_shroom.sitting",
+        "sleeping": "animation.nicothekid_red_shroom.sleeping",
+        "walking": "animation.nicothekid_red_shroom.walking",
+        "controller_movement": "controller.animation.nicothekid_red_shroom.movement"
+      },
+      "scripts": {
+				"animate": [
+				  "look_at_target",
+				  "controller_movement"
+				]
+			}
+    }
+  }
+}

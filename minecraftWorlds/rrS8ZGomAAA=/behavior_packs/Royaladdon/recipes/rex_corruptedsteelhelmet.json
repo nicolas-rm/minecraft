@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedsteelhelmet_370b37d0"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedsteelingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedsteelhelmet",
+      "count": 1
+    }
+  }
+}

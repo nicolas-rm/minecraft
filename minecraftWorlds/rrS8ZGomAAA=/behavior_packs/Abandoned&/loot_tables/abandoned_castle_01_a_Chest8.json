@@ -1,0 +1,409 @@
+{
+   "pools": [
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:leather",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:charcoal",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:feather",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:fermented_spider_eye",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:flint",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:phantom_membrane",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:glowstone_dust",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:arrow",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:redstone",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:music_disc_13",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:nautilus_shell",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:leather",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:arrow",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:gunpowder",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:charcoal",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:prismarine_crystals",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:phantom_membrane",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:charcoal",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:rabbit_foot",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:feather",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:redstone",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:arrow",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:tripwire_hook",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:charcoal",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:glowstone_dust",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:lightning_rod",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "rolls": 1,
+         "entries": [
+            {
+               "type": "item",
+               "name": "minecraft:flint",
+               "functions": [
+                  {
+                     "function": "set_count",
+                     "count": 1
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

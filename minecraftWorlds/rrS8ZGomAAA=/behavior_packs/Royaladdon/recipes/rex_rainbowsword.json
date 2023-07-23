@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rainbowsword_bbd61bcf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BCD",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:yellowsword",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:bluesword",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_sword",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:redsword",
+        "data": 0
+      },
+      "E": {
+        "item": "rex:greensword",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:rainbowsword",
+      "count": 1
+    }
+  }
+}

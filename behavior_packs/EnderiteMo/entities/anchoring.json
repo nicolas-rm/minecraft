@@ -1,0 +1,120 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ed:anchoring",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"ed:despawn": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			},
+			"explode": {
+				"minecraft:explode": {
+					"fuse_length": 0,
+					"fuse_lit": true,
+					"power": 5,
+					"causes_fire": true,
+					"fire_affected_by_griefing": true,
+					"destroy_affected_by_griefing": true
+				}
+			}
+		},
+		"components": {
+			"minecraft:block_sensor": {
+				"sensor_radius": 1,
+				"on_break": [
+					{
+						"block_list": [
+							"ed:end_respawn_anchor_stage_4"
+						],
+						"on_block_broken": "ed:despawn"
+					}
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:tick_world": {
+				"never_despawn": true,
+				"radius": 1
+			}
+		},
+		"events": {
+			"ed:create": {
+				"sequence": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "in_nether",
+									"operator": "!=",
+									"value": false
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "the_end"
+								}
+							]
+						},
+						"run_command": {
+							"command": [
+								"title @s actionbar §fReturn point added"
+							]
+						}
+					},
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "in_nether",
+									"operator": "==",
+									"value": true
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "!=",
+									"value": "the_end"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "overworld"
+								}
+							]
+						},
+						"add": {
+							"component_groups": [
+								"explode"
+							]
+						}
+					}
+				]
+			},
+			"ed:despawn": {
+				"add": {
+					"component_groups": [
+						"ed:despawn"
+					]
+				}
+			}
+		}
+	}
+}

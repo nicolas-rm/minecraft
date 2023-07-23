@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "emerald_pickaxe_2d23ff8b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      " B ",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:emerald",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:emerald_pickaxe",
+      "count": 1
+    }
+  }
+}

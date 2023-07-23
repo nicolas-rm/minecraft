@@ -1,0 +1,94 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+
+		"controller.animation.alive": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"light_up": "query.is_alive"
+						}
+					]
+				},
+				"light_up": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],					
+					"on_entry": [
+						"/function mob_light"
+					]					
+				}
+			}
+		},
+		"controller.animation.dead": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"remove": "!query.is_alive"
+						}
+					]
+				},
+				"remove": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air 0 replace light_block -1"
+					]
+				}
+			}
+		},
+		"controller.animation.burning": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"remove": "query.is_on_fire"
+						}
+					]
+				},
+				"remove": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/function mob_light"
+					]
+				}
+			}
+		},
+		"controller.animation.not_burning": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"remove": "!query.is_on_fire || !query.is_alive"
+						}
+					]
+				},
+				"remove": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air 0 replace light_block -1"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,110 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:magic_stone",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:puregem",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:magic_stone",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:blackessence",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:essence_of_the_beyond",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:potionsword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 40
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:lightning_stone",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 50
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:regeneration_necklace",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

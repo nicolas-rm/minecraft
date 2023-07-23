@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_115269c6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:emeraldnugget",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:emerald",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

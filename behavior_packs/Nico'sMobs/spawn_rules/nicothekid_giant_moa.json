@@ -1,0 +1,85 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "nicothekid:giant_moa",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:weight": {
+          "default": 10
+        },
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_on_block_filter": [
+          "minecraft:dirt",
+          "minecraft:dirt_with_roots",
+          "minecraft:grass",
+          "minecraft:moss_block",
+          "minecraft:mud",
+          "minecraft:muddy_mangrove_roots",
+          "minecraft:podzol"
+        ],
+        "minecraft:biome_filter": [
+          {
+            "all_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "birch"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "roofed"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "taiga"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "cold"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "extreme_hills"
+              },
+              {
+                "any_of": [
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "overgrown_jungle"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "forest"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "jungle"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ]
+  }
+}

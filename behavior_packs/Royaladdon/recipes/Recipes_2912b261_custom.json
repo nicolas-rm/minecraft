@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_e7b12705"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:xp_orb1",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:glass_bottle",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:experience_bottle",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

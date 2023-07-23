@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mobbarrier_392a91b7"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:dye",
+        "data": 4
+      },
+      "B": {
+        "item": "minecraft:diamond",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:mobbarrier",
+      "count": 16
+    }
+  }
+}

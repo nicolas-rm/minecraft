@@ -1,0 +1,1 @@
+effect @p speed 20 2

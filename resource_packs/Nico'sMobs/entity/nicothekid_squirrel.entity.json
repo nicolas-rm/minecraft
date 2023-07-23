@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:squirrel",
+      "textures": {
+        "variant_0": "textures/entity/nicos_mobs/squirrel/nicothekid_squirrel_gray",
+        "variant_1": "textures/entity/nicos_mobs/squirrel/nicothekid_squirrel_red"
+      },
+      "spawn_egg": {
+        "base_color": "#715C45",
+        "overlay_color": "#C6C1BC"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_squirrel"
+      },
+      "materials": {
+        "default": "squirrel"
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_squirrel"
+      ],
+      "animations": {
+        "baby_transform": "animation.nicothekid_squirrel.baby_transform",
+        "grazing": "animation.nicothekid_squirrel.grazing",
+        "interested": "animation.nicothekid_squirrel.interested",
+        "look_at_target": "animation.nicothekid_squirrel.look_at_target",
+        "sitting": "animation.nicothekid_squirrel.sitting",
+        "walking": "animation.nicothekid_squirrel.walking",
+        "controller_interested": "controller.animation.nicothekid_squirrel.interested",
+        "controller_movement": "controller.animation.nicothekid_squirrel.movement"
+      },
+      "scripts": {
+				"animate": [
+          "controller_interested",
+          "controller_movement",
+          {
+            "baby_transform": "query.is_baby"
+          },
+					{
+						"look_at_target": 0.8
+					}
+				]
+			}
+    }
+  }
+}

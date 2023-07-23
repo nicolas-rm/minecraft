@@ -1,0 +1,99 @@
+{
+	"function": {
+		"generic": {},
+		"4bba6b0a_527e_418f_a3a9_7c7ff53387e7": {}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger",
+				"sword_cooldown_event_on",
+				"critical_hit",
+				"sword_cooldown_event_off",
+				"axe_cooldown_event_on",
+				"axe_cooldown_event_off",
+				"hoe_cooldown_event_off",
+				"hoe_cooldown_event_on",
+				"sweeping_edge",
+				"kb_sprint",
+				"shield_hit_add",
+				"kb_normal",
+				"shield_hit_remove",
+				"disable_shield",
+				"shield_sensor",
+				"normal_sensor",
+				"bow_ding",
+				"enable_shield",
+				"kb_resistance",
+				"raiyon:cooldown_damage",
+				"test",
+				"raiyon:tick",
+				"shovel_cooldown_event_on",
+				"shovel_cooldown_event_off",
+				"pickaxe_cooldown_event_on",
+				"pickaxe_cooldown_event_off",
+				"trident_cooldown_event_on",
+				"trident_cooldown_event_off"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"critical_hit",
+				"durability",
+				"shield_hit",
+				"blocking",
+				"attacking",
+				"sprint"
+			],
+			"families": [
+				"player",
+				"mob"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	},
+	"item": {
+		"BP/items/diamond_axe.json": {
+			"identifiers": [
+				"raiyon:diamond_axe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/stone_axe.json": {
+			"identifiers": [
+				"raiyon:stone_axe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wooden_axe.json": {
+			"identifiers": [
+				"raiyon:wooden_axe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/iron_axe.json": {
+			"identifiers": [
+				"raiyon:iron_axe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/netherite_axe.json": {
+			"identifiers": [
+				"raiyon:netherite_axe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/golden_axe.json": {
+			"identifiers": [
+				"raiyon:golden_axe"
+			],
+			"custom_commands": []
+		}
+	}
+}

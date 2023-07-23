@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nicothekid_forest_wisp.move": {
+			"anim_time_update": "query.modified_distance_moved",
+			"loop": true,
+			"bones": {
+				"body": {
+				  "position": [ 0.0, "query.is_baby ? 1.2 : 2.4", 0.0 ]
+				}
+			},
+			"particle_effects": {
+				"1.0": {
+					"effect": "particle",
+					"locator": "locator"
+				}
+			}
+		},
+		"animation.nicothekid_forest_wisp.rotate": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            { "y": "query.target_x_rotation - this" },
+            { "x": "query.target_x_rotation" },
+            { "y": "180.0 - this" }
+          ]
+        }
+      },
+      "particle_effects": {
+				"1.0": {
+					"effect": "particle",
+					"locator": "locator"
+				}
+			}
+    }
+	}
+}

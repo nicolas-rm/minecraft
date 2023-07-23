@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mobbarrierdirt_6d44483e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:mobbarrier",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:dirt",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:mobbarrierdirt",
+      "count": 1
+    }
+  }
+}

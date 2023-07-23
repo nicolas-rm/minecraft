@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_b827cfd8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:book",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:egg",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "enchanted:villager2_spawn_egg",
+      "count": 1
+    }
+  }
+}

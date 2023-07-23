@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "astral_helmet_3d994305"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:astral",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:astral_helmet",
+      "count": 1
+    }
+  }
+}

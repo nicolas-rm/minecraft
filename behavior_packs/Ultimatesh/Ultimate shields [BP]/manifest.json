@@ -1,0 +1,47 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "§aUltimate shields BP",
+		"name": "Ultimate shields BP",
+		"uuid": "fcbe1588-d4bd-4a81-b1de-a965010ef9c5",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "§aUltimate shields BP",
+			"type": "data",
+			"uuid": "a369b228-a2e3-4a3c-bd85-734fdc484b06",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "9d948527-b3b3-4eb8-bca6-103a9fc2bf87",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.4"
+			]
+		}
+	}
+}

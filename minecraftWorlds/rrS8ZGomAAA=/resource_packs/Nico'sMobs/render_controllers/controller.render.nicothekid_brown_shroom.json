@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.nicothekid_brown_shroom": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+			  "query.is_tamed ? Array.tame[query.variant] : Array.skins[query.is_sleeping]"
+			],
+			"arrays": {
+				"textures": {
+				  "Array.tame": [
+						"Texture.shroom_wild_awake_variant_0",
+						"Texture.shroom_wild_sleep_variant_1",
+						"Texture.shroom_tamed_variant_2"
+					],
+					"Array.skins": [
+						"Texture.shroom_wild_awake_variant_0",
+						"Texture.shroom_wild_sleep_variant_1"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ],
+          "name": "rex:acai"
+        },
+        {
+          "type": "item",
+          "name": "rex:pironsword"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:emerald"
+        }
+      ]
+    }
+  ]
+}
+  ]
+}  ]
+}

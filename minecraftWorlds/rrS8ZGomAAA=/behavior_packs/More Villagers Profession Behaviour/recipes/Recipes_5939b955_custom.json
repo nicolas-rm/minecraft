@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "furnace"
+    ],
+    "output": {
+      "item": "cooked:lamb",
+      "data": 0
+    },
+    "input": {
+      "item": "raw:lamb",
+      "data": 0
+    },
+    "description": {
+      "identifier": "recipes_4a0bdf2a"
+    }
+  }
+}

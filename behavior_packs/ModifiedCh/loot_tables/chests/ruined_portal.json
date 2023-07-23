@@ -1,0 +1,254 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 8
+      },
+      "entries": [    
+        {
+          "type": "item",
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:slimeball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:echo_shard",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bucket_of_tadpole",       
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:fireball",         
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_apple",   
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 9
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_axe",
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_hoe",
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_shovel",
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_boots",
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_leggings",
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sculk",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:horsearmorgold",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_weighted_pressure_plate",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:clock",  
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bell", 
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:appleEnchanted",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 40
+        }
+      ]
+    }
+  ]
+}

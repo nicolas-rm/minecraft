@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:magma_golem",
+      "textures": {
+        "default": "textures/entity/nicos_mobs/magma_golem/nicothekid_magma_golem"
+      },
+      "spawn_egg": {
+        "base_color": "#572121",
+        "overlay_color": "#F59947"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_magma_golem"
+      },
+      "materials": {
+        "default": "magma_golem",
+        "invisible": "magma_golem_invisible"
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_magma_golem"
+      ],
+      "animations": {
+        "attack": "animation.nicothekid_magma_golem.attack",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.nicothekid_magma_golem.move",
+        "move_to_target": "animation.nicothekid_magma_golem.move_to_target",
+        "walk": "animation.nicothekid_magma_golem.walk",
+        "walk_to_target": "animation.nicothekid_magma_golem.walk_to_target",
+        "arm_controller": "controller.animation.nicothekid_magma_golem.arm_movement",
+        "move_controller": "controller.animation.nicothekid_magma_golem.move"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.modified_tcos0 = Math.clamp(((Math.cos(query.modified_distance_moved * 13.5) * Math.min(query.modified_move_speed, 0.6) / variable.gliding_speed_value) * 25.0), -12.5, 12.5);"
+        ],
+        "animate": [
+          "look_at_target",
+          "arm_controller",
+          "move_controller"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dragon_leggings_bb0e25a7"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:dragon_scales",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:dragon_leggings",
+      "count": 1
+    }
+  }
+}

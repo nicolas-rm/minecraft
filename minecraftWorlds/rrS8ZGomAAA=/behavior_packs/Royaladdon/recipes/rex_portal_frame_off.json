@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "portal_frame_off_dbb40c16"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " AB",
+      "C D",
+      "EF "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:wicked_gem",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:gem_of_immortality",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:gem_of_greed",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:magic_gem",
+        "data": 0
+      },
+      "E": {
+        "item": "rex:gem_of_knowledge",
+        "data": 0
+      },
+      "F": {
+        "item": "rex:power_gem",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:portal_frame_off",
+      "count": 1
+    }
+  }
+}

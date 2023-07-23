@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:summon_icewitch",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:summon_icewitch",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

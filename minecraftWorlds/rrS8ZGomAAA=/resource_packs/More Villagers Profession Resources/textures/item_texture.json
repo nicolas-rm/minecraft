@@ -1,0 +1,144 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "egg_camel": {
+      "textures": "textures/items/egg_camel"
+    },
+    "egg_lion": {
+      "textures": "textures/items/egg_lion"
+    },
+    "egg_penguin": {
+      "textures": "textures/items/egg_penguin"
+    },
+    "egg_tiger": {
+      "textures": "textures/items/egg_tiger"
+    },
+    "egg_elephant": {
+      "textures": "textures/items/egg_elephant"
+    },
+    "egg_deer": {
+      "textures": "textures/items/egg_deer"
+    },
+    "egg_panther": {
+      "textures": "textures/items/egg_panther"
+    },
+    "egg_frog": {
+      "textures": "textures/items/egg_frog"
+    },
+    "egg_crocodile": {
+      "textures": "textures/items/egg_crocodile"
+    },
+    "egg_mouse": {
+      "textures": "textures/items/egg_mouse"
+    },
+    "gallardo": {
+      "textures": "textures/items/gallardo"
+    },
+    "bench": {
+      "textures": "textures/items/bench"
+    },
+    "christmas_tree": {
+      "textures": "textures/items/christmas_tree"
+    },
+    "tivi": {
+      "textures": "textures/items/tivi"
+    },
+    "closet": {
+      "textures": "textures/items/closet"
+    },
+    "laptop": {
+      "textures": "textures/items/laptop"
+    },
+    "piano": {
+      "textures": "textures/items/piano"
+    },
+    "armchairs": {
+      "textures": "textures/items/armchairs"
+    },
+    "chair": {
+      "textures": "textures/items/chair"
+    },
+    "big_table": {
+      "textures": "textures/items/big_table"
+    },
+    "small_table": {
+      "textures": "textures/items/small_table"
+    },
+    "drone": {
+      "textures": "textures/items/drone"
+    },
+    "colorful_gifts": {
+      "textures": "textures/items/colorful_gifts"
+    },
+    "raw:turtle": {
+      "textures": "textures/items/pamobile/raw_turtle"
+    },
+    "raw:squid": {
+      "textures": "textures/items/pamobile/raw_squid"
+    },
+    "raw:brid": {
+      "textures": "textures/items/pamobile/raw_brid"
+    },
+    "raw:frog": {
+      "textures": "textures/items/pamobile/raw_frog"
+    },
+    "cooked:bat": {
+      "textures": "textures/items/pamobile/cooked_bat"
+    },
+    "cooked:squid": {
+      "textures": "textures/items/pamobile/cooked_squid"
+    },
+    "fish:jerky": {
+      "textures": "textures/items/pamobile/fish_jerky"
+    },
+    "cooked:turtle": {
+      "textures": "textures/items/pamobile/cooked_turtle"
+    },
+    "cooked:frog": {
+      "textures": "textures/items/pamobile/cooked_frog"
+    },
+    "raw:lamb": {
+      "textures": "textures/items/pamobile/raw_lamb"
+    },
+    "cooked:brid": {
+      "textures": "textures/items/pamobile/cooked_brid"
+    },
+    "iron_knife": {
+      "textures": "textures/items/pamobile/iron_knife"
+    },
+    "cooked:lamb": {
+      "textures": "textures/items/pamobile/cooked_lamb"
+    },
+    "diamond_knife": {
+      "textures": "textures/items/pamobile/diamond_knife"
+    },
+    "pizza:burger": {
+      "textures": "textures/items/pamobile/pizza_burger"
+    },
+    "pizza:food": {
+      "textures": "textures/items/pamobile/pizza_food"
+    },
+    "oreo:food": {
+      "textures": "textures/items/pamobile/oreo_food"
+    },
+    "candy:food": {
+      "textures": "textures/items/pamobile/candy_food"
+    },
+    "chicken:food1": {
+      "textures": "textures/items/pamobile/chicken_food1"
+    },
+    "chicken:food2": {
+      "textures": "textures/items/pamobile/chicken_food2"
+    },
+    "steak:cow": {
+      "textures": "textures/items/pamobile/steak_cow"
+    },
+    "golden:beetroot": {
+      "textures": "textures/items/pamobile/golden_beetroot"
+    },
+    "hot:dog": {
+      "textures": "textures/items/pamobile/hot_dog"
+    }
+  }
+}

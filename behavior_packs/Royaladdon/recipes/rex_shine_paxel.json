@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "shine_paxel_2873d90f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:shine_axe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:shine_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:shine_pickaxe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:shine_paxel",
+      "count": 1
+    }
+  }
+}

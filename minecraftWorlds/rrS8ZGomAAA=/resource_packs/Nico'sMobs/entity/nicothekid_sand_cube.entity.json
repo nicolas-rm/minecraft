@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:sand_cube",
+      "textures": {
+        "default": "textures/entity/nicos_mobs/sand_cube/nicothekid_sand_cube"
+      },
+      "spawn_egg": {
+        "base_color": "#EDEBCB",
+        "overlay_color": "#D1BA8A"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_cube_mob"
+      },
+      "materials": {
+        "default": "sand_cube",
+        "invisible": "sand_cube_invisible"
+      },
+      "particle_effects": {
+				"particle": "nicothekid:sand_cube_trail_particle"
+			},
+      "render_controllers": [
+        "controller.render.nicothekid_cube"
+      ],
+      "animations": {
+        "controller_cube_general": "controller.animation.nicothekid_cube.general",
+        "attack": "animation.nicothekid_cube.attack",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.nicothekid_cube.move"
+      },
+      "scripts": {
+        "animate": [
+				  "controller_cube_general",
+					{
+						"look_at_target": 0.8
+					}
+				]
+      }
+    }
+  }
+}

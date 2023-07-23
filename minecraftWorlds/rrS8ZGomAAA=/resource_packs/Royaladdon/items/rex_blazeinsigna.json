@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:blazeinsigna",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:blazeinsigna",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+fill ~ ~ ~ ~ ~ ~ light_block 15

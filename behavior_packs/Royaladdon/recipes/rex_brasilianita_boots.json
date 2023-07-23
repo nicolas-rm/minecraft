@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "brasilianita_boots_81f87222"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:brasilianita",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:brasilianita_boots",
+      "count": 1
+    }
+  }
+}

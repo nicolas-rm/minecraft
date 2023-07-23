@@ -1,0 +1,123 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ed:enderite_sword_tp",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "enderite_sword_tp"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 3032
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "on_tool_used",
+					"target": "self"
+				},
+				"on_hit_block": {
+					"event": "on_tool_used",
+					"target": "self"
+				}
+			},
+			"minecraft:mining_speed": 1.5,
+			"minecraft:damage": 16,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 35
+			},
+			"minecraft:render_offsets": "tools",
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"on_dig": {
+					"event": "on_tool_used",
+					"target": "self"
+				},
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 1,
+						"on_dig": {
+							"event": "on_tool_used",
+							"target": "self"
+						}
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 1,
+						"on_dig": {
+							"event": "on_tool_used",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "on_use",
+					"condition": "query.is_sneaking"
+				}
+			},
+			"minecraft:cooldown": {
+				"category": "bot",
+				"duration": 2
+			},
+			"minecraft:display_name": {
+				"value": "Enderite Sword\n§3Charge: 16\n§7Upgrade in Enderite Crafting Tools with\nender pearls to load teleportation uses.\nTeleport with sneaking + right click!"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			}
+		},
+		"events": {
+			"on_tool_used": {
+				"damage": {
+					"type": "durability",
+					"amount": 1
+				}
+			},
+			"on_use": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"teleport @s ^ ^ ^16"
+							]
+						},
+						"damage": {
+							"type": "durability",
+							"amount": 1
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"playsound mob.shulker.teleport @s"
+							]
+						},
+						"damage": {
+							"type": "durability",
+							"amount": 1
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"particle minecraft:mob_portal ~ ~ ~"
+							]
+						},
+						"damage": {
+							"type": "durability",
+							"amount": 1
+						}
+					}
+				]
+			}
+		}
+	}
+}

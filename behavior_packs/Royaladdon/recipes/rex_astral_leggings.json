@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "astral_leggings_d90dd390"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:astral",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:astral_leggings",
+      "count": 1
+    }
+  }
+}

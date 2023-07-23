@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:rawdarksteel",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:rawdarksteel",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

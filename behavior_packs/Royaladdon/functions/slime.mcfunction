@@ -1,0 +1,1 @@
+effect @p jump_boost 5 5 false

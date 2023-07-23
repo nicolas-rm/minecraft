@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "castralpironshovel_327187b2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:pironshovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:astralstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:castralpironshovel",
+      "count": 1
+    }
+  }
+}

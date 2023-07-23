@@ -1,0 +1,2 @@
+fill ~ ~ ~ ~ ~ ~ fire
+fill ~ ~ ~ ~ ~ ~ fire

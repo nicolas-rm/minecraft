@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedslab_32388771"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedplanks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedslab",
+      "count": 6
+    }
+  }
+}

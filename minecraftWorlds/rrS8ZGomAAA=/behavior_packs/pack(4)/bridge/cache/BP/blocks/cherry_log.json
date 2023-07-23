@@ -1,0 +1,291 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\pack(3)\\blocks\\cherry_log.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "6059593f_198e_447d_a2d1_ad6d6515d11b",
+	"file_version": 22,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:block": {
+						"components": {
+							"minecraft:block_light_absorption": 0,
+							"minecraft:block_light_emission": 0,
+							"minecraft:explosion_resistance": 0,
+							"minecraft:geometry": "geometry.netherite_table",
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "alpha_test",
+									"texture": "log"
+								}
+							},
+							"minecraft:ticking": {
+								"looping": true,
+								"on_tick": {
+									"event": "test",
+									"target": "self"
+								},
+								"range": [
+									0,
+									0
+								]
+							},
+							"minecraft:crafting_table": {
+								"custom_description": "Arcane Table",
+								"grid_size": 3,
+								"crafting_tags": [
+									"arcane_table"
+								]
+							}
+						},
+						"description": {
+							"identifier": "ray:cherry_log"
+						},
+						"events": {
+							"test": {
+								"run_command": {
+									"command": [
+										"structure load cherry ~ ~ ~",
+										"setblock ~~~ air"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"components": {
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:explosion_resistance": 0,
+								"minecraft:geometry": "geometry.netherite_table",
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "alpha_test",
+										"texture": "log"
+									}
+								},
+								"minecraft:ticking": {
+									"looping": true,
+									"on_tick": {
+										"event": "test",
+										"target": "self"
+									},
+									"range": [
+										0,
+										0
+									]
+								},
+								"minecraft:crafting_table": {
+									"custom_description": "Arcane Table",
+									"grid_size": 3,
+									"crafting_tags": [
+										"arcane_table"
+									]
+								}
+							},
+							"description": {
+								"identifier": "ray:cherry_log"
+							},
+							"events": {
+								"test": {
+									"run_command": {
+										"command": [
+											"structure load cherry ~ ~ ~",
+											"setblock ~~~ air"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:block_light_absorption": 0,
+							"minecraft:block_light_emission": 0,
+							"minecraft:explosion_resistance": 0,
+							"minecraft:geometry": "geometry.netherite_table",
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "alpha_test",
+									"texture": "log"
+								}
+							},
+							"minecraft:ticking": {
+								"looping": true,
+								"on_tick": {
+									"event": "test",
+									"target": "self"
+								},
+								"range": [
+									0,
+									0
+								]
+							},
+							"minecraft:crafting_table": {
+								"custom_description": "Arcane Table",
+								"grid_size": 3,
+								"crafting_tags": [
+									"arcane_table"
+								]
+							}
+						}
+					},
+					{
+						"open": {
+							"components": {
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:explosion_resistance": 0,
+								"minecraft:geometry": "geometry.netherite_table",
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "alpha_test",
+										"texture": "log"
+									}
+								},
+								"minecraft:ticking": {
+									"looping": true,
+									"on_tick": {
+										"event": "test",
+										"target": "self"
+									},
+									"range": [
+										0,
+										0
+									]
+								},
+								"minecraft:crafting_table": {
+									"custom_description": "Arcane Table",
+									"grid_size": 3,
+									"crafting_tags": [
+										"arcane_table"
+									]
+								}
+							},
+							"description": {
+								"identifier": "ray:cherry_log"
+							},
+							"events": {
+								"test": {
+									"run_command": {
+										"command": [
+											"structure load cherry ~ ~ ~",
+											"setblock ~~~ air"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ray:cherry_log"
+						}
+					},
+					{
+						"open": {
+							"components": {
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0,
+								"minecraft:explosion_resistance": 0,
+								"minecraft:geometry": "geometry.netherite_table",
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "alpha_test",
+										"texture": "log"
+									}
+								},
+								"minecraft:ticking": {
+									"looping": true,
+									"on_tick": {
+										"event": "test",
+										"target": "self"
+									},
+									"range": [
+										0,
+										0
+									]
+								},
+								"minecraft:crafting_table": {
+									"custom_description": "Arcane Table",
+									"grid_size": 3,
+									"crafting_tags": [
+										"arcane_table"
+									]
+								}
+							},
+							"description": {
+								"identifier": "ray:cherry_log"
+							},
+							"events": {
+								"test": {
+									"run_command": {
+										"command": [
+											"structure load cherry ~ ~ ~",
+											"setblock ~~~ air"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"test": {
+										"run_command": {
+											"command": [
+												"structure load cherry ~ ~ ~",
+												"setblock ~~~ air"
+											]
+										}
+									}
+								},
+								"key": "test",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"structure load cherry ~ ~ ~",
+													"setblock ~~~ air"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"structure load cherry ~ ~ ~",
+														"setblock ~~~ air"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"structure load cherry ~ ~ ~",
+													"setblock ~~~ air"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

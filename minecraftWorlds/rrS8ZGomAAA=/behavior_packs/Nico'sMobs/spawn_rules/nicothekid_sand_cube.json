@@ -1,0 +1,48 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "nicothekid:sand_cube",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:weight": {
+          "default": 100
+        },
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_on_block_filter": [
+          "minecraft:sand"
+        ],
+        "minecraft:biome_filter": [
+          {
+            "all_of": [
+              {
+                "any_of": [
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "desert"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ]
+  }
+}

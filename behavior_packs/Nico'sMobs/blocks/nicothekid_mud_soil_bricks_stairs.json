@@ -1,0 +1,138 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:mud_soil_bricks_stairs",
+      "menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stairs"
+			},
+      "properties": {
+				"nicothekid:stairs_position": [
+					0,
+					1
+				],
+				"nicothekid:stairs_rotation": [ 
+					0,
+					1,
+					2,
+					3
+				]
+			}
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_mud_soil_bricks_stairs",
+          "render_method": "opaque",
+          "ambient_occlusion": true,
+					"face_dimming": true
+        }
+      },
+      "minecraft:geometry": "geometry.block.nicothekid_stairs_down",
+      "minecraft:map_color": "#7B603D",
+      "minecraft:breathability": "air",
+      "minecraft:collision_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 8, 16 ]
+			},
+			"minecraft:selection_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 8, 16 ]
+			},
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30.0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      },
+      "minecraft:loot": "loot_tables/nicos_mobs/blocks/nicothekid_mud_soil_bricks_stairs.json",
+			"minecraft:on_player_placing": {
+				"event": "nicothekid:place_rotation"
+			},
+      
+      "tag:mud_soil_bricks_stairs": {},
+      "tag:stones_stairs": {},
+      "tag:custom_stairs": {},
+      "tag:stone": {}
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('nicothekid:stairs_rotation') == 0",
+        "components": {
+          "minecraft:rotation": [ 0, 0, 0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('nicothekid:stairs_rotation') == 1",
+        "components": {
+          "minecraft:rotation": [ 0, 180, 0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('nicothekid:stairs_rotation') == 2",
+        "components": {
+          "minecraft:rotation": [ 0, 90, 0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('nicothekid:stairs_rotation') == 3",
+        "components": {
+          "minecraft:rotation": [ 0, 270, 0 ]
+        }
+      },
+			{
+				"condition": "query.block_property('nicothekid:stairs_position') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.block.nicothekid_stairs_down",
+					"minecraft:collision_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 8, 16 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('nicothekid:stairs_position') == 1",
+				"components": {
+				  "minecraft:geometry": "geometry.block.nicothekid_stairs_up",
+					"minecraft:collision_box": {
+						"origin": [ -8, 8, -8 ],
+						"size": [ 16, 8, 16 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					}
+				}
+			}
+		],
+		"events": {
+			"nicothekid:place_rotation": {
+				"sequence": [
+					{
+						"condition": "query.target_x_rotation>=0",
+						"set_block_property": {
+							"nicothekid:stairs_rotation": "query.cardinal_facing_2d-2",
+							"nicothekid:stairs_position": 0
+						}
+					},
+					{
+						"condition": "query.target_x_rotation<=0",
+						"set_block_property": {
+							"nicothekid:stairs_rotation": "query.cardinal_facing_2d-2",
+							"nicothekid:stairs_position": 1
+						}
+					}
+				]
+			}
+		}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "a giant addon with over 700 items, and almost 100 structures! by Sr Rex Royal",
+    "name": "Royal addon pack ",
+    "uuid": "7bf4750f-a83c-4d7f-9b7a-a4a3e857c87d",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      8,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "a giant addon with over 700 items, and almost 100 structures! by Sr Rex Royal",
+      "type": "data",
+      "uuid": "9b39a2d3-a8ca-4e24-80c0-b89d280672f1",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a1575bc7-6167-4e59-bc03-449e10feefee",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}}

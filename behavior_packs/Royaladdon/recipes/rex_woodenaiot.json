@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "woodenaiot_09f77cbf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:wooden_pickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:wooden_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:wooden_hoe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:wooden_sword",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "F": {
+        "item": "minecraft:wooden_axe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:woodenaiot",
+      "count": 1
+    }
+  }
+}

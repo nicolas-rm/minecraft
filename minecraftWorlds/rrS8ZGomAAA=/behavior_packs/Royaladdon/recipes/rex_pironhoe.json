@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pironhoe_bed65f5c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:hoeheadmold",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:pironhoe",
+      "count": 1
+    }
+  }
+}

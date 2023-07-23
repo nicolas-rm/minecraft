@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Toxirust"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.1"
+			],
+			"dash": [
+				"0.10.10"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			19,
+			50
+		],
+		"uuid": "57de348c-b18d-4e99-b893-16051a47d7bc",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "d4fb6e02-c5b3-42a6-ae9c-11f2ebba5f52",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b3ef1887-f2a7-44a7-bc84-ba024b72f208",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

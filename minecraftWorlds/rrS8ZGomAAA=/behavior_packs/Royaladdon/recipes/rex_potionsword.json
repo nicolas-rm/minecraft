@@ -1,0 +1,54 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "potionsword_99d41a16"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "ADE",
+      "FGH"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:potion",
+        "data": 12
+      },
+      "B": {
+        "item": "minecraft:potion",
+        "data": 5
+      },
+      "C": {
+        "item": "minecraft:potion",
+        "data": 21
+      },
+      "D": {
+        "item": "minecraft:brewing_stand",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:potion",
+        "data": 9
+      },
+      "F": {
+        "item": "minecraft:potion",
+        "data": 7
+      },
+      "G": {
+        "item": "minecraft:potion",
+        "data": 0
+      },
+      "H": {
+        "item": "minecraft:potion",
+        "data": 40
+      }
+    },
+    "result": {
+      "item": "rex:potionsword",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:projectile_sparrow_egg",
+      "materials": {
+        "default": "egg"
+      },
+      "textures": {
+        "default": "textures/projectiles/nicos_mobs/nicothekid_projectile_sparrow_egg"
+      },
+      "geometry": {
+        "default": "geometry.item_sprite"
+      },
+      "render_controllers": [ "controller.render.item_sprite" ],
+      "animations": {
+        "flying": "animation.actor.billboard"
+      },
+      "scripts": {
+        "animate": [
+          "flying"
+        ]
+      }
+    }
+  }
+} 

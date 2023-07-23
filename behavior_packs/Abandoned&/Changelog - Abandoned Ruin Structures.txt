@@ -1,0 +1,28 @@
+Abandoned & Ruin Structures
+
+[Version: 1.6]
+          "New Additional & Changes"
+STRUCTURES:
+- Hobbit House - can now also generate in Cheery Grove biome.
+- Haybale Pile - can now also generate in Cheery Grove biome.
+- Ruin Column - can now also generate in Cheery Grove biome.
+- Ruin Obelisk - can now also generate in Cheery Grove biome.
+- Small Forest Ruin - can now also generate in Cheery Grove biome.
+- Stone Graves - can now also generate in Cheery Grove biome.
+- Jungle Pyramid - generating rate is increased.
+- Abandoned Castle - generating rate is decreased.
+- Abandoned Plain Chapel - generating rate is decreased.
+- Abandoned Houses - generating rate is decreased.
+- Abandoned Cave Library - generating rate is decreased.
+- Ancient Nether Portal - generating rate is decreased.
+- Cave Dweller House - generating rate is decreased.
+- Copper Vault - generating rate is decreased.
+- Miners Tent - generating rate is decreased.
+- Ruin Column - generating rate is decreased.
+- Small Forest Ruin - generating rate is decreased.
+- Wooden Tent - generating rate is decreased.
+- Wooden Watchtower - generating rate is decreased.
+- Wooden Well - generating rate is decreased.
+- Zombie Crypt - generating rate is decreased.
+
+

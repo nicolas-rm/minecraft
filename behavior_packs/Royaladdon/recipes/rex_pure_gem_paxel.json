@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pure_gem_paxel_eb1d0e70"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:puregempickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:puregemshovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:puregemaxe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:pure_gem_paxel",
+      "count": 1
+    }
+  }
+}

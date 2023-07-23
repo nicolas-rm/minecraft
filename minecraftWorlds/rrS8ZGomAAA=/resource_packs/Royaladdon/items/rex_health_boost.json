@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:health_boost",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:health_boost",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cgoldpironaxe_85284c25"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:pironaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:goldenstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cgoldpironaxe",
+      "count": 1
+    }
+  }
+}

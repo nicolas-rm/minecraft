@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "astral_boots_e5a03db5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:astral",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:astral_boots",
+      "count": 1
+    }
+  }
+}

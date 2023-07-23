@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:strength",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:strength",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "astral_chestplate_a1716bcf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:astral",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:astral_chestplate",
+      "count": 1
+    }
+  }
+}

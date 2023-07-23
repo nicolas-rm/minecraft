@@ -1,0 +1,29 @@
+{
+  "id": "1648833274279",
+  "name": "zstatue",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "rex:zombiehearth",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "witherinsigna_64f709b2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:skull",
+        "data": 1
+      },
+      "B": {
+        "item": "minecraft:bone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:witherinsigna",
+      "count": 1
+    }
+  }
+}

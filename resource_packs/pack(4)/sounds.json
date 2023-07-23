@@ -1,0 +1,22 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"bridge:spawnertrader": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.spawnertrader.idle",
+					"hurt": "mob.spawnertrader.hit",
+					"death": "mob.spawnertrader.death",
+					"death.to.zombie": "mob.spawnertrader.death",
+					"haggle": "mob.spawnertrader.haggle",
+					"haggle.yes": "mob.spawnertrader.yes",
+					"haggle.no": "mob.spawnertrader.no"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:corruptedrawmeat",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "rex:corruptedrawmeat",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

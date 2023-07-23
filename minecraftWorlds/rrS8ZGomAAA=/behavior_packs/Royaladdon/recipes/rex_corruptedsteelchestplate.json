@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedsteelchestplate_96b8f4e8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedsteelingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedsteelchestplate",
+      "count": 1
+    }
+  }
+}

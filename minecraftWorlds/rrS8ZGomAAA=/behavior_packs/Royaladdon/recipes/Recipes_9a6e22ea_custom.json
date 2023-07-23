@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_cd15298f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:corruptedsteelblock",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedsteelingot",
+      "count": 9
+    }
+  }
+}

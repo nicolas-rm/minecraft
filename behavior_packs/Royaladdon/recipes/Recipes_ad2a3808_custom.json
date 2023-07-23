@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_bb020661"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:saciperereinpot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:saciscap",
+      "count": 1
+    }
+  }
+}

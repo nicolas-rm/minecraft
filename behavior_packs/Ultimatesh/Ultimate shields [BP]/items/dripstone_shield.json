@@ -1,0 +1,47 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+	"description": {
+      "identifier": "dripstone_shield:shield",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.shield"
+	  },
+      "minecraft:icon": {
+        "texture": "dripstone_shield"
+      },
+      "minecraft:durability": {
+        "max_durability": 336
+      },
+      "minecraft:enchantable": {
+				"value": 5,
+				"slot": "shield"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+                        "items": [
+                          "minecraft:dripstone_block"
+                        ],
+                        "repair_amount": 150
+                      },
+				  {
+					"items": [
+					  "dripstone_shield:shield"
+					],
+					"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+				  }
+				]
+			  },
+	  "minecraft:mining_speed": 1.5,
+	  "minecraft:damage": 5,
+      "minecraft:stacked_by_data": false,
+		"minecraft:display_name": {},
+	  "minecraft:max_stack_size": 1,
+	  "minecraft:allow_off_hand": true
+    }
+  }
+}

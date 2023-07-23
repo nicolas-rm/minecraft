@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Abandoned & Ruin Structures [Resource Pack]",
+    "description": "(v1.6) Discover more structure in your world exploration.",
+    "uuid": "20002000-ab12-2222-2222-b000b000b000",
+    "version": [ 1, 6, 0 ],
+    "min_engine_version": [ 1, 19, 50 ]
+  },
+  "modules": [
+    {
+      "description": "Made by NicoTheKid (Dangel)",
+      "type": "resources",
+      "uuid": "20002000-ab12-2222-2222-200020002000",
+      "version": [ 1, 6, 0 ]
+    }
+  ]
+}

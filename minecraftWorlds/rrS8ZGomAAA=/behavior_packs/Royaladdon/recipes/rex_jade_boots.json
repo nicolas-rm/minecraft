@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "jade_boots_295c6e20"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:jade",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:jade_boots",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "jade_pickaxe_fa35fb57"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      " B ",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:jade",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:jade_pickaxe",
+      "count": 1
+    }
+  }
+}

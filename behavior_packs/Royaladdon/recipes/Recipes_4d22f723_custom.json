@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_848ab2d1"
+    },
+    "tags": [
+      "crafting_table",
+      "Block_tool improvement table_custom"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:obsidian",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:castralpgoldmcristal",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:castralpgoldmobsidianmcrystal",
+      "count": 1
+    }
+  }
+}

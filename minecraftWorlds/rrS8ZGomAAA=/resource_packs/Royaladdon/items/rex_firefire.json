@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:firefire",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:firefire",
+      "minecraft:use_animation": "bow",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

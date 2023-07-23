@@ -1,0 +1,49 @@
+{
+  "minecraft:client_entity" : {
+    "description" : {
+      "render_controllers" : [
+        "controller.render.villager"
+      ],
+      "materials" : {
+        "default" : "villager"
+      },
+      "geometry" : {
+        "default" : "geometry.villager.v1.8"
+      },
+      "animations" : {
+        "look_at_target" : "animation.common.look_at_target",
+        "move" : "animation.villager.move",
+        "general" : "animation.villager.general",
+        "baby_transform" : "animation.villager.baby_transform"
+      },
+      "spawn_egg" : {
+        "texture" : "cc:the_wandering_trader_illager",
+        "texture_index" : 0
+      },
+      "identifier" : "cc:the_wandering_trader_illager",
+      "scripts" : {
+        "scale" : "0.9375"
+      },
+      "min_engine_version" : "1.8.0",
+      "animation_controllers" : [
+        {
+          "general" : "controller.animation.villager.general"
+        },
+        {
+          "move" : "controller.animation.villager.move"
+        },
+        {
+          "baby" : "controller.animation.villager.baby"
+        }
+      ],
+      "textures" : {
+        "farmer" : "textures\/entity\/craftycraft\/cc_the_wandering_trader_illager",
+        "librarian" : "textures\/entity\/craftycraft\/cc_the_wandering_trader_illager",
+        "priest" : "textures\/entity\/craftycraft\/cc_the_wandering_trader_illager",
+        "smith" : "textures\/entity\/craftycraft\/cc_the_wandering_trader_illager",
+        "butcher" : "textures\/entity\/craftycraft\/cc_the_wandering_trader_illager"
+      }
+    }
+  },
+  "format_version" : "1.8.0"
+}

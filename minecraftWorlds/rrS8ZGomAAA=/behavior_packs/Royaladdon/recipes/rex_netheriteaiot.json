@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "netheriteaiot_e4e0778c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:netherite_pickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:netherite_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:netherite_hoe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:netherite_sword",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "F": {
+        "item": "minecraft:netherite_axe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:netheriteaiot",
+      "count": 1
+    }
+  }
+}

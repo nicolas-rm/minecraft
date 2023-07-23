@@ -1,0 +1,44 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:warthog",
+      "textures": {
+        "variant_00": "textures/entity/nicos_mobs/warthog/nicothekid_warthog_00",
+        "variant_01": "textures/entity/nicos_mobs/warthog/nicothekid_warthog_01"
+      },
+      "spawn_egg": {
+        "base_color": "#705E55",
+        "overlay_color": "#D8CFA4"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_warthog"
+      },
+      "materials": {
+        "default": "warthog"
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_warthog"
+      ],
+      "animations": {
+        "attack": "animation.hoglin.attack",
+        "hoglin_baby_scaling": "animation.hoglin.baby_scaling",
+        "look_at_target": "animation.hoglin.look_at_target",
+        "walk": "animation.hoglin.walk"
+      },
+      "animation_controllers": [
+        { "attack": "controller.animation.hoglin.attack" },
+        { "hoglin_baby_scaling": "controller.animation.hoglin.baby_scaling"},
+        { "look_at_target": "controller.animation.hoglin.look_at_target" },
+        { "walk": "controller.animation.hoglin.walk" }
+      ],
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos_right_side = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "variable.tcos_left_side = -variable.tcos_right_side;",
+          "variable.attack_head_rot =  Math.sin(variable.attack_time * 180.0) * -37.3;"
+        ]
+      }
+    }
+  }
+}

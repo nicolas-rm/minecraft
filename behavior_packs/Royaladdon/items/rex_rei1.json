@@ -1,0 +1,46 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:rei1",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": false,
+      "minecraft:icon": {
+        "texture": "rex:rei1"
+      },
+      "minecraft:display_name": {
+        "value": "king (last ranking)"
+      },
+      "minecraft:cooldown": {
+        "category": "rei1",
+        "duration": 9999
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "on_use_event"
+        }
+      }
+    },
+    "events": {
+      "on_use_event": {
+        "swing": {},
+        "run_command": {
+          "command": [
+            "function giverei1"
+          ]
+        }
+      },
+      "hurt": {
+        "damage": {
+          "type": "magic",
+          "amount": 1,
+          "target": "self"
+        }
+      }
+    }
+  }
+}

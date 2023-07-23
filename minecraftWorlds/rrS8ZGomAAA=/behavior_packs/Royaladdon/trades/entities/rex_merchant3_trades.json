@@ -1,0 +1,142 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:leather",
+              "quantity": 15
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 4
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:string",
+              "quantity": 25
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:name_tag",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:horsearmordiamond",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 25
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:horsearmorgold",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 15
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:horsearmoriron",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 15
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:horsearmorleather",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:saddle",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 6
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:cristalkingsword",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

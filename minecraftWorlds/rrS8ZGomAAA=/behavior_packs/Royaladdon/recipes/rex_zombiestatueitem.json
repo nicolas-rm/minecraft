@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "zombiestatueitem_1de6c140"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "CAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:cobblestone",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:zombieheart",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:monster_egg",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "rex:zombiestatueitem",
+      "count": 1
+    }
+  }
+}

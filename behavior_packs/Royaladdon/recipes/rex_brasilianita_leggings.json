@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "brasilianita_leggings_e3df532e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:brasilianita",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:brasilianita_leggings",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.nicothekid_clam.general": {
+      "initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"clam_opening": "query.is_sheared"
+						}
+					],
+					"transitions": [
+						{
+							"clam_closing": "!query.is_sheared"
+						}
+					],
+					"blend_transition": 1.0
+				},
+				"clam_closing": {
+					"animations": [
+						{
+							"clam_closing": "!query.is_sheared"
+						}
+					],
+					"transitions": [
+						{
+							"default": "query.is_sheared"
+						}
+					],
+					"blend_transition": 1.0
+				}
+			}
+    }
+  }
+}

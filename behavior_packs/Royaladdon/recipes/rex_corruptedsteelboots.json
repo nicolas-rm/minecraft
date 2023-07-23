@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedsteelboots_6258c801"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedsteelingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedsteelboots",
+      "count": 1
+    }
+  }
+}

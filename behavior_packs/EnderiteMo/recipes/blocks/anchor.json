@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ed:anchor"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"eee",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:ender_pearl"
+			},
+			"e": {
+				"item": "ed:ingot3"
+			}
+		},
+		"result": {
+			"item": "ed:end_respawn_anchor_stage_0",
+			"count": 1
+		}
+	}
+}

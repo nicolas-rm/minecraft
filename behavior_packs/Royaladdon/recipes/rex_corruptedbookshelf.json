@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedbookshelf_7b061aee"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "BBB",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedplanks",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:book",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedbookshelf",
+      "count": 1
+    }
+  }
+}

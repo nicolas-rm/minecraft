@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:sphereofdarkness",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:sphereofdarkness",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

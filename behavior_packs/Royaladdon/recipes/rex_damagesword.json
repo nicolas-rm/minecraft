@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "damagesword_cadb583a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DED",
+      "CBF"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:pillagerinsigna",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:astral",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:redstone_block",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:netherite_sword",
+        "data": 0
+      },
+      "F": {
+        "item": "rex:jade",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:damagesword",
+      "count": 1
+    }
+  }
+}

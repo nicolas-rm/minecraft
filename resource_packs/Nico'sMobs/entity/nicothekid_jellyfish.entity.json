@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:jellyfish",
+      "textures": {
+        "default": "textures/entity/nicos_mobs/jellyfish/nicothekid_jellyfish"
+      },
+      "spawn_egg": {
+        "base_color": "#EE8DC8",
+        "overlay_color": "#A8507A"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_jellyfish",
+        "armor": "geometry.entity.nicothekid_jellyfish_armor"
+      },
+      "materials": {
+        "default": "jellyfish",
+        "invisible": "jellyfish_invisible",
+        "outer": "jellyfish_outer"
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_jellyfish",
+        "controller.render.nicothekid_jellyfish_armor"
+      ],
+      "animations": {
+        "move": "animation.nicothekid_jellyfish.move"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      }
+    }
+  }
+}

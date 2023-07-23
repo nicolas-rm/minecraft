@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "rex:basic_guidd"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "rex:basic_guide",
+      "data": 0,
+      "count": 1
+    }
+  }
+}
+}

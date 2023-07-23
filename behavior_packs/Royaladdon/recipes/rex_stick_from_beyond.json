@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "stick_from_beyond_b62d7ed0"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:shinebar",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:bar_from_beyond",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:pillagerinsigna",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:stick_from_beyond",
+      "count": 4
+    }
+  }
+}

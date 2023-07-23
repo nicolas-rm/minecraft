@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:tnt_rain",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:tnt_rain",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+effect @p hunger 10 1 false

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "potion_ring_fire_resistance_71db0825"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:stone_effect_fire_resistance",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:golden_ring",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:potion_ring_fire_resistance",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "nicothekid:mud_cube",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:weight": {
+          "default": 25
+        },
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_on_block_filter": [
+          "nicothekid:mud_soil_block",
+          "minecraft:clay",
+          "minecraft:dirt",
+          "minecraft:dirt_with_roots",
+          "minecraft:grass",
+          "minecraft:moss_block",
+          "minecraft:mossy_cobblestone",
+          "minecraft:mud",
+          "minecraft:muddy_mangrove_roots",
+          "minecraft:podzol"
+        ],
+        "minecraft:biome_filter": [
+          {
+            "all_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "cold"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "birch"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "jungle"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "extreme_hills"
+              },
+              {
+                "any_of": [
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "forest"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "swamp"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "swampland"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "taiga"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ]
+  }
+}

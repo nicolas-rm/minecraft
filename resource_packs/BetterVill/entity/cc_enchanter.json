@@ -1,0 +1,42 @@
+{
+  "minecraft:client_entity" : {
+    "description" : {
+      "render_controllers" : [
+        "controller.render.witch"
+      ],
+      "materials" : {
+        "default" : "witch"
+      },
+      "geometry" : {
+        "default" : "geometry.villager.witch.v1.8"
+      },
+      "animations" : {
+        "villager_general" : "animation.villager.general",
+        "look_at_target" : "animation.common.look_at_target",
+        "move" : "animation.villager.move",
+        "general" : "animation.witch.general"
+      },
+      "spawn_egg" : {
+        "texture" : "cc:enchanter",
+        "texture_index" : 0
+      },
+      "identifier" : "cc:enchanter",
+      "scripts" : {
+        "scale" : "0.9375"
+      },
+      "min_engine_version" : "1.8.0",
+      "animation_controllers" : [
+        {
+          "general" : "controller.animation.witch.general"
+        },
+        {
+          "move" : "controller.animation.villager.move"
+        }
+      ],
+      "textures" : {
+        "default" : "textures\/entity\/craftycraft\/cc_enchanter"
+      }
+    }
+  },
+  "format_version" : "1.8.0"
+}

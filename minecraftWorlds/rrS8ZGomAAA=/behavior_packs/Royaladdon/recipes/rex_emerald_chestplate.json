@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "emerald_chestplate_a0187c40"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:emerald",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:emerald_chestplate",
+      "count": 1
+    }
+  }
+}

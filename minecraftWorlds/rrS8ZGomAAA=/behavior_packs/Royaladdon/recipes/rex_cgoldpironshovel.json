@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cgoldpironshovel_65e224b2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:pironshovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:goldenstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cgoldpironshovel",
+      "count": 1
+    }
+  }
+}

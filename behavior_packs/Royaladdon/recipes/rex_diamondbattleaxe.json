@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "diamondbattleaxe_24c11d9d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:diamondbattleaxe",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:brown_shroom",
+      "textures": {
+        "shroom_wild_awake_variant_0": "textures/entity/nicos_mobs/brown_shroom/nicothekid_brown_shroom_wild_awake",
+        "shroom_wild_sleep_variant_1": "textures/entity/nicos_mobs/brown_shroom/nicothekid_brown_shroom_wild_sleep",
+        "shroom_tamed_variant_2": "textures/entity/nicos_mobs/brown_shroom/nicothekid_brown_shroom_tamed"
+      },
+      "spawn_egg": {
+        "base_color": "#977251",
+        "overlay_color": "#D3CCC4"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_brown_shroom"
+      },
+      "materials": {
+        "default": "shroom",
+        "invisible": "shroom_invisible"
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_brown_shroom"
+      ],
+      "animations": {
+        "look_at_target": "animation.nicothekid_brown_shroom.look_at_target",
+        "sitting": "animation.nicothekid_brown_shroom.sitting",
+        "sleeping": "animation.nicothekid_brown_shroom.sleeping",
+        "walking": "animation.nicothekid_brown_shroom.walking",
+        "controller_movement": "controller.animation.nicothekid_brown_shroom.movement"
+      },
+      "scripts": {
+				"animate": [
+				  "look_at_target",
+				  "controller_movement"
+				]
+			}
+    }
+  }
+}

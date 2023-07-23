@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 16
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:ice",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:powder_snow_bucket",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:blue_ice",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "rex:icessword",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "rex:effect_stone_speed",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:snowball",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              },
+            {
+          "type": "item",
+          "name": "minecraft:sugar",
+          "weight": 3
+            ]
+          },
+        }
+      ]
+    },
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:snow",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}}

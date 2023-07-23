@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:potion_ring_fire_resistance",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:potion_ring_fire_resistance",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

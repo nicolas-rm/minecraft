@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "astral_paxel_2723ce2b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:astral_pickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:astral_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:astral_axe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:astral_paxel",
+      "count": 1
+    }
+  }
+}

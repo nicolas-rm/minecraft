@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:effect_stone_jump_boost",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:effect_stone_jump_boost",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

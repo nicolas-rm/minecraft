@@ -1,0 +1,71 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+	  "animation.nicothekid_enchanter_apprentice.base_pose": {
+			"loop": true,
+			"bones": {
+				"arms": {
+					"position": [ 0.0, "-3.0 - this", "-1.0 - this" ],
+					"rotation": [ "-42.97 - this", "- this", "- this" ],
+					"scale": 1.0
+				},
+				"leftarm": {
+					"scale": 0.0
+				},
+				"rightarm": {
+					"scale": 0.0
+				}
+			}
+		},
+		"animation.nicothekid_enchanter_apprentice.casting": {
+			"loop": true,
+			"bones": {
+				"arms": {
+					"scale": 0.0
+				},
+				"leftarm": {
+					"rotation": [ "math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "-135.0 - this" ],
+					"scale": 1.0
+				},
+				"rightarm": {
+					"rotation": [ "math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "135.0 - this" ],
+					"scale": 1.0
+				}
+			}
+		},
+		"animation.nicothekid_enchanter_apprentice.celebrating": {
+			"loop": true,
+			"bones": {
+				"leftarm": {
+					"rotation": [ "(math.cos(query.life_time * 800.0) * 2.865)", 180.0, -135.0 ]
+				},
+				"rightarm": {
+					"rotation": [ "(math.cos(query.life_time * 800.0) * 2.865)", 180.0, 153.0 ]
+				}
+			}
+		},
+		"animation.nicothekid_enchanter_apprentice.look_at_target": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [ "query.target_x_rotation - this", "query.target_y_rotation - this", 0.0 ]
+				}
+			}
+		},
+		"animation.nicothekid_enchanter_apprentice.walking": {
+			"anim_time_update": "query.modified_distance_moved",
+			"loop": true,
+			"bones": {
+				"leg0": {
+					"rotation": [ "(math.cos(query.anim_time * 38.17) * 40.0) - this", "-this", 0.0 ]
+				},
+				"leg1": {
+					"rotation": [ "(math.cos(query.anim_time * 38.17 + 180) * 40.0) - this", "-this", 0.0 ]
+				}
+			}
+		}
+	}
+}

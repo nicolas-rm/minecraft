@@ -1,0 +1,76 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:item",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "3d_item",
+          "netherite_pa",
+          "netherite_shield"
+        ]
+      },
+      "animations": {
+        "3d_item": "controller.animation.netherite_pro",
+        "netherite_pa": "controller.animation.project_ateneu",
+        "netherite_shield": "controller.animation.project_ateneu"
+      }
+    },
+    "component_groups": {
+      "netherite_fire": {
+        "minecraft:mark_variant": {
+          "value": 1
+        },
+        "minecraft:addrider": {
+          "spawn_event": "heavy:pure_netherite_ingot"
+        },
+        "minecraft:fire_immune": {
+        }
+      }
+    },
+    "components": {
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": [
+          "3ditem"
+        ],
+        "seats": {
+          "position": [ 0.0, 0.0, 0.0 ]
+        }
+      },
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "operator": "==",
+                  "value": "pure_netherite_ingot"
+                },
+                {
+                  "test": "is_mark_variant",
+                  "operator": "!=",
+                  "value": 1
+                }
+              ]
+            },
+            "event": "pure_netherite_fire"
+          }
+        ]
+      }
+    },
+    "events": {
+      "pure_netherite_fire": {
+        "add": {
+          "component_groups": [
+            "netherite_fire"
+          ]
+        }
+      }
+    }
+  }
+}

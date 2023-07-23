@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.nicothekid_sparrow.general": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"walking": "query.modified_move_speed"
+						}
+					],
+					"transitions": [
+						{
+							"default": "!query.is_moving== 1 && query.all_animations_finished"
+						},
+						{
+							"flying": "!query.is_on_ground"
+						}
+					],
+					"blend_transition": 0.3
+				},
+				"flying": {
+					"animations": [
+					  "flying"
+					],
+					"transitions": [
+					  {
+					    "default": "query.is_on_ground"
+					  }
+					],
+					"blend_transition": 0.3
+				}
+			}
+		}
+	}
+}

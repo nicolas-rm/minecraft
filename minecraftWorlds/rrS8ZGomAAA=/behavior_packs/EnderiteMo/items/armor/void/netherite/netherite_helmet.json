@@ -1,0 +1,53 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ed:netherite_helmet",
+			"category": "Equipment"
+		},
+		"components": {
+			"tag:heavy:helmet": {},
+			"minecraft:icon": {
+				"texture": "netherite_helmet"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "armor_head"
+			},
+			"minecraft:durability": {
+				"max_durability": 407,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 1
+			},
+			"minecraft:mining_speed": 5,
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"ed:netherite_boots",
+							"minecraft:netherite_ingot"
+						],
+						"repair_amount": 5
+					}
+				]
+			},
+			"minecraft:render_offsets": "helmets",
+			"minecraft:armor": {
+				"protection": 3
+			},
+			"minecraft:foil": true
+		}
+	}
+}

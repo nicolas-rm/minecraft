@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ironpaxel_96b9d2ce"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_pickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:iron_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_axe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:ironpaxel",
+      "count": 1
+    }
+  }
+}

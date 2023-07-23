@@ -1,0 +1,344 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 30
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:xpsword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 40
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:swordofnature",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 35
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:minesword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:quartzsword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:magneticsword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:invisiblesword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:sweetbarrysword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 15
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:neonsword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:sticksword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 25
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:witchsword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 14
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:desertsword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:cactussword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 50
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:herosword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:coppersword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:enderpearlsword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 35
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:flysword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:endstonesword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 22
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:shulkersword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:mobspawnersword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:websword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:bambusword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 25
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:clonesword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 30
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:swordofblindness",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 15
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:amethystsword",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

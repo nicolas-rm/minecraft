@@ -1,0 +1,10 @@
+summon cow ~~~
+summon pig ~~~
+summon horse ~~~
+summon sheep ~~~
+summon chicken ~~~
+summon cow ~~~
+summon pig ~~~
+summon horse ~~~
+summon sheep ~~~
+summon chicken ~~~

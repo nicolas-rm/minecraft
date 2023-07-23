@@ -1,0 +1,66 @@
+{
+  "mob.cc_illusioner.prepare_attack" : {
+    "sounds" : [
+      "sounds\/mob\/evocation_illager\/prepare_attack1",
+      "sounds\/mob\/evocation_illager\/prepare_attack2"
+    ],
+    "__use_legacy_max_distance" : "true",
+    "category" : "hostile"
+  },
+  "mob.cc_illusioner.hurt" : {
+    "sounds" : [
+      "sounds\/mob\/evocation_illager\/hurt1",
+      "sounds\/mob\/evocation_illager\/hurt2"
+    ],
+    "__use_legacy_max_distance" : "true",
+    "category" : "hostile"
+  },
+  "mob.cc_illusioner.cast_spell" : {
+    "sounds" : [
+      "sounds\/mob\/evocation_illager\/cast1",
+      "sounds\/mob\/evocation_illager\/cast2"
+    ],
+    "__use_legacy_max_distance" : "true",
+    "category" : "hostile"
+  },
+  "mob.cc_illusioner.death" : {
+    "sounds" : [
+      "sounds\/mob\/evocation_illager\/death1",
+      "sounds\/mob\/evocation_illager\/death2"
+    ],
+    "__use_legacy_max_distance" : "true",
+    "category" : "hostile"
+  },
+  "mob.cc_illusioner.ambient" : {
+    "sounds" : [
+      "sounds\/mob\/evocation_illager\/idle1",
+      "sounds\/mob\/evocation_illager\/idle2",
+      "sounds\/mob\/evocation_illager\/idle3",
+      "sounds\/mob\/evocation_illager\/idle4"
+    ],
+    "__use_legacy_max_distance" : "true",
+    "category" : "hostile"
+  },
+  "mob.cc_illusioner.celebrate" : {
+    "__use_legacy_max_distance" : "true",
+    "sounds" : [
+      "sounds\/mob\/evocation_illager\/celebrate",
+      "sounds\/mob\/evocation_illager\/idle1",
+      "sounds\/mob\/evocation_illager\/idle2"
+    ]
+  },
+  "mob.cc_illusioner.prepare_wololo" : {
+    "sounds" : [
+      "sounds\/mob\/evocation_illager\/prepare_wololo"
+    ],
+    "__use_legacy_max_distance" : "true",
+    "category" : "hostile"
+  },
+  "mob.cc_illusioner.prepare_summon" : {
+    "sounds" : [
+      "sounds\/mob\/evocation_illager\/prepare_summon"
+    ],
+    "__use_legacy_max_distance" : "true",
+    "category" : "hostile"
+  }
+}

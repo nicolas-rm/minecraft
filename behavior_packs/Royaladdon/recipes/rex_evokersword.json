@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "evokersword_95ec54e9"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      "ADA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:phantom_membrane",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:emerald",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:totem",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:evokersword",
+      "count": 1
+    }
+  }
+}

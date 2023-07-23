@@ -1,0 +1,54 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nicothekid_jellyfish.move": {
+			"anim_time_update": "query.modified_distance_moved",
+			"loop": true,
+			"bones": {
+				"body": {
+				  "position": [ 0.0, "query.is_baby ? 1.2 : 2.4", 0.0 ]
+				},
+				"tentacles_0": {
+					"rotation": [ "math.sin(query.life_time * 360.0 + 0) * 7.5 + 2", 0.0, 0.0 ]
+				},
+				"tentacles_1": {
+					"rotation": [ "math.sin(query.life_time * 360.0 + 57) * 7.5 + 2", 0.0, 0.0 ]
+				},
+				"tentacles_2": {
+					"rotation": [ "math.sin(query.life_time * 360.0 + 115) * 7.5 + 2", 0.0, 0.0 ]
+				},
+				"tentacles_3": {
+					"rotation": [ "math.sin(query.life_time * 360.0 + 172) * 7.5 + 2", 0.0, 0.0 ]
+				},
+				"tentacles_4": {
+					"rotation": [ "math.sin(query.life_time * 360.0 + 229) * 7.5 + 2", 0.0, 0.0 ]
+				},
+				"tentacles_5": {
+					"rotation": [ "math.sin(query.life_time * 360.0 + 286) * 7.5 + 2", 0.0, 0.0 ]
+				},
+				"tentacles_6": {
+					"rotation": [ "math.sin(query.life_time * 360.0 + 344) * 7.5 + 2", 0.0, 0.0 ]
+				},
+				"tentacles_7": {
+					"rotation": [ "math.sin(query.life_time * 360.0 + 402) * 7.5 + 2", 0.0, 0.0 ]
+				},
+				"tentacles_8": {
+					"rotation": [ "math.sin(query.life_time * 360.0 + 458) * 7.5 + 2", 0.0, 0.0 ]
+				}
+			}
+		},
+		"animation.nicothekid_jellyfish.rotate": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            { "y": "query.target_x_rotation - this" },
+            { "x": "query.target_x_rotation" },
+            { "y": "180.0 - this" }
+          ]
+        }
+      }
+    }
+	}
+}

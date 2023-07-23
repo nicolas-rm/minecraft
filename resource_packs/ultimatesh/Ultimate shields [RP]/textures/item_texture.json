@@ -1,0 +1,18 @@
+{
+	"resource_pack-name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"iron_shield": {
+			"textures": "textures/items/iron_shield.png"
+		},
+		"gold_shield": {
+			"textures": "textures/items/gold_shield.png"
+		},
+		"obsidian_shield": {
+		  "textures": "textures/items/obsidian_shield.png"
+		},
+		"diamond_shield": {
+		  "textures": "textures/items/diamond_shield.png"
+		}
+	}
+}

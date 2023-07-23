@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_925ec9e5"
+    },
+    "tags": [
+      "crafting_table",
+      "Block_tool improvement table_custom"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:obsidian",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:cdiamondpgoldaxemredstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cdiamondpgoldaxemobsidianmredstone",
+      "count": 1
+    }
+  }
+}

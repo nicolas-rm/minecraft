@@ -1,0 +1,49 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "nicothekid:deepslate_golem",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:weight": {
+          "default": 15
+        },
+        "minecraft:spawns_underground": {},
+        "minecraft:biome_filter": [
+          {
+            "all_of": [
+              {
+                "any_of": [
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "monster"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 1,
+          "adjust_for_weather": true
+        },
+        "minecraft:height_filter": {
+          "min": -54,
+          "max": 0
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 1
+        }
+      }
+    ]
+  }
+}

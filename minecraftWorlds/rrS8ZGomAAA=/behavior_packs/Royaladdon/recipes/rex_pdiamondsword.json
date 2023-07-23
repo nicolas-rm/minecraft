@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pdiamondsword_9638a73e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:swordheadmold",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:pdiamondsword",
+      "count": 1
+    }
+  }
+}

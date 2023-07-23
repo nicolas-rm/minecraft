@@ -1,0 +1,170 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 45
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:ironpaxel",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:iron_ingot",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 15
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 25
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_sword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:raw_gold",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 35
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:ironbattleaxe",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:string",
+              "quantity": 40
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:templarchestplate",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:diamond",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 45
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:goldbattleaxe",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 25
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:horsearmorgold",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:bell",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

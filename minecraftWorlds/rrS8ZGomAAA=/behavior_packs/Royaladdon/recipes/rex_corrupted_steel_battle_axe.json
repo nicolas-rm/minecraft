@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corrupted_steel_battle_axe_b36811a7"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedsteelingot",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:corruptedstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corrupted_steel_battle_axe",
+      "count": 1
+    }
+  }
+}

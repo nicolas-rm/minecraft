@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paxel_from_beyond_2e4a7a4f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:pickaxe_from_bayond",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:shovel_from_beyond",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:axe_from_beyond",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:stick_from_beyond",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:paxel_from_beyond",
+      "count": 1
+    }
+  }
+}

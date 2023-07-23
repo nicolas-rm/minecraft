@@ -1,0 +1,63 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "By Raiyon",
+		"name": "Java Combat Cooldown Animation",
+		"uuid": "6b0952c0-1b8d-4c0f-a234-5a76d8c292e9",
+		"version": [
+			1,
+			0,
+			5
+		],
+		"min_engine_version": [
+			1,
+			19,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "awdawdawdawdawdawdawd",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "a2f3de4e-9b15-4d62-a8e7-d3dc644abdc8",
+			"version": [
+				1,
+				0,
+				5
+			],
+			"entry": "scripts/gametests/Main.js"
+		},
+		{
+			"type": "data",
+			"uuid": "62fe4d48-9963-41e9-a498-c7e4f1147e0c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "48670317-9a39-4fad-ba98-b8c557db0cb0",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.4.0-beta"
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.3",
+				"1.8.5"
+			]
+		}
+	}
+}

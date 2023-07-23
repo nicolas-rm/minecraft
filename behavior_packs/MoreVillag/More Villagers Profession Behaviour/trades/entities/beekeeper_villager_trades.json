@@ -1,0 +1,531 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:honey_bottle",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 3,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:honeycomb",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:shears",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 12
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:honey_bottle",
+                  "quantity": 2,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:honeycomb_block",
+                  "quantity": 2,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:bee_nest",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:diamond",
+                  "quantity": 3,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:campfire",
+                  "quantity": 2,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 8
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:beehive",
+                  "quantity": 2,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 5,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:honey_bottle",
+                  "quantity": 20,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:honeycomb",
+                  "quantity": 20,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:enchanted_book",
+                  "quantity": 2,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    },
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {
+                          "id": "silk_touch",
+                          "level": null
+                        },
+                        {
+                          "id": "feather_falling",
+                          "level": null
+                        },
+                        {
+                          "id": "power",
+                          "level": null
+                        },
+                        {
+                          "id": "respiration",
+                          "level": null
+                        },
+                        {
+                          "id": "infinity",
+                          "level": null
+                        },
+                        {
+                          "id": "depth_strider",
+                          "level": null
+                        },
+                        {
+                          "id": "loyalty",
+                          "level": null
+                        },
+                        {
+                          "id": "sharpness",
+                          "level": null
+                        },
+                        {
+                          "id": "channeling",
+                          "level": null
+                        },
+                        {
+                          "id": "knockback",
+                          "level": null
+                        },
+                        {
+                          "id": "piercing",
+                          "level": null
+                        },
+                        {
+                          "id": "sweeping",
+                          "level": null
+                        },
+                        {
+                          "id": "protection",
+                          "level": null
+                        },
+                        {
+                          "id": "soul_speed",
+                          "level": null
+                        },
+                        {
+                          "id": "unbreaking",
+                          "level": null
+                        },
+                        {
+                          "id": "blast_protection",
+                          "level": null
+                        },
+                        {
+                          "id": "punch",
+                          "level": null
+                        },
+                        {
+                          "id": "aqua_affinity",
+                          "level": null
+                        },
+                        {
+                          "id": "luck_of_the_sea",
+                          "level": null
+                        },
+                        {
+                          "id": "frost_walker",
+                          "level": null
+                        },
+                        {
+                          "id": "impaling",
+                          "level": null
+                        },
+                        {
+                          "id": "smite",
+                          "level": null
+                        },
+                        {
+                          "id": "multishot",
+                          "level": null
+                        },
+                        {
+                          "id": "fire_aspect",
+                          "level": null
+                        },
+                        {
+                          "id": "mending",
+                          "level": null
+                        },
+                        {
+                          "id": "efficiency",
+                          "level": null
+                        },
+                        {
+                          "id": "fire_protection",
+                          "level": null
+                        },
+                        {
+                          "id": "fortune",
+                          "level": null
+                        },
+                        {
+                          "id": "projectile_protection",
+                          "level": null
+                        },
+                        {
+                          "id": "flame",
+                          "level": null
+                        },
+                        {
+                          "id": "thorns",
+                          "level": null
+                        },
+                        {
+                          "id": "lure",
+                          "level": null
+                        },
+                        {
+                          "id": "binding_curse",
+                          "level": null
+                        },
+                        {
+                          "id": "riptide",
+                          "level": null
+                        },
+                        {
+                          "id": "bane_of_arthropods",
+                          "level": null
+                        },
+                        {
+                          "id": "quick_charge",
+                          "level": null
+                        },
+                        {
+                          "id": "looting",
+                          "level": null
+                        },
+                        {
+                          "id": "vanishing_curse",
+                          "level": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:honeycomb",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:golden_sword",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    },
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {
+                          "id": "sharpness",
+                          "level": null
+                        },
+                        {
+                          "id": "knockback",
+                          "level": null
+                        },
+                        {
+                          "id": "unbreaking",
+                          "level": null
+                        },
+                        {
+                          "id": "fire_aspect",
+                          "level": null
+                        },
+                        {
+                          "id": "mending",
+                          "level": null
+                        },
+                        {
+                          "id": "looting",
+                          "level": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

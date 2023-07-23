@@ -1,0 +1,526 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.17.10",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:endermite",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? 3 : 0"
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"endermite",
+					"arthropod",
+					"monster",
+					"lightweight",
+					"mob"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.4,
+				"height": 0.3
+			},
+			"minecraft:movement": {
+				"value": 0.25
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:attack": {
+				"damage": 2
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 3,
+				"track_target": true
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 5,
+				"must_see": true,
+				"within_radius": 16,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "enderman"
+								}
+							]
+						},
+						"max_dist": 16
+					}
+				]
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 6,
+				"speed_multiplier": 1
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:block_climber": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "entity_attack",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "self",
+										"value": "cooldown_damage"
+									}
+								]
+							}
+						}
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_0"
+									}
+								]
+							},
+							"event": "raiyon:cooldown_damage"
+						},
+						"damage_multiplier": 0.05
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_1"
+									}
+								]
+							},
+							"event": "raiyon:cooldown_damage"
+						},
+						"damage_multiplier": 0.2
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_2"
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "raiyon:cooldown_damage"
+						},
+						"damage_multiplier": 0.3
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_3"
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "raiyon:cooldown_damage"
+						},
+						"damage_multiplier": 0.4
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_4"
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "raiyon:cooldown_damage"
+						},
+						"damage_multiplier": 0.5
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_5"
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "raiyon:cooldown_damage"
+						},
+						"damage_multiplier": 0.6
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_6"
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "raiyon:cooldown_damage"
+						},
+						"damage_multiplier": 0.7
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_7"
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "raiyon:cooldown_damage"
+						},
+						"damage_multiplier": 0.8
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_8"
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "raiyon:cooldown_damage"
+						},
+						"damage_multiplier": 0.9
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_9"
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"subject": "other",
+										"value": "kb_sprint"
+									},
+									{
+										"test": "has_tag",
+										"operator": "!=",
+										"subject": "other",
+										"value": "sweeping_edge"
+									}
+								]
+							},
+							"event": "raiyon:cooldown_damage"
+						},
+						"damage_multiplier": 1
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_4"
+									},
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "kb_sprint",
+							"target": "other"
+						},
+						"damage_multiplier": 0.5
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_5"
+									},
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "kb_sprint",
+							"target": "other"
+						},
+						"damage_multiplier": 0.6
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_6"
+									},
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "kb_sprint",
+							"target": "other"
+						},
+						"damage_multiplier": 0.7
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_7"
+									},
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "kb_sprint",
+							"target": "other"
+						},
+						"damage_multiplier": 0.8
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_8"
+									},
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "kb_sprint",
+							"target": "other"
+						},
+						"damage_multiplier": 0.9
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "v_9"
+									},
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "kb_sprint"
+									}
+								]
+							},
+							"event": "kb_sprint",
+							"target": "other"
+						},
+						"damage_multiplier": 1
+					},
+					{
+						"cause": "entity_attack",
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"operator": "==",
+										"subject": "other",
+										"value": "sweeping_edge"
+									}
+								]
+							},
+							"event": "sweeping_edge",
+							"target": "other"
+						}
+					}
+				]
+			}
+		},
+		"component_groups": {},
+		"events": {
+			"raiyon:cooldown_damage": {
+				"run_command": {
+					"command": [
+						"tag @s add cooldown_damage"
+					]
+				}
+			}
+		}
+	}
+}

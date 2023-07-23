@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cironpastralshovel_e7a5556f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:pastralshovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:ironstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cironpastralshovel",
+      "count": 1
+    }
+  }
+}

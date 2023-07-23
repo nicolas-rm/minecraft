@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:power_effects",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:power_effects",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

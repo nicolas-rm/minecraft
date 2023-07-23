@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "brasilianitahoe_a929a76c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      " B ",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:brasilianita",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:brasilianitahoe",
+      "count": 1
+    }
+  }
+}

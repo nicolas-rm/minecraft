@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:water_breathing",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:water_breathing",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

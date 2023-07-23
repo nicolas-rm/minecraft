@@ -1,0 +1,532 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "nicothekid:enchanter_apprentice",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "component:celebrate": {
+        "minecraft:behavior.celebrate": {
+          "priority": 5,
+          "celebration_sound": "celebrate",
+          "sound_interval": {
+            "range_min": 2.0,
+            "range_max": 7.0
+          },
+          "jump_interval": {
+            "range_min": 1.0,
+            "range_max": 3.5
+          },
+          "duration": 30.0,
+          "on_celebration_end_event": {
+            "event": "minecraft:stop_celebrating",
+            "target": "self"
+          }
+        }
+      },
+      "component:raid_configuration": {
+        "minecraft:ambient_sound_interval": {
+          "value": 2.0,
+          "range": 4.0,
+          "event_name": "ambient.in.raid"
+        },
+        "minecraft:dweller": {
+          "dwelling_type": "village",
+          "dweller_role": "hostile",
+          "update_interval_base": 60,
+          "update_interval_variant": 40,
+          "can_find_poi": false,
+          "can_migrate": false,
+          "first_founding_reward": 0
+        },
+        "minecraft:behavior.move_to_village": {
+          "priority": 6,
+          "speed_multiplier": 1.0
+        }
+      }
+    },
+    "components": {
+      "minecraft:can_climb": {},
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:health": {
+        "value": 24,
+        "max": 24
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:movement": {
+        "value": 0.30
+      },
+      "minecraft:type_family": {
+        "family": [
+          "enchanter_apprentice",
+          "illager",
+          "mob"
+        ]
+      },
+      
+      "minecraft:breathable": {
+        "breathes_air": true,
+        "breathes_lava": false,
+        "breathes_solids": false,
+        "breathes_water": false,
+        "generates_bubbles": true,
+        "inhale_time": 0,
+        "suffocate_time": 0,
+        "total_supply": 15
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "fall",
+            "deals_damage": true,
+						"damage_modifier": 0.0,
+						"damage_multiplier": 1.0
+          }
+        ]
+      },
+      "minecraft:despawn": {
+        "despawn_from_chance": true,
+        "despawn_from_inactivity": true,
+        "despawn_from_simulation_edge": true,
+        "remove_child_entities": false,
+        "min_range_inactivity_timer": 30,
+        "min_range_random_chance": 800,
+        "despawn_from_distance": {
+          "max_distance": 128,
+          "min_distance": 32
+        }
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:jump.static": {
+        "jump_power": 0.42
+      },
+      "minecraft:movement.basic": {
+        "max_turn": 30.0
+      },
+      "minecraft:nameable": {
+        "allow_name_tag_renaming": true,
+        "always_show": false
+      },
+      "minecraft:navigation.walk": {
+        "avoid_damage_blocks": true,
+        "avoid_portals": false,
+        "avoid_sun": false,
+        "avoid_water": true,
+        "can_breach": false,
+        "can_break_doors": false,
+        "can_jump": true,
+        "can_open_doors": false,
+        "can_open_iron_doors": false,
+        "can_pass_doors": true,
+        "can_path_from_air": false,
+        "can_path_over_lava": false,
+        "can_path_over_water": true,
+        "can_sink": true,
+        "can_swim": false,
+        "can_walk": true,
+        "can_walk_in_lava": false,
+        "is_amphibious": false,
+        "blocks_to_avoid": [
+          "sculk",
+          "sculk_vein",
+          "sculk_catalyst",
+          "sculk_sensor",
+          "sculk_shrieker",
+          "web"
+        ]
+      },
+      "minecraft:physics": {
+        "has_collision": true,
+        "has_gravity": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1,
+        "alert_same_type": false,
+        "hurt_owner": false,
+        "entity_types": [
+          {
+            "must_see": true,
+            "reevaluate_description": false,
+            "max_dist": 16,
+            "walk_speed_multiplier": 1.1,
+            "sprint_speed_multiplier": 1.1,
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "creeper",
+                  "operator": "!="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "illager",
+                  "operator": "!="
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:behavior.summon_entity": {
+        "priority": 2,
+        "summon_choices": [
+          {
+            "weight": 5,
+            "do_casting": true,
+            "cast_duration": 3.0,
+            "cooldown_time": 5.0,
+            "particle_color": "#FF17DD62",
+            "start_sound_event": "cast.spell",
+            "sequence": [
+              {
+                "entity_type": "nicothekid:cursed_book",
+                "shape": "circle",
+                "target": "self",
+                "base_delay": 1.0,
+                "delay_per_summon": 0.0,
+                "entity_lifespan": -1,
+                "num_entities_spawned": 3,
+                "size": 1.0,
+                "summon_cap": 8,
+                "summon_cap_radius": 16.0,
+                "sound_event": "prepare.summon"
+              }
+            ]
+          },
+          {
+            "weight": 1,
+            "do_casting": true,
+            "cast_duration": 4.0,
+            "cooldown_time": 6.0,
+            "particle_color": "#FF17DD62",
+            "start_sound_event": "cast.spell",
+            "sequence": [
+              {
+                "entity_type": "nicothekid:cursed_book",
+                "shape": "circle",
+                "target": "self",
+                "base_delay": 1.0,
+                "delay_per_summon": 0.0,
+                "entity_lifespan": -1,
+                "num_entities_spawned": 4,
+                "size": 1.0,
+                "summon_cap": 8,
+                "summon_cap_radius": 16.0,
+                "sound_event": "prepare.summon"
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "attack_owner": false,
+        "must_reach": false,
+        "must_see": true,
+        "reselect_targets": true,
+        "set_persistent": false,
+        "attack_interval": 0,
+        "attack_interval_min": 0,
+        "persist_time": 0.0,
+        "scan_interval": 10,
+        "target_invisible_multiplier": 0.7,
+        "target_search_height": -1.0,
+        "target_sneak_visibility_multiplier": 0.8,
+        "within_radius": 16.0,
+        "entity_types": [
+          {
+            "must_see": true,
+            "reevaluate_description": false,
+            "max_dist": 16,
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "crates_trader",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "forest_guardian",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "irongolem",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "snowgolem",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "wandering_collector",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "wandering_trader",
+                  "operator": "=="
+                }
+              ]
+            }
+          },
+          {
+            "must_see": true,
+            "reevaluate_description": false,
+            "max_dist": 16,
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player_tamed_aggressive",
+                  "operator": "=="
+                },
+                {
+                  "test": "has_component",
+                  "subject": "other",
+                  "value": "minecraft:behavior.stay_while_sitting",
+                  "operator": "!="
+                }
+              ]
+            }
+          },
+          {
+            "must_see": false,
+            "reevaluate_description": false,
+            "max_dist": 16,
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "villager",
+                  "operator": "=="
+                },
+                {
+                  "test": "has_component",
+                  "subject": "other",
+                  "value": "minecraft:is_baby",
+                  "operator": "!="
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 4,
+        "remove_target": false,
+        "avoid_target_xz": 16,
+        "avoid_target_y": 7,
+        "max_dist": 4.0,
+        "max_flee": 12.0,
+        "probability_per_strength": 0.25,
+        "sprint_distance": 7.0,
+        "sprint_speed_multiplier": 1.15,
+        "walk_speed_multiplier": 1.15,
+        "entity_types": [
+          {
+            "must_see": true,
+            "reevaluate_description": false,
+            "max_dist": 16,
+            "walk_speed_multiplier": 1.10,
+            "sprint_speed_multiplier": 1.10,
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value":  "player",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value":  "creeper",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value":  "forest_guardian",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value":  "irongolem",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value":  "snowgolem",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value":  "warden",
+                  "operator": "=="
+                }
+              ]
+            }
+          },
+          {
+            "must_see": true,
+            "reevaluate_description": false,
+            "max_dist": 16,
+            "walk_speed_multiplier": 1.10,
+            "sprint_speed_multiplier": 1.10,
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player_tamed",
+                  "operator": "=="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "giant_moa",
+                  "operator": "!="
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "shroom",
+                  "operator": "!="
+                },
+                {
+                  "test": "has_component",
+                  "subject": "other",
+                  "value": "minecraft:is_baby",
+                  "operator": "!="
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:behavior.look_at_target": {
+        "priority": 7,
+        "probability": 0.02,
+        "angle_of_view_horizontal": 360,
+        "angle_of_view_vertical": 360,
+        "look_distance": 8.0,
+        "look_time": [ 2, 4 ]
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 8,
+        "speed_multiplier": 0.9
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 9,
+        "probability": 0.02,
+        "angle_of_view_horizontal": 360,
+        "angle_of_view_vertical": 360,
+        "look_distance": 8.0,
+        "look_time": [ 2, 4 ]
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 10,
+        "look_time": [ 2, 4 ]
+      },
+      "minecraft:behavior.look_at_entity": {
+        "priority": 11,
+        "probability": 0.02,
+        "angle_of_view_horizontal": 360,
+        "angle_of_view_vertical": 360,
+        "look_distance": 8.0,
+        "look_time": [ 2, 4 ],
+        "filters": {
+          "any_of": [
+            {
+              "test": "is_family",
+              "subject": "other",
+              "value": "mob",
+              "operator": "=="
+            }
+          ]
+        }
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 10 + (query.equipment_count * Math.Random(1,3)) : 0"
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/nicos_mobs/entities/nicothekid_enchanter_apprentice.json"
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    },
+    "events": {
+      "minecraft:spawn_for_raid": {
+        "add": {
+          "component_groups": [
+            "component:raid_configuration"
+          ]
+        }
+      },
+      "minecraft:start_celebrating": { // Event must be called exactly this for village to fire it when a raid is lost
+        "add": {
+          "component_groups": [
+            "component:celebrate"
+          ]
+        }
+      },
+      "minecraft:stop_celebrating": {
+        "remove": {
+          "component_groups": [
+            "component:celebrate"
+          ]
+        }
+      }
+    }
+  }
+}

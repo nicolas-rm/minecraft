@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:sculk_walker",
+      "textures": {
+        "variant_00": "textures/entity/nicos_mobs/sculk_walker/nicothekid_sculk_walker_eyeless",
+        "variant_01": "textures/entity/nicos_mobs/sculk_walker/nicothekid_sculk_walker_eyed"
+      },
+      "spawn_egg": {
+        "base_color": "#0D1217",
+        "overlay_color": "#D1D6B6"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_sculk_walker"
+      },
+      "materials": {
+        "default": "sculk_walker",
+        "invisible": "sculk_walker_invisible"
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_sculk_walker"
+      ],
+      "animations": {
+        "attack": "animation.nicothekid_sculk_walker.attack",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.nicothekid_sculk_walker.move",
+        "move_to_target": "animation.nicothekid_sculk_walker.move_to_target",
+        "walk": "animation.nicothekid_sculk_walker.walk",
+        "walk_to_target": "animation.nicothekid_sculk_walker.walk_to_target",
+        "arm_controller": "controller.animation.nicothekid_sculk_walker.arm_movement",
+        "move_controller": "controller.animation.nicothekid_sculk_walker.move"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "arm_controller",
+          "move_controller"
+        ]
+      }
+    }
+  }
+}

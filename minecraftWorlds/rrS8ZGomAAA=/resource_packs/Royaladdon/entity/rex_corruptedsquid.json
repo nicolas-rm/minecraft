@@ -1,0 +1,33 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "rex:corruptedsquid",
+      "materials": {
+        "default": "squid"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/rex_corruptedsquid"
+      },
+      "geometry": {
+        "default": "geometry.squid"
+      },
+      "animations": {
+        "rotate": "animation.squid.rotate",
+        "move": "animation.squid.move"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.squid.move"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.squid"
+      ],
+      "spawn_egg": {
+        "texture": "rex:corruptedsquid",
+        "texture_index": 0
+      }
+    }
+  }
+}

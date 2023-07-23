@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dragon_chestplate_7acdfe88"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:dragon_scales",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:dragon_chestplate",
+      "count": 1
+    }
+  }
+}

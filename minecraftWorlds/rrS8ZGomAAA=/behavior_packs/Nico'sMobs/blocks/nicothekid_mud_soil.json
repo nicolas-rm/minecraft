@@ -1,0 +1,48 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:mud_soil",
+      "menu_category": {
+				"category": "nature"
+			}
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_mud_soil",
+          "render_method": "opaque",
+          "ambient_occlusion": true,
+					"face_dimming": true
+        }
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:map_color": "#69492e",
+      "minecraft:collision_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 12, 16 ]
+      },
+      "minecraft:selection_box": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+      },
+      "minecraft:light_dampening": 15,
+      "minecraft:light_emission": 0,
+      "minecraft:friction": 0.1,
+      "minecraft:flammable": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30.0
+      },
+      "minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.3
+			},
+      "minecraft:loot": "loot_tables/nicos_mobs/blocks/nicothekid_mud_soil.json",
+      
+      "tag:mud_soil": {},
+      "tag:custom_dirt": {},
+      "tag:dirt": {}
+    },
+    "events": {
+    }
+  }
+}

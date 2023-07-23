@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mobbarriercobblestone_0db29fdc"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:monster_egg",
+        "data": 1
+      },
+      "C": {
+        "item": "rex:mobbarrier",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:mobbarriercobblestone",
+      "count": 1
+    }
+  }
+}

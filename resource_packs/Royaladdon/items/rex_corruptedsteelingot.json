@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:corruptedsteelingot",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:corruptedsteelingot",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

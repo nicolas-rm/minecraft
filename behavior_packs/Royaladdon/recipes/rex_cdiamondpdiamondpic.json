@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cdiamondpdiamondpic_51076fd5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:pdiamondpickaxe",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:diamondstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cdiamondpdiamondpic",
+      "count": 1
+    }
+  }
+}

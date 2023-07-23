@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cironpgoldshovel_71b73757"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:pgoldshovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:ironstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cironpgoldshovel",
+      "count": 1
+    }
+  }
+}

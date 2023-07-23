@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cironpgoldaxe_e7ed3629"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:pgoldaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:ironstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cironpgoldaxe",
+      "count": 1
+    }
+  }
+}

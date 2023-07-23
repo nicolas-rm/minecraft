@@ -1,0 +1,244 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dachshund.angry": {
+			"loop": true,
+			"bones": {
+				"tail": {
+					"rotation": [
+						0,
+						"query.is_angry?-this:(math.cos(query.modified_distance_moved*38.17)*query.modified_move_speed*80.22-this)",
+						0
+					]
+				}
+			}
+		},
+		"animation.dachshund.baby_scaling": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": [
+						0,
+						-3,
+						2
+					],
+					"scale": 1.6
+				},
+				"head2": {
+					"position": [
+						0,
+						1,
+						-1
+					],
+					"scale": [
+						0.7,
+						0.5,
+						0.7
+					]
+				}
+			}
+		},
+		"animation.dachshund.head_rot_z": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [
+						0,
+						0,
+						"(query.is_interested?(query.head_roll_angle*57.3):0)+(query.is_shaking_wetness?variable.head_rot_z:0)-this"
+					]
+				},
+				"leg0": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [
+						0,
+						0,
+						0.01
+					]
+				}
+			}
+		},
+		"animation.dachshund.leg_default": {
+			"loop": true,
+			"bones": {
+				"leg0": {
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17)*80.22*query.modified_move_speed-this",
+						0,
+						0
+					]
+				},
+				"leg1": {
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17+180)*80.22*query.modified_move_speed-this",
+						0,
+						0
+					]
+				},
+				"leg2": {
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17+180)*80.22*query.modified_move_speed-this",
+						0,
+						0
+					]
+				},
+				"leg3": {
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17)*80.22*query.modified_move_speed-this",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.dachshund.shaking": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [
+						0,
+						0,
+						"variable.body_rot_z-this"
+					],
+					"position": [
+						0,
+						0,
+						0
+					]
+				},
+				"upperbody": {
+					"rotation": [
+						0,
+						0,
+						"variable.upper_body_rot_z-this"
+					]
+				},
+				"tail": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [
+						0,
+						0,
+						0.01
+					]
+				}
+			}
+		},
+		"animation.dachshund.sitting": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [
+						-7.5,
+						0,
+						0
+					],
+					"position": [
+						0,
+						0,
+						-1
+					]
+				},
+				"leg0": {
+					"rotation": [
+						270,
+						17.5,
+						0
+					],
+					"position": [
+						-1,
+						-2,
+						-2
+					]
+				},
+				"leg1": {
+					"rotation": [
+						270,
+						-17.5,
+						0
+					],
+					"position": [
+						1,
+						-2,
+						-2
+					]
+				},
+				"leg2": {
+					"rotation": [
+						318.65775,
+						0.58218,
+						12.47256
+					],
+					"position": [
+						0.01,
+						0,
+						-1
+					]
+				},
+				"leg3": {
+					"rotation": [
+						319.27513,
+						1.40116,
+						-12.34058
+					],
+					"position": [
+						0.01,
+						0,
+						-1
+					]
+				},
+				"tail": {
+					"position": [
+						0,
+						-1.1,
+						-0.7
+					]
+				},
+				"upperBody": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [
+						-33,
+						0,
+						0
+					],
+					"position": [
+						0,
+						-2,
+						0
+					]
+				}
+			}
+		},
+		"animation.dachshund.tail_default": {
+			"loop": true,
+			"bones": {
+				"tail": {
+					"rotation": [
+						"query.tail_angle*57.3-this",
+						0,
+						"variable.tail_rot_z-this"
+					],
+					"position": [
+						0,
+						0,
+						0
+					]
+				}
+			}
+		}
+	}
+}

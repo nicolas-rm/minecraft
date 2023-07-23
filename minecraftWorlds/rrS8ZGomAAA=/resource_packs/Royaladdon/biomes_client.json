@@ -1,0 +1,11 @@
+{
+  "biomes": {
+    "desert": {
+      "water_surface_color": "#a75600",
+      "water_fog_color": "#843600",
+      "water_surface_transparency": 0.33,
+      "water_fog_distance": 20,
+      "fog_identifier": "pa:fog_fog_desert"
+    }
+  }
+}

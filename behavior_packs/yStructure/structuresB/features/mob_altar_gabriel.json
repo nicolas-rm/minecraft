@@ -1,0 +1,12 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+        "description": {
+            "identifier": "minecraft:mob_altar_gabriel"
+        },
+        "structure_name": "mystructure:mob_altar",
+        "adjustment_radius": 8,
+        "facing_direction": "random",
+        "constraints": {}
+    }
+}

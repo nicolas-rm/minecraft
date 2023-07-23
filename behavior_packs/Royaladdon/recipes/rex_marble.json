@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "marble_e8d870c9"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      "AA "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:shards_of_marble",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:marble",
+      "count": 1
+    }
+  }
+}

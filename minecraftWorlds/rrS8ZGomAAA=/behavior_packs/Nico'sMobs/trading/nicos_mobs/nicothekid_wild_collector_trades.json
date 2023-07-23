@@ -1,0 +1,343 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 15,
+          "trades": [
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "nicothekid:squirrel_hide",
+                  "quantity": 5
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "nicothekid:squirrel_raw",
+                  "quantity": 5
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "nicothekid:moa_raw",
+                  "quantity": 5
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:spider_eye",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "nicothekid:scorpion_telson",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:beef",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:porkchop",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:muttonRaw",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:chicken",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:rabbit",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:egg",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:feather",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:rabbit_foot",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:rabbit_hide",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:magma_cream",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:web",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:slime",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "nicothekid:mud_soil",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:honey_block",
+                  "quantity": 6
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:honeycomb_block",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:bone_block",
+                  "quantity": 5
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:ender_pearl",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

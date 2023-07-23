@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:forest_wisp",
+      "textures": {
+        "default": "textures/entity/nicos_mobs/forest_wisp/nicothekid_forest_wisp"
+      },
+      "spawn_egg": {
+        "base_color": "#D0E45A",
+        "overlay_color": "#39904C"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_forest_wisp",
+        "armor": "geometry.entity.nicothekid_forest_wisp_armor"
+      },
+      "materials": {
+        "default": "forest_wisp",
+        "invisible": "forest_wisp_invisible",
+        "outer": "forest_wisp_outer"
+      },
+      "particle_effects": {
+				"particle": "nicothekid:forest_wisp_particle"
+			},
+      "render_controllers": [
+        "controller.render.nicothekid_forest_wisp",
+        "controller.render.nicothekid_forest_wisp_armor"
+      ],
+      "animations": {
+        "flying": "animation.nicothekid_forest_wisp.move",
+        "move": "animation.nicothekid_forest_wisp.move"
+      },
+      "scripts": {
+        "animate": [
+          "flying",
+          "move"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedwool_19490bf4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedstring",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedwool",
+      "count": 1
+    }
+  }
+}

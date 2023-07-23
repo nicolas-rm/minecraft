@@ -1,0 +1,48 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "overworld_underground_rex_blacksteelore_feature_1_17",
+      "places_feature": "rex_blacksteelore_feature"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "nether"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 40,
+      "coordinate_eval_order": "zyx",
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          128
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

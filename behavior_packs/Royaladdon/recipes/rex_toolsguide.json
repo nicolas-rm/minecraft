@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "toolsguide_3d63aad1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:stonemold",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:book",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:toolsguide",
+      "count": 1
+    }
+  }
+}

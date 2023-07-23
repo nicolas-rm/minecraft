@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:fire_stone",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 64,
+      "minecraft:foil": true,
+      "minecraft:stack_by_data": true,
+      "minecraft:icon": {
+        "texture": "rex:fire_stone"
+      },
+      "minecraft:display_name": {
+        "value": "fire stone"
+      }
+    }
+  }
+}

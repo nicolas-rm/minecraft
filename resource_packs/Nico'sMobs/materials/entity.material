@@ -1,0 +1,105 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "cave_dweller:entity_alphatest": {},
+    "clam:entity_emissive_alpha": {},
+    "clam_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "clurve:entity_emissive_alpha": {},
+    "clurve_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "cobblestone_golem:entity_emissive_alpha": {},
+    "cobblestone_golem_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "cursed_book:entity_emissive_alpha": {},
+    "cursed_book_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "cursed_scarecrow:entity_alphatest": {},
+    "deepslate_golem:entity_emissive_alpha": {},
+    "deepslate_golem_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "dire_bat:entity_emissive_alpha": {},
+    "dire_bat_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "enchanter_apprentice:entity_emissive_alpha": {},
+    "enchanter_apprentice_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "firefly:entity_emissive_alpha": {},
+    "firefly_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "forest_guardian:entity_emissive_alpha": {},
+    "forest_guardian_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "forest_wisp:entity_emissive_alpha": {
+      "+defines": [ "USE_UV_ANIM" ]
+    },
+    "forest_wisp_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "forest_wisp_outer:entity": {
+      "+defines": [ "USE_UV_ANIM" ],
+      "+states": [ "Blending" ]
+    },
+    "giant_moa:entity": {},
+    "giant_moa_legs:entity_alphatest": {},
+    "jellyfish:entity_emissive_alpha": {
+      "+defines": [ "USE_UV_ANIM" ]
+    },
+    "jellyfish_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "jellyfish_outer:entity": {
+      "+defines": [ "USE_UV_ANIM" ],
+      "+states": [ "Blending" ]
+    },
+    "magma_golem:entity_emissive_alpha": {},
+    "magma_golem_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "mossy_cobblestone_golem:entity_emissive_alpha": {},
+    "mossy_cobblestone_golem_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "mud_cube:entity_emissive_alpha": {},
+    "mud_cube_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "sand_cube:entity_emissive_alpha": {},
+    "sand_cube_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "scorpion:entity_emissive_alpha": {},
+    "scorpion_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "sculk_walker:entity_emissive_alpha": {},
+    "sculk_walker_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "shroom:entity_emissive_alpha": {},
+    "shroom_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "skeleton_warrior:entity_alphatest": {},
+    "snow_cube:entity_emissive_alpha": {},
+    "snow_cube_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "sparrow:entity_alphatest": {},
+    "squirrel:entity_alphatest": {},
+    "wandering_collector:entity_emissive_alpha": {},
+    "wandering_collector_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "warthog:entity_alphatest": {}
+  }
+}

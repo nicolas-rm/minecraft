@@ -1,0 +1,55 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dripstone_shield",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "shield",
+					"pivot": [1, 15.5, 3],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{"origin": [0, 25, 0], "size": [2, 6, 6], "uv": [26, 0]},
+						{"origin": [-5, 17, -1], "size": [12, 22, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "spike",
+					"parent": "shield",
+					"pivot": [4, 35.5, -9],
+					"cubes": [
+						{"origin": [4, 27.5, -17], "size": [0, 16, 16], "pivot": [4, 35.5, -9], "rotation": [-90, 0, -45], "uv": [0, 7], "mirror": true},
+						{"origin": [4, 27.5, -17], "size": [0, 16, 16], "pivot": [4, 35.5, -9], "rotation": [-90, 0, 45], "uv": [0, 7]}
+					]
+				},
+				{
+					"name": "spike2",
+					"parent": "shield",
+					"pivot": [-1, 29.5, -9],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{"origin": [-1, 21.5, -17], "size": [0, 16, 16], "pivot": [-1, 29.5, -9], "rotation": [-90, 0, -45], "uv": [0, 7], "mirror": true},
+						{"origin": [-1, 21.5, -17], "size": [0, 16, 16], "pivot": [-1, 29.5, -9], "rotation": [-90, 0, 45], "uv": [0, 7]}
+					]
+				},
+				{
+					"name": "spike3",
+					"parent": "shield",
+					"pivot": [2, 23.5, -9],
+					"rotation": [0, 0, 17.5],
+					"cubes": [
+						{"origin": [2, 15.5, -17], "size": [0, 16, 16], "pivot": [2, 23.5, -9], "rotation": [-90, 0, -45], "uv": [0, 7], "mirror": true},
+						{"origin": [2, 15.5, -17], "size": [0, 16, 16], "pivot": [2, 23.5, -9], "rotation": [-90, 0, 45], "uv": [0, 7]}
+					]
+				}
+			]
+		}
+	]
+}

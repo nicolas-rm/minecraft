@@ -1,0 +1,1 @@
+effect @p speed 30 2 true

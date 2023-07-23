@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "potion_ring_night_vision_c9f75a17"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:stone_effect_night_vision",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:golden_ring",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:potion_ring_night_vision",
+      "count": 1
+    }
+  }
+}

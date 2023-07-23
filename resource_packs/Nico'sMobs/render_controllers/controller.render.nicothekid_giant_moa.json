@@ -1,0 +1,35 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.nicothekid_giant_moa": {
+      "geometry": "geometry.default",
+      "part_visibility": [
+        {
+          "saddle": "query.is_saddled"
+        },
+        {
+          "chest": "query.is_chested"
+        }
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        },
+        {
+          "leg*": "Material.legs"
+        }
+      ],
+      "textures": [
+			  "array.skins[query.is_sleeping]"
+			],
+      "arrays": {
+				"textures": {
+					"array.skins": [
+						"Texture.giant_moa_awake_variant_0",
+						"Texture.giant_moa_sleep_variant_1"
+					]
+				}
+			}
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:corrupted_mobssummon",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:corrupted_mobssummon",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

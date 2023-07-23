@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_d980b5cb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:log",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:egg",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "the:lumberjack_spawn_egg",
+      "count": 1
+    }
+  }
+}

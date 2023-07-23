@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:golden_ring",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:golden_ring",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

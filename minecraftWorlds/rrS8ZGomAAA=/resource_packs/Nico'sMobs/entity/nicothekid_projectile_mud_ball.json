@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:projectile_mud_ball",
+      "materials": {
+        "default": "snowball"
+      },
+      "textures": {
+        "default": "textures/projectiles/nicos_mobs/nicothekid_projectile_mud_ball"
+      },
+      "geometry": {
+        "default": "geometry.item_sprite"
+      },
+      "render_controllers": [
+        "controller.render.item_sprite"
+      ],
+      "particle_effects": {
+				"particle": "nicothekid:mud_ball_trail_particle"
+			},
+      "animations": {
+        "flying": "animation.nicothekid_muddy_ball.billboard",
+        "particle": "animation.nicothekid_muddy_ball.particle"
+      },
+      "scripts": {
+        "animate": [
+          "flying",
+          "particle"
+        ]
+      }
+    }
+  }
+} 

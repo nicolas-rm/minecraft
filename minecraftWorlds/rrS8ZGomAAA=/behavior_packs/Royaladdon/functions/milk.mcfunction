@@ -1,0 +1,1 @@
+effect @p clear

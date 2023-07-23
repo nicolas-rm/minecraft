@@ -1,0 +1,69 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:item",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+			"tree": {
+				"minecraft:entity_sensor": {
+					"sensor_range": 5,
+					"minimum_count": 1,
+					"maximum_count": 4,
+					"event": "test",
+					"event_filters": {
+						"test": "is_sneaking",
+						"operator": "==",
+						"subject": "other",
+						"value": true
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"subject": "self",
+									"value": "tree"
+								},
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "no_tree",
+									"operator": "!="
+								}
+							]
+						},
+						"event": "tree",
+						"target": "self"
+					}
+				]
+			}
+		},
+		"events": {
+			"tree": {
+				"add": {
+					"component_groups": [
+						"tree"
+					]
+				}
+			},
+			"test": {
+				"run_command": {
+					"command": [
+						"tag @p add sneaking"
+					]
+				}
+			}
+		}
+	}
+}

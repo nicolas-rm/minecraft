@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "invisiblesword_2afe31b7"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:splash_potion",
+        "data": 7
+      },
+      "B": {
+        "item": "minecraft:iron_sword",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:invisiblesword",
+      "count": 1
+    }
+  }
+}

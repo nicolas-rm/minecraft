@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dark_steel_aiot_6923b8fd"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:darksteelpickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:darksteelshovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:darksteelhoe",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:darksteelsword",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "F": {
+        "item": "rex:darksteelaxe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:dark_steel_aiot",
+      "count": 1
+    }
+  }
+}

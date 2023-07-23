@@ -1,0 +1,7 @@
+[
+	{
+		"flipbook_texture": "textures/blocks/end_respawn_up",
+		"atlas_tile": "end_respawn_up",
+		"ticks_per_frame": 10
+	}
+]

@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "goldenaiot_aac07121"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:golden_pickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:golden_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:golden_hoe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:golden_sword",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "F": {
+        "item": "minecraft:golden_axe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:goldenaiot",
+      "count": 1
+    }
+  }
+}

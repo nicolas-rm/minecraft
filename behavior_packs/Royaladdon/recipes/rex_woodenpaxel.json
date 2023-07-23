@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "woodenpaxel_7a196a88"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:wooden_pickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:wooden_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:wooden_axe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:woodenpaxel",
+      "count": 1
+    }
+  }
+}

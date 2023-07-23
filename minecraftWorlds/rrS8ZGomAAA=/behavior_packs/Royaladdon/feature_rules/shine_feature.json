@@ -1,0 +1,33 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "rex:shine_feature"
+    },
+    "count": 6,
+    "replace_rules": [
+      {
+        "places_block": "rex:shine_ore",
+        "may_replace": [
+          {
+            "name": "minecraft:stone"
+          }
+        ]
+      },
+      {
+        "places_block": "rex:brasilianitaoredeep",
+        "may_replace": [
+          {
+            "name": "minecraft:deepslate"
+          }
+        ]
+      }
+    ]
+  }
+}
+  }
+}
+  }
+}
+  }
+}

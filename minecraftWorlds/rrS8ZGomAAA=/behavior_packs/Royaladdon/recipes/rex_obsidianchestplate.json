@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "obsidianchestplate_5eeedceb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:obsidianingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:obsidianchestplate",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "stone_effect_night_vision_4b2f891a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:potion",
+        "data": 5
+      },
+      "B": {
+        "item": "rex:effect_stone_empty",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:stone_effect_night_vision",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:magic_gem",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:magic_gem",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

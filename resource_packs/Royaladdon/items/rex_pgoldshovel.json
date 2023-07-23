@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:pgoldshovel",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:pgoldshovel",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

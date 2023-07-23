@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:sparrow",
+      "textures": {
+        "default": "textures/entity/nicos_mobs/sparrow/nicothekid_sparrow"
+      },
+      "spawn_egg": {
+        "base_color": "#7e6237",
+        "overlay_color": "#c29d62"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_sparrow"
+      },
+      "materials": {
+        "default": "sparrow"
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_sparrow"
+      ],
+      "animations": {
+        "baby_transform": "animation.nicothekid_sparrow.baby_transform",
+        "flying": "animation.nicothekid_sparrow.flying",
+        "look_at_target": "animation.nicothekid_sparrow.look_at_target",
+        "walking": "animation.nicothekid_sparrow.walking",
+        "controller_general": "controller.animation.nicothekid_sparrow.general"
+      },
+      "scripts": {
+				"animate": [
+					"controller_general",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					{
+						"look_at_target": 0.8
+					}
+				]
+			}
+    }
+  }
+}

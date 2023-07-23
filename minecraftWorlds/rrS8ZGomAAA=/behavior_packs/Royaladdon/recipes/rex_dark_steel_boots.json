@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dark_steel_boots_51607332"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:darksteelingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:dark_steel_boots",
+      "count": 1
+    }
+  }
+}

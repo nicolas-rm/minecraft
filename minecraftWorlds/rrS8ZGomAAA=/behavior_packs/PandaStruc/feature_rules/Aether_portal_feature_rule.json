@@ -1,0 +1,51 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "minecraft:Aether_portal_feature_rule",
+      "places_feature": "minecraft:Aether_portal_feature_mcstructure"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "all_of": [
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "overworld"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "overworld_generation"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.10998999999999999,
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz) + -1",
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      }
+    }
+  }
+}

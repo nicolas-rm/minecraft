@@ -1,0 +1,66 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ed:end_respawn_anchor_stage_0"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.Items",
+				"category": "items"
+			},
+			"minecraft:on_player_destroyed": {
+				"condition": "query.is_item_name_any('slot.weapon.mainhand','ed:enderite_pickaxe')||query.is_item_name_any('slot.weapon.mainhand','minecraft:netherite_pickaxe')",
+				"target": "self",
+				"event": "ed:ore_destroy"
+			},
+			"minecraft:loot": "empty",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 4
+			},
+			"minecraft:friction": 0.7,
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "ed:end_respawn_anchor_stage_0"
+				}
+			},
+			"minecraft:on_interact": {
+				"condition": "query.is_item_name_any('slot.weapon.mainhand','minecraft:ender_pearl')",
+				"event": "ed:poner_i",
+				"target": "self"
+			}
+		},
+		"events": {
+			"ed:ore_destroy": {
+				"sequence": [
+					{
+						"spawn_loot": {
+							"table": "loot_tables/blocks/respawn_anchor.json"
+						}
+					}
+				]
+			},
+			"ed:poner_i": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"playsound block.end_portal_frame.fill @p ~ ~ ~ 4"
+							]
+						}
+					},
+					{
+						"set_block_at_pos": {
+							"block_type": "ed:end_respawn_anchor_stage_1"
+						}
+					}
+				]
+			}
+		}
+	}
+}

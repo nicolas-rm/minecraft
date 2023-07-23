@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.project_ateneu": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "on_entry": [
+            "/tag @s[name=\"Netherite Shield\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Escudo de inframundita\"] add pure_netherite_ingot",
+
+            "/tag @s[name=\"Netherite Classic Shield\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Escudo clasico de inframundita\"] add pure_netherite_ingot",
+
+            "/tag @s[name=\"Netherite Circle Shield\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Escudo circular de inframundita\"] add pure_netherite_ingot"
+          ]
+        }
+      }
+    }
+  }
+}

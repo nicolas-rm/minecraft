@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "shine_chestplate_3f5bd000"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:shinebar",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:shine_chestplate",
+      "count": 1
+    }
+  }
+}

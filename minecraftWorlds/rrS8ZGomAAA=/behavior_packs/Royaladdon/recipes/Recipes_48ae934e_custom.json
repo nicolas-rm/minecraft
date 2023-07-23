@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_833d4a22"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB ",
+      "A B",
+      "AB "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedstring",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:corruptedstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:bow",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

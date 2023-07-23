@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:herobrine_insign",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:herobrine_insign",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

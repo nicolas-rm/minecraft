@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "brasilianitaaxe_2d118b55"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      "AB ",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:brasilianita",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:brasilianitaaxe",
+      "count": 1
+    }
+  }
+}

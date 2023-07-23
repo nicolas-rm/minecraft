@@ -1,0 +1,46 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:cave_wolf",
+      "textures": {
+        "variant_0": "textures/entity/nicos_mobs/cave_wolf/nicothekid_cave_wolf_wild",
+        "variant_1": "textures/entity/nicos_mobs/cave_wolf/nicothekid_cave_wolf_tamed"
+      },
+      "spawn_egg": {
+        "base_color": "#524C49",
+        "overlay_color": "#797471"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_cave_wolf"
+      },
+      "materials": {
+        "default": "spider",
+        "invisible": "spider_invisible"
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_cave_wolf"
+      ],
+      "animations": {
+        "attack": "animation.nicothekid_cave_wolf.attack",
+        "baby_transform": "animation.nicothekid_cave_wolf.baby_transform",
+        "interested": "animation.nicothekid_cave_wolf.interested",
+        "look_at_target": "animation.common.look_at_target",
+        "sitting": "animation.nicothekid_cave_wolf.sitting",
+        "walking": "animation.nicothekid_cave_wolf.walking",
+        "controller_interested": "controller.animation.nicothekid_cave_wolf.interested",
+        "controller_movement": "controller.animation.nicothekid_cave_wolf.movement"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "controller_interested",
+          "controller_movement",
+          {
+            "baby_transform": "query.is_baby"
+          }
+        ]
+      }
+    }
+  }
+}

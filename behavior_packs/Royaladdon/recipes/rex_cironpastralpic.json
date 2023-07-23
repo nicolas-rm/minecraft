@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cironpastralpic_f616ce39"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:pastralpickaxe",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:ironstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cironpastralpic",
+      "count": 1
+    }
+  }
+}

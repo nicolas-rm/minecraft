@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_0a196319"
+    },
+    "tags": [
+      "crafting_table",
+      "Block_tool improvement table_custom"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone_block",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:castralpironpic",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:castralpironpicmredstone",
+      "count": 1
+    }
+  }
+}

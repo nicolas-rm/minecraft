@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "diamond_classic_shield"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BAB",
+      "AAA",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:planks"
+      },
+      "B": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "diamond_classic_shield:shield"
+    }
+  }
+}

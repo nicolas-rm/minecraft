@@ -1,0 +1,4 @@
+pack.name=spawnertradwe RP
+pack.description=
+item.spawn_egg.entity.bridge:spawnertrader.name=Spawn spawnertrader
+entity.bridge:spawnertrader.name=spawnertrader

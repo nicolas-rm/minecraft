@@ -1,0 +1,232 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_ingot",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 6
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:gold_ingot",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:copper_ingot",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:shinebar",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 25
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:obsidianingot",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:glassingot",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 6
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:corruptedsteelingot",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:darksteelingot",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 35
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:astral",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 26
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 45
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:puregem",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:brasilianita",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:jade",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 16
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:amethyst_shard",
+              "quantity": 9
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:quartz",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 14
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:dye",
+              "quantity": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

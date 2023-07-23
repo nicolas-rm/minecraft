@@ -1,0 +1,7 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/rex_portal_frame_off",
+    "atlas_tile": "ani_rex_portal_frame_off",
+    "ticks_per_frame": 42
+  }
+]

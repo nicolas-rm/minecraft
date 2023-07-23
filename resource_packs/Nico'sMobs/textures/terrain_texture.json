@@ -1,0 +1,43 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "nicothekid_jellyfish_slime_block_pink": {
+      "textures": [
+        "textures/blocks/nicos_mobs/nicothekid_jellyfish_slime_block_pink"
+      ]
+    },
+    "nicothekid_jellyfish_slime_block_pink_lighten": {
+      "textures": [
+        "textures/blocks/nicos_mobs/nicothekid_jellyfish_slime_block_pink_lighten"
+      ]
+    },
+    "nicothekid_moa_egg_block": {
+      "textures": [
+        "textures/blocks/nicos_mobs/nicothekid_moa_egg_block"
+      ]
+    },
+    "nicothekid_mud_soil": {
+      "textures": [
+        "textures/blocks/nicos_mobs/nicothekid_mud_soil"
+      ]
+    },
+    "nicothekid_mud_soil_bricks": {
+      "textures": [
+        "textures/blocks/nicos_mobs/nicothekid_mud_soil_bricks"
+      ]
+    },
+    "nicothekid_mud_soil_bricks_slab": {
+      "textures": [
+        "textures/blocks/nicos_mobs/nicothekid_mud_soil_bricks"
+      ]
+    },
+    "nicothekid_mud_soil_bricks_stairs": {
+      "textures": [
+        "textures/blocks/nicos_mobs/nicothekid_mud_soil_bricks"
+      ]
+    }
+  }
+}

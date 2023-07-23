@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:capitao",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:capitao",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

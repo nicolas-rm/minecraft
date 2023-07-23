@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "brasilianita_aiot_463c854d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:brasilianitapickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:brasilianitashovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:brasilianitahoe",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:brasialianitasword",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "F": {
+        "item": "rex:brasilianitaaxe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:brasilianita_aiot",
+      "count": 1
+    }
+  }
+}

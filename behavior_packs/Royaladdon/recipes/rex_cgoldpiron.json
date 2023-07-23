@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cgoldpiron_c9ae7267"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:pironsword",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:goldenstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cgoldpiron",
+      "count": 1
+    }
+  }
+}

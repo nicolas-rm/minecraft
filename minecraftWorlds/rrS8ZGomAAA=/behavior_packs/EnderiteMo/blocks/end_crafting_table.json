@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ed:end_crafting_table"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.Items",
+				"category": "items"
+			},
+			"minecraft:on_player_destroyed": {
+				"condition": "query.is_item_name_any('slot.weapon.mainhand','ed:enderite_axe')||query.is_item_name_any('slot.weapon.mainhand','minecraft:netherite_axe')",
+				"target": "self",
+				"event": "ed:ore_destroy"
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:geometry": "geometry.block",
+			"minecraft:crafting_table": {
+				"grid_size": 3,
+				"custom_description": "Enderite Crafting Tools",
+				"crafting_tags": [
+					"craftingtools"
+				]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 3
+			},
+			"minecraft:friction": 0.6,
+			"minecraft:map_color": "#00ff00",
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:flammable": {
+				"flame_odds": 0,
+				"burn_odds": 0
+			},
+			"minecraft:block_light_emission": 0
+		},
+		"events": {
+			"ed:ore_destroy": {
+				"sequence": [
+					{
+						"spawn_loot": {
+							"table": "loot_tables/blocks/end_crafting_table.json"
+						}
+					}
+				]
+			}
+		}
+	}
+}

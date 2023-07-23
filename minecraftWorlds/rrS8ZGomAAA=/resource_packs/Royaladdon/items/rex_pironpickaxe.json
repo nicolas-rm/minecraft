@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:pironpickaxe",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:pironpickaxe",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

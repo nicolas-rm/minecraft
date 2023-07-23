@@ -1,0 +1,120 @@
+//bridge-file-version: #148
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.shield.wield_test": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"wield_main_hand_first_person_block": "query.is_sneaking && (query.get_equipped_item_name('main_hand') == 'shield') && !(query.is_sheared) "
+						}
+					],
+					"transitions": [
+						{
+							"blocking_hit": "query.is_sheared && query.is_sneaking"
+						},
+						{
+							"wield": "!(query.is_sneaking)"
+						},
+						{
+							"third_person": "!c.is_first_person"
+						},
+						{
+							"blocking_offhand": "query.blocking && !(query.get_equipped_item_name('main_hand') == 'shield') && !(query.is_sheared) "
+						}
+					]
+				},
+				"blocking_hit": {
+					"animations": [
+						{
+							"wield_main_hand_first_person_blocking_hit": "query.is_sheared && (query.get_equipped_item_name('main_hand') == 'shield') "
+						},
+						{
+							"wield_off_hand_first_person_blocking_hit": "query.is_sheared && !(query.get_equipped_item_name('main_hand') == 'shield') "
+						}
+					],
+					"transitions": [
+						{
+							"default": "query.is_sneaking && (query.get_equipped_item_name('main_hand') == 'shield') && !(query.is_sheared) "
+						},
+						{
+							"wield": "!(query.is_sneaking)"
+						},
+						{
+							"third_person": "!c.is_first_person"
+						},
+						{
+							"blocking_offhand": "query.blocking && !(query.get_equipped_item_name('main_hand') == 'shield') && !(query.is_sheared) "
+						}
+					]
+				},
+				"wield": {
+					"transitions": [
+						{
+							"default": "query.is_sneaking && (query.get_equipped_item_name('main_hand') == 'shield') && !(query.is_sheared) "
+						},
+						{
+							"third_person": "!c.is_first_person"
+						},
+						{
+							"blocking_hit": "query.is_sheared && query.is_sneaking"
+						},
+						{
+							"blocking_offhand": "query.is_sneaking && !(query.get_equipped_item_name('main_hand') == 'shield') && !(query.is_sheared) "
+						}
+					],
+					"animations": [
+						{
+							"wield_main_hand_first_person": "c.item_slot == 'main_hand'  && !(query.is_sneaking)"
+						},
+						{
+							"wield_off_hand_first_person": "c.item_slot != 'main_hand' && !(query.get_equipped_item_name('main_hand') == 'shield')  && !(query.blocking)"
+						}
+					]
+				},
+				"third_person": {
+					"animations": [
+						"wield_third_person"
+					],
+					"transitions": [
+						{
+							"default": "c.is_first_person && !(query.is_sheared) && query.is_sneaking && (query.get_equipped_item_name('main_hand') == 'shield')"
+						},
+						{
+							"blocking_hit": "c.is_first_person && query.is_sheared && query.is_sneaking"
+						},
+						{
+							"wield": "c.is_first_person && !(query.is_sneaking)  ||  !(query.blocking)"
+						},
+						{
+							"blocking_offhand": "c.is_first_person && query.blocking && !(query.get_equipped_item_name('main_hand') == 'shield') && !(query.is_sheared) "
+						}
+					]
+				},
+				"blocking_offhand": {
+					"animations": [
+						{
+							"wield_off_hand_first_person_block": "query.blocking && !(query.get_equipped_item_name('main_hand') == 'shield') && !(query.is_sheared) "
+						}
+					],
+					"transitions": [
+						{
+							"default": "query.is_sneaking && (query.get_equipped_item_name('main_hand') == 'shield') && !(query.is_sheared) "
+						},
+						{
+							"blocking_hit": "query.is_sheared && query.is_sneaking"
+						},
+						{
+							"wield": " !(query.is_sneaking) || !(query.blocking)"
+						},
+						{
+							"third_person": "!c.is_first_person"
+						}
+					]
+				}
+			}
+		}
+	}
+}

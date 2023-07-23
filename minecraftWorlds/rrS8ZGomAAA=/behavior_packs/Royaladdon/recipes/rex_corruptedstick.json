@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedstick_b6e6d104"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:corruptedplanks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedstick",
+      "count": 4
+    }
+  }
+}

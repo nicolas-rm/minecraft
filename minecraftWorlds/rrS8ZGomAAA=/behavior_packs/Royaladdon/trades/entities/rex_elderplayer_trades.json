@@ -1,0 +1,188 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:puregem",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:corruptedrawmeat",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:corruptedstring",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:puregem",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:apple",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:totem",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 25
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:puregem",
+              "quantity": 11
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:puregemhelmet",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:corruptedglowstonedust",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:bread",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:corruptedsteelingot",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_ingot",
+              "quantity": 20
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:corruptedsteelsword",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:puregem",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:corruptedsteelblock",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:puregem",
+              "quantity": 50
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:ancientsword",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

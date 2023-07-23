@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "midassword_f519089d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:copper_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:golden_apple",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:midassword",
+      "count": 1
+    }
+  }
+}

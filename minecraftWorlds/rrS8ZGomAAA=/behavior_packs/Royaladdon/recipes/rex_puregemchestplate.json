@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "puregemchestplate_4ba664d9"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:puregem",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:puregemchestplate",
+      "count": 1
+    }
+  }
+}

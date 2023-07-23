@@ -1,0 +1,16 @@
+summon trident ~ ~40 ~5
+summon trident ~ ~40 ~8
+summon trident ~ ~40 ~-5
+summon trident ~ ~40 ~-8
+summon trident ~ ~40 ~10
+summon trident ~ ~40 ~-10
+summon trident ~ ~40 ~15
+summon trident ~ ~40 ~-13
+summon trident ~5 ~40 ~
+summon trident ~-5 ~40 ~
+summon trident ~-7 ~40 ~
+summon trident ~7 ~40 ~
+summon trident ~15 ~40 ~
+summon trident ~-15 ~40 ~
+summon trident ~6 ~40 ~
+summon trident ~-4 ~40 ~

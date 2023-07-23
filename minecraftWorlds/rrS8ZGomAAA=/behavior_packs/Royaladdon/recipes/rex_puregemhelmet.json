@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "puregemhelmet_46e508e0"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:puregem",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:puregemhelmet",
+      "count": 1
+    }
+  }
+}

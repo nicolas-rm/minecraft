@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "desertsword_b507cf21"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:sand",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:stonesword",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:desertsword",
+      "count": 1
+    }
+  }
+}

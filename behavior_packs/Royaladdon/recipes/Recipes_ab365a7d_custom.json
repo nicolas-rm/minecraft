@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_3b34e9e0"
+    },
+    "tags": [
+      "crafting_table",
+      "Block_tool improvement table_custom"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone_block",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:cgoldpdiamondpicmobsidian",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cgoldpdiamondpicmobsidianmredstone",
+      "count": 1
+    }
+  }
+}

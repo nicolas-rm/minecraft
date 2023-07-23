@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nicothekid_muddy_ball.billboard": {
+			"loop" : true,
+      "bones": {
+        "body": {
+          "rotation": [ "query.camera_rotation(0)", "query.camera_rotation(1)", 0.0 ]
+        }
+      }
+		},
+		"animation.nicothekid_muddy_ball.particle": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": {
+					"effect": "particle",
+					"locator": "locator"
+				}
+			}
+		}
+	}
+}

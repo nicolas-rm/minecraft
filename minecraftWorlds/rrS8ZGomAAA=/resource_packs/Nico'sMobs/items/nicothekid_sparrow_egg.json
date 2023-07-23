@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nicothekid:sparrow_egg",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:icon": "nicothekid_sparrow_egg",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

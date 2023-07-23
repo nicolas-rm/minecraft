@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:exit_more_powers_menu",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:exit_more_powers_menu",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

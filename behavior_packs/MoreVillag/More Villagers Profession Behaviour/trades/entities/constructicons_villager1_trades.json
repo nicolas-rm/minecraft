@@ -1,0 +1,936 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:cobblestone",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:dirt",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 32
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:monster_egg",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 2,
+                        "max": 2
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:monster_egg",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 3,
+                        "max": 3
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:mossy_cobblestone",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:monster_egg",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 5,
+                        "max": 5
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:monster_egg",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:brick_block",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:brick_stairs",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:mossy_cobblestone_stairs",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:mossy_stone_brick_stairs",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:stone_brick_stairs",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:deepslate_brick_stairs",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:smooth_sandstone_stairs",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:acacia_door",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:birch_door",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:crimson_door",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:dark_oak_door",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:jungle_door",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:spruce_door",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:warped_door",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:wooden_door",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:concrete",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:concrete",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 3,
+                        "max": 3
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:concrete",
+                  "quantity": 32,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 5,
+                        "max": 5
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:concrete",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 10,
+                        "max": 10
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:concrete",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 14,
+                        "max": 14
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:concrete",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 8,
+                        "max": 8
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:concrete",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 7,
+                        "max": 7
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 25
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:diamond_axe",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    },
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {
+                          "id": "mending",
+                          "level": null
+                        },
+                        {
+                          "id": "efficiency",
+                          "level": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "max_uses": -1,
+              "reward_exp": true,
+              "trader_exp": 5
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 15
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:iron_axe",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    },
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {
+                          "id": "unbreaking",
+                          "level": null
+                        },
+                        {
+                          "id": "mending",
+                          "level": null
+                        },
+                        {
+                          "id": "efficiency",
+                          "level": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 12
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:iron_pickaxe",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_data",
+                      "data": {
+                        "min": 0,
+                        "max": 0
+                      }
+                    },
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {
+                          "id": "unbreaking",
+                          "level": null
+                        },
+                        {
+                          "id": "mending",
+                          "level": null
+                        },
+                        {
+                          "id": "efficiency",
+                          "level": null
+                        },
+                        {
+                          "id": "fortune",
+                          "level": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": -1,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

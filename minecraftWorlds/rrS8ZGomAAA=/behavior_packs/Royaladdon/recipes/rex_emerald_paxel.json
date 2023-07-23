@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "emerald_paxel_67ebf79c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:emerald_pickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:emerald_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:emerald_axe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:emerald_paxel",
+      "count": 1
+    }
+  }
+}

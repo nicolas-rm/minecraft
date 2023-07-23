@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:pastralsword",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:pastralsword",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

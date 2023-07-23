@@ -1,0 +1,415 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:clock",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:compass",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:wooden_axe",
+					"weight": 85
+				},
+				{
+					"type": "item",
+					"name": "minecraft:wooden_pickaxe",
+					"weight": 85
+				},
+				{
+					"type": "item",
+					"name": "minecraft:wooden_hoe",
+					"weight": 85
+				},
+				{
+					"type": "item",
+					"name": "minecraft:wooden_shovel",
+					"weight": 85
+				},
+				{
+					"type": "item",
+					"name": "minecraft:stone_axe",
+					"weight": 45
+				},
+				{
+					"type": "item",
+					"name": "minecraft:stone_pickaxe",
+					"weight": 45
+				},
+				{
+					"type": "item",
+					"name": "minecraft:stone_shovel",
+					"weight": 45
+				},
+				{
+					"type": "item",
+					"name": "minecraft:stone_hoe",
+					"weight": 45
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_axe",
+					"weight": 25
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_hoe",
+					"weight": 25
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_pickaxe",
+					"weight": 25
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_shovel",
+					"weight": 25
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_axe",
+					"weight": 65
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_hoe",
+					"weight": 65
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_pickaxe",
+					"weight": 65
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_shovel",
+					"weight": 65
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_axe",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_hoe",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_pickaxe",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_shovel",
+					"weight": 5
+				},
+				{
+					"type": "empty",
+					"weight": 85
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 5
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:iron_nugget",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 3
+							}
+						}
+					],
+					"weight": 45
+				},
+				{
+					"type": "item",
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 3
+							}
+						}
+					],
+					"weight": 35
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					],
+					"weight": 15
+				},
+				{
+					"type": "item",
+					"name": "minecraft:gold_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					],
+					"weight": 5
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 5
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:paper",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 3
+							}
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:string",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 3
+							}
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:green_dye",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 3
+							}
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:lever",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:brick",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 5
+							}
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:bowl",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 3
+							}
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 3
+							}
+						}
+					],
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:wheat_seeds",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 3
+							}
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:lead",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:flint",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:flint_and_steel",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:glass_bottle",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:coal",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:gunpowder",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:bucket",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:redstone",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:redstone_torch",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:nether_brick",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:clay",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					],
+					"weight": 5
+				}
+			]
+		}
+	]
+}

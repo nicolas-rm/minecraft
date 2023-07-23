@@ -1,0 +1,33 @@
+//bridge-file-version: #24
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ray:emerald_ore"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 1,
+			"minecraft:block_light_emission": 0.6,
+			"minecraft:destroy_time": 0,
+			"minecraft:on_player_destroyed": {
+				"event": "can_destroy",
+				"target": "self"
+			},
+			"tag:iron_pick_diggable": {},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:creative_category": {
+				"group": "ItemGroup.name.Commands",
+				"category": "commands"
+			}
+		},
+		"events": {
+			"can_destroy": {
+				"run_command": {
+					"command": [
+						"setblock ~~~ emerald_ore"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ed:edleg3",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:knockback_resistance": {
+				"protection": 1
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.leggings"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "armor_legs"
+			},
+			"minecraft:icon": {
+				"texture": "edleg3"
+			},
+			"minecraft:durability": {
+				"max_durability": 755,
+				"damage_chance": {
+					"min": 70,
+					"max": 95
+				}
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"ed:ingot3",
+							"ed:edleg3"
+						],
+						"repair_amount": 7
+					}
+				]
+			},
+			"minecraft:armor": {
+				"protection": 6
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.legs"
+			}
+		}
+	}
+}

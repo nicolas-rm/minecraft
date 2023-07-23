@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_f58cee5d"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "rex:stonemold",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "rex:cablemold",
+      "count": 1
+    }
+  }
+}

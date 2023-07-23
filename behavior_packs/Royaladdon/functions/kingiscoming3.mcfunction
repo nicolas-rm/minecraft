@@ -1,0 +1,1 @@
+summon rex:king4 ~ ~ ~

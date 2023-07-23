@@ -1,0 +1,87 @@
+{
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"c0d409e4_709f_4c55_914b_ac31db3ad77b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c82c0bab_778d_4c50_8ab4_c69e43e59e98": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9527b09e_0fdb_411d_aec2_5cc4b0906ac8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"099a3aa7_bc08_495c_bd20_9ee0b7b63b00": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c4090d31_d6b3_4af5_b3b5_cfd33eaa7a3a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"58ec9801_ce04_4379_a651_9856c5d39bf9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/diamond_axe.json": {
+		"data": {}
+	},
+	"BP/items/stone_axe.json": {
+		"data": {}
+	},
+	"BP/items/wooden_axe.json": {
+		"data": {}
+	},
+	"BP/items/iron_axe.json": {
+		"data": {}
+	},
+	"BP/items/netherite_axe.json": {
+		"data": {}
+	},
+	"BP/items/golden_axe.json": {
+		"data": {}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "blazeinsigna_b7cabfec"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:blaze_rod",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:blazeinsigna",
+      "count": 1
+    }
+  }
+}

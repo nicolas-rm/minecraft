@@ -1,0 +1,1 @@
+say cherry_simple_house | cherry_house | Berry_farm | Grave | end_house | Castil_mini | mangrove_housee | ruins_mangrove_house | mesa_temple | junggle_well | temple_of_portal_end | Bamboo_house | Bar_bamboo | Aether_portal | oasis | jungle_ruins_house | castile_tower | junggle_tower_house | Panda_stauce | 

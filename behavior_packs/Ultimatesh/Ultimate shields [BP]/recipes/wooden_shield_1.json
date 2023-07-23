@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "wooden_shield_1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:crimson_planks"
+      }
+    },
+    "result": {
+      "item": "wooden_shield:shield"
+    }
+  }
+}

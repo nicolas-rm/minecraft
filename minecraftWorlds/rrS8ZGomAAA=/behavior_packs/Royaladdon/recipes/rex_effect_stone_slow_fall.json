@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "effect_stone_slow_fall_d3e4df69"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:potion",
+        "data": 40
+      },
+      "B": {
+        "item": "rex:effect_stone_empty",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:effect_stone_slow_fall",
+      "count": 1
+    }
+  }
+}

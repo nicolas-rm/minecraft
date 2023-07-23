@@ -1,0 +1,34 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.nicothekid_wandering_collector": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "part_visibility": [
+        { "*": true },
+        { "arms": "!query.has_target" },
+        { "leftarm": "query.has_target" },
+        { "rightarm": "query.has_target" }
+      ],
+      "textures": [
+        "array.skins[query.variant]"
+      ],
+      "arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.variant_00",
+						"Texture.variant_01",
+						"Texture.variant_02",
+						"Texture.variant_03",
+						"Texture.variant_04",
+						"Texture.variant_05"
+					]
+				}
+			}
+    }
+  }
+}

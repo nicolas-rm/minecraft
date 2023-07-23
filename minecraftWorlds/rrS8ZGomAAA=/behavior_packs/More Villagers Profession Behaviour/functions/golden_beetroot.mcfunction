@@ -1,0 +1,1 @@
+give @s golden:beetroot

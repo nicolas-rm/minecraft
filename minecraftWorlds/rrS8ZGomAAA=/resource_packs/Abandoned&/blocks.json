@@ -1,0 +1,39 @@
+{
+  "nicothekid:spawner_allay": {
+    "textures": "nicothekid_spawner_allay",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_cat": {
+    "textures": "nicothekid_spawner_cat",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_pillager": {
+    "textures": "nicothekid_spawner_pillager",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_rabbit": {
+    "textures": "nicothekid_spawner_rabbit",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_villager": {
+    "textures": "nicothekid_spawner_villager",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_witch": {
+    "textures": "nicothekid_spawner_witch",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_zombie_horse": {
+    "textures": "nicothekid_spawner_zombie_horse",
+    "sound": "stone"
+  },
+  "nicothekid:spawner_zombie_villager": {
+    "textures": "nicothekid_spawner_zombie_villager",
+    "sound": "stone"
+  },
+  "nicothekid:structure_ancient_castle": {
+    "textures": "nicothekid_structure_ancient_castle",
+    "sound": "stone"
+  },
+  "format_version": [ 1, 1, 0 ]
+}

@@ -1,0 +1,272 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "nicothekid:jellyfish",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups":{
+      "component:jellyfish_baby": {
+        "minecraft:is_baby": {},
+        "minecraft:scale": {
+          "value": 0.5
+        }
+      },
+      "component:jellyfish_adult": {
+        "minecraft:scale": {
+          "value": 0.9
+        },
+        "minecraft:experience_reward": {
+          "on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+        }
+      },
+      "component:jellyfish_despawn": {
+				"minecraft:instant_despawn": {
+				  "remove_child_entities": false
+				}
+			}
+    },
+    "components":{
+      "minecraft:collision_box": {
+        "width": 0.50,
+        "height": 0.60
+      },
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:movement": {
+        "value": 0.05
+      },
+      "minecraft:type_family": {
+        "family": [
+          "jellyfish",
+          "mob"
+        ]
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.10
+      },
+      
+      "minecraft:area_attack": {
+				"damage_range": 0.1,
+        "damage_per_tick": 1,
+				"cause": "magma",
+				"entity_filter": [
+				  {
+  					"any_of": [
+	  					{
+	  						"test": "is_family",
+	  						"subject": "other",
+	  						"value": "player",
+                "operator": "=="
+	  					},
+	  					{
+	  						"test": "is_family",
+	  						"subject": "other",
+	  						"value": "player_tamed",
+                "operator": "=="
+	  					},
+		  				{
+	  						"test": "is_family",
+		  					"subject": "other",
+		  					"value": "illager",
+                "operator": "=="
+		  				}
+	  				]
+  				}
+				]
+			},
+      "minecraft:breathable":{
+        "breathes_air": false,
+        "breathes_lava": false,
+        "breathes_solids": false,
+        "breathes_water": true,
+        "generates_bubbles": false,
+        "inhale_time": 0,
+        "suffocate_time": 0,
+        "total_supply": 30
+      },
+      "minecraft:despawn": {
+        "despawn_from_chance": true,
+        "despawn_from_inactivity": true,
+        "despawn_from_simulation_edge": true,
+        "remove_child_entities": false,
+        "min_range_inactivity_timer": 30,
+        "min_range_random_chance": 800,
+        "despawn_from_distance": {
+          "max_distance": 128,
+          "min_distance": 32
+        }
+      },
+      "minecraft:flocking": {
+        "in_water": true,
+        "match_variants": false,
+        "use_center_of_mass": false,
+        "low_flock_limit": 3,
+        "high_flock_limit": 8,
+        "goal_weight": 2.0,
+        "loner_chance": 0.1,
+        "influence_radius": 8.0,
+        "breach_influence": 7.0,
+        "separation_weight": 1.0,
+        "separation_threshold": 2.0,
+        "cohesion_weight": 2.0,
+        "cohesion_threshold": 1.95,
+        "innner_cohesion_threshold": 1.25,
+        "min_height": 1.5,
+        "max_height": 6.0,
+        "block_distance": 2.0,
+        "block_weight": 0.85
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "cooldown": 2.5,
+            "cooldown_after_being_attacked": 2.5,
+            "health_amount": 0,
+            "hurt_item": 0,
+            "swing": false,
+            "use_item": true,
+            "play_sounds": "bucket.fill_water",
+            "transform_to_item": "nicothekid:bucket_of_jellyfish",
+            "interact_text": "action.interact.catch_jellyfish",
+            "on_interact": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player",
+                    "operator": "=="
+                  },
+                  {
+                    "test": "has_equipment",
+                    "domain": "hand",
+                    "subject": "other",
+                    "value": "bucket",
+                    "operator": "=="
+                  }
+                ]
+              },
+              "event": "minecraft:jellyfish_catch"
+            }
+          }
+        ]
+      },
+      "minecraft:jump.static": {
+        "jump_power": 0.42
+      },
+      "minecraft:movement.generic": {
+				"max_turn": 2
+			},
+			"minecraft:nameable": {
+        "allow_name_tag_renaming": true,
+        "always_show": false
+      },
+      "minecraft:navigation.generic": {
+        "avoid_damage_blocks": false,
+        "avoid_portals": false,
+        "avoid_sun": false,
+        "avoid_water": false,
+        "can_breach": false,
+        "can_break_doors": false,
+        "can_jump": true,
+        "can_open_doors": false,
+        "can_open_iron_doors": false,
+        "can_pass_doors": true,
+        "can_path_from_air": false,
+        "can_path_over_lava": false,
+        "can_path_over_water": false,
+        "can_sink": false,
+        "can_swim": true,
+        "can_walk": false,
+        "can_walk_in_lava": false,
+        "is_amphibious": false
+      },
+      "minecraft:physics": {
+        "has_collision": true,
+        "has_gravity": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      
+      "minecraft:behavior.random_swim": {
+        "priority": 1,
+        "avoid_surface": true,
+        "speed_multiplier": 1.0,
+        "interval": 0,
+        "xz_dist": 16,
+        "y_dist": 8
+      },
+      "minecraft:behavior.swim_wander": {
+        "priority": 2,
+        "interval": 0.1,
+        "look_ahead": 2.0,
+        "speed_multiplier": 1.0,
+        "wander_time": 5.0
+      },
+      "minecraft:behavior.swim_idle": {
+        "priority": 3,
+        "idle_time": 5.0,
+        "success_rate": 0.1
+      },
+      
+      "minecraft:loot": {
+        "table": "loot_tables/nicos_mobs/entities/nicothekid_jellyfish.json"
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    },
+    "events":{
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 100,
+            "remove": {},
+            "add": {
+              "component_groups": [
+                "component:jellyfish_adult"
+              ]
+            }
+          },
+          {
+            "weight": 20,
+            "remove": {},
+            "add": {
+              "component_groups": [
+                "component:jellyfish_baby"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:jellyfish_catch": {
+				"add": {
+					"component_groups": [
+						"component:jellyfish_despawn"
+					]
+				}
+			}
+    }
+  }
+}

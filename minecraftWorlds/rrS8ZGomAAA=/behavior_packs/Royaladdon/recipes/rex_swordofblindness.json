@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "swordofblindness_e08ee0b7"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:tinted_glass",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:dye",
+        "data": 16
+      },
+      "C": {
+        "item": "rex:darksteelingot",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:blacksword",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:swordofblindness",
+      "count": 1
+    }
+  }
+}

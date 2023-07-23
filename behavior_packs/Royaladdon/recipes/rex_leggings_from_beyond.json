@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "leggings_from_beyond_a6c32a65"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:bar_from_beyond",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:leggings_from_beyond",
+      "count": 1
+    }
+  }
+}

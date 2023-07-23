@@ -1,0 +1,89 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "nicothekid:block_x_structure_ancient_castle_x_singleblock"
+    },
+    "places_block": "nicothekid:structure_ancient_castle",
+    "enforce_survivability_rules": true,
+    "enforce_placement_rules": false,
+    "may_replace": [
+      {
+        "tags": "query.any_tag('custom_plant')"
+      },
+      {
+        "tags": "query.any_tag('custom_crops')"
+      },
+      {
+        "tags": "query.any_tag('custom_flower')"
+      },
+      {
+        "tags": "query.any_tag('custom_fungus')"
+      },
+      {
+        "tags": "query.any_tag('custom_grass')"
+      },
+      {
+        "tags": "query.any_tag('custom_sapling')"
+      },
+      {
+        "tags": "query.any_tag('custom_sprouts')"
+      },
+      {
+        "tags": "query.any_tag('custom_carpet')"
+      },
+      "minecraft:air",
+      "minecraft:water",
+      "minecraft:flowing_water",
+      "minecraft:azalea",
+      "minecraft:flowering_azalea",
+      "minecraft:moss_carpet",
+      "minecraft:small_dripleaf_block",
+      "minecraft:big_dripleaf",
+      "minecraft:double_plant",
+      "minecraft:tallgrass",
+      "minecraft:brown_mushroom",
+      "minecraft:red_mushroom",
+      "minecraft:glow_lichen",
+      "minecraft:sculk_vein",
+      "minecraft:vine",
+      "minecraft:web"
+    ],
+    "may_attach_to": {
+			"bottom": [
+			  {
+          "tags": "query.any_tag('custom_dirt')"
+        },
+			  {
+          "tags": "query.any_tag('custom_ore')"
+        },
+			  {
+          "tags": "query.any_tag('custom_stone')"
+        },
+				"minecraft:clay",
+				"minecraft:cobbled_deepslate",
+				"minecraft:deepslate",
+				"minecraft:deepslate_coal_ore",
+				"minecraft:deepslate_copper_ore",
+				"minecraft:deepslate_diamond_ore",
+				"minecraft:deepslate_emerald_ore",
+				"minecraft:deepslate_gold_ore",
+				"minecraft:deepslate_iron_ore",
+				"minecraft:deepslate_lapis_ore",
+				"minecraft:deepslate_redstone_ore",
+				"minecraft:dirt",
+				"minecraft:dirt_with_roots",
+				"minecraft:dripstone_block",
+				"minecraft:grass",
+				"minecraft:gravel",
+				"minecraft:magma",
+				"minecraft:moss_block",
+				"minecraft:mud",
+				"minecraft:mycelium",
+				"minecraft:podzol",
+				"minecraft:sculk",
+				"minecraft:tuff"
+			]
+		}
+  }
+}

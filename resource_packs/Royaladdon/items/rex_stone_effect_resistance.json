@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:stone_effect_resistance",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:stone_effect_resistance",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

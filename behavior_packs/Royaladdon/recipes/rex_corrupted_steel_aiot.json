@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corrupted_steel_aiot_d813262b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedsteelpickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:corruptedsteelshovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:corruptedsteelhoe",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:corruptedsteelsword",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "F": {
+        "item": "rex:corruptedsteelaxe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corrupted_steel_aiot",
+      "count": 1
+    }
+  }
+}

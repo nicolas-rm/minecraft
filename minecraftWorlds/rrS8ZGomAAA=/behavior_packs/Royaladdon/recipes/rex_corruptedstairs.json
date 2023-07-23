@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedstairs_a7efd3e2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A  ",
+      "AA ",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedplanks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedstairs",
+      "count": 1
+    }
+  }
+}

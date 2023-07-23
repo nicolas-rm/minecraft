@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "darkrainbowsword_429b6d08"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " AB",
+      "CDC",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:wither_power",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:netherstar",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:wither_rose",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:rainbowsword",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:darkrainbowsword",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:corruptedrawmeat",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 64,
+      "minecraft:foil": false,
+      "minecraft:stack_by_data": true,
+      "minecraft:food": {
+        "saturation_modifier": "poor",
+        "nutrition": 2,
+        "can_always_eat": false,
+        "effects": [],
+        "remove_effects": []
+      },
+      "minecraft:use_duration": 40,
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "on_use_event"
+        }
+      }
+    },
+    "events": {
+      "on_use_event": {
+        "sequence": [
+          {
+            "run_command": {
+              "command": [
+                "function nausea"
+              ],
+              "target": "self"
+            }
+          },
+          {
+            "damage": {
+              "type": "magic",
+              "amount": 1,
+              "target": "self"
+            }
+          }
+        ]
+      },
+      "hurt": {
+        "damage": {
+          "type": "magic",
+          "amount": 1,
+          "target": "self"
+        }
+      }
+    }
+  }
+}

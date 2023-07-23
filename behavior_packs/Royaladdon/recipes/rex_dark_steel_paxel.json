@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dark_steel_paxel_3e4430de"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:darksteelpickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:darksteelshovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:darksteelaxe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:dark_steel_paxel",
+      "count": 1
+    }
+  }
+}

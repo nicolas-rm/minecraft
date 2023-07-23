@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "puregemblock_32e90ba3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:puregem",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:puregemblock",
+      "count": 1
+    }
+  }
+}

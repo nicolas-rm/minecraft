@@ -1,0 +1,42 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.19.10",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:item",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+			"netherite": {
+				"minecraft:fire_immune": true
+			}
+		},
+		"components": {
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"event": "test",
+						"target": "self"
+					}
+				]
+			}
+		},
+		"events": {
+			"test": {
+				"run_command": {
+					"command": [
+						"execute @s[name=\"Netherite Axe\"] ~ ~ ~ event entity @s fire_inmmune"
+					]
+				}
+			},
+			"fire_inmmune": {
+				"add": {
+					"component_groups": [
+						"netherite"
+					]
+				}
+			}
+		}
+	}
+}

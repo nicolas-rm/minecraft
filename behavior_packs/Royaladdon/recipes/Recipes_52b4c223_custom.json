@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_4d3ce377"
+    },
+    "tags": [
+      "crafting_table",
+      "Block_tool improvement table_custom"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:wickedcrystal",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:cgoldpiron",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cgoldpironmcrystal",
+      "count": 1
+    }
+  }
+}

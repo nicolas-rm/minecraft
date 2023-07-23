@@ -1,0 +1,803 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "rex:masterkeleton",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:lightning_immune": {
+        "minecraft:damage_sensor": [
+          {
+            "on_damage": {
+              "filters": {
+                "other_with_families": "lightning"
+              }
+            },
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:ranged_attack": {
+        "minecraft:behavior.ranged_attack": {
+          "attack_interval_min": 1,
+          "attack_interval_max": 3,
+          "attack_radius": 15
+        },
+        "minecraft:shooter": {
+          "type": "Arrow",
+          "def": "minecraft:arrow"
+        },
+        "minecraft:environment_sensor": {
+          "on_environment": {
+            "filters": {
+              "test": "is_underwater",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "event": "minecraft:melee_mode"
+          }
+        }
+      },
+      "minecraft:melee_attack": {
+        "minecraft:behavior.melee_attack": {
+          "priority": 4,
+          "target_dist": 1.2,
+          "speed_multiplier": 1.25,
+          "track_target": true
+        },
+        "minecraft:environment_sensor": {
+          "on_environment": {
+            "filters": {
+              "test": "in_water",
+              "subject": "self",
+              "operator": "==",
+              "value": false
+            },
+            "event": "minecraft:ranged_mode"
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "height": 1.95,
+        "width": 0.6
+      },
+      "minecraft:type_family": {
+        "family": [
+          "corrupted"
+        ]
+      },
+      "minecraft:health": {
+        "value": 28,
+        "max": 28
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/skeleton.json"
+      },
+      "minecraft:movement": {
+        "value": 0.25
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "avoid_sun": true,
+        "avoid_water": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:nameable": {
+        "alwaysShow": false,
+        "allowNameTagRenaming": false
+      },
+      "minecraft:shooter": {
+        "type": "Arrow",
+        "def": "minecraft:arrow"
+      },
+      "minecraft:environment_sensor": {
+        "on_environment": {
+          "filters": {
+            "test": "is_underwater",
+            "subject": "self",
+            "operator": "==",
+            "value": true
+          },
+          "event": "minecraft:melee_mode"
+        }
+      },
+      "minecraft:behavior.ranged_attack": {
+        "attack_interval_min": 1,
+        "attack_interval_max": 3,
+        "attack_radius": 15,
+        "burst_shots": null,
+        "burst_interval": null
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 3
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "reselect_targets": true,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "mercenary"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "hoglin"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "hoglin_baby"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "adult_piglin"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "piglin_brute"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "strider"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "strider_baby"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "furnicraft"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "bat"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "bee"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "arthropod"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "pacified"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "cat"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "fox"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "panda"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "panda_aggressive"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "pillager"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "monster"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "illager"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "wandering_trader"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "wandering_trader_despawning"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "blaze"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "cavespider"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "chicken"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "cow"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "crab"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "creeper"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "dolphin"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "donkey"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "drowned"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "zombie"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "undead"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "guardian_elder"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "dragon"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "enderman"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "endermite"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "evocation_illager"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "cod"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "fish"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "fishleon"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "ghast"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "guardian"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "horse"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "husk"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "irongolem"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "llama"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "magmacube"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "mushroomcow"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "mule"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "ocelot"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "octopus"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "parrot_wild"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "parrot_tame"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "phantom"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "pig"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "piranha"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "polarbear"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "pufferfish"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "rabbit"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "salmon"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "sheep"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "shulker"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "silverfish"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "skeleton"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "skeletonhorse"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "slime"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "snowgolem"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "spider"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "squid"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "stingray"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "stray"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "turtle"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "baby_turtle"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "vex"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "villager"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "farmer"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "fisherman"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "shepherd"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "fletcher"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "librarian"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "cartographer"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "priest"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "cleric"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "blacksmith"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "armorer"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "weaponsmith"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "toolsmith"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "artisan"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "butcher"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "leatherworker"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "vindicator"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "whale"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "witch"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "wither"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "wolf"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "zombiehorse"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "zombie_pigman"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "zombie_villager"
+                }
+              ]
+            },
+            "max_dist": 28.0,
+            "must_see": false
+          },
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "irongolem"
+            },
+            "max_dist": 16
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "baby_turtle"
+                },
+                {
+                  "test": "in_water",
+                  "subject": "other",
+                  "operator": "!=",
+                  "value": true
+                }
+              ]
+            },
+            "max_dist": 16
+          }
+        ],
+        "must_see": false,
+        "within_radius": 0.0,
+        "must_reach": false
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 5,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 6,
+        "look_distance": 8
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 6
+      },
+      "minecraft:physics": {},
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 10 : 0"
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.02
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:attack": {
+        "damage": 3,
+        "effect_name": "poison",
+        "effect_duration": 30
+      },
+      "minecraft:behavior.owner_hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.owner_hurt_target": {
+        "priority": 2
+      },
+      "minecraft:on_death": {
+        "event": "on:death",
+        "target": "self"
+      },
+      "minecraft:on_hurt": {
+        "event": "on:hurt",
+        "target": "self"
+      },
+      "minecraft:on_hurt_by_player": {
+        "event": "on:hurt_by_player",
+        "target": "self"
+      },
+      "minecraft:on_ignite": {
+        "event": "on:ignite",
+        "target": "self"
+      },
+      "minecraft:on_target_acquired": {
+        "event": "on:target_acquired",
+        "target": "self"
+      },
+      "minecraft:on_target_escape": {
+        "event": "on:target_escape",
+        "target": "self"
+      },
+      "minecraft:on_wake_with_owner": {
+        "event": "on:wake_with_owner",
+        "target": "self"
+      },
+      "minecraft:equip_item": {},
+      "minecraft:equipment": {
+        "table": "loot_tables/entities/rex_masterkeleton_equipment.json"
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "minecraft:ranged_attack"
+          ]
+        }
+      },
+      "minecraft:spring_trap": {
+        "add": {
+          "component_groups": [
+            "minecraft:lightning_immune"
+          ]
+        }
+      },
+      "minecraft:melee_mode": {
+        "remove": {
+          "component_groups": [
+            "minecraft:ranged_attack"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:melee_attack"
+          ]
+        }
+      },
+      "minecraft:ranged_mode": {
+        "remove": {
+          "component_groups": [
+            "minecraft:melee_attack"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:ranged_attack"
+          ]
+        }
+      },
+      "on:death": {
+        "run_command": {
+          "command": [
+            "function summonarrows"
+          ]
+        }
+      },
+      "on:hurt": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "on:hurt_by_player": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "on:ignite": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "on:target_acquired": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "on:target_escape": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "on:wake_with_owner": {
+        "run_command": {
+          "command": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "1647619227809",
+  "name": "aranha_drop",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "rex:corruptedstring",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "shibe_leggings_852b6906"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:shinebar",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:shibe_leggings",
+      "count": 1
+    }
+  }
+}

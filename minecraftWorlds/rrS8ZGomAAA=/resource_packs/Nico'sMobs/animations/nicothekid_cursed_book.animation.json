@@ -1,0 +1,60 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nicothekid_cursed_book.flying": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"body": {
+					"rotation": [40, 0, 0],
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -2, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"rightWing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 45, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"leftWing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -45, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.nicothekid_cursed_book.resting": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -2, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"rightWing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 45, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"leftWing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -45, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

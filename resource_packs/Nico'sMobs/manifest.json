@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Nico's Mobs [Resource Pack]",
+    "description": "(v1.5) This add-on will add new mobs that can spawn naturally to make the game even more exciting and challenging.",
+    "uuid": "20002000-0b11-2222-2222-b000b000b000",
+    "version": [ 1, 5, 0 ],
+    "min_engine_version": [ 1, 20, 0 ]
+  },
+  "modules": [
+    {
+      "description": "Made by NicoTheKid (Dangel)",
+      "type": "resources",
+      "uuid": "20002000-0b11-2222-2222-200020002000",
+      "version": [ 1, 5, 0 ]
+    }
+  ]
+}

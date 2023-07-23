@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"IsraOrbit"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.0"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "§4Difficulty: Insane",
+		"description": "This addon increases the difficulty of the game to a large extent, all hostile entities will have a very high vision and tracking range, in addition to having better equipment.  By §9Is§bra§dOr§5bit",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "e09268dd-dff2-464e-a958-9e26cb980862",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "15c1a400-1da8-4117-9c06-a6297d659883",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

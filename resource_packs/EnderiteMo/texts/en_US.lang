@@ -1,0 +1,59 @@
+pack.description=Enderite Mod [Ported by SrMeliodas88]
+
+
+item.ed:edboots3=Enderite Boots
+item.ed:edchest3=Enderite Chestplate
+item.ed:edhelmet3=Enderite Helmet
+item.ed:edleg3=Enderite Leggings
+
+
+item.ed:diamond_boots=Diamond Boots §d| §6Void
+item.ed:diamond_chestplate=Diamond Chestplate §d| §6Void
+item.ed:diamond_helmet=Diamond Helmet §d| §6Void
+item.ed:diamond_leggings=Diamond Leggings §d| §6Void
+
+
+item.ed:netherite_boots=Netherite Boots §d| §6Void
+item.ed:netherite_chestplate=Netherite Chestplate §d| §6Void
+item.ed:netherite_helmet=Netherite Helmet §d| §6Void
+item.ed:netherite_leggings=Netherite Leggings §d| §6Void
+
+
+item.ed:iron_boots=Iron Boots §d| §6Void
+item.ed:iron_chestplate=Iron Chestplate §d| §6Void
+item.ed:iron_helmet=Iron Helmet §d| §6Void
+item.ed:iron_leggings=Iron Leggings §d| §6Void
+
+
+item.ed:gold_boots=Golden Boots §d| §6Void
+item.ed:gold_chestplate=Golden Chestplate §d| §6Void
+item.ed:gold_helmet=Golden Helmet §d| §6Void
+item.ed:gold_leggings=Golden Leggings §d| §6Void
+
+
+item.ed:enderite_pickaxe=Enderite Pickaxe
+item.ed:enderite_axe=Enderite Axe
+item.ed:enderite_hoe=Enderite Hoe
+item.ed:enderite_shovel=Enderite Shovel
+item.ed:enderite_sword=Enderite Sword
+
+
+
+item.ed:enderite_scrap=Enderite Scrap
+item.ed:ingot3=Enderite Ingot
+item.ed:llave=Enderite Respawn
+
+
+
+tile.ed:enderite.name=Enderite
+tile.ed:enderite_cracked.name=Enderite Cracked
+tile.ed:enderite_block.name=Enderite Block
+tile.ed:end_crafting_table.name=Enderite Crafting Tools
+
+
+
+tile.ed:end_respawn_anchor_stage_0.name=Enderite Respawn Anchor
+tile.ed:end_respawn_anchor_stage_1.name=Enderite Respawn Anchor
+tile.ed:end_respawn_anchor_stage_2.name=Enderite Respawn Anchor
+tile.ed:end_respawn_anchor_stage_3.name=Enderite Respawn Anchor
+tile.ed:end_respawn_anchor_stage_4.name=Enderite Respawn Anchor

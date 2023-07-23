@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dark_steel_chestplate_64297246"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:darksteelingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:dark_steel_chestplate",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:notch_power",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:notch_power",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

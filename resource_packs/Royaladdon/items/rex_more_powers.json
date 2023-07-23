@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:more_powers",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:more_powers",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

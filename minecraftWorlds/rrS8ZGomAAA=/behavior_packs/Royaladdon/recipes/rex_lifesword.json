@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lifesword_68146960"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "BDB",
+      "CBA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:golden_apple",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:redstone_block",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:redstonesword",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:lifesword",
+      "count": 1
+    }
+  }
+}

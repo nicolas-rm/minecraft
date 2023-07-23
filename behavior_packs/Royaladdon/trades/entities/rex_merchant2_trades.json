@@ -1,0 +1,156 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:apple",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:apple",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:beetroot_seeds",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 6
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:carrot",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 15
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:wheat",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:potato",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:beetroot",
+              "quantity": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 40
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_apple",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 64
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:apleenchanted",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_carrot",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "gold_shield"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "AAA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:planks"
+      },
+      "B": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "gold_shield:shield"
+    }
+  }
+}

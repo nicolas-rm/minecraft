@@ -1,0 +1,339 @@
+{
+  "minecraft:entity" : {
+    "components" : {
+      "minecraft:behavior.random_look_around" : {
+        "priority" : 7
+      },
+      "minecraft:follow_range" : {
+        "value" : 64
+      },
+      "minecraft:behavior.random_stroll" : {
+        "speed_multiplier" : 1,
+        "priority" : 6
+      },
+      "minecraft:jump.static" : {
+
+      },
+      "minecraft:behavior.charge_held_item" : {
+        "items" : [
+          "minecraft:arrow"
+        ],
+        "priority" : 3
+      },
+      "minecraft:health" : {
+        "max" : 24,
+        "value" : 24
+      },
+      "minecraft:movement" : {
+        "max" : 0.34999999999999998,
+        "value" : 0.34999999999999998
+      },
+      "minecraft:behavior.look_at_player" : {
+        "look_distance" : 8,
+        "priority" : 7
+      },
+      "minecraft:breathable" : {
+        "totalSupply" : 15,
+        "breathesWater" : true,
+        "generatesBubbles" : false,
+        "breathesAir" : true,
+        "suffocateTime" : -1
+      },
+      "minecraft:experience_reward" : {
+        "on_bred" : "10",
+        "on_death" : "10"
+      },
+      "minecraft:variant" : {
+        "value" : 0
+      },
+      "minecraft:behavior.float" : {
+        "speed_multiplier" : 1
+      },
+      "minecraft:physics" : {
+
+      },
+      "minecraft:nameable" : {
+        "allow_name_tag_renaming" : true,
+        "always_show" : true
+      },
+      "minecraft:equipment" : {
+        "table" : "loot_tables\/entities\/pillager_gear.json"
+      },
+      "minecraft:type_family" : {
+        "family" : [
+          "pillager",
+          "monster",
+          "illager"
+        ]
+      },
+      "minecraft:loot" : {
+        "table" : "loot_tables\/entities\/villager.json"
+      },
+      "minecraft:movement.basic" : {
+
+      },
+      "minecraft:navigation.walk" : {
+        "can_path_over_water" : true
+      },
+      "minecraft:behavior.hurt_by_target" : {
+        "entity_types" : {
+          "filters" : {
+            "test" : "is_family",
+            "subject" : "other",
+            "value" : "illager",
+            "operator" : "!="
+          },
+          "max_dist" : 64
+        },
+        "priority" : 1
+      },
+      "minecraft:scale" : {
+        "max" : 1,
+        "value" : 1
+      },
+      "minecraft:collision_box" : {
+        "width" : 0.59999999999999998,
+        "height" : 1.95
+      }
+    },
+    "component_groups" : {
+      "minecraft:raid_configuration" : {
+        "minecraft:loot" : {
+          "table" : "loot_tables\/entities\/pillager_raid.json"
+        },
+        "minecraft:behavior.move_to_village" : {
+          "speed_multiplier" : 1,
+          "priority" : 5
+        },
+        "minecraft:dweller" : {
+          "update_interval_variant" : 40,
+          "can_find_poi" : false,
+          "first_founding_reward" : 0,
+          "can_migrate" : false,
+          "dweller_role" : "hostile",
+          "dwelling_type" : "village",
+          "update_interval_base" : 60
+        }
+      },
+      "minecraft:melee_attack" : {
+        "minecraft:environment_sensor" : {
+          "on_environment" : {
+            "filters" : {
+              "test" : "in_water",
+              "subject" : "self",
+              "value" : false,
+              "operator" : "=="
+            },
+            "event" : "minecraft:ranged_mode"
+          }
+        },
+        "minecraft:behavior.melee_attack" : {
+          "speed_multiplier" : 1,
+          "priority" : 4,
+          "target_dist" : 1.2,
+          "track_target" : true
+        },
+        "minecraft:attack" : {
+          "damage" : 3
+        }
+      },
+      "minecraft:illager_squad_captain" : {
+        "minecraft:damage_sensor" : {
+          "on_damage" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "value" : "fatal",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "other",
+                  "value" : "player",
+                  "test" : "is_family"
+                }
+              ]
+            },
+            "event" : "minecraft:gain_bad_omen",
+            "target" : "other"
+          }
+        },
+        "minecraft:equipment" : {
+          "table" : "loot_tables\/entities\/pillager_captain_equipment.json",
+          "slot_drop_chance" : [
+            {
+              "drop_chance" : 1,
+              "slot" : "slot.armor.chest"
+            }
+          ]
+        },
+        "minecraft:is_illager_captain" : {
+
+        },
+        "minecraft:variant" : {
+          "value" : 1
+        }
+      },
+      "minecraft:patrol_follower" : {
+        "minecraft:behavior.follow_target_captain" : {
+          "speed_multiplier" : 0.80000000000000004,
+          "within_radius" : 64,
+          "priority" : 5,
+          "follow_distance" : 5
+        }
+      },
+      "minecraft:patrol_captain" : {
+        "minecraft:damage_sensor" : {
+          "on_damage" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "value" : "fatal",
+                  "test" : "has_damage"
+                },
+                {
+                  "subject" : "other",
+                  "value" : "player",
+                  "test" : "is_family"
+                }
+              ]
+            },
+            "event" : "minecraft:gain_bad_omen",
+            "target" : "other"
+          }
+        },
+        "minecraft:equipment" : {
+          "table" : "loot_tables\/entities\/pillager_captain_equipment.json",
+          "slot_drop_chance" : [
+            {
+              "drop_chance" : 1,
+              "slot" : "slot.armor.chest"
+            }
+          ]
+        },
+        "minecraft:is_illager_captain" : {
+
+        },
+        "minecraft:variant" : {
+          "value" : 1
+        },
+        "minecraft:behavior.move_to_random_block" : {
+          "block_distance" : 512,
+          "speed_multiplier" : 0.55000000000000004,
+          "within_radius" : 8,
+          "priority" : 5
+        }
+      },
+      "minecraft:ranged_attack" : {
+        "minecraft:environment_sensor" : {
+          "on_environment" : {
+            "filters" : {
+              "test" : "is_underwater",
+              "subject" : "self",
+              "value" : true,
+              "operator" : "=="
+            },
+            "event" : "minecraft:melee_mode"
+          }
+        },
+        "minecraft:behavior.ranged_attack" : {
+          "attack_radius" : 8,
+          "priority" : 4,
+          "attack_interval_min" : 1,
+          "attack_interval_max" : 1
+        },
+        "minecraft:shooter" : {
+          "type" : "Arrow",
+          "def" : "minecraft:arrow"
+        }
+      }
+    },
+    "description" : {
+      "is_spawnable" : true,
+      "is_summonable" : true,
+      "identifier" : "cc:illager_docter",
+      "is_experimental" : false
+    },
+    "events" : {
+      "minecraft:promote_to_patrol_captain" : {
+        "add" : {
+          "component_groups" : [
+            "minecraft:patrol_captain"
+          ]
+        },
+        "remove" : {
+          "component_groups" : [
+            "minecraft:patrol_follower"
+          ]
+        }
+      },
+      "minecraft:spawn_for_raid" : {
+        "add" : {
+          "component_groups" : [
+            "minecraft:ranged_attack",
+            "minecraft:raid_configuration"
+          ]
+        }
+      },
+      "minecraft:entity_spawned" : {
+        "add" : {
+          "component_groups" : [
+            "minecraft:ranged_attack"
+          ]
+        }
+      },
+      "minecraft:promote_to_illager_captain" : {
+        "add" : {
+          "component_groups" : [
+            "minecraft:illager_squad_captain"
+          ]
+        },
+        "remove" : {
+          "component_groups" : [
+            "minecraft:patrol_follower"
+          ]
+        }
+      },
+      "minecraft:ranged_mode" : {
+        "add" : {
+          "component_groups" : [
+            "minecraft:ranged_attack"
+          ]
+        },
+        "remove" : {
+          "component_groups" : [
+            "minecraft:melee_attack"
+          ]
+        }
+      },
+      "minecraft:spawn_as_patrol_follower" : {
+        "add" : {
+          "component_groups" : [
+            "minecraft:ranged_attack",
+            "minecraft:patrol_follower"
+          ]
+        }
+      },
+      "minecraft:melee_mode" : {
+        "add" : {
+          "component_groups" : [
+            "minecraft:melee_attack"
+          ]
+        },
+        "remove" : {
+          "component_groups" : [
+            "minecraft:ranged_attack"
+          ]
+        }
+      },
+      "minecraft:spawn_as_illager_captain" : {
+        "add" : {
+          "component_groups" : [
+            "minecraft:ranged_attack",
+            "minecraft:illager_squad_captain"
+          ]
+        }
+      }
+    }
+  },
+  "format_version" : "1.8.0"
+}

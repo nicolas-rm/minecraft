@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "nicothekid:smoker_x_moa_raw"
+    },
+    "tags": [
+      "smoker"
+    ],
+    "input": {
+      "item": "nicothekid:moa_raw",
+      "data": 0
+    },
+    "output": {
+      "item": "nicothekid:moa_cooked",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

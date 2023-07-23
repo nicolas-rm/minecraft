@@ -1,0 +1,40 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "nicothekid:bucket_of_clam"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "nicothekid_bucket_of_clam"
+			},
+			"minecraft:display_name": {
+				"value": "item.nicothekid:bucket_of_clam.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.items"
+			},
+			"minecraft:max_stack_size": 1,
+      "minecraft:foil": false,
+			"minecraft:hand_equipped": false,
+			"minecraft:entity_placer": {
+				"entity": "nicothekid:jellyfish"
+			},
+			"minecraft:block_placer": {
+				"block": "minecraft:flowing_water"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "transform_bucket"
+				}
+			}
+		},
+		"events": {
+			"transform_bucket": {
+				"transform_item": {
+					"transform": "minecraft:bucket"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "rex:jade_feature"
+    },
+    "count": 10,
+    "replace_rules": [
+      {
+        "places_block": "rex:jadeore",
+        "may_replace": [
+          {
+            "name": "minecraft:stone"
+          }
+        ]
+      },
+      {
+        "places_block": "rex:brasilianitaoredeep",
+        "may_replace": [
+          {
+            "name": "minecraft:deepslate"
+          }
+        ]
+      }
+    ]
+  }
+}
+  }
+} ]
+  }
+}
+  }
+}

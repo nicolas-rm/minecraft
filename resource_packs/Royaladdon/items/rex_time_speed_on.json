@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:time_speed_on",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:time_speed_on",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

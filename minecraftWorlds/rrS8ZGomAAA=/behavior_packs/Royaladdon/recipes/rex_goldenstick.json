@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "goldenstick_79775fc4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:cablemold",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:goldenstick",
+      "count": 1
+    }
+  }
+}

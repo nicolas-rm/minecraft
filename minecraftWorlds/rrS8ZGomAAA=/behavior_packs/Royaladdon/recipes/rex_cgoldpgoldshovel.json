@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cgoldpgoldshovel_db75ad72"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "C"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:pgoldshovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:goldenstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cgoldpgoldshovel",
+      "count": 1
+    }
+  }
+}

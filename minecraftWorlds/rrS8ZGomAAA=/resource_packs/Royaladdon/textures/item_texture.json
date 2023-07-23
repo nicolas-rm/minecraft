@@ -1,0 +1,2795 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "egg_camel": {
+      "textures": "textures/items/egg_camel"
+    },
+    "egg_tiger": {
+      "textures": "textures/items/egg_tiger"
+    },
+    "egg_elephant": {
+      "textures": "textures/items/egg_elephant"
+    },
+    "egg_deer": {
+      "textures": "textures/items/egg_deer"
+    },
+    "egg_panther": {
+      "textures": "textures/items/egg_panther"
+    },
+    "egg_frog": {
+      "textures": "textures/items/egg_frog"
+    },
+    "egg_crocodile": {
+      "textures": "textures/items/egg_crocodile"
+    },
+    "egg_mouse": {
+      "textures": "textures/items/egg_mouse"
+    },
+    "gallardo": {
+      "textures": "textures/items/gallardo"
+    },
+    "bench": {
+      "textures": "textures/items/bench"
+    },
+    "christmas_tree": {
+      "textures": "textures/items/christmas_tree"
+    },
+    "tivi": {
+      "textures": "textures/items/tivi"
+    },
+    "closet": {
+      "textures": "textures/items/closet"
+    },
+    "laptop": {
+      "textures": "textures/items/laptop"
+    },
+    "piano": {
+      "textures": "textures/items/piano"
+    },
+    "armchairs": {
+      "textures": "textures/items/armchairs"
+    },
+    "chair": {
+      "textures": "textures/items/chair"
+    },
+    "big_table": {
+      "textures": "textures/items/big_table"
+    },
+    "small_table": {
+      "textures": "textures/items/small_table"
+    },
+    "rex:icgoldpgoldaxemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_icgoldpgoldaxemobsidianmredstone"
+    },
+    "colorful_gifts": {
+      "textures": "textures/items/colorful_gifts"
+    },
+    "rex:ironstick": {
+      "textures": "textures/items/pamobile/rex_ironstick"
+    },
+    "rex:goldenstick": {
+      "textures": "textures/items/pamobile/rex_goldenstick"
+    },
+    "rex:diamondstick": {
+      "textures": "textures/items/pamobile/rex_diamondstick"
+    },
+    "rex:pdiamondpickaxe": {
+      "textures": "textures/items/pamobile/rex_pdiamondpickaxe"
+    },
+    "rex:pironpickaxe": {
+      "textures": "textures/items/pamobile/rex_pironpickaxe"
+    },
+    "rex:pgoldpickaxe": {
+      "textures": "textures/items/pamobile/rex_pgoldpickaxe"
+    },
+    "rex:pdiamondsword": {
+      "textures": "textures/items/pamobile/rex_pdiamondsword"
+    },
+    "rex:pgoldsword": {
+      "textures": "textures/items/pamobile/rex_pgoldsword"
+    },
+    "rex:pironsword": {
+      "textures": "textures/items/pamobile/rex_pironsword"
+    },
+    "rex:pironshovel": {
+      "textures": "textures/items/pamobile/rex_pironshovel"
+    },
+    "rex:pgoldaxe": {
+      "textures": "textures/items/pamobile/rex_pgoldaxe"
+    },
+    "rex:pdiamondshovel": {
+      "textures": "textures/items/pamobile/rex_pdiamondshovel"
+    },
+    "rex:pgoldshovel": {
+      "textures": "textures/items/pamobile/rex_pgoldshovel"
+    },
+    "rex:pironaxe": {
+      "textures": "textures/items/pamobile/rex_pironaxe"
+    },
+    "rex:pdiamondaxe": {
+      "textures": "textures/items/pamobile/rex_pdiamondaxe"
+    },
+    "rex:pdiamondhoe": {
+      "textures": "textures/items/pamobile/rex_pdiamondhoe"
+    },
+    "rex:pgoldhoe": {
+      "textures": "textures/items/pamobile/rex_pgoldhoe"
+    },
+    "rex:pironhoe": {
+      "textures": "textures/items/pamobile/rex_pironhoe"
+    },
+    "rex_cironpdiamond": {
+      "textures": "textures/items/pamobile/rex_cironpdiamond"
+    },
+    "rex_cdiamondpdiamond": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamond"
+    },
+    "rex_cironpgold": {
+      "textures": "textures/items/pamobile/rex_cironpgold"
+    },
+    "rex_cdiamondpgold": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgold"
+    },
+    "rex_cgoldpgold": {
+      "textures": "textures/items/pamobile/rex_cgoldpgold"
+    },
+    "rex_cgoldpdiamond": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamond"
+    },
+    "rex_cgoldpiron": {
+      "textures": "textures/items/pamobile/rex_cgoldpiron"
+    },
+    "rex_cdiamondpiron": {
+      "textures": "textures/items/pamobile/rex_cdiamondpiron"
+    },
+    "rex_cironpiron": {
+      "textures": "textures/items/pamobile/rex_cironpiron"
+    },
+    "rex_cironpdiamondpic": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondpic"
+    },
+    "rex_cironpgoldenpic": {
+      "textures": "textures/items/pamobile/rex_cironpgoldenpic"
+    },
+    "rex_cgoldpdiamondpic": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondpic"
+    },
+    "rex_cdiamondpdiamondpic": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondpic"
+    },
+    "rex_cgoldpgoldenpic": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldenpic"
+    },
+    "rex_cgoldpironpic": {
+      "textures": "textures/items/pamobile/rex_cgoldpironpic"
+    },
+    "rex_cdiamondpgoldenpic": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldenpic"
+    },
+    "rex_cdiamondpironpic": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironpic"
+    },
+    "rex_cironpgoldaxe": {
+      "textures": "textures/items/pamobile/rex_cironpgoldaxe"
+    },
+    "rex_cironpironpic": {
+      "textures": "textures/items/pamobile/rex_cironpironpic"
+    },
+    "rex_cgoldpgoldaxe": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldaxe"
+    },
+    "rex:stonestick": {
+      "textures": "textures/items/pamobile/rex_stonestick"
+    },
+    "rex_cdiamondpgoldaxe": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldaxe"
+    },
+    "rex:stonemold": {
+      "textures": "textures/items/pamobile/rex_stonemold"
+    },
+    "rex:cablemold": {
+      "textures": "textures/items/pamobile/rex_cablemold"
+    },
+    "rex:pickaxeheadmold": {
+      "textures": "textures/items/pamobile/rex_pickaxeheadmold"
+    },
+    "rex:axheadmold": {
+      "textures": "textures/items/pamobile/rex_axheadmold"
+    },
+    "rex:swordheadmold": {
+      "textures": "textures/items/pamobile/rex_swordheadmold"
+    },
+    "rex:hoeheadmold": {
+      "textures": "textures/items/pamobile/rex_hoeheadmold"
+    },
+    "rex:shovelheadmold": {
+      "textures": "textures/items/pamobile/rex_shovelheadmold"
+    },
+    "rex_cironpironaxe": {
+      "textures": "textures/items/pamobile/rex_cironpironaxe"
+    },
+    "rex_cdiamondpironaxe": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironaxe"
+    },
+    "rex_cgoldpironaxe": {
+      "textures": "textures/items/pamobile/rex_cgoldpironaxe"
+    },
+    "rex_cdiamondpdiamondaxe": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondaxe"
+    },
+    "rex_cdiamondpdiamondshovel": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondshovel"
+    },
+    "rex_cgoldpdiamondaxe": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondaxe"
+    },
+    "rex_cgoldpdiamondshovel": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondshovel"
+    },
+    "rex_cgoldpironshovel": {
+      "textures": "textures/items/pamobile/rex_cgoldpironshovel"
+    },
+    "rex_cironpdiamondshovel": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondshovel"
+    },
+    "rex_cironpironshovel": {
+      "textures": "textures/items/pamobile/rex_cironpironshovel"
+    },
+    "rex_cironpdiamondaxe": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondaxe"
+    },
+    "rex_cdiamondpgoldshovel": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldshovel"
+    },
+    "rex_cgoldpdiamondhoe": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondhoe"
+    },
+    "rex_cironpdiamondhoe": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondhoe"
+    },
+    "rex_cgoldpgoldshovel": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldshovel"
+    },
+    "rex_cdiamondpironshovel": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironshovel"
+    },
+    "rex_cironpgoldshovel": {
+      "textures": "textures/items/pamobile/rex_cironpgoldshovel"
+    },
+    "rex_cdiamondpdiamondhoe": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondhoe"
+    },
+    "rex_cironpironhoe": {
+      "textures": "textures/items/pamobile/rex_cironpironhoe"
+    },
+    "rex_cironpgoldhoe": {
+      "textures": "textures/items/pamobile/rex_cironpgoldhoe"
+    },
+    "rex_cdiamondpgoldhoe": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldhoe"
+    },
+    "rex_cdiamondpironhoe": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironhoe"
+    },
+    "rex_cgoldpironhoe": {
+      "textures": "textures/items/pamobile/rex_cgoldpironhoe"
+    },
+    "rex_cgoldpdiamondmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondmobsidian"
+    },
+    "rex_cgoldpgoldhoe": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldhoe"
+    },
+    "rex_cironpdiamondmobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondmobsidian"
+    },
+    "rex_cdiamondpdiamondobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondobsidian"
+    },
+    "rex_cironpgoldmobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpgoldmobsidian"
+    },
+    "rex_cdiamondpgoldmobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldmobsidian"
+    },
+    "rex_cgoldpgoldmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldmobsidian"
+    },
+    "rex_cironpironmobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpironmobsidian"
+    },
+    "rex_cgoldpironmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpironmobsidian"
+    },
+    "rex_cdiamondpironmobisidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironmobisidian"
+    },
+    "rex_cironpdiamondpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondpicmobsidian"
+    },
+    "rex_cgoldpdiamondpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondpicmobsidian"
+    },
+    "rex_cdiamondpdiamondpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondpicmobsidian"
+    },
+    "rex_cironpgoldenpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpgoldenpicmobsidian"
+    },
+    "rex_cgoldpgoldenpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldenpicmobsidian"
+    },
+    "rex_cironpironpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpironpicmobsidian"
+    },
+    "rex_cdiamondpgoldenpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldenpicmobsidian"
+    },
+    "rex_cdiamondpironpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironpicmobsidian"
+    },
+    "rex_cgoldpironpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpironpicmobsidian"
+    },
+    "rex:blackessence": {
+      "textures": "textures/items/pamobile/rex_blackessence"
+    },
+    "rex_cironpgoldaxeobsdian": {
+      "textures": "textures/items/pamobile/rex_cironpgoldaxeobsdian"
+    },
+    "rex_cgoldpgoldaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldaxemobsidian"
+    },
+    "rex_cdiamondpgoldaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldaxemobsidian"
+    },
+    "rex_cdiamondpironaxemobsdian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironaxemobsdian"
+    },
+    "rex_cgoldpironaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpironaxemobsidian"
+    },
+    "rex_cgoldpdiamondaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondaxemobsidian"
+    },
+    "rex_cironpironaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpironaxemobsidian"
+    },
+    "rex_cironpdiamondaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondaxemobsidian"
+    },
+    "rex_cdiamondpdiamondaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondaxemobsidian"
+    },
+    "rex_cdiamondpdiamondshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondshovelmobsidian"
+    },
+    "rex_cironpdiamondshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondshovelmobsidian"
+    },
+    "rex_cgoldpdiamondshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondshovelmobsidian"
+    },
+    "rex_cironpironshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpironshovelmobsidian"
+    },
+    "rex_cgoldpironshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpironshovelmobsidian"
+    },
+    "rex_cdiamondpironshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironshovelmobsidian"
+    },
+    "rex_cgoldpgoldshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldshovelmobsidian"
+    },
+    "rex_cironpgoldshovelmobsdian": {
+      "textures": "textures/items/pamobile/rex_cironpgoldshovelmobsdian"
+    },
+    "rex_cdiamondpgoldshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldshovelmobsidian"
+    },
+    "rex:sphereofdarkness": {
+      "textures": "textures/items/pamobile/rex_sphereofdarkness"
+    },
+    "rex:wickedcrystal": {
+      "textures": "textures/items/pamobile/rex_wickedcrystal"
+    },
+    "rex_cdiamondpdiamondhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondhoemobsidian"
+    },
+    "rex_cgoldpdiamondhoemobsdian": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondhoemobsdian"
+    },
+    "rex_cironpironhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpironhoemobsidian"
+    },
+    "rex_cironpdiamondhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondhoemobsidian"
+    },
+    "rex_cdiamondpironhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironhoemobsidian"
+    },
+    "rex_cgoldpironhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpironhoemobsidian"
+    },
+    "rex_cironpgoldhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpgoldhoemobsidian"
+    },
+    "rex_cdiamondpgoldhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldhoemobsidian"
+    },
+    "rex_cgoldpgoldhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldhoemobsidian"
+    },
+    "rex_cgoldpdiamondmcrystal": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondmcrystal"
+    },
+    "rex_cdiamondpdiamondmcrystal": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondmcrystal"
+    },
+    "rex_cironpdiamondmcrystal": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondmcrystal"
+    },
+    "rex_cdiamondpgoldmcrystal": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldmcrystal"
+    },
+    "rex_cironpironmcrystal": {
+      "textures": "textures/items/pamobile/rex_cironpironmcrystal"
+    },
+    "rex_cironpgoldmcrystal": {
+      "textures": "textures/items/pamobile/rex_cironpgoldmcrystal"
+    },
+    "rex_cgoldpgoldmcrystal": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldmcrystal"
+    },
+    "rex_cgoldpironmcrystal": {
+      "textures": "textures/items/pamobile/rex_cgoldpironmcrystal"
+    },
+    "rex_cgoldpdiamondmobsidianmcrystal": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondmobsidianmcrystal"
+    },
+    "rex_cironpdiamondmobsidiancrystal": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondmobsidiancrystal"
+    },
+    "rex_cdiamondpironmcrystal": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironmcrystal"
+    },
+    "rex_cdiamondpdiamondobsidianmcrystal": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondobsidianmcrystal"
+    },
+    "rex_cironpgoldmobsidianmcrystal": {
+      "textures": "textures/items/pamobile/rex_cironpgoldmobsidianmcrystal"
+    },
+    "rex_cironpironmobsidianmcrystal": {
+      "textures": "textures/items/pamobile/rex_cironpironmobsidianmcrystal"
+    },
+    "rex_cdiamondpgoldmobsidianmcrystal": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldmobsidianmcrystal"
+    },
+    "rex_cgoldpgoldmobsidianmcrystal": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldmobsidianmcrystal"
+    },
+    "rex_cgoldpironmobsidianmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpironmobsidianmobsidian"
+    },
+    "rex_cdiamondpironmobisidianmcrystal": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironmobisidianmcrystal"
+    },
+    "rex_cironpdiamondpicmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondpicmredstone"
+    },
+    "rex_cgoldpgoldenpicmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldenpicmredstone"
+    },
+    "rex_cgoldpdiamondpicmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondpicmredstone"
+    },
+    "rex_cdiamondpdiamondpicmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondpicmredstone"
+    },
+    "rex_cironpgoldenpicmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpgoldenpicmredstone"
+    },
+    "rex_cdiamondpironpicmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironpicmredstone"
+    },
+    "rex_cironpironpicmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpironpicmredstone"
+    },
+    "rex_cdiamondpgoldenpicmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldenpicmredstone"
+    },
+    "rex_cgoldpironpicmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpironpicmredstone"
+    },
+    "rex_cgoldpdiamondpicmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondpicmobsidianmredstone"
+    },
+    "rex_cdiamondpdiamondpicmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondpicmobsidianmredstone"
+    },
+    "rex_cironpdiamondpicmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondpicmobsidianmredstone"
+    },
+    "rex_cironpgoldenpicmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpgoldenpicmobsidianmredstone"
+    },
+    "rex_cgoldpgoldenpicmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldenpicmobsidianmredstone"
+    },
+    "rex_cdiamondpgoldenpicmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldenpicmobsidianmredstone"
+    },
+    "rex_cironpironpicmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpironpicmobsidianmredstone"
+    },
+    "rex_cdiamondpironpicmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironpicmobsidianmredstone"
+    },
+    "rex_cgoldpgoldaxemredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldaxemredstone"
+    },
+    "rex_cgoldpironpicmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpironpicmobsidianmredstone"
+    },
+    "rex_cironpgoldaxemredstone": {
+      "textures": "textures/items/pamobile/rex_cironpgoldaxemredstone"
+    },
+    "rex_cdiamondpironaxemredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironaxemredstone"
+    },
+    "rex_cdiamondpgoldaxemredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldaxemredstone"
+    },
+    "rex_cgoldpironaxemredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpironaxemredstone"
+    },
+    "rex_cironpironaxemredstone": {
+      "textures": "textures/items/pamobile/rex_cironpironaxemredstone"
+    },
+    "rex_cgoldpdiamondaxemredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondaxemredstone"
+    },
+    "rex_cironpdiamondaxemredstone": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondaxemredstone"
+    },
+    "rex_cdiamondpdiamondaxemredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondaxemredstone"
+    },
+    "rex_cironpironaxemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpironaxemobsidianmredstone"
+    },
+    "rex_cdiamondpironaxemobsdianmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironaxemobsdianmredstone"
+    },
+    "rex_cgoldpironaxemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpironaxemobsidianmredstone"
+    },
+    "rex_cgoldpdiamondaxemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondaxemobsidianmredstone"
+    },
+    "rex_cironpdiamondaxemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondaxemobsidianmredstone"
+    },
+    "rex_cgoldpdiamondshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondshovelmredstone"
+    },
+    "rex_cdiamondpdiamondshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondshovelmredstone"
+    },
+    "rex_cironpdiamondshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondshovelmredstone"
+    },
+    "rex_cdiamondpdiamondaxemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondaxemobsidianmredstone"
+    },
+    "rex_cironpironshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpironshovelmredstone"
+    },
+    "rex_cgoldpgoldshovemredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldshovemredstone"
+    },
+    "rex_cdiamondpironshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironshovelmredstone"
+    },
+    "rex_cgoldpironshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpironshovelmredstone"
+    },
+    "rex_cironpgoldshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpgoldshovelmredstone"
+    },
+    "rex_cdiamondpdiamondshovelmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondshovelmobsidianmredstone"
+    },
+    "rex_cdiamondpgoldshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldshovelmredstone"
+    },
+    "rex_cgoldpironshovelmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpironshovelmobsidianmredstone"
+    },
+    "rex_cironpdiamondshovelmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondshovelmobsidianmredstone"
+    },
+    "rex_cgoldpdiamondshovelmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondshovelmobsidianmredstone"
+    },
+    "rex_cironpironshovelmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpironshovelmobsidianmredstone"
+    },
+    "rex_cdiamondpironshovelmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironshovelmobsidianmredstone"
+    },
+    "rex_cgoldpgoldshovelmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldshovelmobsidianmredstone"
+    },
+    "rex_cdiamondpgoldshovelmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldshovelmobsidianmredstone"
+    },
+    "rex_cironpgoldshovelmobsdianmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpgoldshovelmobsdianmredstone"
+    },
+    "rex_cironpdiamondhoemredstone": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondhoemredstone"
+    },
+    "rex_cdiamondpdiamondhoemredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondhoemredstone"
+    },
+    "rex_cgoldpdiamondhoemredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondhoemredstone"
+    },
+    "rex_cironpironhoemredstone": {
+      "textures": "textures/items/pamobile/rex_cironpironhoemredstone"
+    },
+    "rex_cgoldpironhoemredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpironhoemredstone"
+    },
+    "rex_cdiamondpironhoemredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironhoemredstone"
+    },
+    "rex_cdiamondpgoldhoemredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldhoemredstone"
+    },
+    "rex_cironpgoldhoemredstone": {
+      "textures": "textures/items/pamobile/rex_cironpgoldhoemredstone"
+    },
+    "rex_cironpdiamondhoemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpdiamondhoemobsidianmredstone"
+    },
+    "rex_cgoldpgoldhoemredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldhoemredstone"
+    },
+    "rex_cdiamondpdiamondhoemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpdiamondhoemobsidianmredstone"
+    },
+    "rex_cgoldpironhoemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpironhoemobsidianmredstone"
+    },
+    "rex_cgoldpdiamondhoemobsdianmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpdiamondhoemobsdianmredstone"
+    },
+    "rex_cironpironhoemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpironhoemobsidianmredstone"
+    },
+    "rex_cironpgoldhoemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpgoldhoemobsidianmredstone"
+    },
+    "rex_cdiamondpgoldhoemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldhoemobsidianmredstone"
+    },
+    "rex_cdiamondpironhoemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpironhoemobsidianmredstone"
+    },
+    "rex_cgoldpgoldhoemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldhoemobsidianmredstone"
+    },
+    "rex:astral": {
+      "textures": "textures/items/pamobile/rex_astral"
+    },
+    "rex:astralstick": {
+      "textures": "textures/items/pamobile/rex_astralstick"
+    },
+    "rex_castralpdiamond": {
+      "textures": "textures/items/pamobile/rex_castralpdiamond"
+    },
+    "rex_castralpgold": {
+      "textures": "textures/items/pamobile/rex_castralpgold"
+    },
+    "rex_castralpgoldmcristal": {
+      "textures": "textures/items/pamobile/rex_castralpgoldmcristal"
+    },
+    "rex_castralpiron": {
+      "textures": "textures/items/pamobile/rex_castralpiron"
+    },
+    "rex_castralpdiamondmcrystal": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondmcrystal"
+    },
+    "rex_castralpdiamondmobsidianmcrystal": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondmobsidianmcrystal"
+    },
+    "rex_castralpdiamondmobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondmobsidian"
+    },
+    "rex_castralpironmobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpironmobsidian"
+    },
+    "rex_castralpgoldmobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpgoldmobsidian"
+    },
+    "rex_castralpironmcrystal": {
+      "textures": "textures/items/pamobile/rex_castralpironmcrystal"
+    },
+    "rex_castralpgoldmobsidianmcrystal": {
+      "textures": "textures/items/pamobile/rex_castralpgoldmobsidianmcrystal"
+    },
+    "rex_castralpironmobsidianmcrystal": {
+      "textures": "textures/items/pamobile/rex_castralpironmobsidianmcrystal"
+    },
+    "rex_castralpironpic": {
+      "textures": "textures/items/pamobile/rex_castralpironpic"
+    },
+    "rex_castralpgoldenpic": {
+      "textures": "textures/items/pamobile/rex_castralpgoldenpic"
+    },
+    "rex_castralpdiamondaxe": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondaxe"
+    },
+    "rex_castralpdiamondpicmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondpicmredstone"
+    },
+    "rex_castralpironaxe": {
+      "textures": "textures/items/pamobile/rex_castralpironaxe"
+    },
+    "rex_castralpgoldaxe": {
+      "textures": "textures/items/pamobile/rex_castralpgoldaxe"
+    },
+    "rex_castralpdiamondpic": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondpic"
+    },
+    "rex_castralpgoldenpicmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpgoldenpicmredstone"
+    },
+    "rex_castralpironpicmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpironpicmredstone"
+    },
+    "rex_castralpironaxemredstone": {
+      "textures": "textures/items/pamobile/rex_castralpironaxemredstone"
+    },
+    "rex_castralpgoldaxemredstone": {
+      "textures": "textures/items/pamobile/rex_castralpgoldaxemredstone"
+    },
+    "rex_castralpdiamondaxemredstone": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondaxemredstone"
+    },
+    "rex_castralpdiamondpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondpicmobsidian"
+    },
+    "rex_castralpironpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpironpicmobsidian"
+    },
+    "rex_castralpgoldenpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpgoldenpicmobsidian"
+    },
+    "rex_castralpdiamondpicmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondpicmobsidianmredstone"
+    },
+    "rex_castralpgoldenpicmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpgoldenpicmobsidianmredstone"
+    },
+    "rex_castralpironpicmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpironpicmobsidianmredstone"
+    },
+    "rex_castralpgoldaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpgoldaxemobsidian"
+    },
+    "rex_castralpgoldaxemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpgoldaxemobsidianmredstone"
+    },
+    "rex_castralpdiamondaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondaxemobsidian"
+    },
+    "rex_castralpironaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpironaxemobsidian"
+    },
+    "rex_castralpdiamondaxemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondaxemobsidianmredstone"
+    },
+    "rex_castralpironaxemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpironaxemobsidianmredstone"
+    },
+    "rex_castralpironshovel": {
+      "textures": "textures/items/pamobile/rex_castralpironshovel"
+    },
+    "rex_castralpgoldshovel": {
+      "textures": "textures/items/pamobile/rex_castralpgoldshovel"
+    },
+    "rex_castralpdiamondshovel": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondshovel"
+    },
+    "rex_castralpdiamondhoe": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondhoe"
+    },
+    "rex_castralpironshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpironshovelmredstone"
+    },
+    "rex_castralpironhoe": {
+      "textures": "textures/items/pamobile/rex_castralpironhoe"
+    },
+    "rex_castralpdiamondshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondshovelmredstone"
+    },
+    "rex_castralpgoldhoe": {
+      "textures": "textures/items/pamobile/rex_castralpgoldhoe"
+    },
+    "rex_castralpdiamondhoemredstone": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondhoemredstone"
+    },
+    "rex_castralpgoldshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpgoldshovelmredstone"
+    },
+    "rex_castralpironhoemredstone": {
+      "textures": "textures/items/pamobile/rex_castralpironhoemredstone"
+    },
+    "rex_castralpgoldhoemredstone": {
+      "textures": "textures/items/pamobile/rex_castralpgoldhoemredstone"
+    },
+    "rex_castralpironhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpironhoemobsidian"
+    },
+    "rex_castralpdiamondshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondshovelmobsidian"
+    },
+    "rex_castralpironshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpironshovelmobsidian"
+    },
+    "rex_castralpdiamondhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondhoemobsidian"
+    },
+    "rex_castralpgoldhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpgoldhoemobsidian"
+    },
+    "rex_castralpgoldshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpgoldshovelmobsidian"
+    },
+    "rex_castralpironshovelmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpironshovelmobsidianmredstone"
+    },
+    "rex_castralpdiamondshovelmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondshovelmobsidianmredstone"
+    },
+    "rex_castralpgoldshovelmobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpgoldshovelmobsidianmredstone"
+    },
+    "rex_castralpironhoemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpironhoemobsidianmredstone"
+    },
+    "rex_castralpdiamondhoemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpdiamondhoemobsidianmredstone"
+    },
+    "rex:pastralsword": {
+      "textures": "textures/items/pamobile/rex_pastralsword"
+    },
+    "rex_castralpgoldhoemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpgoldhoemobsidianmredstone"
+    },
+    "rex_cironpastralmcrystal": {
+      "textures": "textures/items/pamobile/rex_cironpastralmcrystal"
+    },
+    "rex_cgoldpastralmcrystal": {
+      "textures": "textures/items/pamobile/rex_cgoldpastralmcrystal"
+    },
+    "rex_cdiamondpastralmcrystal": {
+      "textures": "textures/items/pamobile/rex_cdiamondpastralmcrystal"
+    },
+    "rex_castralpastral": {
+      "textures": "textures/items/pamobile/rex_castralpastral"
+    },
+    "rex_cdiamondpastral": {
+      "textures": "textures/items/pamobile/rex_cdiamondpastral"
+    },
+    "rex_castralpastralmcrystal": {
+      "textures": "textures/items/pamobile/rex_castralpastralmcrystal"
+    },
+    "rex_cironpastral": {
+      "textures": "textures/items/pamobile/rex_cironpastral"
+    },
+    "rex_cgoldpastral": {
+      "textures": "textures/items/pamobile/rex_cgoldpastral"
+    },
+    "rex_cdiamondpastralmobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpastralmobsidian"
+    },
+    "rex_cironpastralmobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpastralmobsidian"
+    },
+    "rex_castralpastralmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpastralmredstone"
+    },
+    "rex_cgoldpastralmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpastralmobsidian"
+    },
+    "rex_cgoldpastralpic": {
+      "textures": "textures/items/pamobile/rex_cgoldpastralpic"
+    },
+    "rex_cdiamondpastralpic": {
+      "textures": "textures/items/pamobile/rex_cdiamondpastralpic"
+    },
+    "rex_cironpastralpic": {
+      "textures": "textures/items/pamobile/rex_cironpastralpic"
+    },
+    "rex:pastralpickaxe": {
+      "textures": "textures/items/pamobile/rex_pastralpickaxe"
+    },
+    "rex_castralpastralpic": {
+      "textures": "textures/items/pamobile/rex_castralpastralpic"
+    },
+    "rex_cgoldpastralpicmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpastralpicmredstone"
+    },
+    "rex_cironpastralpicmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpastralpicmredstone"
+    },
+    "rex_castralpastralpicmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpastralpicmredstone"
+    },
+    "rex_cdiamondpastralpicmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpastralpicmredstone"
+    },
+    "rex_cironpastralpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpastralpicmobsidian"
+    },
+    "rex_cgoldpastralpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpastralpicmobsidian"
+    },
+    "rex_castralpastralpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpastralpicmobsidian"
+    },
+    "rex_cdiamondpastralpicmobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpastralpicmobsidian"
+    },
+    "rex_cironpastralaxe": {
+      "textures": "textures/items/pamobile/rex_cironpastralaxe"
+    },
+    "rex_cironpastralaxemredstone": {
+      "textures": "textures/items/pamobile/rex_cironpastralaxemredstone"
+    },
+    "rex:pastralaxe": {
+      "textures": "textures/items/pamobile/rex_pastralaxe"
+    },
+    "rex_cgoldpastralaxemredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpastralaxemredstone"
+    },
+    "rex_cgoldpastralaxe": {
+      "textures": "textures/items/pamobile/rex_cgoldpastralaxe"
+    },
+    "rex_castralpastralaxe": {
+      "textures": "textures/items/pamobile/rex_castralpastralaxe"
+    },
+    "rex_cdiamantpastralaxe": {
+      "textures": "textures/items/pamobile/rex_cdiamantpastralaxe"
+    },
+    "rex_cdiamantpastralaxemredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamantpastralaxemredstone"
+    },
+    "rex_cironpastralaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_cironpastralaxemobsidian"
+    },
+    "rex_castralpastralaxemredstone": {
+      "textures": "textures/items/pamobile/rex_castralpastralaxemredstone"
+    },
+    "rex_cgoldpastralaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpastralaxemobsidian"
+    },
+    "rex_castralpastralaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpastralaxemobsidian"
+    },
+    "rex_cdiamondpastralshovel": {
+      "textures": "textures/items/pamobile/rex_cdiamondpastralshovel"
+    },
+    "rex:pastralshovel": {
+      "textures": "textures/items/pamobile/rex_pastralshovel"
+    },
+    "rex_cdiamantpastralaxemobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamantpastralaxemobsidian"
+    },
+    "rex_cironpastralshovel": {
+      "textures": "textures/items/pamobile/rex_cironpastralshovel"
+    },
+    "rex_cironpastralshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpastralshovelmredstone"
+    },
+    "rex_castralpastralshovel": {
+      "textures": "textures/items/pamobile/rex_castralpastralshovel"
+    },
+    "rex_cdiamondpastralshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpastralshovelmredstone"
+    },
+    "rex_cgoldpastralshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpastralshovelmredstone"
+    },
+    "rex_castralpastralshovelmredstone": {
+      "textures": "textures/items/pamobile/rex_castralpastralshovelmredstone"
+    },
+    "rex_cgoldpastralshovel": {
+      "textures": "textures/items/pamobile/rex_cgoldpastralshovel"
+    },
+    "rex_cdiamondpastralshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondpastralshovelmobsidian"
+    },
+    "rex_cgoldpastralshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldpastralshovelmobsidian"
+    },
+    "rex_castralpastralshovelmobsidian": {
+      "textures": "textures/items/pamobile/rex_castralpastralshovelmobsidian"
+    },
+    "rex_cironpastralshovelmobisidian": {
+      "textures": "textures/items/pamobile/rex_cironpastralshovelmobisidian"
+    },
+    "rex_cdiamondastralhoe": {
+      "textures": "textures/items/pamobile/rex_cdiamondastralhoe"
+    },
+    "rex:pastralhoe": {
+      "textures": "textures/items/pamobile/rex_pastralhoe"
+    },
+    "rex_cgoldastralhoe": {
+      "textures": "textures/items/pamobile/rex_cgoldastralhoe"
+    },
+    "rex_cironastralhoe": {
+      "textures": "textures/items/pamobile/rex_cironastralhoe"
+    },
+    "rex_castralastralhoe": {
+      "textures": "textures/items/pamobile/rex_castralastralhoe"
+    },
+    "rex_cdiamondastralhoemredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondastralhoemredstone"
+    },
+    "rex_cgoldastralhoemredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldastralhoemredstone"
+    },
+    "rex_castralastralhoemredstone": {
+      "textures": "textures/items/pamobile/rex_castralastralhoemredstone"
+    },
+    "rex_cironastralhoemredstone": {
+      "textures": "textures/items/pamobile/rex_cironastralhoemredstone"
+    },
+    "rex_cdiamondastralhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_cdiamondastralhoemobsidian"
+    },
+    "rex_cgoldastralhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_cgoldastralhoemobsidian"
+    },
+    "rex_cironastralhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_cironastralhoemobsidian"
+    },
+    "rex_castralastralhoemobsidian": {
+      "textures": "textures/items/pamobile/rex_castralastralhoemobsidian"
+    },
+    "rex:toolsguide": {
+      "textures": "textures/items/pamobile/rex_toolsguide"
+    },
+    "rex_redstonesword": {
+      "textures": "textures/items/pamobile/rex_redstonesword"
+    },
+    "rex_emeraldsword": {
+      "textures": "textures/items/pamobile/rex_emeraldsword"
+    },
+    "rex_netherrrackswordt1": {
+      "textures": "textures/items/pamobile/rex_netherrrackswordt1"
+    },
+    "rex_obsidiansword": {
+      "textures": "textures/items/pamobile/rex_obsidiansword"
+    },
+    "rex_flysword": {
+      "textures": "textures/items/pamobile/rex_flysword"
+    },
+    "rex_phantonsword": {
+      "textures": "textures/items/pamobile/rex_phantonsword"
+    },
+    "rex_lifesword": {
+      "textures": "textures/items/pamobile/rex_lifesword"
+    },
+    "rex_amethystsword": {
+      "textures": "textures/items/pamobile/rex_amethystsword"
+    },
+    "rex_lightning_sword": {
+      "textures": "textures/items/pamobile/rex_lightning_sword"
+    },
+    "rex_watersword": {
+      "textures": "textures/items/pamobile/rex_watersword"
+    },
+    "rex_nethersword": {
+      "textures": "textures/items/pamobile/rex_nethersword"
+    },
+    "rex_sticksword": {
+      "textures": "textures/items/pamobile/rex_sticksword"
+    },
+    "rex_firesword": {
+      "textures": "textures/items/pamobile/rex_firesword"
+    },
+    "rex_glowstone": {
+      "textures": "textures/items/pamobile/rex_glowstone"
+    },
+    "rex_endsword": {
+      "textures": "textures/items/pamobile/rex_endsword"
+    },
+    "rex_coalsword": {
+      "textures": "textures/items/pamobile/rex_coalsword"
+    },
+    "rex_stonesword": {
+      "textures": "textures/items/pamobile/rex_stonesword"
+    },
+    "rex_leavessword": {
+      "textures": "textures/items/pamobile/rex_leavessword"
+    },
+    "rex_milksword": {
+      "textures": "textures/items/pamobile/rex_milksword"
+    },
+    "rex_deepslatesword": {
+      "textures": "textures/items/pamobile/rex_deepslatesword"
+    },
+    "rex_desertsword": {
+      "textures": "textures/items/pamobile/rex_desertsword"
+    },
+    "rex_bom": {
+      "textures": "textures/items/pamobile/rex_bom"
+    },
+    "rex_tntsword": {
+      "textures": "textures/items/pamobile/rex_tntsword"
+    },
+    "rex_snowsword": {
+      "textures": "textures/items/pamobile/rex_snowsword"
+    },
+    "rex_grasssword": {
+      "textures": "textures/items/pamobile/rex_grasssword"
+    },
+    "rex_golensword": {
+      "textures": "textures/items/pamobile/rex_golensword"
+    },
+    "rex_lazulisword": {
+      "textures": "textures/items/pamobile/rex_lazulisword"
+    },
+    "rex_farmersword": {
+      "textures": "textures/items/pamobile/rex_farmersword"
+    },
+    "rex_slimesword": {
+      "textures": "textures/items/pamobile/rex_slimesword"
+    },
+    "rex_greensword": {
+      "textures": "textures/items/pamobile/rex_greensword"
+    },
+    "rex_yellowsword": {
+      "textures": "textures/items/pamobile/rex_yellowsword"
+    },
+    "rex_bluesword": {
+      "textures": "textures/items/pamobile/rex_bluesword"
+    },
+    "rex_redsword": {
+      "textures": "textures/items/pamobile/rex_redsword"
+    },
+    "rex_minersword": {
+      "textures": "textures/items/pamobile/rex_minersword"
+    },
+    "rex_stornsword": {
+      "textures": "textures/items/pamobile/rex_stornsword"
+    },
+    "rex_blacksword": {
+      "textures": "textures/items/pamobile/rex_blacksword"
+    },
+    "rex_glasssword": {
+      "textures": "textures/items/pamobile/rex_glasssword"
+    },
+    "rex_batsword": {
+      "textures": "textures/items/pamobile/rex_batsword"
+    },
+    "rex_zombiesword": {
+      "textures": "textures/items/pamobile/rex_zombiesword"
+    },
+    "rex_prismarinesword": {
+      "textures": "textures/items/pamobile/rex_prismarinesword"
+    },
+    "rex_lavasword": {
+      "textures": "textures/items/pamobile/rex_lavasword"
+    },
+    "rex_netherstarsword": {
+      "textures": "textures/items/pamobile/rex_netherstarsword"
+    },
+    "rex_rainbowsword": {
+      "textures": "textures/items/pamobile/rex_rainbowsword"
+    },
+    "rex_neonsword": {
+      "textures": "textures/items/pamobile/rex_neonsword"
+    },
+    "rex_witchsword": {
+      "textures": "textures/items/pamobile/rex_witchsword"
+    },
+    "rex_midassword": {
+      "textures": "textures/items/pamobile/rex_midassword"
+    },
+    "rex_creepersword": {
+      "textures": "textures/items/pamobile/rex_creepersword"
+    },
+    "rex_bambusword": {
+      "textures": "textures/items/pamobile/rex_bambusword"
+    },
+    "rex_browsword": {
+      "textures": "textures/items/pamobile/rex_browsword"
+    },
+    "rex_swordofblindness": {
+      "textures": "textures/items/pamobile/rex_swordofblindness"
+    },
+    "rex_enderpearlsword": {
+      "textures": "textures/items/pamobile/rex_enderpearlsword"
+    },
+    "rex_anvilsword": {
+      "textures": "textures/items/pamobile/rex_anvilsword"
+    },
+    "rex_icessword": {
+      "textures": "textures/items/pamobile/rex_icessword"
+    },
+    "rex_damagesword": {
+      "textures": "textures/items/pamobile/rex_damagesword"
+    },
+    "rex_dirtsword": {
+      "textures": "textures/items/pamobile/rex_dirtsword"
+    },
+    "rex_shulkersword": {
+      "textures": "textures/items/pamobile/rex_shulkersword"
+    },
+    "rex_endstonesword": {
+      "textures": "textures/items/pamobile/rex_endstonesword"
+    },
+    "rex_oceansword": {
+      "textures": "textures/items/pamobile/rex_oceansword"
+    },
+    "rex_necromancersword": {
+      "textures": "textures/items/pamobile/rex_necromancersword"
+    },
+    "rex_clonesword": {
+      "textures": "textures/items/pamobile/rex_clonesword"
+    },
+    "rex:necrozombie": {
+      "textures": "textures/items/pamobile/rex_necrozombie"
+    },
+    "rex:clone": {
+      "textures": "textures/items/pamobile/rex_clone"
+    },
+    "rex_cactussword": {
+      "textures": "textures/items/pamobile/rex_cactussword"
+    },
+    "rex_soulsword": {
+      "textures": "textures/items/pamobile/rex_soulsword"
+    },
+    "rex_portalsword": {
+      "textures": "textures/items/pamobile/rex_portalsword"
+    },
+    "rex_cakesword": {
+      "textures": "textures/items/pamobile/rex_cakesword"
+    },
+    "rex_minesword": {
+      "textures": "textures/items/pamobile/rex_minesword"
+    },
+    "rex_clocksword": {
+      "textures": "textures/items/pamobile/rex_clocksword"
+    },
+    "rex_swordofspeed": {
+      "textures": "textures/items/pamobile/rex_swordofspeed"
+    },
+    "rex_quartzsword": {
+      "textures": "textures/items/pamobile/rex_quartzsword"
+    },
+    "rex_bricksword": {
+      "textures": "textures/items/pamobile/rex_bricksword"
+    },
+    "rex_websword": {
+      "textures": "textures/items/pamobile/rex_websword"
+    },
+    "rex_sweetbarrysword": {
+      "textures": "textures/items/pamobile/rex_sweetbarrysword"
+    },
+    "rex_mobspawnersword": {
+      "textures": "textures/items/pamobile/rex_mobspawnersword"
+    },
+    "rex_magneticsword": {
+      "textures": "textures/items/pamobile/rex_magneticsword"
+    },
+    "rex_dioritesword": {
+      "textures": "textures/items/pamobile/rex_dioritesword"
+    },
+    "rex_bedrocksword": {
+      "textures": "textures/items/pamobile/rex_bedrocksword"
+    },
+    "rex_granitesword": {
+      "textures": "textures/items/pamobile/rex_granitesword"
+    },
+    "rex_powerofzeus": {
+      "textures": "textures/items/pamobile/rex_powerofzeus"
+    },
+    "rex_lightsword": {
+      "textures": "textures/items/pamobile/rex_lightsword"
+    },
+    "rex_evokersword": {
+      "textures": "textures/items/pamobile/rex_evokersword"
+    },
+    "rex:zeusminion2": {
+      "textures": "textures/items/pamobile/rex_zeusminion2"
+    },
+    "rex:zeusminion1": {
+      "textures": "textures/items/pamobile/rex_zeusminion1"
+    },
+    "rex:zeusminion3": {
+      "textures": "textures/items/pamobile/rex_zeusminion3"
+    },
+    "rex_firefire": {
+      "textures": "textures/items/pamobile/rex_firefire"
+    },
+    "rex_andesitesword": {
+      "textures": "textures/items/pamobile/rex_andesitesword"
+    },
+    "rex_invisiblesword": {
+      "textures": "textures/items/pamobile/rex_invisiblesword"
+    },
+    "rex_firerainsword": {
+      "textures": "textures/items/pamobile/rex_firerainsword"
+    },
+    "rex_herosword": {
+      "textures": "textures/items/pamobile/rex_herosword"
+    },
+    "rex_tntrainsword": {
+      "textures": "textures/items/pamobile/rex_tntrainsword"
+    },
+    "rex_clearningsword": {
+      "textures": "textures/items/pamobile/rex_clearningsword"
+    },
+    "rex_swordofnature": {
+      "textures": "textures/items/pamobile/rex_swordofnature"
+    },
+    "rex_leathersword": {
+      "textures": "textures/items/pamobile/rex_leathersword"
+    },
+    "rex_cookiesword": {
+      "textures": "textures/items/pamobile/rex_cookiesword"
+    },
+    "rex_withersword": {
+      "textures": "textures/items/pamobile/rex_withersword"
+    },
+    "rex_flintsword": {
+      "textures": "textures/items/pamobile/rex_flintsword"
+    },
+    "rex_vampiresword": {
+      "textures": "textures/items/pamobile/rex_vampiresword"
+    },
+    "rex_kelpsword": {
+      "textures": "textures/items/pamobile/rex_kelpsword"
+    },
+    "rex_xpsword": {
+      "textures": "textures/items/pamobile/rex_xpsword"
+    },
+    "rex_eggsword": {
+      "textures": "textures/items/pamobile/rex_eggsword"
+    },
+    "rex_netherwartsword": {
+      "textures": "textures/items/pamobile/rex_netherwartsword"
+    },
+    "rex_rottensword": {
+      "textures": "textures/items/pamobile/rex_rottensword"
+    },
+    "rex_frozensword": {
+      "textures": "textures/items/pamobile/rex_frozensword"
+    },
+    "rex_sandstonesword": {
+      "textures": "textures/items/pamobile/rex_sandstonesword"
+    },
+    "rex_bonesword": {
+      "textures": "textures/items/pamobile/rex_bonesword"
+    },
+    "rex_potionsword": {
+      "textures": "textures/items/pamobile/rex_potionsword"
+    },
+    "rex:skeletonsummon": {
+      "textures": "textures/items/pamobile/rex_skeletonsummon"
+    },
+    "rex:walhingswordtrader": {
+      "textures": "textures/items/pamobile/rex_walhingswordtrader"
+    },
+    "rex_coppersword": {
+      "textures": "textures/items/pamobile/rex_coppersword"
+    },
+    "rex:skeletonboss": {
+      "textures": "textures/items/pamobile/rex_skeletonboss"
+    },
+    "rex:acai": {
+      "textures": "textures/items/pamobile/rex_acai"
+    },
+    "rex:brasilianita": {
+      "textures": "textures/items/pamobile/rex_brasilianita"
+    },
+    "rex_brasilianitapickaxe": {
+      "textures": "textures/items/pamobile/rex_brasilianitapickaxe"
+    },
+    "rex_brasilianitaaxe": {
+      "textures": "textures/items/pamobile/rex_brasilianitaaxe"
+    },
+    "rex_brasialianitasword": {
+      "textures": "textures/items/pamobile/rex_brasialianitasword"
+    },
+    "rex_brasilianitahoe": {
+      "textures": "textures/items/pamobile/rex_brasilianitahoe"
+    },
+    "rex:saciscap": {
+      "textures": "textures/items/pamobile/rex_saciscap"
+    },
+    "rex_brasilianitashovel": {
+      "textures": "textures/items/pamobile/rex_brasilianitashovel"
+    },
+    "rex:saciperere": {
+      "textures": "textures/items/pamobile/rex_saciperere"
+    },
+    "rex:saciperereinpot": {
+      "textures": "textures/items/pamobile/rex_saciperereinpot"
+    },
+    "rex:piratestatue": {
+      "textures": "textures/items/pamobile/rex_piratestatue"
+    },
+    "rex:redbeard": {
+      "textures": "textures/items/pamobile/rex_redbeard"
+    },
+    "rex:scd": {
+      "textures": "textures/items/pamobile/rex_scd"
+    },
+    "rex_terroroftheseas": {
+      "textures": "textures/items/pamobile/rex_terroroftheseas"
+    },
+    "rex:acaiinthebowl": {
+      "textures": "textures/items/pamobile/rex_acaiinthebowl"
+    },
+    "rex:pirate": {
+      "textures": "textures/items/pamobile/rex_pirate"
+    },
+    "rex:piratep": {
+      "textures": "textures/items/pamobile/rex_piratep"
+    },
+    "rex:corruptzombie": {
+      "textures": "textures/items/pamobile/rex_corruptzombie"
+    },
+    "rex:corruptchicken": {
+      "textures": "textures/items/pamobile/rex_corruptchicken"
+    },
+    "rex:corruptnugget": {
+      "textures": "textures/items/pamobile/rex_corruptnugget"
+    },
+    "rex:corruptedcow": {
+      "textures": "textures/items/pamobile/rex_corruptedcow"
+    },
+    "rex:corruptedskeleton": {
+      "textures": "textures/items/pamobile/rex_corruptedskeleton"
+    },
+    "rex:corruptedsteelingot": {
+      "textures": "textures/items/pamobile/rex_corruptedsteelingot"
+    },
+    "rex:corruptedpig": {
+      "textures": "textures/items/pamobile/rex_corruptedpig"
+    },
+    "rex:corruptedstick": {
+      "textures": "textures/items/pamobile/rex_corruptedstick"
+    },
+    "rex:corruptedspider": {
+      "textures": "textures/items/pamobile/rex_corruptedspider"
+    },
+    "rex:corruptedsteelrae": {
+      "textures": "textures/items/pamobile/rex_corruptedsteelrae"
+    },
+    "rex_corruptedsteelhelmet": {
+      "textures": [
+        "textures/items/pamobile/rex_corruptedsteelhelmet"
+      ]
+    },
+    "rex_corruptedsteelsword": {
+      "textures": "textures/items/pamobile/rex_corruptedsteelsword"
+    },
+    "rex_corruptedsteelchestplate": {
+      "textures": [
+        "textures/items/pamobile/rex_corruptedsteelchestplate"
+      ]
+    },
+    "rex_corruptedsteelboots": {
+      "textures": [
+        "textures/items/pamobile/rex_corruptedsteelboots"
+      ]
+    },
+    "rex_corruptedsteelleggings": {
+      "textures": [
+        "textures/items/pamobile/rex_corruptedsteelleggings"
+      ]
+    },
+    "rex:corruptedrabbit": {
+      "textures": "textures/items/pamobile/rex_corruptedrabbit"
+    },
+    "rex:corruptedplayer": {
+      "textures": "textures/items/pamobile/rex_corruptedplayer"
+    },
+    "rex:corruptedpillager": {
+      "textures": "textures/items/pamobile/rex_corruptedpillager"
+    },
+    "rex:corruptedslime": {
+      "textures": "textures/items/pamobile/rex_corruptedslime"
+    },
+    "rex:corruptedslime2": {
+      "textures": "textures/items/pamobile/rex_corruptedslime2"
+    },
+    "rex:corruptedenderman": {
+      "textures": "textures/items/pamobile/rex_corruptedenderman"
+    },
+    "rex_corruptedsteelpickaxe": {
+      "textures": "textures/items/pamobile/rex_corruptedsteelpickaxe"
+    },
+    "rex:puregem": {
+      "textures": "textures/items/pamobile/rex_puregem"
+    },
+    "rex_corruptedsteelshovel": {
+      "textures": "textures/items/pamobile/rex_corruptedsteelshovel"
+    },
+    "rex_corruptedsteelaxe": {
+      "textures": "textures/items/pamobile/rex_corruptedsteelaxe"
+    },
+    "rex_corruptedsteelhoe": {
+      "textures": "textures/items/pamobile/rex_corruptedsteelhoe"
+    },
+    "rex:blackskeleton": {
+      "textures": "textures/items/pamobile/rex_blackskeleton"
+    },
+    "rex:corruptedcreeper": {
+      "textures": "textures/items/pamobile/rex_corruptedcreeper"
+    },
+    "rex_puregemsword": {
+      "textures": "textures/items/pamobile/rex_puregemsword"
+    },
+    "rex:corruptedwitch": {
+      "textures": "textures/items/pamobile/rex_corruptedwitch"
+    },
+    "rex_puregemshovel": {
+      "textures": "textures/items/pamobile/rex_puregemshovel"
+    },
+    "rex_puregemaxe": {
+      "textures": "textures/items/pamobile/rex_puregemaxe"
+    },
+    "rex_puregempickaxe": {
+      "textures": "textures/items/pamobile/rex_puregempickaxe"
+    },
+    "rex_puregemhoe": {
+      "textures": "textures/items/pamobile/rex_puregemhoe"
+    },
+    "rex:corruptedsquid": {
+      "textures": "textures/items/pamobile/rex_corruptedsquid"
+    },
+    "rex:damagehusk": {
+      "textures": "textures/items/pamobile/rex_damagehusk"
+    },
+    "rex:corruptedrawmeat": {
+      "textures": "textures/items/pamobile/rex_corruptedrawmeat"
+    },
+    "rex:corruptedstring": {
+      "textures": "textures/items/pamobile/rex_corruptedstring"
+    },
+    "rex:poisonzombie": {
+      "textures": "textures/items/pamobile/rex_poisonzombie"
+    },
+    "rex:masterkeleton": {
+      "textures": "textures/items/pamobile/rex_masterkeleton"
+    },
+    "rex_puregemhelmet": {
+      "textures": [
+        "textures/items/pamobile/rex_puregemhelmet"
+      ]
+    },
+    "rex:corruptedglowstonedust": {
+      "textures": "textures/items/pamobile/rex_corruptedglowstonedust"
+    },
+    "rex_puregemchestplate": {
+      "textures": [
+        "textures/items/pamobile/rex_puregemchestplate"
+      ]
+    },
+    "rex_puregemleggings": {
+      "textures": [
+        "textures/items/pamobile/rex_puregemleggings"
+      ]
+    },
+    "rex_puregemboots": {
+      "textures": [
+        "textures/items/pamobile/rex_puregemboots"
+      ]
+    },
+    "rex_ancientsword": {
+      "textures": "textures/items/pamobile/rex_ancientsword"
+    },
+    "rex:playerarcher": {
+      "textures": "textures/items/pamobile/rex_playerarcher"
+    },
+    "rex:playerarcher1": {
+      "textures": "textures/items/pamobile/rex_playerarcher1"
+    },
+    "rex:warriorplayer2": {
+      "textures": "textures/items/pamobile/rex_warriorplayer2"
+    },
+    "rex:warriorplayer": {
+      "textures": "textures/items/pamobile/rex_warriorplayer"
+    },
+    "rex:elderplayer": {
+      "textures": "textures/items/pamobile/rex_elderplayer"
+    },
+    "rex:playerarcherpure": {
+      "textures": "textures/items/pamobile/rex_playerarcherpure"
+    },
+    "rex:warriorplayerpure": {
+      "textures": "textures/items/pamobile/rex_warriorplayerpure"
+    },
+    "rex:mobbarrier": {
+      "textures": "textures/items/pamobile/rex_mobbarrier"
+    },
+    "rex_stonepaxel": {
+      "textures": "textures/items/pamobile/rex_stonepaxel"
+    },
+    "rex_obsidianhelmet": {
+      "textures": [
+        "textures/items/pamobile/rex_obsidianhelmet"
+      ]
+    },
+    "rex_ironpaxel": {
+      "textures": "textures/items/pamobile/rex_ironpaxel"
+    },
+    "rex_goldenpaxel": {
+      "textures": "textures/items/pamobile/rex_goldenpaxel"
+    },
+    "rex_diamondpaxel": {
+      "textures": "textures/items/pamobile/rex_diamondpaxel"
+    },
+    "rex:glassingot": {
+      "textures": "textures/items/pamobile/rex_glassingot"
+    },
+    "rex_glasspickaxe": {
+      "textures": "textures/items/pamobile/rex_glasspickaxe"
+    },
+    "rex_netheritepaxel": {
+      "textures": "textures/items/pamobile/rex_netheritepaxel"
+    },
+    "rex_obsidianleggings": {
+      "textures": [
+        "textures/items/pamobile/rex_obsidianleggings"
+      ]
+    },
+    "rex_obsidianchestplate": {
+      "textures": [
+        "textures/items/pamobile/rex_obsidianchestplate"
+      ]
+    },
+    "rex_ironaiot": {
+      "textures": "textures/items/pamobile/rex_ironaiot"
+    },
+    "rex_diamondaiot": {
+      "textures": "textures/items/pamobile/rex_diamondaiot"
+    },
+    "rex_obsidianboots": {
+      "textures": [
+        "textures/items/pamobile/rex_obsidianboots"
+      ]
+    },
+    "rex:zombiestatueitem": {
+      "textures": "textures/items/pamobile/rex_zombiestatueitem"
+    },
+    "rex:zombiestatue": {
+      "textures": "textures/items/pamobile/rex_zombiestatue"
+    },
+    "rex_netheriteaiot": {
+      "textures": "textures/items/pamobile/rex_netheriteaiot"
+    },
+    "rex_stoneaiot": {
+      "textures": "textures/items/pamobile/rex_stoneaiot"
+    },
+    "rex:obsidianingot": {
+      "textures": "textures/items/pamobile/rex_obsidianingot"
+    },
+    "rex_goldenaiot": {
+      "textures": "textures/items/pamobile/rex_goldenaiot"
+    },
+    "rex_woodenpaxel": {
+      "textures": "textures/items/pamobile/rex_woodenpaxel"
+    },
+    "rex:portableconduit": {
+      "textures": "textures/items/pamobile/rex_portableconduit"
+    },
+    "rex:zombieheart": {
+      "textures": "textures/items/pamobile/rex_zombieheart"
+    },
+    "rex_woodenaiot": {
+      "textures": "textures/items/pamobile/rex_woodenaiot"
+    },
+    "rex_ironbattleaxe": {
+      "textures": "textures/items/pamobile/rex_ironbattleaxe"
+    },
+    "rex_cristalkingsword": {
+      "textures": "textures/items/pamobile/rex_cristalkingsword"
+    },
+    "rex_goldenbattleaxe": {
+      "textures": "textures/items/pamobile/rex_goldenbattleaxe"
+    },
+    "rex_diamondbattleaxe": {
+      "textures": "textures/items/pamobile/rex_diamondbattleaxe"
+    },
+    "rex_emeraldbattleaxe": {
+      "textures": "textures/items/pamobile/rex_emeraldbattleaxe"
+    },
+    "rex_netheritebattleaxe": {
+      "textures": "textures/items/pamobile/rex_netheritebattleaxe"
+    },
+    "rex:pillagercoint": {
+      "textures": "textures/items/pamobile/rex_pillagercoint"
+    },
+    "rex:co": {
+      "textures": "textures/items/pamobile/rex_co"
+    },
+    "rex:kingsfavor": {
+      "textures": "textures/items/pamobile/rex_kingsfavor"
+    },
+    "rex:mo": {
+      "textures": "textures/items/pamobile/rex_mo"
+    },
+    "rex:guard": {
+      "textures": "textures/items/pamobile/rex_guard"
+    },
+    "rex:archer": {
+      "textures": "textures/items/pamobile/rex_archer"
+    },
+    "rex:eliteguard": {
+      "textures": "textures/items/pamobile/rex_eliteguard"
+    },
+    "rex:mercenaryfavor": {
+      "textures": "textures/items/pamobile/rex_mercenaryfavor"
+    },
+    "rex:mercenaryarcher": {
+      "textures": "textures/items/pamobile/rex_mercenaryarcher"
+    },
+    "rex:king": {
+      "textures": "textures/items/pamobile/rex_king"
+    },
+    "rex:coint": {
+      "textures": "textures/items/pamobile/rex_coint"
+    },
+    "rex:pillagerguard": {
+      "textures": "textures/items/pamobile/rex_pillagerguard"
+    },
+    "rex:mercenaryvillager": {
+      "textures": "textures/items/pamobile/rex_mercenaryvillager"
+    },
+    "rex:fvm": {
+      "textures": "textures/items/pamobile/rex_fvm"
+    },
+    "rex:witchm": {
+      "textures": "textures/items/pamobile/rex_witchm"
+    },
+    "rex:pillagerarcher": {
+      "textures": "textures/items/pamobile/rex_pillagerarcher"
+    },
+    "rex:captain": {
+      "textures": "textures/items/pamobile/rex_captain"
+    },
+    "rex:pillagerblacksmith": {
+      "textures": "textures/items/pamobile/rex_pillagerblacksmith"
+    },
+    "rex:arqueiro": {
+      "textures": "textures/items/pamobile/rex_arqueiro"
+    },
+    "rex:arqueiro1": {
+      "textures": "textures/items/pamobile/rex_arqueiro1"
+    },
+    "rex:blazeinsigna": {
+      "textures": "textures/items/pamobile/rex_blazeinsigna"
+    },
+    "rex:aventureiro": {
+      "textures": "textures/items/pamobile/rex_aventureiro"
+    },
+    "rex:merchant1": {
+      "textures": "textures/items/pamobile/rex_merchant1"
+    },
+    "rex:merchant3": {
+      "textures": "textures/items/pamobile/rex_merchant3"
+    },
+    "rex:merchant2": {
+      "textures": "textures/items/pamobile/rex_merchant2"
+    },
+    "rex:creeperinsigna": {
+      "textures": "textures/items/pamobile/rex_creeperinsigna"
+    },
+    "rex:capitao1": {
+      "textures": "textures/items/pamobile/rex_capitao1"
+    },
+    "rex:emeraldnugget": {
+      "textures": "textures/items/pamobile/rex_emeraldnugget"
+    },
+    "rex:diamondhelmet": {
+      "textures": "textures/items/pamobile/rex_diamondhelmet"
+    },
+    "rex:goldhelmet": {
+      "textures": "textures/items/pamobile/rex_goldhelmet"
+    },
+    "rex:capitao": {
+      "textures": "textures/items/pamobile/rex_capitao"
+    },
+    "rex:endermaninsigna": {
+      "textures": "textures/items/pamobile/rex_endermaninsigna"
+    },
+    "rex:guerreiro": {
+      "textures": "textures/items/pamobile/rex_guerreiro"
+    },
+    "rex:heroi1": {
+      "textures": "textures/items/pamobile/rex_heroi1"
+    },
+    "rex:insignaheroi": {
+      "textures": "textures/items/pamobile/rex_insignaheroi"
+    },
+    "rex:heroi": {
+      "textures": "textures/items/pamobile/rex_heroi"
+    },
+    "rex:insignaaventureiro": {
+      "textures": "textures/items/pamobile/rex_insignaaventureiro"
+    },
+    "rex:insignaguerreiro": {
+      "textures": "textures/items/pamobile/rex_insignaguerreiro"
+    },
+    "rex:guerreiro1": {
+      "textures": "textures/items/pamobile/rex_guerreiro1"
+    },
+    "rex:insignacapitao": {
+      "textures": "textures/items/pamobile/rex_insignacapitao"
+    },
+    "rex:insignarei": {
+      "textures": "textures/items/pamobile/rex_insignarei"
+    },
+    "rex:ironhelmet": {
+      "textures": "textures/items/pamobile/rex_ironhelmet"
+    },
+    "rex:netheritehelmet": {
+      "textures": "textures/items/pamobile/rex_netheritehelmet"
+    },
+    "rex:netheritehelmet1": {
+      "textures": "textures/items/pamobile/rex_netheritehelmet1"
+    },
+    "rex:mercenario": {
+      "textures": "textures/items/pamobile/rex_mercenario"
+    },
+    "rex:pillagerinsigna": {
+      "textures": "textures/items/pamobile/rex_pillagerinsigna"
+    },
+    "rex:rei": {
+      "textures": "textures/items/pamobile/rex_rei"
+    },
+    "rex:rei1": {
+      "textures": "textures/items/pamobile/rex_rei1"
+    },
+    "rex:spiderinsigna": {
+      "textures": "textures/items/pamobile/rex_spiderinsigna"
+    },
+    "rex:skeletoninsigna": {
+      "textures": "textures/items/pamobile/rex_skeletoninsigna"
+    },
+    "rex:sucaptain": {
+      "textures": "textures/items/pamobile/rex_sucaptain"
+    },
+    "rex:rawdarksteel": {
+      "textures": "textures/items/pamobile/rex_rawdarksteel"
+    },
+    "rex:witherinsigna": {
+      "textures": "textures/items/pamobile/rex_witherinsigna"
+    },
+    "rex:zumbiinsigna": {
+      "textures": "textures/items/pamobile/rex_zumbiinsigna"
+    },
+    "rex:summonvillager": {
+      "textures": "textures/items/pamobile/rex_summonvillager"
+    },
+    "rex:darksteelingot": {
+      "textures": "textures/items/pamobile/rex_darksteelingot"
+    },
+    "rex_darksteelpickaxe": {
+      "textures": "textures/items/pamobile/rex_darksteelpickaxe"
+    },
+    "rex:jade": {
+      "textures": "textures/items/pamobile/rex_jade"
+    },
+    "rex_darksteelsword": {
+      "textures": "textures/items/pamobile/rex_darksteelsword"
+    },
+    "rex_darksteelhoe": {
+      "textures": "textures/items/pamobile/rex_darksteelhoe"
+    },
+    "rex_brasilianita_chestplate": {
+      "textures": [
+        "textures/items/pamobile/rex_brasilianita_chestplate"
+      ]
+    },
+    "rex_darksteelaxe": {
+      "textures": "textures/items/pamobile/rex_darksteelaxe"
+    },
+    "rex_brasilianita_helmet": {
+      "textures": [
+        "textures/items/pamobile/rex_brasilianita_helmet"
+      ]
+    },
+    "rex_darksteelshovel": {
+      "textures": "textures/items/pamobile/rex_darksteelshovel"
+    },
+    "rex_dark_steel_aiot": {
+      "textures": "textures/items/pamobile/rex_dark_steel_aiot"
+    },
+    "rex_dark_steel_battle_axe": {
+      "textures": "textures/items/pamobile/rex_dark_steel_battle_axe"
+    },
+    "rex_dark_steel_paxel": {
+      "textures": "textures/items/pamobile/rex_dark_steel_paxel"
+    },
+    "rex_brasilianita_leggings": {
+      "textures": [
+        "textures/items/pamobile/rex_brasilianita_leggings"
+      ]
+    },
+    "rex_brasilianita_boots": {
+      "textures": [
+        "textures/items/pamobile/rex_brasilianita_boots"
+      ]
+    },
+    "rex:gem_of_greed": {
+      "textures": "textures/items/pamobile/rex_gem_of_greed"
+    },
+    "rex_brasilianita_aiot": {
+      "textures": "textures/items/pamobile/rex_brasilianita_aiot"
+    },
+    "rex:wicked_gem": {
+      "textures": "textures/items/pamobile/rex_wicked_gem"
+    },
+    "rex:power_gem": {
+      "textures": "textures/items/pamobile/rex_power_gem"
+    },
+    "rex:gem_of_knowledge": {
+      "textures": "textures/items/pamobile/rex_gem_of_knowledge"
+    },
+    "rex:magic_gem": {
+      "textures": "textures/items/pamobile/rex_magic_gem"
+    },
+    "rex_brasilianita_paxel": {
+      "textures": "textures/items/pamobile/rex_brasilianita_paxel"
+    },
+    "rex_night_vision_helmet": {
+      "textures": [
+        "textures/items/pamobile/rex_night_vision_helmet"
+      ]
+    },
+    "rex_dark_steel_chestplate": {
+      "textures": [
+        "textures/items/pamobile/rex_dark_steel_chestplate"
+      ]
+    },
+    "rex:dragon_scales": {
+      "textures": "textures/items/pamobile/rex_dragon_scales"
+    },
+    "rex_brasilianita_battle_axe": {
+      "textures": "textures/items/pamobile/rex_brasilianita_battle_axe"
+    },
+    "rex:gem_of_immortality": {
+      "textures": "textures/items/pamobile/rex_gem_of_immortality"
+    },
+    "rex_dark_steel_helmet": {
+      "textures": [
+        "textures/items/pamobile/rex_dark_steel_helmet"
+      ]
+    },
+    "rex:helitepillagerguard": {
+      "textures": "textures/items/pamobile/rex_helitepillagerguard"
+    },
+    "rex_dark_steel_leggings": {
+      "textures": [
+        "textures/items/pamobile/rex_dark_steel_leggings"
+      ]
+    },
+    "rex_dark_steel_boots": {
+      "textures": [
+        "textures/items/pamobile/rex_dark_steel_boots"
+      ]
+    },
+    "rex_pure_gem_paxel": {
+      "textures": "textures/items/pamobile/rex_pure_gem_paxel"
+    },
+    "rex_pure_gem_aiot": {
+      "textures": "textures/items/pamobile/rex_pure_gem_aiot"
+    },
+    "rex_pure_gem_battle_axe": {
+      "textures": "textures/items/pamobile/rex_pure_gem_battle_axe"
+    },
+    "rex:miner_zombie": {
+      "textures": "textures/items/pamobile/rex_miner_zombie"
+    },
+    "rex:monster_hunter": {
+      "textures": "textures/items/pamobile/rex_monster_hunter"
+    },
+    "rex_astral_helmet": {
+      "textures": [
+        "textures/items/pamobile/rex_astral_helmet"
+      ]
+    },
+    "rex:temporary_work_table_item": {
+      "textures": "textures/items/pamobile/rex_temporary_work_table_item"
+    },
+    "rex:shinebar": {
+      "textures": "textures/items/pamobile/rex_shinebar"
+    },
+    "rex_astral_chestplate": {
+      "textures": [
+        "textures/items/pamobile/rex_astral_chestplate"
+      ]
+    },
+    "rex_astral_leggings": {
+      "textures": [
+        "textures/items/pamobile/rex_astral_leggings"
+      ]
+    },
+    "rex_astral_boots": {
+      "textures": [
+        "textures/items/pamobile/rex_astral_boots"
+      ]
+    },
+    "rex_astral_sword": {
+      "textures": "textures/items/pamobile/rex_astral_sword"
+    },
+    "rex_astral_axe": {
+      "textures": "textures/items/pamobile/rex_astral_axe"
+    },
+    "rex:raw_shine_ore": {
+      "textures": "textures/items/pamobile/rex_raw_shine_ore"
+    },
+    "rex_astral_pickaxe": {
+      "textures": "textures/items/pamobile/rex_astral_pickaxe"
+    },
+    "rex_astral_shovel": {
+      "textures": "textures/items/pamobile/rex_astral_shovel"
+    },
+    "rex:pillagersummonsguard": {
+      "textures": "textures/items/pamobile/rex_pillagersummonsguard"
+    },
+    "rex:mercenaryguard": {
+      "textures": "textures/items/pamobile/rex_mercenaryguard"
+    },
+    "rex:king2": {
+      "textures": "textures/items/pamobile/rex_king2"
+    },
+    "rex:king3": {
+      "textures": "textures/items/pamobile/rex_king3"
+    },
+    "rex:king4": {
+      "textures": "textures/items/pamobile/rex_king4"
+    },
+    "rex:mercenaryvillagercoint": {
+      "textures": "textures/items/pamobile/rex_mercenaryvillagercoint"
+    },
+    "rex:wither_skeleton_summons": {
+      "textures": "textures/items/pamobile/rex_wither_skeleton_summons"
+    },
+    "rex_astral_aiot": {
+      "textures": "textures/items/pamobile/rex_astral_aiot"
+    },
+    "rex_astral_paxel": {
+      "textures": "textures/items/pamobile/rex_astral_paxel"
+    },
+    "rex_astral_battle_axe": {
+      "textures": "textures/items/pamobile/rex_astral_battle_axe"
+    },
+    "rex:helmet_lantern": {
+      "textures": "textures/items/pamobile/rex_helmet_lantern"
+    },
+    "rex_astral_hoe": {
+      "textures": "textures/items/pamobile/rex_astral_hoe"
+    },
+    "rex:wither_power": {
+      "textures": "textures/items/pamobile/rex_wither_power"
+    },
+    "rex_emerald_pickaxe": {
+      "textures": "textures/items/pamobile/rex_emerald_pickaxe"
+    },
+    "rex_emerald_axe": {
+      "textures": "textures/items/pamobile/rex_emerald_axe"
+    },
+    "rex_emerald_shovel": {
+      "textures": "textures/items/pamobile/rex_emerald_shovel"
+    },
+    "rex:forger": {
+      "textures": "textures/items/pamobile/rex_forger"
+    },
+    "rex:merchant4": {
+      "textures": "textures/items/pamobile/rex_merchant4"
+    },
+    "rex:pillagerking": {
+      "textures": "textures/items/pamobile/rex_pillagerking"
+    },
+    "rex:redstoneengineer": {
+      "textures": "textures/items/pamobile/rex_redstoneengineer"
+    },
+    "rex_emerald_helmet": {
+      "textures": [
+        "textures/items/pamobile/rex_emerald_helmet"
+      ]
+    },
+    "rex_emerald_chestplate": {
+      "textures": [
+        "textures/items/pamobile/rex_emerald_chestplate"
+      ]
+    },
+    "rex_emerald_leggings": {
+      "textures": [
+        "textures/items/pamobile/rex_emerald_leggings"
+      ]
+    },
+    "rex_emerald_boots": {
+      "textures": [
+        "textures/items/pamobile/rex_emerald_boots"
+      ]
+    },
+    "rex_emerald_hoe": {
+      "textures": "textures/items/pamobile/rex_emerald_hoe"
+    },
+    "rex_emerald_paxel": {
+      "textures": "textures/items/pamobile/rex_emerald_paxel"
+    },
+    "rex_emerald_aiot": {
+      "textures": "textures/items/pamobile/rex_emerald_aiot"
+    },
+    "rex_corrupted_steel_battle_axe": {
+      "textures": "textures/items/pamobile/rex_corrupted_steel_battle_axe"
+    },
+    "rex_corrupted_steel_aiot": {
+      "textures": "textures/items/pamobile/rex_corrupted_steel_aiot"
+    },
+    "rex:shards_of_marble": {
+      "textures": "textures/items/pamobile/rex_shards_of_marble"
+    },
+    "rex_corrupted_steel_paxel": {
+      "textures": "textures/items/pamobile/rex_corrupted_steel_paxel"
+    },
+    "rex:fire_witch": {
+      "textures": "textures/items/pamobile/rex_fire_witch"
+    },
+    "rex:ice_witch": {
+      "textures": "textures/items/pamobile/rex_ice_witch"
+    },
+    "rex:bar_from_beyond": {
+      "textures": "textures/items/pamobile/rex_bar_from_beyond"
+    },
+    "rex:sphere_of_light": {
+      "textures": "textures/items/pamobile/rex_sphere_of_light"
+    },
+    "rex:essence_of_the_beyond": {
+      "textures": "textures/items/pamobile/rex_essence_of_the_beyond"
+    },
+    "rex:herobrine_zombie": {
+      "textures": "textures/items/pamobile/rex_herobrine_zombie"
+    },
+    "rex_helmet_from_beyond": {
+      "textures": [
+        "textures/items/pamobile/rex_helmet_from_beyond"
+      ]
+    },
+    "rex:stick_from_beyond": {
+      "textures": "textures/items/pamobile/rex_stick_from_beyond"
+    },
+    "rex_sword_from_beyond": {
+      "textures": "textures/items/pamobile/rex_sword_from_beyond"
+    },
+    "rex_pickaxe_from_bayond": {
+      "textures": "textures/items/pamobile/rex_pickaxe_from_bayond"
+    },
+    "rex:herobrine_skeleton": {
+      "textures": "textures/items/pamobile/rex_herobrine_skeleton"
+    },
+    "rex:herobrine_spider": {
+      "textures": "textures/items/pamobile/rex_herobrine_spider"
+    },
+    "pa:creeper": {
+      "textures": "textures/items/pamobile/pa_creeper"
+    },
+    "rex:herobrine_wither_skeleton": {
+      "textures": "textures/items/pamobile/rex_herobrine_wither_skeleton"
+    },
+    "rex_leggings_from_beyond": {
+      "textures": [
+        "textures/items/pamobile/rex_leggings_from_beyond"
+      ]
+    },
+    "rex_chestplate_from_beyond": {
+      "textures": [
+        "textures/items/pamobile/rex_chestplate_from_beyond"
+      ]
+    },
+    "rex_shovel_from_beyond": {
+      "textures": "textures/items/pamobile/rex_shovel_from_beyond"
+    },
+    "rex_boots_from_beyond": {
+      "textures": [
+        "textures/items/pamobile/rex_boots_from_beyond"
+      ]
+    },
+    "rex:astral_zombie": {
+      "textures": "textures/items/pamobile/rex_astral_zombie"
+    },
+    "rex_hoe_from_beyond": {
+      "textures": "textures/items/pamobile/rex_hoe_from_beyond"
+    },
+    "rex_axe_from_beyond": {
+      "textures": "textures/items/pamobile/rex_axe_from_beyond"
+    },
+    "rex_paxel_from_beyond": {
+      "textures": "textures/items/pamobile/rex_paxel_from_beyond"
+    },
+    "rex:pure_gem_necklace": {
+      "textures": "textures/items/pamobile/rex_pure_gem_necklace"
+    },
+    "rex:fire_witch2": {
+      "textures": "textures/items/pamobile/rex_fire_witch2"
+    },
+    "rex:son_from_beyond": {
+      "textures": "textures/items/pamobile/rex_son_from_beyond"
+    },
+    "rex:herobrine_chicken": {
+      "textures": "textures/items/pamobile/rex_herobrine_chicken"
+    },
+    "rex_jade_hoe": {
+      "textures": "textures/items/pamobile/rex_jade_hoe"
+    },
+    "rex_jade_sword": {
+      "textures": "textures/items/pamobile/rex_jade_sword"
+    },
+    "rex_jade_pickaxe": {
+      "textures": "textures/items/pamobile/rex_jade_pickaxe"
+    },
+    "rex_jade_shovel": {
+      "textures": "textures/items/pamobile/rex_jade_shovel"
+    },
+    "rex_jade_axe": {
+      "textures": "textures/items/pamobile/rex_jade_axe"
+    },
+    "rex:aventureiro1": {
+      "textures": "textures/items/pamobile/rex_aventureiro1"
+    },
+    "rex_jade_chestplate": {
+      "textures": [
+        "textures/items/pamobile/rex_jade_chestplate"
+      ]
+    },
+    "rex_jade_helmet": {
+      "textures": [
+        "textures/items/pamobile/rex_jade_helmet"
+      ]
+    },
+    "rex_jade_aiot": {
+      "textures": "textures/items/pamobile/rex_jade_aiot"
+    },
+    "rex_jade_battle_axe": {
+      "textures": "textures/items/pamobile/rex_jade_battle_axe"
+    },
+    "rex_jade_paxel": {
+      "textures": "textures/items/pamobile/rex_jade_paxel"
+    },
+    "rex_jade_boots": {
+      "textures": [
+        "textures/items/pamobile/rex_jade_boots"
+      ]
+    },
+    "rex_jade_leggings": {
+      "textures": [
+        "textures/items/pamobile/rex_jade_leggings"
+      ]
+    },
+    "rex_shine_helmet": {
+      "textures": [
+        "textures/items/pamobile/rex_shine_helmet"
+      ]
+    },
+    "rex_shine_chestplate": {
+      "textures": [
+        "textures/items/pamobile/rex_shine_chestplate"
+      ]
+    },
+    "rex_shine_boots": {
+      "textures": [
+        "textures/items/pamobile/rex_shine_boots"
+      ]
+    },
+    "rex_shibe_leggings": {
+      "textures": [
+        "textures/items/pamobile/rex_shibe_leggings"
+      ]
+    },
+    "rex_fire_boots": {
+      "textures": [
+        "textures/items/pamobile/rex_fire_boots"
+      ]
+    },
+    "rex:fire_stone": {
+      "textures": "textures/items/pamobile/rex_fire_stone"
+    },
+    "rex:lord_of_fire": {
+      "textures": "textures/items/pamobile/rex_lord_of_fire"
+    },
+    "rex:lord_of_fire_2": {
+      "textures": "textures/items/pamobile/rex_lord_of_fire_2"
+    },
+    "rex_battle_axe_of_beyond": {
+      "textures": "textures/items/pamobile/rex_battle_axe_of_beyond"
+    },
+    "rex:herobrine_insign": {
+      "textures": "textures/items/pamobile/rex_herobrine_insign"
+    },
+    "rex_shine_sword": {
+      "textures": "textures/items/pamobile/rex_shine_sword"
+    },
+    "rex_shine_pickaxe": {
+      "textures": "textures/items/pamobile/rex_shine_pickaxe"
+    },
+    "rex_shine_hoe": {
+      "textures": "textures/items/pamobile/rex_shine_hoe"
+    },
+    "rex_shine_shovel": {
+      "textures": "textures/items/pamobile/rex_shine_shovel"
+    },
+    "rex:herobrine_wither": {
+      "textures": "textures/items/pamobile/rex_herobrine_wither"
+    },
+    "rex:tankas_the_master_guardian": {
+      "textures": "textures/items/pamobile/rex_tankas_the_master_guardian"
+    },
+    "rex_dragon_helmet": {
+      "textures": [
+        "textures/items/pamobile/rex_dragon_helmet"
+      ]
+    },
+    "rex_shine_battle_axe": {
+      "textures": "textures/items/pamobile/rex_shine_battle_axe"
+    },
+    "rex_dragon_leggings": {
+      "textures": [
+        "textures/items/pamobile/rex_dragon_leggings"
+      ]
+    },
+    "rex_dragon_boots": {
+      "textures": [
+        "textures/items/pamobile/rex_dragon_boots"
+      ]
+    },
+    "rex_dragon_chestplate": {
+      "textures": [
+        "textures/items/pamobile/rex_dragon_chestplate"
+      ]
+    },
+    "rex_shine_axe": {
+      "textures": "textures/items/pamobile/rex_shine_axe"
+    },
+    "rex_shine_paxel": {
+      "textures": "textures/items/pamobile/rex_shine_paxel"
+    },
+    "rex_shine_aiot": {
+      "textures": "textures/items/pamobile/rex_shine_aiot"
+    },
+    "rex:orb_of_purification": {
+      "textures": "textures/items/pamobile/rex_orb_of_purification"
+    },
+    "rex:sr_thankas_insigna": {
+      "textures": "textures/items/pamobile/rex_sr_thankas_insigna"
+    },
+    "rex:guardian_warrior": {
+      "textures": "textures/items/pamobile/rex_guardian_warrior"
+    },
+    "rex:guardian_archer": {
+      "textures": "textures/items/pamobile/rex_guardian_archer"
+    },
+    "rex:tankas_the_master_guardian_spawn": {
+      "textures": "textures/items/pamobile/rex_tankas_the_master_guardian_spawn"
+    },
+    "rex_notch_sword": {
+      "textures": "textures/items/pamobile/rex_notch_sword"
+    },
+    "rex_herobrine_sword": {
+      "textures": "textures/items/pamobile/rex_herobrine_sword"
+    },
+    "rex:herobrine_2": {
+      "textures": "textures/items/pamobile/rex_herobrine_2"
+    },
+    "rex:herobrine": {
+      "textures": "textures/items/pamobile/rex_herobrine"
+    },
+    "rex:herobrine_clone3": {
+      "textures": "textures/items/pamobile/rex_herobrine_clone3"
+    },
+    "rex:herobrine_clone1": {
+      "textures": "textures/items/pamobile/rex_herobrine_clone1"
+    },
+    "rex:herobrine_clone4": {
+      "textures": "textures/items/pamobile/rex_herobrine_clone4"
+    },
+    "rex:herobrine_clone5": {
+      "textures": "textures/items/pamobile/rex_herobrine_clone5"
+    },
+    "rex:herobrine_clone2": {
+      "textures": "textures/items/pamobile/rex_herobrine_clone2"
+    },
+    "rex:herobrine_4": {
+      "textures": "textures/items/pamobile/rex_herobrine_4"
+    },
+    "rex:redbeard_clone": {
+      "textures": "textures/items/pamobile/rex_redbeard_clone"
+    },
+    "rex:herobrine_3": {
+      "textures": "textures/items/pamobile/rex_herobrine_3"
+    },
+    "rex:pirate_clone": {
+      "textures": "textures/items/pamobile/rex_pirate_clone"
+    },
+    "rex:herobrine_chicken2": {
+      "textures": "textures/items/pamobile/rex_herobrine_chicken2"
+    },
+    "rex:son_from_beyond2": {
+      "textures": "textures/items/pamobile/rex_son_from_beyond2"
+    },
+    "rex:herobrine_wither2": {
+      "textures": "textures/items/pamobile/rex_herobrine_wither2"
+    },
+    "rex:pillager_king_clone": {
+      "textures": "textures/items/pamobile/rex_pillager_king_clone"
+    },
+    "rex:helitepillagerguardclone": {
+      "textures": "textures/items/pamobile/rex_helitepillagerguardclone"
+    },
+    "rex:lord_of_fire_clonr": {
+      "textures": "textures/items/pamobile/rex_lord_of_fire_clonr"
+    },
+    "rex:desejo": {
+      "textures": "textures/items/pamobile/rex_desejo"
+    },
+    "rex:herobrine_beef": {
+      "textures": "textures/items/pamobile/rex_herobrine_beef"
+    },
+    "rex:regeneration_necklace": {
+      "textures": "textures/items/pamobile/rex_regeneration_necklace"
+    },
+    "rex:ice_witchnpc": {
+      "textures": "textures/items/pamobile/rex_ice_witchnpc"
+    },
+    "rex:elderplayernpc": {
+      "textures": "textures/items/pamobile/rex_elderplayernpc"
+    },
+    "rex:king_npc1": {
+      "textures": "textures/items/pamobile/rex_king_npc1"
+    },
+    "rex:tankas_the_master_guardian_spawn_npc544": {
+      "textures": "textures/items/pamobile/rex_tankas_the_master_guardian_spawn_npc544"
+    },
+    "rex:magic_off": {
+      "textures": "textures/items/pamobile/rex_magic_off"
+    },
+    "rex:spawn_bbh": {
+      "textures": "textures/items/pamobile/rex_spawn_bbh"
+    },
+    "rex_darkrainbowsword": {
+      "textures": "textures/items/pamobile/rex_darkrainbowsword"
+    },
+    "rex:fire_skeleton": {
+      "textures": "textures/items/pamobile/rex_fire_skeleton"
+    },
+    "rex:fire_skeleton_clone": {
+      "textures": "textures/items/pamobile/rex_fire_skeleton_clone"
+    },
+    "rex:magic_on": {
+      "textures": "textures/items/pamobile/rex_magic_on"
+    },
+    "rex:ice_witch_heroi": {
+      "textures": "textures/items/pamobile/rex_ice_witch_heroi"
+    },
+    "rex:king_heroi": {
+      "textures": "textures/items/pamobile/rex_king_heroi"
+    },
+    "rex:elderplayer_heroi": {
+      "textures": "textures/items/pamobile/rex_elderplayer_heroi"
+    },
+    "rex:eliteguard_heroi": {
+      "textures": "textures/items/pamobile/rex_eliteguard_heroi"
+    },
+    "rex:warriorplayer_heroi": {
+      "textures": "textures/items/pamobile/rex_warriorplayer_heroi"
+    },
+    "rex:effect_stone_jump_boost": {
+      "textures": "textures/items/pamobile/rex_effect_stone_jump_boost"
+    },
+    "rex:effect_stone_slow_fall": {
+      "textures": "textures/items/pamobile/rex_effect_stone_slow_fall"
+    },
+    "rex:effect_stone_empty": {
+      "textures": "textures/items/pamobile/rex_effect_stone_empty"
+    },
+    "rex:effect_stone_strength": {
+      "textures": "textures/items/pamobile/rex_effect_stone_strength"
+    },
+    "rex:tankas_the_master_guardian_hero": {
+      "textures": "textures/items/pamobile/rex_tankas_the_master_guardian_hero"
+    },
+    "rex:playerarcherpurehero": {
+      "textures": "textures/items/pamobile/rex_playerarcherpurehero"
+    },
+    "rex:guardian_warrior_hero": {
+      "textures": "textures/items/pamobile/rex_guardian_warrior_hero"
+    },
+    "rex:effect_stone_regeneration": {
+      "textures": "textures/items/pamobile/rex_effect_stone_regeneration"
+    },
+    "rex:effect_stone_speed": {
+      "textures": "textures/items/pamobile/rex_effect_stone_speed"
+    },
+    "rex:effect_stone_water_breathing": {
+      "textures": "textures/items/pamobile/rex_effect_stone_water_breathing"
+    },
+    "rex:stone_effect_night_vision": {
+      "textures": "textures/items/pamobile/rex_stone_effect_night_vision"
+    },
+    "rex:stone_effect_fire_resistance": {
+      "textures": "textures/items/pamobile/rex_stone_effect_fire_resistance"
+    },
+    "rex:golden_ring": {
+      "textures": "textures/items/pamobile/rex_golden_ring"
+    },
+    "rex:potion_ring_jump_boost": {
+      "textures": "textures/items/pamobile/rex_potion_ring_jump_boost"
+    },
+    "rex:stone_effect_resistance": {
+      "textures": "textures/items/pamobile/rex_stone_effect_resistance"
+    },
+    "rex:potion_ring_slow_falling": {
+      "textures": "textures/items/pamobile/rex_potion_ring_slow_falling"
+    },
+    "rex:potion_ring_strength": {
+      "textures": "textures/items/pamobile/rex_potion_ring_strength"
+    },
+    "rex:potion_ring_water_breathing": {
+      "textures": "textures/items/pamobile/rex_potion_ring_water_breathing"
+    },
+    "rex:potion_ring_speed": {
+      "textures": "textures/items/pamobile/rex_potion_ring_speed"
+    },
+    "rex:potion_ring_regeneration": {
+      "textures": "textures/items/pamobile/rex_potion_ring_regeneration"
+    },
+    "rex:potion_ring_fire_resistance": {
+      "textures": "textures/items/pamobile/rex_potion_ring_fire_resistance"
+    },
+    "rex:potion_ring_night_vision": {
+      "textures": "textures/items/pamobile/rex_potion_ring_night_vision"
+    },
+    "rex:potion_ring_resistance": {
+      "textures": "textures/items/pamobile/rex_potion_ring_resistance"
+    },
+    "rex:notch_power": {
+      "textures": "textures/items/pamobile/rex_notch_power"
+    },
+    "rex:potion_ring_all": {
+      "textures": "textures/items/pamobile/rex_potion_ring_all"
+    },
+    "rex:notch": {
+      "textures": "textures/items/pamobile/rex_notch"
+    },
+    "rex:herobrine_final": {
+      "textures": "textures/items/pamobile/rex_herobrine_final"
+    },
+    "rex:summon_sob": {
+      "textures": "textures/items/pamobile/rex_summon_sob"
+    },
+    "rex:summon_clones": {
+      "textures": "textures/items/pamobile/rex_summon_clones"
+    },
+    "rex:son_from_beyond3": {
+      "textures": "textures/items/pamobile/rex_son_from_beyond3"
+    },
+    "rex:herobrine_chicken3": {
+      "textures": "textures/items/pamobile/rex_herobrine_chicken3"
+    },
+    "rex:villager_army_clone": {
+      "textures": "textures/items/pamobile/rex_villager_army_clone"
+    },
+    "rex:summon_icewitch": {
+      "textures": "textures/items/pamobile/rex_summon_icewitch"
+    },
+    "rex:animals_summon": {
+      "textures": "textures/items/pamobile/rex_animals_summon"
+    },
+    "rex:corruptzombie2": {
+      "textures": "textures/items/pamobile/rex_corruptzombie2"
+    },
+    "rex:blackskeleton2": {
+      "textures": "textures/items/pamobile/rex_blackskeleton2"
+    },
+    "rex:corruptchicken2": {
+      "textures": "textures/items/pamobile/rex_corruptchicken2"
+    },
+    "rex:corrupted_mobssummon": {
+      "textures": "textures/items/pamobile/rex_corrupted_mobssummon"
+    },
+    "rex:corruptedskeleton2": {
+      "textures": "textures/items/pamobile/rex_corruptedskeleton2"
+    },
+    "rex:bay_zombie": {
+      "textures": "textures/items/pamobile/rex_bay_zombie"
+    },
+    "rex:exit_spawn_menu": {
+      "textures": "textures/items/pamobile/rex_exit_spawn_menu"
+    },
+    "rex:corruptedplayer2": {
+      "textures": "textures/items/pamobile/rex_corruptedplayer2"
+    },
+    "rex:magic_stone": {
+      "textures": "textures/items/pamobile/rex_magic_stone"
+    },
+    "rex:regeneration_wand": {
+      "textures": "textures/items/pamobile/rex_regeneration_wand"
+    },
+    "rex:lightning_wand": {
+      "textures": "textures/items/pamobile/rex_lightning_wand"
+    },
+    "rex:lightning_stone": {
+      "textures": "textures/items/pamobile/rex_lightning_stone"
+    },
+    "rex:ice_merchant1": {
+      "textures": "textures/items/pamobile/rex_ice_merchant1"
+    },
+    "rex:ice_merchant4": {
+      "textures": "textures/items/pamobile/rex_ice_merchant4"
+    },
+    "rex:ice_merchant2": {
+      "textures": "textures/items/pamobile/rex_ice_merchant2"
+    },
+    "rex:ice_merchant3": {
+      "textures": "textures/items/pamobile/rex_ice_merchant3"
+    },
+    "rex:more_powers": {
+      "textures": "textures/items/pamobile/rex_more_powers"
+    },
+    "rex:tnt_rain": {
+      "textures": "textures/items/pamobile/rex_tnt_rain"
+    },
+    "rex:exit_more_powers_menu": {
+      "textures": "textures/items/pamobile/rex_exit_more_powers_menu"
+    },
+    "rex:ore_rain": {
+      "textures": "textures/items/pamobile/rex_ore_rain"
+    },
+    "rex:earthquake": {
+      "textures": "textures/items/pamobile/rex_earthquake"
+    },
+    "rex:potion_effects": {
+      "textures": "textures/items/pamobile/rex_potion_effects"
+    },
+    "rex:lightning_explosion": {
+      "textures": "textures/items/pamobile/rex_lightning_explosion"
+    },
+    "rex:exit_powers": {
+      "textures": "textures/items/pamobile/rex_exit_powers"
+    },
+    "rex:timeandweatherpower": {
+      "textures": "textures/items/pamobile/rex_timeandweatherpower"
+    },
+    "rex:daynight": {
+      "textures": "textures/items/pamobile/rex_daynight"
+    },
+    "rex:exittimeandweathermenu": {
+      "textures": "textures/items/pamobile/rex_exittimeandweathermenu"
+    },
+    "rex:time_speed_on": {
+      "textures": "textures/items/pamobile/rex_time_speed_on"
+    },
+    "rex:time_speed_off": {
+      "textures": "textures/items/pamobile/rex_time_speed_off"
+    },
+    "rex:tpitems": {
+      "textures": "textures/items/pamobile/rex_tpitems"
+    },
+    "rex:jump_boost": {
+      "textures": "textures/items/pamobile/rex_jump_boost"
+    },
+    "rex:weather_clear": {
+      "textures": "textures/items/pamobile/rex_weather_clear"
+    },
+    "rex:weather_rain": {
+      "textures": "textures/items/pamobile/rex_weather_rain"
+    },
+    "rex:weather_thunder": {
+      "textures": "textures/items/pamobile/rex_weather_thunder"
+    },
+    "rex:health_boost": {
+      "textures": "textures/items/pamobile/rex_health_boost"
+    },
+    "rex:fireresistance": {
+      "textures": "textures/items/pamobile/rex_fireresistance"
+    },
+    "rex:haste": {
+      "textures": "textures/items/pamobile/rex_haste"
+    },
+    "rex:invisibility": {
+      "textures": "textures/items/pamobile/rex_invisibility"
+    },
+    "rex:resistance": {
+      "textures": "textures/items/pamobile/rex_resistance"
+    },
+    "rex:night_vision": {
+      "textures": "textures/items/pamobile/rex_night_vision"
+    },
+    "rex:regeneration": {
+      "textures": "textures/items/pamobile/rex_regeneration"
+    },
+    "rex:speed": {
+      "textures": "textures/items/pamobile/rex_speed"
+    },
+    "rex:water_breathing": {
+      "textures": "textures/items/pamobile/rex_water_breathing"
+    },
+    "rex:village_hero": {
+      "textures": "textures/items/pamobile/rex_village_hero"
+    },
+    "rex:strength": {
+      "textures": "textures/items/pamobile/rex_strength"
+    },
+    "rex:power_effects": {
+      "textures": "textures/items/pamobile/rex_power_effects"
+    },
+    "rex:exitpotionmenu": {
+      "textures": "textures/items/pamobile/rex_exitpotionmenu"
+    },
+    "rex:thiago_costa": {
+      "textures": "textures/items/pamobile/rex_thiago_costa"
+    },
+    "rex:stray_knight": {
+      "textures": "textures/items/pamobile/rex_stray_knight"
+    },
+    "rex:stray_archer": {
+      "textures": "textures/items/pamobile/rex_stray_archer"
+    },
+    "rex:obsidian_zombie": {
+      "textures": "textures/items/pamobile/rex_obsidian_zombie"
+    },
+    "rex:xp_orb1": {
+      "textures": "textures/items/pamobile/rex_xp_orb1"
+    },
+    "rex:brasilianita_zombie": {
+      "textures": "textures/items/pamobile/rex_brasilianita_zombie"
+    },
+    "rex:joao_gamer": {
+      "textures": "textures/items/pamobile/rex_joao_gamer"
+    },
+    "rex:basic_guide": {
+      "textures": "textures/items/pamobile/rex_basic_guide"
+    },
+    "rex:cironpgoldaxeobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cironpgoldaxeobsidianmredstone"
+    },
+    "rex:cgoldpgoldaxemobsidianredstone": {
+      "textures": "textures/items/pamobile/rex_cgoldpgoldaxemobsidianredstone"
+    },
+    "rex:cdiamondpgoldaxemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_cdiamondpgoldaxemobsidianmredstone"
+    },
+    "rex:icdiamondpgoldaxemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_icdiamondpgoldaxemobsidianmredstone"
+    },
+    "rex:icironpgoldaxeobsdianmredstone": {
+      "textures": "textures/items/pamobile/rex_icironpgoldaxeobsdianmredstone"
+    },
+"rex:icdiamondpgoldaxemobsidianmredstone": {
+      "textures": "textures/items/pamobile/rex_icdiamondpgoldaxemobsidianmredstone"
+    },
+    "rex:icironpgoldaxeobsdianmredstone": {
+      "textures": "textures/items/pamobile/rex_icironpgoldaxeobsdianmredstone"
+    }
+  }
+} }
+  }
+} }
+}

@@ -1,0 +1,1486 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "rex:necrozombie": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.horse.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:zeusminion1": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.horse.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:zeusminion2": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.horse.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:zeusminion3": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.horse.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:skeletonsummon": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.horse.skeleton.death",
+          "step": "mob.skeleton.step"
+        }
+      },
+      "rex:walhingswordtrader": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.wanderingtrader.idle",
+          "death": "mob.wanderingtrader.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.wanderingtrader.haggle",
+          "haggle.no": "mob.wanderingtrader.no",
+          "haggle.yes": "mob.wanderingtrader.yes",
+          "hurt": "mob.wanderingtrader.hurt"
+        }
+      },
+      "rex:skeletonboss": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.horse.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:piratestatue": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "hit.stone",
+          "death": "mob.rex_piratestatue.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.villager.hit"
+        }
+      },
+      "rex:redbeard": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.drowned.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.drowned.step",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.horse.zombie.hit"
+        }
+      },
+      "rex:pirate": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.drowned.say",
+          "death": "mob.drowned.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.drowned.hurt"
+        }
+      },
+      "rex:piratep": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.drowned.step",
+          "death": "mob.drowned.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.drowned.hurt"
+        }
+      },
+      "rex:corruptzombie": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.horse.zombie.death",
+          "step": "mob.zombie.step"
+        }
+      },
+      "rex:corruptchicken": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.chicken.say",
+          "hurt": "mob.horse.zombie.hit",
+          "death": "mob.chicken.hurt",
+          "step": "mob.chicken.step",
+          "plop": "mob.chicken.plop"
+        }
+      },
+      "rex:corruptedcow": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.cow.say",
+          "hurt": "mob.cow.hurt",
+          "death": "mob.cow.hurt",
+          "step": "mob.cow.step"
+        }
+      },
+      "rex:corruptedskeleton": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.horse.skeleton.death",
+          "step": "mob.skeleton.step"
+        }
+      },
+      "rex:corruptedpig": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pig.say",
+          "hurt": "mob.piglin.hurt",
+          "death": "mob.pig.death",
+          "step": "mob.pig.step",
+          "boost": {
+            "sound": "mob.pig.boost",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "death.to.zombie": {
+            "sound": "mob.pig.death",
+            "volume": 2.0
+          }
+        }
+      },
+      "rex:corruptedspider": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.spider.say",
+          "hurt": "mob.spider.say",
+          "death": "mob.spider.death",
+          "step": "mob.spider.death"
+        }
+      },
+      "rex:corruptedrabbit": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.rabbit.idle",
+          "hurt": "mob.rabbit.hurt",
+          "death": "mob.rabbit.death"
+        }
+      },
+      "rex:corruptedpillager": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "hurt": "mob.pillager.hurt",
+          "death": "mob.pillager.death",
+          "ambient.in.raid": {
+            "sound": "mob.pillager.idle",
+            "volume": 3.0,
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "celebrate": "mob.pillager.celebrate"
+        }
+      },
+      "rex:corruptedslime": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "hurt": "hit.slime",
+          "death": "mob.slime.death",
+          "squish.big": {
+            "sound": "mob.slime.big",
+            "pitch": [
+              0.64,
+              0.96
+            ]
+          },
+          "squish.small": {
+            "sound": "mob.slime.small",
+            "pitch": [
+              0.64,
+              0.96
+            ]
+          }
+        }
+      },
+      "rex:corruptedenderman": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.endermen.idle",
+          "hurt": "mob.endermen.hit",
+          "death": "mob.endermen.death",
+          "mad": "mob.endermen.scream",
+          "stare": {
+            "sound": "mob.endermen.stare",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:blackskeleton": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.horse.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:corruptedcreeper": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "hurt": "mob.creeper.say",
+          "death": "mob.creeper.death",
+          "fuse": "random.fuse"
+        }
+      },
+      "rex:corruptedwitch": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.witch.ambient",
+          "hurt": "mob.witch.hurt",
+          "death": "mob.witch.death",
+          "drink": {
+            "sound": "mob.witch.drink",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.witch.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "ambient.in.raid": {
+            "sound": "mob.witch.ambient",
+            "volume": 3.0,
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "celebrate": "mob.witch.celebrate"
+        }
+      },
+      "rex:damagehusk": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.husk.ambient",
+          "hurt": "mob.husk.hurt",
+          "death": "mob.husk.death",
+          "step": {
+            "sound": "mob.husk.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:poisonzombie": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.horse.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:masterkeleton": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.horse.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:zombiestatue": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "beacon.ambient",
+          "death": "beacon.deactivate",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "hit.stone"
+        }
+      },
+      "rex:guard": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.villager.hit"
+        }
+      },
+      "rex:eliteguard": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.villager.hit"
+        }
+      },
+      "rex:mercenaryarcher": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.hurt"
+        }
+      },
+      "rex:mercenaryvillager": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.hurt"
+        }
+      },
+      "rex:coint": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "death": "mob.pillager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.hurt"
+        }
+      },
+      "rex:fvm": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.hurt"
+        }
+      },
+      "rex:pillagerguard": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "death": "mob.pillager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.pillager.celebrate",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.hurt"
+        }
+      },
+      "rex:captain": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.villager.hit"
+        }
+      },
+      "rex:pillagerarcher": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "death": "mob.pillager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.pillager.celebrate",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.hurt"
+        }
+      },
+      "rex:pillagerblacksmith": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "death": "mob.pillager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.pillager.celebrate",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.hurt"
+        }
+      },
+      "rex:helitepillagerguard": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "death": "mob.pillager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.idle"
+        }
+      },
+      "rex:miner_zombie": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": "mob.zombie.step"
+        }
+      },
+      "rex:king2": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "death": "mob.pillager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.hurt"
+        }
+      },
+      "rex:king3": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "death": "mob.pillager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.hurt"
+        }
+      },
+      "rex:king4": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "death": "mob.pillager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.hurt"
+        }
+      },
+      "rex:mercenaryvillagercoint": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.hurt"
+        }
+      },
+      "rex:forger": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "random.anvil_use",
+          "haggle.no": "random.anvil_use",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.villager.hit"
+        }
+      },
+      "rex:redstoneengineer": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.villager.hit"
+        }
+      },
+      "rex:pillagerking": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "death": "mob.pillager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.hurt"
+        }
+      },
+      "rex:fire_witch": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.witch.ambient",
+          "hurt": "mob.witch.hurt",
+          "death": "mob.witch.death",
+          "drink": {
+            "sound": "mob.witch.drink",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.witch.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "ambient.in.raid": {
+            "sound": "mob.witch.ambient",
+            "volume": 3.0,
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "celebrate": "mob.witch.celebrate"
+        }
+      },
+      "rex:ice_witch": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.witch.ambient",
+          "hurt": "mob.witch.hurt",
+          "death": "mob.witch.death",
+          "drink": {
+            "sound": "mob.witch.drink",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.witch.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "ambient.in.raid": {
+            "sound": "mob.witch.ambient",
+            "volume": 3.0,
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "celebrate": "mob.witch.celebrate"
+        }
+      },
+      "rex:herobrine_zombie": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:herobrine_skeleton": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.skeleton.death",
+          "step": "mob.skeleton.step"
+        }
+      },
+      "rex:herobrine_spider": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.spider.say",
+          "hurt": "mob.spider.say",
+          "death": "mob.spider.death",
+          "step": {
+            "sound": "mob.spider.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "pa:creeper": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "hurt": "mob.creeper.say",
+          "death": "mob.creeper.death",
+          "fuse": "random.fuse"
+        }
+      },
+      "rex:herobrine_wither_skeleton": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.horse.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:astral_zombie": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:herobrine_chicken": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.chicken.say",
+          "hurt": "mob.chicken.hurt",
+          "death": "mob.zombie_villager.death",
+          "step": {
+            "sound": "mob.chicken.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          },
+          "plop": "mob.chicken.plop"
+        }
+      },
+      "rex:fire_witch2": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.witch.ambient",
+          "hurt": "mob.witch.hurt",
+          "death": "mob.witch.death",
+          "drink": {
+            "sound": "mob.witch.drink",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.witch.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "ambient.in.raid": {
+            "sound": "mob.witch.ambient",
+            "volume": 3.0,
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "celebrate": "mob.witch.celebrate"
+        }
+      },
+      "rex:tankas_the_master_guardian": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.villager.hit"
+        }
+      },
+      "rex:guardian_warrior": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "game.player.die",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.villager.hit"
+        }
+      },
+      "rex:pirate_clone": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.drowned.say",
+          "death": "mob.drowned.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.drowned.hurt"
+        }
+      },
+      "rex:herobrine_chicken2": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.chicken.say",
+          "hurt": "mob.chicken.hurt",
+          "death": "mob.zombie_villager.death",
+          "step": {
+            "sound": "mob.chicken.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          },
+          "plop": "mob.chicken.plop"
+        }
+      },
+      "rex:helitepillagerguardclone": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pillager.idle",
+          "death": "mob.pillager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.pillager.idle"
+        }
+      },
+      "rex:ice_witchnpc": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.witch.ambient",
+          "hurt": "mob.witch.hurt",
+          "death": "mob.witch.death",
+          "drink": {
+            "sound": "mob.witch.drink",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.witch.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "ambient.in.raid": {
+            "sound": "mob.witch.ambient",
+            "volume": 3.0,
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "celebrate": "mob.witch.celebrate"
+        }
+      },
+      "rex:fire_skeleton": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:fire_skeleton_clone": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:ice_witch_heroi": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.witch.ambient",
+          "hurt": "mob.witch.hurt",
+          "death": "mob.witch.death",
+          "drink": {
+            "sound": "mob.witch.drink",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.witch.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "ambient.in.raid": {
+            "sound": "mob.witch.ambient",
+            "volume": 3.0,
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "celebrate": "mob.witch.celebrate"
+        }
+      },
+      "rex:eliteguard_heroi": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.villager.hit"
+        }
+      },
+      "rex:tankas_the_master_guardian_hero": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.villager.hit"
+        }
+      },
+      "rex:guardian_warrior_hero": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "game.player.die",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.villager.hit"
+        }
+      },
+      "rex:herobrine_chicken3": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.chicken.say",
+          "hurt": "mob.chicken.hurt",
+          "death": "mob.zombie_villager.death",
+          "step": {
+            "sound": "mob.chicken.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          },
+          "plop": "mob.chicken.plop"
+        }
+      },
+      "rex:corruptzombie2": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.horse.zombie.death",
+          "step": "mob.zombie.step"
+        }
+      },
+      "rex:blackskeleton2": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.horse.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:corruptchicken2": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.chicken.say",
+          "hurt": "mob.horse.zombie.hit",
+          "death": "mob.chicken.hurt",
+          "step": "mob.chicken.step",
+          "plop": "mob.chicken.plop"
+        }
+      },
+      "rex:corruptedskeleton2": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.horse.skeleton.death",
+          "step": "mob.skeleton.step"
+        }
+      },
+      "rex:bay_zombie": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:ice_merchant1": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.witch.ambient",
+          "hurt": "mob.witch.hurt",
+          "death": "mob.witch.death",
+          "drink": {
+            "sound": "mob.witch.drink",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.witch.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "ambient.in.raid": {
+            "sound": "mob.witch.ambient",
+            "volume": 3.0,
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "celebrate": "mob.witch.celebrate"
+        }
+      },
+      "rex:ice_merchant4": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.witch.ambient",
+          "hurt": "mob.witch.hurt",
+          "death": "mob.witch.death",
+          "drink": {
+            "sound": "mob.witch.drink",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.witch.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "ambient.in.raid": {
+            "sound": "mob.witch.ambient",
+            "volume": 3.0,
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "celebrate": "mob.witch.celebrate"
+        }
+      },
+      "rex:ice_merchant2": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.witch.ambient",
+          "hurt": "mob.witch.hurt",
+          "death": "mob.witch.death",
+          "drink": {
+            "sound": "mob.witch.drink",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.witch.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "ambient.in.raid": {
+            "sound": "mob.witch.ambient",
+            "volume": 3.0,
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "celebrate": "mob.witch.celebrate"
+        }
+      },
+      "rex:ice_merchant3": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.witch.ambient",
+          "hurt": "mob.witch.hurt",
+          "death": "mob.witch.death",
+          "drink": {
+            "sound": "mob.witch.drink",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.witch.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "ambient.in.raid": {
+            "sound": "mob.witch.ambient",
+            "volume": 3.0,
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "celebrate": "mob.witch.celebrate"
+        }
+      },
+      "rex:stray_archer": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:stray_knight": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": "mob.skeleton.hurt",
+          "death": "mob.skeleton.death",
+          "step": "mob.skeleton.step"
+        }
+      },
+      "rex:obsidian_zombie": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rex:brasilianita_zombie": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      }
+    }
+  }
+}

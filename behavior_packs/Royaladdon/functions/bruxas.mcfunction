@@ -1,0 +1,10 @@
+summon rex:fire_witch ~~2~
+summon rex:fire_witch ~~2~
+summon rex:fire_witch ~~2~
+summon rex:fire_witch ~~2~
+summon rex:fire_witch ~~2~
+summon rex:fire_witch ~~2~
+summon rex:fire_witch ~~2~
+summon rex:fire_witch ~~2~
+fill ~~~~~~ stone
+gamerule commandblockoutput false

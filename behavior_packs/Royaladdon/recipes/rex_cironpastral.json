@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cironpastral_a1d5b227"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:pastralsword",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:ironstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cironpastral",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 6,
+        "max": 15
+      },
+      "entries": [
+        {
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "name": "minecraft:iron_nugget"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 2
+            }
+          ],
+          "name": "rex:raw_shine_ore"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 3
+            }
+          ],
+          "name": "rex:brasilianita"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 7
+              }
+            }
+          ],
+          "name": "minecraft:vine"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "name": "rex:acaiinthebowl"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "name": "rex:emeraldnugget"
+        },
+        {
+          "type": "item",
+          "name": "rex:clocksword"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "name": "rex:pillagercoint"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "name": "rex:endermaninsigna"
+        },
+        {
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "name": "rex:night_vision_helmet"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "name": "rex:glassingot"
+        }
+      ]
+    }
+  ]
+}]
+}}]
+}]
+}}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:spiderinsigna",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:spiderinsigna",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

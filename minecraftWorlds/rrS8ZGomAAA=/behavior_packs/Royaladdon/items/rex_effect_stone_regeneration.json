@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:effect_stone_regeneration",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": true,
+      "minecraft:stack_by_data": true,
+      "minecraft:icon": {
+        "texture": "rex:effect_stone_regeneration"
+      },
+      "minecraft:display_name": {
+        "value": "effect stone (§dregeneration§f)"
+      }
+    }
+  }
+}

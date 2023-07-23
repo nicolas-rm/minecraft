@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "puregemaxe_2aee25bd"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      "AB ",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:puregem",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:puregemaxe",
+      "count": 1
+    }
+  }
+}

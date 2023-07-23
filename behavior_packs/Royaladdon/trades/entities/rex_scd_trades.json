@@ -1,0 +1,96 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:brasilianita",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:bed",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:amethyst_shard",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:brasilianita",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:sapling",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:brasilianita",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_apple",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:gold_ingot",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

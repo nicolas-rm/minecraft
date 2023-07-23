@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:dragon_scales",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:dragon_scales",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

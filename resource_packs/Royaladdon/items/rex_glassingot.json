@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:glassingot",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:glassingot",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 15,
+          "trades": [
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:sapling:0", // Oak Sapling
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:sapling:1", // Spruce Sapling
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:sapling:2", // Birch Sapling
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:sapling:3", // Jungle Sapling
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:sapling:4", // Acacia Sapling
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:sapling:5", // Dark Oak Sapling
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:deadbush",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:azalea",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:flowering_azalea",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:big_dripleaf",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:moss_carpet",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:waterlily",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:cactus",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:spore_blossom",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:hanging_roots",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:brown_mushroom",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:red_mushroom",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:crimson_fungus",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:warped_fungus",
+                  "quantity": 24
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:weeping_vines",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:twisting_vines",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:crimson_roots",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:warped_roots",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:nether_wart",
+                  "quantity": 16
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:nether_wart_block",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:warped_wart_block",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:chorus_flower",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:wither_rose",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:diamond",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:azalea_leaves_flowered",
+                  "quantity": 32
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:azalea_leaves",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:leaves:0",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:leaves:1",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:leaves:2",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:leaves:3",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:leaves2:0",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 10,
+              "wants": [
+                {
+                  "item": "minecraft:leaves2:1",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"chileancraft_chilean_flag": {
+			"textures": "textures/blocks/chilean_flag"
+		},
+		"end_crafting_table_up": {
+			"textures": [
+				"textures/blocks/end_crafting_table_up"
+			]
+		},
+		"end_crafting_table_south": {
+			"textures": [
+				"textures/blocks/end_crafting_table_south"
+			]
+		},
+		"end_crafting_table_east": {
+			"textures": [
+				"textures/blocks/end_crafting_table_east"
+			]
+		},
+		"end_crafting_table_west": {
+			"textures": [
+				"textures/blocks/end_crafting_table_west"
+			]
+		},
+		"end_crafting_table_down": {
+			"textures": [
+				"textures/blocks/end_crafting_table_down"
+			]
+		},
+		"end_crafting_table_north": {
+			"textures": [
+				"textures/blocks/end_crafting_table_north"
+			]
+		},
+		"enderite_up": {
+			"textures": [
+				"textures/blocks/enderite_up"
+			]
+		},
+		"enderite_side": {
+			"textures": [
+				"textures/blocks/enderite_side"
+			]
+		},
+		"enderite_down": {
+			"textures": [
+				"textures/blocks/enderite_down"
+			]
+		},
+		"enderite_block_side": {
+			"textures": [
+				"textures/blocks/enderite_block"
+			]
+		},
+		"enderite_block_up": {
+			"textures": [
+				"textures/blocks/enderite_block"
+			]
+		},
+		"enderite_block_down": {
+			"textures": [
+				"textures/blocks/enderite_block"
+			]
+		},
+		"enderite_cracked": {
+			"textures": [
+				"textures/blocks/enderite_cracked"
+			]
+		},
+		"end_respawn_up": {
+			"textures": "textures/blocks/end_respawn_up"
+		},
+		"end_respawn_down": {
+			"textures": "textures/blocks/end_respawn_down"
+		},
+		"ed_end_respawn_anchor_stage_1_side": {
+			"textures": "textures/blocks/ed_end_respawn_anchor_stage_1_side"
+		},
+		"ed_end_respawn_anchor_stage_0_side": {
+			"textures": "textures/blocks/ed_end_respawn_anchor_stage_0_side"
+		},
+		"ed_end_respawn_anchor_stage_2_side": {
+			"textures": "textures/blocks/ed_end_respawn_anchor_stage_2_side"
+		},
+		"ed_end_respawn_anchor_stage_4_side": {
+			"textures": "textures/blocks/ed_end_respawn_anchor_stage_4_side"
+		},
+		"ed_end_respawn_anchor_stage_3_side": {
+			"textures": "textures/blocks/ed_end_respawn_anchor_stage_3_side"
+		},
+		"end_respawn_stage_0_up": {
+			"textures": "textures/blocks/end_respawn_stage_0_up"
+		}
+	}
+}

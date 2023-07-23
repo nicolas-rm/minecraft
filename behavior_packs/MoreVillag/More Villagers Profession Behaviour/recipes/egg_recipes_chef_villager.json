@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_c5589f55"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:chicken",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:egg",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "chef:villager_spawn_egg",
+      "count": 1
+    }
+  }
+}

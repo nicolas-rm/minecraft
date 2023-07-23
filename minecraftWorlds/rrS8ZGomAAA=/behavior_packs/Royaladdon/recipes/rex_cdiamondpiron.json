@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cdiamondpiron_41393eb3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:pironsword",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:diamondstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cdiamondpiron",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:potion_ring_speed",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:potion_ring_speed",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

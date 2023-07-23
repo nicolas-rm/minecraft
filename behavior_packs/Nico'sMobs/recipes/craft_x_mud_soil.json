@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_mud_soil"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "MM",
+      "MM"
+    ],
+    "key": {
+      "M": {
+        "item": "nicothekid:mud_ball"
+      }
+    },
+    "result": {
+      "item": "nicothekid:mud_soil",
+      "count": 1
+    }
+  }
+}

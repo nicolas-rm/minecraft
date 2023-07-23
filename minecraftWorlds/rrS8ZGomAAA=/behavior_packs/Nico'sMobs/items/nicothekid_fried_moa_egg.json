@@ -1,0 +1,32 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nicothekid:fried_moa_egg",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+				"texture": "nicothekid_fried_moa_egg"
+			},
+			"minecraft:display_name": {
+				"value": "item.nicothekid:fried_moa_egg.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.cookedFood"
+			},
+      "minecraft:max_stack_size": 64,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": false,
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation_modifier": "normal",
+        "can_always_eat": false
+      },
+      "minecraft:use_duration": 1.6,
+      "minecraft:use_animation": "eat"
+    },
+    "events": {
+		}
+  }
+}

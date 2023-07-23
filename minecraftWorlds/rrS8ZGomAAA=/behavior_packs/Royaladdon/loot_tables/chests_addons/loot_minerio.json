@@ -1,0 +1,162 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 9,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "rex:glassingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "rex:jade",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "rex:goldenbattleaxe",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "rex:night_vision_helmet",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "rex:temporary_crafting_table",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "rex:corruptnugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "rex:cironpgoldenpic",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "rex:pickaxeheadmold",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "rex:corruptedsteelpickaxe",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}   }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "furnace"
+    ],
+    "output": {
+      "item": "minecraft:beef",
+      "data": 0
+    },
+    "input": {
+      "item": "rex:corruptedrawmeat",
+      "data": 0
+    },
+    "description": {
+      "identifier": "recipes_3e80c87f"
+    }
+  }
+}

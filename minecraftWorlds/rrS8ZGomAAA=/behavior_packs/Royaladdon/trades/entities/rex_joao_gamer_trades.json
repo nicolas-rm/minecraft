@@ -1,0 +1,128 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:bread",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:shinebar",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:iron_ingot",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 11
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:ironaiot",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 42
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:darkrainbowsword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:mobbarrier",
+              "quantity": 15
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:gold_ingot",
+              "quantity": 13
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:potion_ring_jump_boost",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 45
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:appleenchanted",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

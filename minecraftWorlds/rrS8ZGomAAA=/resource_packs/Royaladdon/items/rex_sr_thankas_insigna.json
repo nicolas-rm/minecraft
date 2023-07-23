@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:sr_thankas_insigna",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:sr_thankas_insigna",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

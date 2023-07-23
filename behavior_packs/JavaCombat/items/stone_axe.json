@@ -1,0 +1,964 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "raiyon:stone_axe",
+			"category": "commands"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_damage": 133,
+				"max_durability": 133
+			},
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 9,
+			"minecraft:enchantable": {
+				"value": 22,
+				"slot": "axe"
+			},
+			"tag:minecraft:is_axe": {},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "ray"
+				},
+				"on_not_hurt_entity": {
+					"event": "ray"
+				},
+				"on_hit_block": {
+					"event": "ray"
+				}
+			},
+			"minecraft:display_name": {
+				"value": "Stone Axe"
+			},
+			"minecraft:icon": {
+				"texture": "stone_axe"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.axe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:mangrove_fence_gate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:mangrove_fence",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:mangrove_planks",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:mangrove_button",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:mangrove_double_slab",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:mangrove_slab",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:mangrove_door",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:carved_pumpkin",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:lit_pumpkin",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:mangrove_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:dark_oak_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:acacia_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:jungle_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:birch_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:spruce_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:wooden_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_standing_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_standing_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:mangrove_standing_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:darkoak_standing_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:acacia_standing_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:jungle_standing_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:birch_standing_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:spruce_standing_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:standing_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:smithing_table",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:fletching_table",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:stripped_mangrove_wood",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:mangrove_wood",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:wood",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:stripped_mangrove_log",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:mangrove_log",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:stripped_dark_oak_log",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:stripped_acacia_log",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:stripped_jungle_log",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:stripped_birch_log",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:stripped_spruce_log",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:stripped_oak_log",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:log",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:log2",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:chest",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:melon_block",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crafting_table",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_planks",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_stem",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:stripped_crimson_stem",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:stripped_crimson_hyphae",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_hyphae",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_slab",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_fence",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_trapdoor",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_fence_gate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:oak_stairs",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:spruce_stairs",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:jungle_stairs",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:acacia_stairs",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:dark_oak_stairs",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_stairs",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_stairs",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:mangrove_stairs",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_stairs",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_stairs",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_button",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_wall_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_planks",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_stem",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:stripped_warped_stem",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:stripped_warped_hyphae",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_hyphae",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_slab",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_fence",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_trapdoor",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_fence_gate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_button",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_door",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:warped_wall_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:crimson_door",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:loom",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:trapped_chest",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:lectern",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:bookshelf",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:composter",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:jukebox",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:soul_campfire",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:campfire",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:bee_nest",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:beehive",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:cartography_table",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:scaffolding",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:noteblock",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:cherry_button",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:cherry_door",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:cherry_fence",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:cherry_fence_gate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:cherry_hanging_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:cherry_log",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:cherry_planks",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:cherry_slab",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:cherry_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:cherry_stairs",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:cherry_trapdoor",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:cherry_wood",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:stripped_cherry_log",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:bamboo_block",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:bamboo_door",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:bamboo_fence",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:bamboo_fence_gate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:bamboo_hanging_sign",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:bamboo_mosaic",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:bamboo_mosaic_slab",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:bamboo_planks",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:bamboo_pressure_plate",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:stripped_bamboo_block",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:bamboo_slab",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:bamboo_stairs",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:bamboo_trapdoor",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					},
+					{
+						"block": "minecraft:stripped_cherry_wood",
+						"speed": 4,
+						"on_dig": {
+							"event": "dmg",
+							"target": "self"
+						},
+						"use_efficiency": true
+					}
+				],
+				"on_dig": {
+					"event": "dmg",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"ray": {
+				"damage": {
+					"type": "none",
+					"amount": 1,
+					"target": "self"
+				}
+			}
+		}
+	}
+}

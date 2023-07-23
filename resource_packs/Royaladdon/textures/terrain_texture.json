@@ -1,0 +1,339 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "rex_astralore": {
+      "textures": [
+        "textures/blocks/rex_astralore"
+      ]
+    },
+    "rex_mineblock": {
+      "textures": [
+        "textures/blocks/rex_mineblock"
+      ]
+    },
+    "rex_skeletonbossblock": {
+      "textures": [
+        "textures/blocks/rex_skeletonbossblock"
+      ]
+    },
+    "rex_uptable_up": {
+      "textures": "textures/blocks/rex_uptable_up"
+    },
+    "rex_uptable_down": {
+      "textures": "textures/blocks/rex_uptable_down"
+    },
+    "rex_uptable_north": {
+      "textures": "textures/blocks/rex_uptable_north"
+    },
+    "rex_uptable_south": {
+      "textures": "textures/blocks/rex_uptable_south"
+    },
+    "rex_uptable_east": {
+      "textures": "textures/blocks/rex_uptable_east"
+    },
+    "rex_uptable_west": {
+      "textures": "textures/blocks/rex_uptable_west"
+    },
+    "rex_acaileaves": {
+      "textures": [
+        "textures/blocks/rex_acaileaves"
+      ]
+    },
+    "rex_corruptedgrass_up": {
+      "textures": "textures/blocks/rex_corruptedgrass_up"
+    },
+    "rex_corruptedlog_up": {
+      "textures": "textures/blocks/rex_corruptedlog_up"
+    },
+    "rex_corruptedlog_down": {
+      "textures": "textures/blocks/rex_corruptedlog_down"
+    },
+    "rex_corruptedgrass_down": {
+      "textures": "textures/blocks/rex_corruptedgrass_down"
+    },
+    "rex_corrupteddirt": {
+      "textures": [
+        "textures/blocks/rex_corrupteddirt"
+      ]
+    },
+    "rex_witherleaves": {
+      "textures": [
+        "textures/blocks/rex_witherleaves"
+      ]
+    },
+    "rex_corruptedlog_side": {
+      "textures": "textures/blocks/rex_corruptedlog_side"
+    },
+    "rex_corruptedgrass_side": {
+      "textures": "textures/blocks/rex_corruptedgrass_side"
+    },
+    "rex_corruptedcraftingtable_up": {
+      "textures": "textures/blocks/rex_corruptedcraftingtable_up"
+    },
+    "rex_corruptedstone": {
+      "textures": [
+        "textures/blocks/rex_corruptedstone"
+      ]
+    },
+    "rex_corruptedsand": {
+      "textures": [
+        "textures/blocks/rex_corruptedsand"
+      ]
+    },
+    "rex_corruptedglass": {
+      "textures": [
+        "textures/blocks/rex_corruptedglass"
+      ]
+    },
+    "rex_corruptedcraftingtable_down": {
+      "textures": "textures/blocks/rex_corruptedcraftingtable_down"
+    },
+    "rex_corruptedcobblestone": {
+      "textures": [
+        "textures/blocks/rex_corruptedcobblestone"
+      ]
+    },
+    "rex_corruptedcraftingtable_north": {
+      "textures": "textures/blocks/rex_corruptedcraftingtable_north"
+    },
+    "rex_corruptedcraftingtable_south": {
+      "textures": "textures/blocks/rex_corruptedcraftingtable_south"
+    },
+    "rex_corruptedcraftingtable_east": {
+      "textures": "textures/blocks/rex_corruptedcraftingtable_east"
+    },
+    "rex_corruptedcraftingtable_west": {
+      "textures": "textures/blocks/rex_corruptedcraftingtable_west"
+    },
+    "rex_corruptedslab": {
+      "textures": [
+        "textures/blocks/rex_corruptedslab"
+      ]
+    },
+    "rex_corruptedplanks": {
+      "textures": [
+        "textures/blocks/rex_corruptedplanks"
+      ]
+    },
+    "rex_corruptedsteelore": {
+      "textures": [
+        "textures/blocks/rex_corruptedsteelore"
+      ]
+    },
+    "rex_corruptedclay": {
+      "textures": [
+        "textures/blocks/rex_corruptedclay"
+      ]
+    },
+    "rex_corruptedice": {
+      "textures": [
+        "textures/blocks/rex_corruptedice"
+      ]
+    },
+    "rex_corruptedgravel": {
+      "textures": [
+        "textures/blocks/rex_corruptedgravel"
+      ]
+    },
+    "rex_corruptedobsidian": {
+      "textures": [
+        "textures/blocks/rex_corruptedobsidian"
+      ]
+    },
+    "rex_corruptedsandstone": {
+      "textures": [
+        "textures/blocks/rex_corruptedsandstone"
+      ]
+    },
+    "rex_corruptedstairs": {
+      "textures": [
+        "textures/blocks/rex_corruptedstairs"
+      ]
+    },
+    "rex_corruptedbookshelf": {
+      "textures": [
+        "textures/blocks/rex_corruptedbookshelf"
+      ]
+    },
+    "rex_corruptedslime": {
+      "textures": [
+        "textures/blocks/rex_corruptedslime"
+      ]
+    },
+    "rex_corruptedblock": {
+      "textures": [
+        "textures/blocks/rex_corruptedblock"
+      ]
+    },
+    "rex_corruptedsteelblock": {
+      "textures": [
+        "textures/blocks/rex_corruptedsteelblock"
+      ]
+    },
+    "rex_puregemore": {
+      "textures": [
+        "textures/blocks/rex_puregemore"
+      ]
+    },
+    "rex_corruptedmushroomstem": {
+      "textures": [
+        "textures/blocks/rex_corruptedmushroomstem"
+      ]
+    },
+    "rex_corruptedmushroomblock": {
+      "textures": [
+        "textures/blocks/rex_corruptedmushroomblock"
+      ]
+    },
+    "rex_corruptedconcrete": {
+      "textures": [
+        "textures/blocks/rex_corruptedconcrete"
+      ]
+    },
+    "rex_coblestairs": {
+      "textures": [
+        "textures/blocks/rex_coblestairs"
+      ]
+    },
+    "rex_puregemblock": {
+      "textures": [
+        "textures/blocks/rex_puregemblock"
+      ]
+    },
+    "rex_corruptedstonebrick": {
+      "textures": [
+        "textures/blocks/rex_corruptedstonebrick"
+      ]
+    },
+    "rex_corruptedcobblestondslab": {
+      "textures": [
+        "textures/blocks/rex_corruptedcobblestondslab"
+      ]
+    },
+    "rex_corruptedsandstairs": {
+      "textures": [
+        "textures/blocks/rex_corruptedsandstairs"
+      ]
+    },
+    "rex_corruptedgrasspath": {
+      "textures": [
+        "textures/blocks/rex_corruptedgrasspath"
+      ]
+    },
+    "rex_corruptedwool": {
+      "textures": [
+        "textures/blocks/rex_corruptedwool"
+      ]
+    },
+    "rex_corruptedglowstone": {
+      "textures": [
+        "textures/blocks/rex_corruptedglowstone"
+      ]
+    },
+    "rex_barriergrass_up": {
+      "textures": "textures/blocks/rex_barriergrass_up"
+    },
+    "rex_mobbarriersand": {
+      "textures": [
+        "textures/blocks/rex_mobbarriersand"
+      ]
+    },
+    "rex_mobbarrierdirt": {
+      "textures": [
+        "textures/blocks/rex_mobbarrierdirt"
+      ]
+    },
+    "rex_mobbarriercobblestone": {
+      "textures": [
+        "textures/blocks/rex_mobbarriercobblestone"
+      ]
+    },
+    "rex_mobsbarrierplanks": {
+      "textures": [
+        "textures/blocks/rex_mobsbarrierplanks"
+      ]
+    },
+    "rex_barriergrass_down": {
+      "textures": "textures/blocks/rex_barriergrass_down"
+    },
+    "rex_mobbarrierredsand": {
+      "textures": [
+        "textures/blocks/rex_mobbarrierredsand"
+      ]
+    },
+    "rex_mobbarrierstone": {
+      "textures": [
+        "textures/blocks/rex_mobbarrierstone"
+      ]
+    },
+    "rex_barriergrass_side": {
+      "textures": "textures/blocks/rex_barriergrass_side"
+    },
+    "rex_blacksteelore": {
+      "textures": [
+        "textures/blocks/rex_blacksteelore"
+      ]
+    },
+    "rex_jadeore": {
+      "textures": [
+        "textures/blocks/rex_jadeore"
+      ]
+    },
+    "rex_marble": {
+      "textures": [
+        "textures/blocks/rex_marble"
+      ]
+    },
+    "rex_shine_ore": {
+      "textures": [
+        "textures/blocks/rex_shine_ore"
+      ]
+    },
+    "rex_temporary_crafting_table_up": {
+      "textures": "textures/blocks/rex_temporary_crafting_table_up"
+    },
+    "rex_temporary_crafting_table_down": {
+      "textures": "textures/blocks/rex_temporary_crafting_table_down"
+    },
+    "rex_temporary_crafting_table_north": {
+      "textures": "textures/blocks/rex_temporary_crafting_table_north"
+    },
+    "rex_temporary_crafting_table_south": {
+      "textures": "textures/blocks/rex_temporary_crafting_table_south"
+    },
+    "rex_temporary_crafting_table_east": {
+      "textures": "textures/blocks/rex_temporary_crafting_table_east"
+    },
+    "rex_temporary_crafting_table_west": {
+      "textures": "textures/blocks/rex_temporary_crafting_table_west"
+    },
+    "rex_portal_frame_on": {
+      "textures": [
+        "textures/blocks/rex_portal_frame_on"
+      ]
+    },
+    "ani_rex_portal_frame_off": {
+      "textures": [
+        "textures/blocks/rex_portal_frame_off"
+      ]
+    },
+    "ani_rex_start_block": {
+      "textures": [
+        "textures/blocks/rex_start_block"
+      ]
+    },
+    "rex_tp_block": {
+      "textures": [
+        "textures/blocks/rex_tp_block"
+      ]
+    },
+    "rex_brasilianitaore": {
+      "textures": [
+        "textures/blocks/rex_brasilianitaore"
+      ]
+    }
+  }
+}

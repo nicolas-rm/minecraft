@@ -1,0 +1,163 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 6,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "name": "minecraft:log"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 2
+            }
+          ],
+          "name": "rex:corruptedstick"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 3
+            }
+          ],
+          "name": "minecraft:clay_ball"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 7
+              }
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "name": "minecraft:brick"
+        },
+        {
+          "type": "item",
+          "name": "rex:stonestick"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "name": "minecraft:planks"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "name": "minecraft:sapling"
+        },
+        {
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 4
+            }
+          ],
+          "name": "minecraft:clay_ball"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "name": "minecraft:log"
+        }
+      ]
+    }
+  ]
+}
+}  }
+  ]
+}
+}
+  ]
+}
+} }
+  ]
+}
+}

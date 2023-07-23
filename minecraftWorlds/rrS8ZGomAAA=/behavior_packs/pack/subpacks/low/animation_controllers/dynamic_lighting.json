@@ -1,0 +1,50 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+
+		"controller.animation.light": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"light_up": "query.get_equipped_item_name('main_hand') == 'torch' || query.get_equipped_item_name('main_hand') == 'glowstone' || query.get_equipped_item_name('main_hand') == 'soul_torch' || query.get_equipped_item_name('main_hand') == 'redstone_torch' || query.get_equipped_item_name('main_hand') == 'lantern' || query.get_equipped_item_name('main_hand') == 'soul_lantern' || query.get_equipped_item_name('main_hand') == 'campfire' || query.get_equipped_item_name('main_hand') == 'soul_campfire' || query.get_equipped_item_name('main_hand') == 'shroomlight' || query.get_equipped_item_name('main_hand') == 'glowstone_dust' || query.get_equipped_item_name('main_hand') == 'beacon' || query.get_equipped_item_name('main_hand') == 'lit_pumpkin' || query.get_equipped_item_name('main_hand') == 'crying_obsidian' || query.get_equipped_item_name('main_hand') == 'magma' || query.get_equipped_item_name('main_hand') == 'enchanting_table' || query.get_equipped_item_name('main_hand') == 'end_rod' || query.get_equipped_item_name('main_hand') == 'Totem_of_Undying' || query.get_equipped_item_name('off_hand') == 'Totem_of_Undyingm'"
+						}
+					]
+				},
+				"light_up": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],					
+					"on_entry": [
+						"/function dynamic_light"
+					]					
+				}
+			}
+		},
+		"controller.animation.dark": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"remove": "query.get_equipped_item_name('main_hand') != 'torch' && query.get_equipped_item_name('main_hand') != 'glowstone' && query.get_equipped_item_name('main_hand') != 'soul_torch' && query.get_equipped_item_name('main_hand') != 'redstone_torch' && query.get_equipped_item_name('main_hand') != 'lantern' && query.get_equipped_item_name('main_hand') != 'soul_lantern' && query.get_equipped_item_name('main_hand') != 'campfire' && query.get_equipped_item_name('main_hand') != 'soul_campfire' && query.get_equipped_item_name('main_hand') != 'shroomlight' && query.get_equipped_item_name('main_hand') != 'glowstone_dust' && query.get_equipped_item_name('main_hand') != 'beacon' && query.get_equipped_item_name('main_hand') != 'lit_pumpkin' && query.get_equipped_item_name('main_hand') != 'crying_obsidian' && query.get_equipped_item_name('main_hand') != 'magma' && query.get_equipped_item_name('main_hand') != 'enchanting_table' && query.get_equipped_item_name('main_hand') != 'end_rod' && query.get_equipped_item_name('main_hand') != 'Totem_of_Undying' && query.get_equipped_item_name('off_hand') != 'Totem_of_Undying'"
+						}
+					]
+				},
+				"remove": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air 0 replace light_block -1"
+					]
+				}
+			}
+		}
+	}
+}

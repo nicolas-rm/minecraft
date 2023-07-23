@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pure_gem_aiot_6ecbb17a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:puregempickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:puregemshovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:puregemhoe",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:puregemsword",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "F": {
+        "item": "rex:puregemaxe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:pure_gem_aiot",
+      "count": 1
+    }
+  }
+}

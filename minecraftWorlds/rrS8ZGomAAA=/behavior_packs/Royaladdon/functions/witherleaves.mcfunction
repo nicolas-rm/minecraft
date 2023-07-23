@@ -1,0 +1,1 @@
+effect @p wither 5 1 false

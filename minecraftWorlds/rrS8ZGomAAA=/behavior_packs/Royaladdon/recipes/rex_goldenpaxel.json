@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "goldenpaxel_2ded735d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:golden_pickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:golden_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:golden_axe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:goldenpaxel",
+      "count": 1
+    }
+  }
+}

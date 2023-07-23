@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:exit_spawn_menu",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:exit_spawn_menu",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

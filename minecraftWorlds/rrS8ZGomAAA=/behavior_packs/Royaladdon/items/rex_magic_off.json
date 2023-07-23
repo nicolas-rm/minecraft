@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:magic_off",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": false,
+      "minecraft:stack_by_data": true,
+      "minecraft:icon": {
+        "texture": "rex:magic_off"
+      },
+      "minecraft:display_name": {
+        "value": "mr tankas magic badge (§4off§f)"
+      }
+    }
+  }
+}

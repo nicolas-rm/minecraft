@@ -1,0 +1,1167 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:item",
+			"is_experimental": false,
+			"is_summonable": false,
+			"is_spawnable": false,
+			"animations": {
+				"tools": "controller.animation.tools"
+			},
+			"scripts": {
+				"animate": [
+					"tools"
+				]
+			}
+		},
+		"component_groups": {
+			"ed:ingot3": {
+				"minecraft:mark_variant": {
+					"value": 1
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:edhelmet3": {
+				"minecraft:mark_variant": {
+					"value": 2
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:edchest3": {
+				"minecraft:mark_variant": {
+					"value": 3
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:edleg3": {
+				"minecraft:mark_variant": {
+					"value": 4
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:edboots3": {
+				"minecraft:mark_variant": {
+					"value": 5
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite_sword": {
+				"minecraft:mark_variant": {
+					"value": 6
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite_axe": {
+				"minecraft:mark_variant": {
+					"value": 7
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite_pickaxe": {
+				"minecraft:mark_variant": {
+					"value": 8
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite_shovel": {
+				"minecraft:mark_variant": {
+					"value": 9
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite_hoe": {
+				"minecraft:mark_variant": {
+					"value": 10
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite": {
+				"minecraft:mark_variant": {
+					"value": 11
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite_cracked": {
+				"minecraft:mark_variant": {
+					"value": 12
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite_block": {
+				"minecraft:mark_variant": {
+					"value": 13
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite_scrap": {
+				"minecraft:mark_variant": {
+					"value": 14
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:llave": {
+				"minecraft:mark_variant": {
+					"value": 15
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:floating_void": {
+				"minecraft:mark_variant": {
+					"value": 16
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:end_respawn_anchor_stage_0": {
+				"minecraft:mark_variant": {
+					"value": 17
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:end_respawn_anchor_stage_1": {
+				"minecraft:mark_variant": {
+					"value": 18
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:end_respawn_anchor_stage_2": {
+				"minecraft:mark_variant": {
+					"value": 19
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:end_respawn_anchor_stage_3": {
+				"minecraft:mark_variant": {
+					"value": 20
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:end_respawn_anchor_stage_4": {
+				"minecraft:mark_variant": {
+					"value": 21
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite_sword_tp": {
+				"minecraft:mark_variant": {
+					"value": 22
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite_sword_tp_l2": {
+				"minecraft:mark_variant": {
+					"value": 23
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite_sword_tp_l3": {
+				"minecraft:mark_variant": {
+					"value": 24
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			},
+			"ed:enderite_sword_tp_l4": {
+				"minecraft:mark_variant": {
+					"value": 25
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fire",
+							"deals_damage": false
+						},
+						{
+							"cause": "fire_tick",
+							"deals_damage": false
+						},
+						{
+							"cause": "lava",
+							"deals_damage": false
+						}
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"family_types": [
+					"shield"
+				],
+				"seats": {
+					"position": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 1
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "ingot"
+								}
+							]
+						},
+						"event": "ed:ingot3"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 2
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "helmet"
+								}
+							]
+						},
+						"event": "ed:edhelmet3"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 3
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "chestplate"
+								}
+							]
+						},
+						"event": "ed:edchest3"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 4
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "leggings"
+								}
+							]
+						},
+						"event": "ed:edleg3"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 5
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "boots"
+								}
+							]
+						},
+						"event": "ed:edboots3"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 6
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "sword"
+								}
+							]
+						},
+						"event": "ed:enderite_sword"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 7
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "axe"
+								}
+							]
+						},
+						"event": "ed:enderite_axe"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 8
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "pickaxe"
+								}
+							]
+						},
+						"event": "ed:enderite_pickaxe"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 9
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "shovel"
+								}
+							]
+						},
+						"event": "ed:enderite_shovel"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 10
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "hoe"
+								}
+							]
+						},
+						"event": "ed:enderite_hoe"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 11
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "block"
+								}
+							]
+						},
+						"event": "ed:enderite"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 12
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "block"
+								}
+							]
+						},
+						"event": "ed:enderite_cracked"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 13
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "block"
+								}
+							]
+						},
+						"event": "ed:enderite_block"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 14
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "scrap"
+								}
+							]
+						},
+						"event": "ed:enderite_scrap"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 15
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "key"
+								}
+							]
+						},
+						"event": "ed:llave"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 16
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "book"
+								}
+							]
+						},
+						"event": "ed:floating_void"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 17
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "block"
+								}
+							]
+						},
+						"event": "ed:end_respawn_anchor_stage_0"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 18
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "block"
+								}
+							]
+						},
+						"event": "ed:end_respawn_anchor_stage_1"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 19
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "block"
+								}
+							]
+						},
+						"event": "ed:end_respawn_anchor_stage_2"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 20
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "block"
+								}
+							]
+						},
+						"event": "ed:end_respawn_anchor_stage_3"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 21
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "block"
+								}
+							]
+						},
+						"event": "ed:end_respawn_anchor_stage_4"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 22
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "block"
+								}
+							]
+						},
+						"event": "ed:enderite_sword_tp"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 23
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "block"
+								}
+							]
+						},
+						"event": "ed:enderite_sword_tp_l2"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 24
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "block"
+								}
+							]
+						},
+						"event": "ed:enderite_sword_tp_l3"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_mark_variant",
+									"operator": "!=",
+									"value": 25
+								},
+								{
+									"test": "has_tag",
+									"operator": "==",
+									"value": "block"
+								}
+							]
+						},
+						"event": "ed:enderite_sword_tp_l4"
+					}
+				]
+			}
+		},
+		"events": {
+			"ed:ingot3": {
+				"add": {
+					"component_groups": [
+						"ed:ingot3"
+					]
+				}
+			},
+			"ed:edhelmet3": {
+				"add": {
+					"component_groups": [
+						"ed:edhelmet3"
+					]
+				}
+			},
+			"ed:edchest3": {
+				"add": {
+					"component_groups": [
+						"ed:edchest3"
+					]
+				}
+			},
+			"ed:edleg3": {
+				"add": {
+					"component_groups": [
+						"ed:edleg3"
+					]
+				}
+			},
+			"ed:edboots3": {
+				"add": {
+					"component_groups": [
+						"ed:edboots3"
+					]
+				}
+			},
+			"ed:enderite_sword": {
+				"add": {
+					"component_groups": [
+						"ed:enderite_sword"
+					]
+				}
+			},
+			"ed:enderite_axe": {
+				"add": {
+					"component_groups": [
+						"ed:enderite_axe"
+					]
+				}
+			},
+			"ed:enderite_pickaxe": {
+				"add": {
+					"component_groups": [
+						"ed:enderite_pickaxe"
+					]
+				}
+			},
+			"ed:enderite_shovel": {
+				"add": {
+					"component_groups": [
+						"ed:enderite_shovel"
+					]
+				}
+			},
+			"ed:enderite_hoe": {
+				"add": {
+					"component_groups": [
+						"ed:enderite_hoe"
+					]
+				}
+			},
+			"ed:enderite": {
+				"add": {
+					"component_groups": [
+						"ed:enderite"
+					]
+				}
+			},
+			"ed:enderite_cracked": {
+				"add": {
+					"component_groups": [
+						"ed:enderite_cracked"
+					]
+				}
+			},
+			"ed:enderite_block": {
+				"add": {
+					"component_groups": [
+						"ed:enderite_block"
+					]
+				}
+			},
+			"ed:enderite_scrap": {
+				"add": {
+					"component_groups": [
+						"ed:enderite_scrap"
+					]
+				}
+			},
+			"ed:llave": {
+				"add": {
+					"component_groups": [
+						"ed:llave"
+					]
+				}
+			},
+			"ed:floating_void": {
+				"add": {
+					"component_groups": [
+						"ed:floating_void"
+					]
+				}
+			},
+			"ed:end_respawn_anchor_stage_0": {
+				"add": {
+					"component_groups": [
+						"ed:end_respawn_anchor_stage_0"
+					]
+				}
+			},
+			"ed:end_respawn_anchor_stage_1": {
+				"add": {
+					"component_groups": [
+						"ed:end_respawn_anchor_stage_1"
+					]
+				}
+			},
+			"ed:end_respawn_anchor_stage_2": {
+				"add": {
+					"component_groups": [
+						"ed:end_respawn_anchor_stage_2"
+					]
+				}
+			},
+			"ed:end_respawn_anchor_stage_3": {
+				"add": {
+					"component_groups": [
+						"ed:end_respawn_anchor_stage_3"
+					]
+				}
+			},
+			"ed:end_respawn_anchor_stage_4": {
+				"add": {
+					"component_groups": [
+						"ed:end_respawn_anchor_stage_4"
+					]
+				}
+			},
+			"ed:enderite_sword_tp": {
+				"add": {
+					"component_groups": [
+						"ed:enderite_sword_tp"
+					]
+				}
+			},
+			"ed:enderite_sword_tp_l2": {
+				"add": {
+					"component_groups": [
+						"ed:enderite_sword_tp_l2"
+					]
+				}
+			},
+			"ed:enderite_sword_tp_l3": {
+				"add": {
+					"component_groups": [
+						"ed:enderite_sword_tp_l3"
+					]
+				}
+			},
+			"ed:enderite_sword_tp_l4": {
+				"add": {
+					"component_groups": [
+						"ed:enderite_sword_tp_l4"
+					]
+				}
+			}
+		}
+	}
+}

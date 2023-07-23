@@ -1,0 +1,160 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 64
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:mercenaryfavor",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 60
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:mo",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_ingot",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 25
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:gold_ingot",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 64
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 15
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:amethyst_shard",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 15
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:copper_ingot",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:insignacapitao",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:appleenchanted",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

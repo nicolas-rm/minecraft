@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ed:enderite_pickaxe"
+		},
+		"tags": [
+			"craftingtools"
+		],
+		"pattern": [
+			"   ",
+			"X Y",
+			"   "
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:netherite_pickaxe"
+			},
+			"Y": {
+				"item": "ed:ingot3"
+			}
+		},
+		"result": [
+			{
+				"item": "ed:enderite_pickaxe",
+				"count": 1
+			}
+		]
+	}
+}

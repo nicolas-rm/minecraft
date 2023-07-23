@@ -1,0 +1,1616 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false,
+			"properties": {
+				"sword:cooldown": {
+					"range": [
+						0,
+						100
+					],
+					"default": 0,
+					"type": "int",
+					"client_sync": true
+				},
+				"axe:cooldown": {
+					"range": [
+						0,
+						100
+					],
+					"default": 0,
+					"type": "int",
+					"client_sync": true
+				},
+				"hoe:cooldown": {
+					"default": 0,
+					"type": "int",
+					"range": [
+						0,
+						100
+					],
+					"client_sync": true
+				},
+				"disable:shield": {
+					"type": "int",
+					"default": 0,
+					"range": [
+						0,
+						100
+					],
+					"client_sync": true
+				},
+				"pickaxe:cooldown": {
+					"type": "int",
+					"range": [
+						0,
+						100
+					],
+					"client_sync": true,
+					"default": 0
+				},
+				"shovel:cooldown": {
+					"default": 0,
+					"client_sync": true,
+					"range": [
+						0,
+						100
+					],
+					"type": "int"
+				},
+				"trident:cooldown": {
+					"type": "int",
+					"range": [
+						0,
+						100
+					],
+					"client_sync": true,
+					"default": 0
+				}
+			},
+			"scripts": {
+				"animate": [
+					{
+						"shield_hit": "query.is_sheared == 1"
+					},
+					"critical_hit",
+					"attacking",
+					"blocking",
+					"sprint",
+					"durability",
+					"health"
+				]
+			},
+			"animations": {
+				"critical_hit": "controller.animation.critical_hit",
+				"durability": "controller.animation.durability",
+				"shield_hit": "animation.shield_hit",
+				"blocking": "controller.animation.blocking_test",
+				"attacking": "controller.animation.attacking",
+				"sprint": "controller.animation.sprinting"
+			}
+		},
+		"component_groups": {
+			"minecraft:add_bad_omen": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "bad_omen",
+							"duration": 6000,
+							"visible": false,
+							"display_on_screen_animation": true
+						}
+					]
+				},
+				"minecraft:timer": {
+					"time": [
+						0,
+						0
+					],
+					"looping": false,
+					"time_down_event": {
+						"event": "minecraft:clear_add_bad_omen",
+						"target": "self"
+					}
+				}
+			},
+			"minecraft:clear_bad_omen_spell_effect": {
+				"minecraft:spell_effects": {}
+			},
+			"minecraft:raid_trigger": {
+				"minecraft:raid_trigger": {
+					"triggered_event": {
+						"event": "minecraft:remove_raid_trigger",
+						"target": "self"
+					}
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": "bad_omen"
+				}
+			},
+			"sweeping_edge": {
+				"minecraft:spawn_entity": {
+					"entities": [
+						{
+							"num_to_spawn": 10,
+							"min_wait_time": 0,
+							"max_wait_time": 0,
+							"single_use": true,
+							"spawn_entity": "raiyon:sweeping_edge"
+						}
+					]
+				}
+			},
+			"kb_sprint": {
+				"minecraft:spawn_entity": {
+					"entities": [
+						{
+							"num_to_spawn": 1,
+							"min_wait_time": 0.3,
+							"max_wait_time": 0.3,
+							"single_use": true,
+							"spawn_entity": "raiyon:sprint_kb"
+						}
+					]
+				}
+			},
+			"shield_hit": {},
+			"kb_resistance": {
+				"minecraft:knockback_resistance": {
+					"value": 0.6,
+					"max": 0.6
+				}
+			},
+			"kb_normal": {
+				"minecraft:knockback_resistance": {
+					"value": 0,
+					"max": 0
+				}
+			},
+			"normal": {
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "entity_attack",
+							"deals_damage": false,
+							"on_damage": {
+								"filters": {
+									"any_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "self",
+											"value": "cooldown_damage"
+										}
+									]
+								}
+							}
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"any_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_0"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.05
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"any_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_1"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.2
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_2"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.3
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_3"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.4
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_4"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.5
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_5"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.6
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_6"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.7
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_7"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.8
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_8"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.9
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_9"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "sweeping_edge"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 1
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_4"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "kb_sprint",
+								"target": "other"
+							},
+							"damage_multiplier": 0.5
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_5"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "kb_sprint",
+								"target": "other"
+							},
+							"damage_multiplier": 0.6
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_6"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "kb_sprint",
+								"target": "other"
+							},
+							"damage_multiplier": 0.7
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_7"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "kb_sprint",
+								"target": "other"
+							},
+							"damage_multiplier": 0.8
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_8"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "kb_sprint",
+								"target": "other"
+							},
+							"damage_multiplier": 0.9
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_9"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "kb_sprint",
+								"target": "other"
+							},
+							"damage_multiplier": 1
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "sweeping_edge"
+										}
+									]
+								},
+								"event": "sweeping_edge",
+								"target": "other"
+							}
+						}
+					]
+				}
+			},
+			"shield": {
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"any_of": [
+										{
+											"test": "has_equipment",
+											"operator": "==",
+											"subject": "other",
+											"value": "minecraft:netherite_axe"
+										},
+										{
+											"test": "has_equipment",
+											"operator": "==",
+											"subject": "other",
+											"value": "minecraft:diamond_axe"
+										},
+										{
+											"test": "has_equipment",
+											"operator": "==",
+											"subject": "other",
+											"value": "minecraft:wooden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"operator": "==",
+											"subject": "other",
+											"value": "minecraft:stone_axe"
+										},
+										{
+											"test": "has_equipment",
+											"operator": "==",
+											"subject": "other",
+											"value": "minecraft:iron_axe"
+										},
+										{
+											"test": "has_equipment",
+											"operator": "==",
+											"subject": "other",
+											"value": "minecraft:golden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"operator": "==",
+											"subject": "other",
+											"value": "raiyon:netherite_axe"
+										},
+										{
+											"test": "has_equipment",
+											"operator": "==",
+											"subject": "other",
+											"value": "raiyon:diamond_axe"
+										},
+										{
+											"test": "has_equipment",
+											"operator": "==",
+											"subject": "other",
+											"value": "raiyon:iron_axe"
+										},
+										{
+											"test": "has_equipment",
+											"operator": "==",
+											"subject": "other",
+											"value": "raiyon:golden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"operator": "==",
+											"subject": "other",
+											"value": "raiyon:wooden_axe"
+										},
+										{
+											"test": "has_equipment",
+											"operator": "==",
+											"subject": "other",
+											"value": "minecraft:stone_axe"
+										}
+									]
+								},
+								"event": "disable_shield",
+								"target": "self"
+							},
+							"deals_damage": false
+						},
+						{
+							"cause": "entity_explosion",
+							"deals_damage": false,
+							"on_damage_sound_event": "item.shield.block",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "self",
+											"value": "shield"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "behind"
+										}
+									]
+								},
+								"event": "shield_hit_add",
+								"target": "self"
+							}
+						},
+						{
+							"cause": "block_explosion",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "self",
+											"value": "shield"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "behind"
+										}
+									]
+								},
+								"event": "shield_hit_add",
+								"target": "self"
+							},
+							"deals_damage": false,
+							"on_damage_sound_event": "item.shield.block"
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "behind"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "self",
+											"value": "shield"
+										}
+									]
+								},
+								"event": "shield_hit_add",
+								"target": "self"
+							},
+							"deals_damage": false,
+							"on_damage_sound_event": "item.shield.block"
+						},
+						{
+							"cause": "projectile",
+							"deals_damage": false,
+							"on_damage": {
+								"filters": {
+									"any_of": [
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "behind"
+										}
+									]
+								},
+								"event": "shield_hit_add",
+								"target": "self"
+							},
+							"on_damage_sound_event": "item.shield.block"
+						},
+						{
+							"cause": "projectile",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "is_family",
+											"operator": "==",
+											"subject": "damager",
+											"value": "arrow"
+										},
+										{
+											"test": "is_family",
+											"operator": "==",
+											"subject": "other",
+											"value": "player"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "behind"
+										}
+									]
+								},
+								"target": "other",
+								"event": "bow_ding"
+							},
+							"deals_damage": true
+						},
+						{
+							"cause": "entity_attack",
+							"deals_damage": false,
+							"on_damage": {
+								"filters": {
+									"any_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "self",
+											"value": "cooldown_damage"
+										}
+									]
+								}
+							}
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"any_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_0"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.05
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"any_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_1"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.2
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_2"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.3
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_3"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.4
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_4"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.5
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_5"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.6
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_6"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.7
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_7"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.8
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_8"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 0.9
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_9"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "kb_sprint"
+										},
+										{
+											"test": "has_tag",
+											"operator": "!=",
+											"subject": "other",
+											"value": "sweeping_edge"
+										}
+									]
+								},
+								"event": "raiyon:cooldown_damage"
+							},
+							"damage_multiplier": 1
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_4"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "kb_sprint",
+								"target": "other"
+							},
+							"damage_multiplier": 0.5
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_5"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "kb_sprint",
+								"target": "other"
+							},
+							"damage_multiplier": 0.6
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_6"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "kb_sprint",
+								"target": "other"
+							},
+							"damage_multiplier": 0.7
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_7"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "kb_sprint",
+								"target": "other"
+							},
+							"damage_multiplier": 0.8
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_8"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "kb_sprint",
+								"target": "other"
+							},
+							"damage_multiplier": 0.9
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "v_9"
+										},
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "kb_sprint"
+										}
+									]
+								},
+								"event": "kb_sprint",
+								"target": "other"
+							},
+							"damage_multiplier": 1
+						},
+						{
+							"cause": "entity_attack",
+							"on_damage": {
+								"filters": {
+									"all_of": [
+										{
+											"test": "has_tag",
+											"operator": "==",
+											"subject": "other",
+											"value": "sweeping_edge"
+										}
+									]
+								},
+								"event": "sweeping_edge",
+								"target": "other"
+							}
+						}
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"event": "raiyon:tick",
+						"target": "self"
+					},
+					{
+						"event": "minecraft:trigger_raid",
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_mob_effect",
+									"subject": "self",
+									"value": "bad_omen"
+								},
+								{
+									"test": "is_in_village",
+									"subject": "self",
+									"value": true
+								}
+							]
+						}
+					}
+				]
+			},
+			"minecraft:experience_reward": {
+				"on_death": "Math.Min(query.player_level * 7, 100)"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"player",
+					"mob"
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:can_climb": {},
+			"minecraft:movement": {
+				"value": 0.1
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:attack": {
+				"damage": 1
+			},
+			"minecraft:exhaustion_values": {
+				"heal": 6,
+				"jump": 0.05,
+				"sprint_jump": 0.2,
+				"mine": 0.005,
+				"attack": 0.1,
+				"damage": 0.1,
+				"walk": 0,
+				"sprint": 0.1,
+				"swim": 0.01
+			},
+			"minecraft:player.saturation": {
+				"value": 5,
+				"max": 20
+			},
+			"minecraft:player.exhaustion": {
+				"value": 0,
+				"max": 20
+			},
+			"minecraft:player.level": {
+				"value": 0,
+				"max": 24791
+			},
+			"minecraft:player.experience": {
+				"value": 0,
+				"max": 1
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": -1,
+				"inhale_time": 3.75,
+				"generates_bubbles": false
+			},
+			"minecraft:nameable": {
+				"always_show": true,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:physics": {
+				"push_towards_closest_space": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:insomnia": {
+				"days_until_insomnia": 3
+			},
+			"minecraft:rideable": {
+				"seat_count": 2,
+				"family_types": [
+					"parrot_tame"
+				],
+				"pull_in_entities": true,
+				"seats": [
+					{
+						"position": [
+							0.4,
+							-0.2,
+							-0.1
+						],
+						"min_rider_count": 0,
+						"max_rider_count": 0,
+						"lock_rider_rotation": 0
+					},
+					{
+						"position": [
+							-0.4,
+							-0.2,
+							-0.1
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 2,
+						"lock_rider_rotation": 0
+					}
+				]
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:block_climber": {}
+		},
+		"events": {
+			"minecraft:gain_bad_omen": {
+				"add": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				}
+			},
+			"minecraft:clear_add_bad_omen": {
+				"remove": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:clear_bad_omen_spell_effect"
+					]
+				}
+			},
+			"minecraft:trigger_raid": {
+				"add": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"minecraft:remove_raid_trigger": {
+				"remove": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"sword_cooldown_event_on": {
+				"set_property": {
+					"sword:cooldown": 1
+				}
+			},
+			"critical_hit": {
+				"sequence": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "on_ground",
+									"operator": "==",
+									"subject": "self",
+									"value": false
+								}
+							]
+						},
+						"run_command": {
+							"command": [
+								"playsound critical_hit @a[r=3]"
+							]
+						}
+					}
+				]
+			},
+			"sword_cooldown_event_off": {
+				"set_property": {
+					"sword:cooldown": 0
+				}
+			},
+			"axe_cooldown_event_on": {
+				"set_property": {
+					"axe:cooldown": 1
+				},
+				"run_command": {
+					"command": [
+						"execute @a[name=a] ~~~ say a"
+					]
+				}
+			},
+			"axe_cooldown_event_off": {
+				"set_property": {
+					"axe:cooldown": 0
+				},
+				"run_command": {
+					"command": [
+						"execute @a[name=a] ~~~ say a"
+					]
+				}
+			},
+			"hoe_cooldown_event_off": {
+				"set_property": {
+					"hoe:cooldown": 0
+				}
+			},
+			"hoe_cooldown_event_on": {
+				"set_property": {
+					"hoe:cooldown": 1
+				}
+			},
+			"sweeping_edge": {
+				"sequence": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "on_ground",
+									"operator": "==",
+									"subject": "self",
+									"value": true
+								},
+								{
+									"test": "has_tag",
+									"operator": "!=",
+									"subject": "self",
+									"value": "sprinting"
+								},
+								{
+									"test": "has_tag",
+									"operator": "!=",
+									"subject": "self",
+									"value": "kb_sprint"
+								}
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add sweeping_edge_cooldown"
+							]
+						}
+					}
+				]
+			},
+			"kb_sprint": {
+				"sequence": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "on_ground",
+									"operator": "==",
+									"subject": "self",
+									"value": true
+								}
+							]
+						},
+						"add": {
+							"component_groups": [
+								"kb_sprint"
+							]
+						},
+						"run_command": {
+							"command": [
+								"playsound knockback @a[r=3]"
+							]
+						}
+					}
+				]
+			},
+			"shield_hit_add": {
+				"run_command": {
+					"command": [
+						"scoreboard players add @s shield_durability 1"
+					]
+				}
+			},
+			"kb_normal": {
+				"add": {
+					"component_groups": [
+						"kb_normal"
+					]
+				}
+			},
+			"shield_hit_remove": {
+				"remove": {
+					"component_groups": [
+						"shield_hit"
+					]
+				}
+			},
+			"disable_shield": {
+				"set_property": {
+					"disable:shield": 1
+				},
+				"run_command": {
+					"command": [
+						"tag @s add disable_shield"
+					]
+				}
+			},
+			"shield_sensor": {
+				"add": {
+					"component_groups": [
+						"shield"
+					]
+				}
+			},
+			"normal_sensor": {
+				"add": {
+					"component_groups": [
+						"normal"
+					]
+				}
+			},
+			"bow_ding": {
+				"run_command": {
+					"command": [
+						"playsound random.orb @s ~ ~ ~ 0.5"
+					]
+				}
+			},
+			"enable_shield": {
+				"set_property": {
+					"disable:shield": 0
+				}
+			},
+			"kb_resistance": {
+				"add": {
+					"component_groups": [
+						"kb_resistance"
+					]
+				}
+			},
+			"raiyon:cooldown_damage": {
+				"run_command": {
+					"command": [
+						"tag @s add cooldown_damage"
+					]
+				}
+			},
+			"test": {
+				"run_command": {
+					"command": [
+						"say @a a"
+					]
+				}
+			},
+			"raiyon:tick": {
+				"run_command": {
+					"command": [
+						"function espada_cooldown",
+						"function hacha_cooldown",
+						"function pala_cooldown",
+						"function pico_cooldown",
+						"function azada_cooldown",
+						"function tridente_cooldown"
+					]
+				}
+			},
+			"shovel_cooldown_event_on": {
+				"set_property": {
+					"shovel:cooldown": 1
+				}
+			},
+			"shovel_cooldown_event_off": {
+				"set_property": {
+					"shovel:cooldown": 0
+				}
+			},
+			"pickaxe_cooldown_event_on": {
+				"set_property": {
+					"pickaxe:cooldown": 1
+				}
+			},
+			"pickaxe_cooldown_event_off": {
+				"set_property": {
+					"pickaxe:cooldown": 0
+				}
+			},
+			"trident_cooldown_event_on": {
+				"set_property": {
+					"trident:cooldown": 1
+				}
+			},
+			"trident_cooldown_event_off": {
+				"set_property": {
+					"trident:cooldown": 0
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:enchanter_apprentice",
+      "textures": {
+        "default": "textures/entity/nicos_mobs/enchanter_apprentice/nicothekid_enchanter_apprentice"
+      },
+      "spawn_egg": {
+        "base_color": "#745a19",
+        "overlay_color": "#cec987"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_enchanter_apprentice"
+      },
+      "materials": {
+        "default": "enchanter_apprentice",
+        "invisible": "enchanter_apprentice_invisible" 
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_enchanter_apprentice"
+      ],
+      "particle_effects": {
+        "spell": "nicothekid:enchanter_spell_particle"
+      },
+      "animations": {
+        "base_pose": "animation.nicothekid_enchanter_apprentice.base_pose",
+        "casting": "animation.nicothekid_enchanter_apprentice.casting",
+        "celebrating": "animation.nicothekid_enchanter_apprentice.celebrating",
+        "look_at_target": "animation.nicothekid_enchanter_apprentice.look_at_target",
+        "walking": "animation.nicothekid_enchanter_apprentice.walking",
+        "controller_general": "controller.animation.nicothekid_enchanter_apprentice.general",
+        "controller_movement": "controller.animation.nicothekid_enchanter_apprentice.movement"
+      },
+      "animation_controllers": [
+        {
+          "general": "controller.animation.nicothekid_enchanter_apprentice.general"
+        },
+        {
+          "movement": "controller.animation.nicothekid_enchanter_apprentice.movement"
+        }
+      ],
+      "scripts": {
+        "scale": "0.9375"
+      }
+    }
+  }
+}

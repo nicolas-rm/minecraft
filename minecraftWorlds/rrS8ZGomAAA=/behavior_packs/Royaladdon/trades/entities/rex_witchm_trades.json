@@ -1,0 +1,187 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:nether_wart",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:skeletoninsigna",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:glass_bottle",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:glass_bottle",
+              "quantity": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:glowstone_dust",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:gunpowder",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:redstone",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:potion",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:potion",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:lingering_potion",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:potion",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 30
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:witchsword",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+}
+  ]
+}

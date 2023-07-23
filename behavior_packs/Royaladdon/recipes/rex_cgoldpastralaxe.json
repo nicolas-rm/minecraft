@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cgoldpastralaxe_63c5c040"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:pastralaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:goldenstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cgoldpastralaxe",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"function": {
+		"6059593f_198e_447d_a2d1_ad6d6515d11b": {},
+		"BP/functions/tree_capitator.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/tree_tick.mcfunction": {
+			"custom_commands": [],
+			"scoreboards": [
+				"sneaking",
+				"tree",
+				"clear"
+			],
+			"tags": [
+				"no_tree"
+			]
+		}
+	},
+	"block": {
+		"BP/blocks/cherry_log.json": {
+			"identifiers": [
+				"ray:cherry_log"
+			],
+			"events": [
+				"test"
+			],
+			"recipe_tags": [
+				"arcane_table"
+			],
+			"custom_components": [],
+			"custom_commands": []
+		}
+	}
+}

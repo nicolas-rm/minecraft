@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.nicothekid_cobblestone_golem": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.skins[query.variant]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.variant_0",
+						"Texture.variant_1",
+						"Texture.variant_2"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:jump_boost",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:jump_boost",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ed:edboots3"
+		},
+		"tags": [
+			"craftingtools"
+		],
+		"pattern": [
+			"   ",
+			"X Y",
+			"   "
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:netherite_boots"
+			},
+			"Y": {
+				"item": "ed:ingot3"
+			}
+		},
+		"result": [
+			{
+				"item": "ed:edboots3",
+				"count": 1
+			}
+		]
+	}
+}

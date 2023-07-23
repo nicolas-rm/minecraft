@@ -1,0 +1,105 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "minecraft:wither_skeleton",
+			"population_control": "monster"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_underground": {},
+				"minecraft:spawns_on_block_prevented_filter": [
+					"minecraft:nether_wart_block",
+					"minecraft:shroomlight",
+					"minecraft:netherrack",
+					"minecraft:warped_nylium",
+					"minecraft:warped_wart_block",
+					"minecraft:crimson_nylium"
+				],
+				"minecraft:difficulty_filter": {
+					"min": "peaceful",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 50
+				},
+				"minecraft:herd": {
+					"min_size": 4,
+					"max_size": 8
+				},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "warped_forest"
+				},
+				"minecraft:spawns_on_block_filter": [
+					"minecraft:nether_brick",
+					"minecraft:nether_brick_fence",
+					"minecraft:chiseled_nether_bricks",
+					"minecraft:cracked_nether_bricks",
+					"minecraft:nether_brick_stairs"
+				]
+			},
+			{
+				"minecraft:spawns_underground": {},
+				"minecraft:spawns_on_block_prevented_filter": [
+					"minecraft:nether_wart_block",
+					"minecraft:shroomlight",
+					"minecraft:netherrack",
+					"minecraft:warped_nylium",
+					"minecraft:warped_wart_block",
+					"minecraft:crimson_nylium"
+				],
+				"minecraft:difficulty_filter": {
+					"min": "peaceful",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 50
+				},
+				"minecraft:herd": {
+					"min_size": 4,
+					"max_size": 8
+				},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "crimson_forest"
+				},
+				"minecraft:spawns_on_block_filter": [
+					"minecraft:nether_brick"
+				]
+			},
+			{
+				"minecraft:spawns_underground": {},
+				"minecraft:spawns_on_block_prevented_filter": [
+					"minecraft:nether_wart_block",
+					"minecraft:shroomlight",
+					"minecraft:netherrack",
+					"minecraft:warped_nylium",
+					"minecraft:warped_wart_block",
+					"minecraft:crimson_nylium"
+				],
+				"minecraft:difficulty_filter": {
+					"min": "peaceful",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 50
+				},
+				"minecraft:herd": {
+					"min_size": 4,
+					"max_size": 8
+				},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "nether"
+				},
+				"minecraft:spawns_on_block_filter": [
+					"minecraft:nether_brick"
+				]
+			}
+		]
+	}
+}

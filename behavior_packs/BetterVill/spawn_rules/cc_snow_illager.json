@@ -1,0 +1,56 @@
+{
+  "minecraft:spawn_rules" : {
+    "conditions" : [
+      {
+        "minecraft:density_limit" : {
+          "surface" : 8,
+          "underground" : 8
+        },
+        "minecraft:herd" : {
+          "max_size" : 4,
+          "min_size" : 2
+        },
+        "minecraft:biome_filter" : [
+          {
+            "any_of" : [
+              {
+                "operator" : "==",
+                "value" : "cold",
+                "test" : "has_biome_tag"
+              },
+              {
+                "operator" : "==",
+                "value" : "ice_plains",
+                "test" : "has_biome_tag"
+              },
+              {
+                "operator" : "==",
+                "value" : "ice",
+                "test" : "has_biome_tag"
+              },
+              {
+                "operator" : "==",
+                "value" : "frozen",
+                "test" : "has_biome_tag"
+              }
+            ]
+          }
+        ],
+        "minecraft:weight" : {
+          "default" : 100
+        },
+        "minecraft:spawns_underground" : {
+
+        },
+        "minecraft:spawns_on_surface" : {
+
+        }
+      }
+    ],
+    "description" : {
+      "population_control" : "monster",
+      "identifier" : "cc:snow_illager"
+    }
+  },
+  "format_version" : "1.8.0"
+}

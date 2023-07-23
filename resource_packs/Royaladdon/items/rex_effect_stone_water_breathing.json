@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:effect_stone_water_breathing",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:effect_stone_water_breathing",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

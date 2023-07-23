@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:effect_stone_speed",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:effect_stone_speed",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

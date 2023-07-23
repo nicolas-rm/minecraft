@@ -1,0 +1,85 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "nicothekid:snow_cube",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:weight": {
+          "default": 75
+        },
+        "minecraft:spawns_on_surface": {},
+        "minecraft:biome_filter": [
+          {
+            "all_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "ocean"
+              },
+              {
+                "test": "has_biome_tag",
+                "operator": "!=",
+                "value": "river"
+              },
+              {
+                "any_of": [
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "ice"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "frozen"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "cold"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "grove"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "snowy_slopes"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "frozen_peaks"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "jagged_peaks"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 10,
+          "adjust_for_weather": true
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 2
+        }
+      }
+    ]
+  }
+}

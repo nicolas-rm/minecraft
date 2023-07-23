@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ironaiot_93a494ff"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_pickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:iron_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_hoe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:iron_sword",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "F": {
+        "item": "minecraft:iron_axe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:ironaiot",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "magneticsword_3c1c5250"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A B",
+      "ACB",
+      "ADB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:dye",
+        "data": 4
+      },
+      "B": {
+        "item": "minecraft:redstone",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_sword",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:netherite_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:magneticsword",
+      "count": 1
+    }
+  }
+}

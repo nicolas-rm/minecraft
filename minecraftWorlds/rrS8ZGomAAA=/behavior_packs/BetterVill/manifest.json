@@ -1,0 +1,40 @@
+{
+  "format_version" : 2,
+  "header" : {
+    "version" : [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version" : [
+      1,
+      14,
+      0
+    ],
+    "description" : "TURN ON EXPERIMENTAL GAMEPLAY ",
+    "name" : "Better Villagers And Pillagers",
+    "uuid" : "11D6353C-37CE-4FDE-A86C-F214DD1E0BDB"
+  },
+  "dependencies" : [
+    {
+      "version" : [
+        0,
+        0,
+        1
+      ],
+      "uuid" : "4C5CF5BC-4E3C-4744-8CAD-366819EDB007"
+    }
+  ],
+  "modules" : [
+    {
+      "version" : [
+        0,
+        0,
+        1
+      ],
+      "description" : "Example vanilla behavior pack",
+      "type" : "data",
+      "uuid" : "7E0A0D30-D3BB-44A8-A625-6B2939CE1F5E"
+    }
+  ]
+}

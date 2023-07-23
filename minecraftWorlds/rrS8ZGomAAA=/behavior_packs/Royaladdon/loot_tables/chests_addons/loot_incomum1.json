@@ -1,0 +1,156 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 6,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "name": "minecraft:iron_nugget"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 2
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 3
+            }
+          ],
+          "name": "rex:pillagercoint"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "name": "rex:blackessence"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sweet_berries"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "name": "minecraft:sapling"
+        },
+        {
+          "type": "item",
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "name": "rex:milksword"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            },
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "name": "rex:pillagercoint"
+        }
+      ]
+    }
+  ]
+}]
+}
+}]
+}

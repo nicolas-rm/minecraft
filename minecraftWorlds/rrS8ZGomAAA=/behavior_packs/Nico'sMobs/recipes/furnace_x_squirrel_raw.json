@@ -1,0 +1,18 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "nicothekid:furnace_x_squirrel_raw"
+    },
+    "tags": [
+      "furnace", "campfire"
+    ],
+    "input": {
+      "item": "nicothekid:squirrel_raw"
+    },
+    "output": {
+      "item": "nicothekid:squirrel_cooked",
+      "count": 1
+    }
+  }
+}

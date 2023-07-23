@@ -1,0 +1,51 @@
+{
+  "minecraft:spawn_rules" : {
+    "conditions" : [
+      {
+        "minecraft:density_limit" : {
+          "surface" : 8,
+          "underground" : 8
+        },
+        "minecraft:herd" : {
+          "max_size" : 4,
+          "min_size" : 2
+        },
+        "minecraft:biome_filter" : [
+          {
+            "any_of" : [
+              {
+                "operator" : "==",
+                "value" : "dark_oak",
+                "test" : "has_biome_tag"
+              },
+              {
+                "operator" : "==",
+                "value" : "monster",
+                "test" : "has_biome_tag"
+              },
+              {
+                "operator" : "==",
+                "value" : "nether",
+                "test" : "has_biome_tag"
+              }
+            ]
+          }
+        ],
+        "minecraft:weight" : {
+          "default" : 100
+        },
+        "minecraft:spawns_underground" : {
+
+        },
+        "minecraft:spawns_on_surface" : {
+
+        }
+      }
+    ],
+    "description" : {
+      "population_control" : "animal",
+      "identifier" : "cc:evil_wizard"
+    }
+  },
+  "format_version" : "1.8.0"
+}

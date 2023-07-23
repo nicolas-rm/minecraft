@@ -1,0 +1,11 @@
+{
+	"minecraft:item": {
+		"description": {
+			"identifier": "ed:llave"
+		},
+		"components": {
+			"minecraft:icon": "llave"
+		}
+	},
+	"format_version": "1.16.0"
+}

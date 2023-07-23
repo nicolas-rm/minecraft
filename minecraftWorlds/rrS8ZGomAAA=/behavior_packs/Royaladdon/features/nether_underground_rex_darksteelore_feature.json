@@ -1,0 +1,56 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "overworld_underground_rex_brasilianitaore_feature_1_17",
+      "places_feature": "nether_underground_rex_darksteelore_feature_1_17"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "nether"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "hell"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 2,
+      "coordinate_eval_order": "zyx",
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          7,
+          74
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}      }
+    }
+  }
+}

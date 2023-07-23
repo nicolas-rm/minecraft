@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "endsword_2c8e72ab"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "BDB",
+      "CBA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:ender_eye",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:end_stone",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:astral",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:obsidiansword",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:endsword",
+      "count": 1
+    }
+  }
+}

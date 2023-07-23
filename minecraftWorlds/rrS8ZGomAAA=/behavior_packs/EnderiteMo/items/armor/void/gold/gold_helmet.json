@@ -1,0 +1,53 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ed:gold_helmet",
+			"category": "Equipment"
+		},
+		"components": {
+			"tag:heavy:helmet": {},
+			"minecraft:icon": {
+				"texture": "gold_helmet"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 25,
+				"slot": "armor_head"
+			},
+			"minecraft:durability": {
+				"max_durability": 77,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 0
+			},
+			"minecraft:mining_speed": 5,
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			},
+			"minecraft:render_offsets": "helmets",
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"ed:gold_helmet",
+							"minecraft:gold_ingot"
+						],
+						"repair_amount": 5
+					}
+				]
+			},
+			"minecraft:armor": {
+				"protection": 2
+			},
+			"minecraft:foil": true
+		}
+	}
+}

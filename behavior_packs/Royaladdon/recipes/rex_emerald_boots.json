@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "emerald_boots_a010c05a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:emerald",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:emerald_boots",
+      "count": 1
+    }
+  }
+}

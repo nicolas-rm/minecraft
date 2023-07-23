@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:regeneration_wand",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:regeneration_wand",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

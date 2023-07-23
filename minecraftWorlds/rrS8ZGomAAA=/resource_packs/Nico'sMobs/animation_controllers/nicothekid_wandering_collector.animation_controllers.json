@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.nicothekid_wandering_collector.general": {
+			"initial_state": "default",
+			"states": {
+				"targeting": {
+					"animations": [
+					  "look_at_target",
+					  "targeting"
+					],
+					"particle_effects": [
+						{
+							"effect": "spell",
+							"locator": "left_hand"
+						},
+						{
+							"effect": "spell",
+							"locator": "right_hand"
+						}
+					],
+					"transitions": [
+						{
+							"default": "!query.has_target"
+						}
+					]
+				},
+				"default": {
+					"animations": [
+					  "look_at_target",
+					  "general"
+					],
+					"transitions": [
+						{
+							"targeting": "query.has_target"
+						}
+					]
+				}
+			}
+		}
+  }
+}

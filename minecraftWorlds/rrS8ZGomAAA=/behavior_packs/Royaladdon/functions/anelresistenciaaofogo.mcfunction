@@ -1,0 +1,1 @@
+effect @p fire_resistance 30 2 true

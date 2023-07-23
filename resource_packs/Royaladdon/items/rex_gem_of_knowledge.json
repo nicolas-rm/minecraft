@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:gem_of_knowledge",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:gem_of_knowledge",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

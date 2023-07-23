@@ -1,0 +1,9 @@
+summon rex:astral_zombie ~~~
+summon rex:astral_zombie ~~~
+summon rex:astral_zombie ~~~
+summon rex:astral_zombie ~~~
+summon rex:astral_zombie ~~~
+summon rex:astral_zombie ~~~
+summon rex:astral_zombie ~~~
+summon rex:astral_zombie ~~~
+fill ~~~~~~ redstone_block

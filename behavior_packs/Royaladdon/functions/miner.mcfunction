@@ -1,0 +1,11 @@
+fill ~10 ~ ~20 ~-20 ~-1 ~-20 air 0 replace snow_layer 0
+fill ~10 ~ ~20 ~-20 ~-1 ~-20 air 0 replace grass 0
+fill ~10 ~ ~20 ~-20 ~-1 ~-20 air 0 replace stone 0
+fill ~10 ~ ~20 ~-20 ~-1 ~-20 air 0 replace dirt 0
+fill ~10 ~ ~20 ~-20 ~-1 ~-20 air 0 replace sand 0
+fill ~10 ~ ~20 ~-20 ~-1 ~-20 air 0 replace netherrack 0
+fill ~10 ~ ~20 ~-20 ~-1 ~-20 air 0 replace end_stone 0
+fill ~10 ~ ~20 ~-20 ~-1 ~-20 air 0 replace soul_sand 0
+fill ~10 ~ ~20 ~-20 ~-1 ~-20 air 0 replace soul_soil 0
+fill ~10 ~ ~20 ~-20 ~-1 ~-20 air 0 replace cobbled_snow_layer 0
+fill ~10 ~ ~20 ~-20 ~-1 ~-20 air 0 replace deepslate 0

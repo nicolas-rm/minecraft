@@ -1,0 +1,1 @@
+effect @p slow_falling 30 2 true

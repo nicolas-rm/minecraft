@@ -1,0 +1,1 @@
+effect @p resistance 30 2 true

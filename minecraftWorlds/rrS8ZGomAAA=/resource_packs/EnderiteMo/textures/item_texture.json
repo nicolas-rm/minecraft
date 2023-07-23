@@ -1,0 +1,162 @@
+{
+	"resource_pack_name": "Void Items",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"enderite_void_helmet": {
+			"textures": "textures/items/edhelmet3"
+		},
+		"enderite_void_chestplate": {
+			"textures": "textures/items/edchest3"
+		},
+		"enderite_void_leggings": {
+			"textures": "textures/items/edleg3"
+		},
+		"enderite_void_boots": {
+			"textures": "textures/items/edboots3"
+		},
+		"edhelmet3": {
+			"textures": [
+				"textures/items/edhelmet3"
+			]
+		},
+		"edchest3": {
+			"textures": [
+				"textures/items/edchest3"
+			]
+		},
+		"edleg3": {
+			"textures": [
+				"textures/items/edleg3"
+			]
+		},
+		"edboots3": {
+			"textures": [
+				"textures/items/edboots3"
+			]
+		},
+		"enderite_sword": {
+			"textures": [
+				"textures/items/enderite_sword"
+			]
+		},
+		"enderite_pickaxe": {
+			"textures": [
+				"textures/items/enderite_pickaxe"
+			]
+		},
+		"enderite_axe": {
+			"textures": [
+				"textures/items/enderite_axe"
+			]
+		},
+		"ingot3": {
+			"textures": [
+				"textures/items/ingot3"
+			]
+		},
+		"enderite_scrap": {
+			"textures": [
+				"textures/items/enderite_scrap"
+			]
+		},
+		"enderite_shovel": {
+			"textures": [
+				"textures/items/enderite_shovel"
+			]
+		},
+		"enderite_hoe": {
+			"textures": [
+				"textures/items/enderite_hoe"
+			]
+		},
+		"enderite_sword_tp": {
+			"textures": "textures/items/enderite_sword_tp"
+		},
+		"floating_void": {
+			"textures": "textures/items/book_enchanted"
+		},
+		"netherite_helmet": {
+			"textures": [
+				"textures/items/netherite_helmet"
+			]
+		},
+		"netherite_chestplate": {
+			"textures": [
+				"textures/items/netherite_chestplate"
+			]
+		},
+		"netherite_leggings": {
+			"textures": [
+				"textures/items/netherite_leggings"
+			]
+		},
+		"netherite_boots": {
+			"textures": [
+				"textures/items/netherite_boots"
+			]
+		},
+		"diamond_helmet": {
+			"textures": [
+				"textures/items/diamond_helmet"
+			]
+		},
+		"diamond_chestplate": {
+			"textures": [
+				"textures/items/diamond_chestplate"
+			]
+		},
+		"diamond_leggings": {
+			"textures": [
+				"textures/items/diamond_leggings"
+			]
+		},
+		"diamond_boots": {
+			"textures": [
+				"textures/items/diamond_boots"
+			]
+		},
+		"gold_helmet": {
+			"textures": [
+				"textures/items/gold_helmet"
+			]
+		},
+		"gold_chestplate": {
+			"textures": [
+				"textures/items/gold_chestplate"
+			]
+		},
+		"gold_leggings": {
+			"textures": [
+				"textures/items/gold_leggings"
+			]
+		},
+		"gold_boots": {
+			"textures": [
+				"textures/items/gold_boots"
+			]
+		},
+		"iron_helmet": {
+			"textures": [
+				"textures/items/iron_helmet"
+			]
+		},
+		"iron_chestplate": {
+			"textures": [
+				"textures/items/iron_chestplate"
+			]
+		},
+		"iron_leggings": {
+			"textures": [
+				"textures/items/iron_leggings"
+			]
+		},
+		"iron_boots": {
+			"textures": [
+				"textures/items/iron_boots"
+			]
+		},
+		"llave": {
+			"textures": "textures/items/llave"
+		}
+	}
+}

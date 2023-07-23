@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:heroi",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:heroi",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

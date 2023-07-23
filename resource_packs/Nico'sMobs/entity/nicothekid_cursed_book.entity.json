@@ -1,0 +1,42 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:cursed_book",
+      "textures": {
+        "cursed_book": "textures/entity/nicos_mobs/cursed_book/nicothekid_cursed_book",
+        "enchanted_book": "textures/entity/nicos_mobs/cursed_book/nicothekid_enchanted_book"
+      },
+      "spawn_egg": {
+        "base_color": "#a48f0a",
+        "overlay_color": "#1fcc52"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_cursed_book"
+      },
+      "materials": {
+        "default": "cursed_book",
+        "invisible": "cursed_book_invisible" 
+      },
+      "particle_effects": {
+				"cursed_book_particle": "nicothekid:cursed_book_particle",
+				"enchanted_book_particle": "nicothekid:enchanted_book_particle"
+			},
+      "render_controllers": [
+        "controller.render.nicothekid_cursed_book"
+      ],
+      "animations": {
+        "flying": "animation.nicothekid_cursed_book.flying",
+        "resting": "animation.nicothekid_cursed_book.resting"
+      },
+      "animation_controllers": [
+        {
+          "movement": "controller.animation.nicothekid_cursed_book.movement"
+        },
+        {
+          "particles": "controller.animation.nicothekid_cursed_book.particles"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "rex:firefire",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/rex_firefire"
+      },
+      "geometry": {
+        "default": "geometry.pabullet"
+      },
+      "scripts": {
+        "animate": [
+          "particles"
+        ]
+      },
+      "animations": {
+        "particles": "controller.animation.rex_firefire"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 99
+      },
+      "render_controllers": [
+        "controller.render.slime"
+      ]
+    }
+  }
+}

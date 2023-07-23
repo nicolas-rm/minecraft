@@ -1,0 +1,58 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "potion_ring_all_fadad9b9"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      "GHI"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:potion_ring_jump_boost",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:potion_ring_slow_falling",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:potion_ring_strength",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:potion_ring_speed",
+        "data": 0
+      },
+      "E": {
+        "item": "rex:potion_ring_water_breathing",
+        "data": 0
+      },
+      "F": {
+        "item": "rex:potion_ring_regeneration",
+        "data": 0
+      },
+      "G": {
+        "item": "rex:potion_ring_fire_resistance",
+        "data": 0
+      },
+      "H": {
+        "item": "rex:potion_ring_night_vision",
+        "data": 0
+      },
+      "I": {
+        "item": "rex:potion_ring_resistance",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:potion_ring_all",
+      "count": 1
+    }
+  }
+}

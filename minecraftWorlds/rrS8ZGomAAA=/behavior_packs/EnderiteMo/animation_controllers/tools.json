@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"animation_controllers": {
+		"controller.animation.tools": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"on_entry": [
+						"/tag @s[name=\"Enderite Helmet\"] add helmet",
+						"/tag @s[name=\"Enderite Chestplate\"] add chestplate",
+						"/tag @s[name=\"Enderite Leggings\"] add leggings",
+						"/tag @s[name=\"Enderite Boots\"] add boots",
+						"/tag @s[name=\"Enderite Ingot\"] add ingot",
+						"/tag @s[name=\"Enderite Respawn\"] add key",
+						"/tag @s[name=\"§eEnchanted Book\n§7Void floating ability\"] add book",
+						"/tag @s[name=\"Enderite Scrap\"] add scrap",
+						"/tag @s[name=\"Enderite Sword\"] add sword",
+						"/tag @s[name=\"Enderite Sword\n§3Charge: 16\n§7Upgrade in Enderite Crafting Tools with\nender pearls to load teleportation uses.\nTeleport with sneaking + right click!\"] add sword",
+						"/tag @s[name=\"Enderite Sword\n§3Charge: 32\n§7Upgrade in Enderite Crafting Tools with\nender pearls to load teleportation uses.\nTeleport with sneaking + right click!\"] add sword",
+						"/tag @s[name=\"Enderite Sword\n§3Charge: 48\n§7Upgrade in Enderite Crafting Tools with\nender pearls to load teleportation uses.\nTeleport with sneaking + right click!\"] add sword",
+						"/tag @s[name=\"Enderite Sword\n§3Charge: 64\n§7Upgrade in Enderite Crafting Tools with\nender pearls to load teleportation uses.\nTeleport with sneaking + right click!\"] add sword",
+						"/tag @s[name=\"Enderite Pickaxe\"] add pickaxe",
+						"/tag @s[name=\"Enderite Axe\"] add axe",
+						"/tag @s[name=\"Enderite Shovel\"] add shovel",
+						"/tag @s[name=\"Enderite Hoe\"] add hoe",
+						"/tag @s[name=\"Enderite\"] add block",
+						"/tag @s[name=\"Enderite Cracked\"] add block",
+						"/tag @s[name=\"Enderite Block\"] add block",
+						"/tag @s[name=\"Enderite Respawn Anchor\"] add block",
+						"/tag @s[name=\"Enderite Crafting Tools\"] add block"
+					]
+				}
+			}
+		}
+	}
+}

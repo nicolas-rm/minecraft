@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "furnace"
+    ],
+    "output": {
+      "item": "rex:darksteelingot",
+      "data": 0
+    },
+    "input": {
+      "item": "rex:rawdarksteel",
+      "data": 0
+    },
+    "description": {
+      "identifier": "recipes_e9678981"
+    }
+  }
+}

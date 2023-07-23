@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ed:edleg3"
+		},
+		"tags": [
+			"craftingtools"
+		],
+		"pattern": [
+			"   ",
+			"X Y",
+			"   "
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:netherite_leggings"
+			},
+			"Y": {
+				"item": "ed:ingot3"
+			}
+		},
+		"result": [
+			{
+				"item": "ed:edleg3",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+effect @p resistance 30 1 
+effect @p regeneration 30 1
+effect @p slow_faling 30 1 
+effect @p jump_boost 30 1 
+effect @p speed 30 1 
+effect @p haste 30 1 
+effect @p village_hero 30 1
+effect @p night_vision 30 1
+effect @p haste 30 1
+effect @p strenght 30 1
+effect @p invisibility 30 1
+effect @p fire_resistance 30 1

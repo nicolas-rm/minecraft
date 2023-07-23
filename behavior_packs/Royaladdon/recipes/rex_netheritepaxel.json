@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "netheritepaxel_b920fae6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:netherite_pickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:netherite_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:netherite_axe",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:netheritepaxel",
+      "count": 1
+    }
+  }
+}

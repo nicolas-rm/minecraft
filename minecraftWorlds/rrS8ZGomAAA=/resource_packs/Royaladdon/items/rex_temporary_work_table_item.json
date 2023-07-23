@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:temporary_work_table_item",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:temporary_work_table_item",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

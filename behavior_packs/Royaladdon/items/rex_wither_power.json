@@ -1,0 +1,46 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:wither_power",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": true,
+      "minecraft:icon": {
+        "texture": "rex:wither_power"
+      },
+      "minecraft:display_name": {
+        "value": "wither power"
+      },
+      "minecraft:cooldown": {
+        "category": "wither_power",
+        "duration": 999
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "on_use_event"
+        }
+      }
+    },
+    "events": {
+      "on_use_event": {
+        "swing": {},
+        "run_command": {
+          "command": [
+            "function wither_skeleton_summons"
+          ]
+        }
+      },
+      "hurt": {
+        "damage": {
+          "type": "magic",
+          "amount": 1,
+          "target": "self"
+        }
+      }
+    }
+  }
+}

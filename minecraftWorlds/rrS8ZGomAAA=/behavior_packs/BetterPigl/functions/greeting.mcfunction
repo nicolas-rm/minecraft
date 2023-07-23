@@ -1,0 +1,2 @@
+tellraw @a[tag=!joined_the_world_more_than_one_time] {"rawtext":[{"text":"Thank you for downloading this addon (It was uploaded to mcpedl.com). I hope it will be usefull. Created by SkinnyChopples."}]}
+tag @a add joined_the_world_more_than_one_time

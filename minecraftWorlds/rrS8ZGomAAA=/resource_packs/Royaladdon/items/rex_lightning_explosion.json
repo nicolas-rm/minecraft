@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:lightning_explosion",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:lightning_explosion",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

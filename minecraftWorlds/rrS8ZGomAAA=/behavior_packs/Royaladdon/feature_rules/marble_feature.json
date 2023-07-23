@@ -1,0 +1,35 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "rex:marble_feature"
+    },
+    "count": 40,
+    "replace_rules": [
+      {
+        "places_block": "rex:marble",
+        "may_replace": [
+          {
+            "name": "minecraft:stone"
+          }
+        ]
+      },
+      {
+        "places_block": "rex:marble",
+        "may_replace": [
+          {
+            "name": "minecraft:deepslate"
+          }
+        ]
+      }
+    ]
+  }
+}
+  }
+}  }
+    ]
+  }
+}
+  }
+}
+}

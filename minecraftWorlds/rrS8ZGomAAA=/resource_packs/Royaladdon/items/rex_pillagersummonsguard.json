@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:pillagersummonsguard",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:pillagersummonsguard",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

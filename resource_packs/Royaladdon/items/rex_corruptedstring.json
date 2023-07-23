@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:corruptedstring",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:corruptedstring",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

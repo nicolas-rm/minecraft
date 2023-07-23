@@ -1,0 +1,17 @@
+entity.toxirust1:bull_terrier.name=Bull Terrier
+item.spawn_egg.entity.toxirust1:bull_terrier.name=Spawn Bull Terrier
+
+entity.toxirust1:german_shepherd.name=German Shepherd
+item.spawn_egg.entity.toxirust1:german_shepherd.name=Spawn German Shepherd
+
+entity.toxirust1:labrador.name=Labrador
+item.spawn_egg.entity.toxirust1:labrador.name=Spawn Labrador
+
+entity.toxirust1:dachshund.name=Dachshund
+item.spawn_egg.entity.toxirust1:dachshund.name=Spawn Dachshund
+
+entity.toxirust1:hyena.name=Hyena
+item.spawn_egg.entity.toxirust1:hyena.name=Spawn Hyena
+
+pack.name=The expansion for Minecraft Dogs RP
+pack.description=The expansion for Minecraft Dogs is now available.

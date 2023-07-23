@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:shards_of_marble",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:shards_of_marble",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

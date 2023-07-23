@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_f42ea549"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:firestairs",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:stick",
+      "count": 4,
+      "data": 0
+    }
+  }
+}

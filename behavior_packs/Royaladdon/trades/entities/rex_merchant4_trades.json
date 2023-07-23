@@ -1,0 +1,142 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:arrow",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 14
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:bow",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:string",
+              "quantity": 35
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:feather",
+              "quantity": 15
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:crossbow",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 6
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:fletching_table",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:arrow",
+              "quantity": 13
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:zumbiinsigna",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:creeperinsigna",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:pillagercoint",
+              "quantity": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

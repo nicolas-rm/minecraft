@@ -1,0 +1,64 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "nicothekid_enchanted_emerald": {
+      "textures": "textures/items/nicos_item_expansion/nicothekid_enchanted_emerald"
+    },
+    "nicothekid_wooden_club": {
+      "textures": "textures/items/nicos_item_expansion/nicothekid_wooden_club"
+    },
+    
+    "nicothekid_bucket_of_clam": {
+      "textures": "textures/items/nicos_mobs/nicothekid_bucket_of_clam"
+    },
+    "nicothekid_bucket_of_jellyfish": {
+      "textures": "textures/items/nicos_mobs/nicothekid_bucket_of_jellyfish"
+    },
+    "nicothekid_clurve_cooked": {
+      "textures": "textures/items/nicos_mobs/nicothekid_clurve_cooked"
+    },
+    "nicothekid_clurve_raw": {
+      "textures": "textures/items/nicos_mobs/nicothekid_clurve_raw"
+    },
+    "nicothekid_fried_moa_egg": {
+      "textures": "textures/items/nicos_mobs/nicothekid_fried_moa_egg"
+    },
+    "nicothekid_jellyfish_slime": {
+      "textures": "textures/items/nicos_mobs/nicothekid_jellyfish_slime"
+    },
+    "nicothekid_moa_cooked": {
+      "textures": "textures/items/nicos_mobs/nicothekid_moa_cooked"
+    },
+    "nicothekid_moa_egg": {
+      "textures": "textures/items/nicos_mobs/nicothekid_moa_egg"
+    },
+    "nicothekid_moa_raw": {
+      "textures": "textures/items/nicos_mobs/nicothekid_moa_raw"
+    },
+    "nicothekid_mud_ball": {
+      "textures": "textures/items/nicos_mobs/nicothekid_mud_ball"
+    },
+    "nicothekid_mud_soil_brick": {
+      "textures": "textures/items/nicos_mobs/nicothekid_mud_soil_brick"
+    },
+    "nicothekid_scorpion_gauntlet": {
+      "textures": "textures/items/nicos_mobs/nicothekid_scorpion_gauntlet"
+    },
+    "nicothekid_scorpion_telson": {
+      "textures": "textures/items/nicos_mobs/nicothekid_scorpion_telson"
+    },
+    "nicothekid_sparrow_egg": {
+      "textures": "textures/items/nicos_mobs/nicothekid_sparrow_egg"
+    },
+    "nicothekid_squirrel_cooked": {
+      "textures": "textures/items/nicos_mobs/nicothekid_squirrel_cooked"
+    },
+    "nicothekid_squirrel_hide": {
+      "textures": "textures/items/nicos_mobs/nicothekid_squirrel_hide"
+    },
+    "nicothekid_squirrel_raw": {
+      "textures": "textures/items/nicos_mobs/nicothekid_squirrel_raw"
+    }
+  }
+}

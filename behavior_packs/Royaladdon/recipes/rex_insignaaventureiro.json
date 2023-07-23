@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "insignaaventureiro_a23ab39d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "BBA",
+      "BAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:zumbiinsigna",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:spiderinsigna",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:insignaaventureiro",
+      "count": 1
+    }
+  }
+}

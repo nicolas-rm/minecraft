@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Un Addon Que Hara Que El Loots de Los Cofres De Las Estructuras De Tu Mundo Se Haga Super Op",
+        "name": "§6Chest §eOp §aAddon",
+        "uuid": "5f21853f-96e4-681a-fca1-8d2f1f8e078a",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 13, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Un Addon Que Hara Que Los Loots De Los Cofres de Las Estructuras De Tu Mundo Se Hagan Op",
+            "type": "data",
+            "uuid": "057fcdeb-6bcd-7e6f-a787-931a2fe5ae33",
+            "version": [0, 0, 1]
+        }
+    ]
+}

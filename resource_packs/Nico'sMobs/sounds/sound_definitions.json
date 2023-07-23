@@ -1,0 +1,52 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+	  "mob.nicothekid_forest_wisp.idle": {
+			"sounds": [
+				"sounds/mob/nicos_mobs/forest_wisp/forest_wisp_idle_01",
+				"sounds/mob/nicos_mobs/forest_wisp/forest_wisp_idle_02"
+			]
+		},
+		"mob.nicothekid_forest_wisp.hurt": {
+			"sounds": [
+				"sounds/mob/nicos_mobs/forest_wisp/forest_wisp_hurt_01",
+				"sounds/mob/nicos_mobs/forest_wisp/forest_wisp_hurt_02"
+			]
+		},
+		"mob.nicothekid_forest_wisp.death": {
+			"sounds": [
+				"sounds/mob/nicos_mobs/forest_wisp/forest_wisp_death_01"
+			]
+		},
+		"mob.nicothekid_giant_moa.idle": {
+			"sounds": [
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_idle_01",
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_idle_02",
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_idle_03",
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_idle_04",
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_idle_05",
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_idle_06"
+			]
+		},
+		"mob.nicothekid_giant_moa.attack": {
+			"sounds": [
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_attack_01",
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_attack_02",
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_attack_03"
+			]
+		},
+		"mob.nicothekid_giant_moa.hurt": {
+			"sounds": [
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_hurt_01",
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_hurt_02",
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_hurt_03",
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_hurt_04"
+			]
+		},
+		"mob.nicothekid_giant_moa.death": {
+			"sounds": [
+				"sounds/mob/nicos_mobs/giant_moa/giant_moa_death_01"
+			]
+		}
+	}
+}

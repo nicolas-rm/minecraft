@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mobbarrierstone_62548a03"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stone",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:mobbarrier",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:mobbarrierstone",
+      "count": 1
+    }
+  }
+}

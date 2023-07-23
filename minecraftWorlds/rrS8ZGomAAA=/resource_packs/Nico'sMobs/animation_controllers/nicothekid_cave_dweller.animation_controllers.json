@@ -1,0 +1,156 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.nicothekid_cave_dweller.attack": {
+			"initial_state": "default",
+			"states": {
+			  "default": {
+			    "animations": [ "attack.rotations" ],
+					"transitions": [
+					  {
+							"attack_hand": "query.has_target && !query.is_item_equipped && variable.attack_time >= 0.0"
+						},
+						{
+							"attack_melee": "query.has_target && !query.facing_target_to_range_attack && query.is_item_equipped && variable.attack_time >= 0.0"
+						},
+						{
+							"attack_ranged": "query.has_target && query.facing_target_to_range_attack && query.get_equipped_item_name('main_hand') == 'bow'"
+						},
+						{
+							"attack_trident": "query.is_item_equipped('off_hand') == 'trident' || query.is_item_equipped('main_hand') == 'trident' || variable.is_brandishing_spear"
+						}
+					]
+				},
+				"attack_hand": {
+					"animations": [ "attack_hand" ],
+					"transitions": [
+						{
+							"default": "!variable.has_target || query.is_item_equipped || variable.attack_time < 0.0"
+						}
+					]
+				},
+				"attack_melee": {
+					"animations": [ "attack_melee" ],
+					"transitions": [
+						{
+							"default": "!variable.has_target || !query.is_item_equipped || variable.attack_time < 0.0"
+						}
+					]
+				},
+				"attack_ranged": {
+					"animations": [ "attack_ranged" ],
+					"transitions": [
+						{
+							"default": "!query.has_target || !query.facing_target_to_range_attack || query.get_equipped_item_name('main_hand') != 'bow'"
+						}
+					]
+				},
+				"attack_trident": {
+					"animations": [ "attack_trident.rotations" ],
+					"transitions": [
+						{
+							"default": "!query.is_item_equipped('off_hand') && !variable.is_brandishing_spear"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.nicothekid_cave_dweller.attack_crossbow": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+							"attack_crossbow_hold": "query.has_target && variable.attack_state == 1 && query.get_equipped_item_name('main_hand') == 'crossbow'"
+						},
+						{
+							"attack_crossbow_charge": "query.has_target && variable.attack_state == 2 && query.get_equipped_item_name('main_hand') == 'crossbow'"
+						}
+          ]
+        },
+        "attack_crossbow_charge": {
+          "animations": [ "attack_crossbow_charge" ],
+          "transitions": [
+						{
+							"default": "variable.attack_state == 0 || query.get_equipped_item_name('main_hand') != 'crossbow'"
+						},
+						{
+							"attack_crossbow_hold": "variable.attack_state == 1 && query.get_equipped_item_name('main_hand') == 'crossbow'"
+						}
+					]
+        },
+        "attack_crossbow_hold": {
+          "animations": [ "attack_crossbow_hold" ],
+          "transitions": [
+            {
+							"default": "variable.attack_state == 0 || query.get_equipped_item_name('main_hand') != 'crossbow'"
+						},
+						{
+							"attack_crossbow_charge": "variable.attack_state == 2 && query.get_equipped_item_name('main_hand') == 'crossbow'"
+						}
+          ]
+        }
+      }
+    },
+		"controller.animation.nicothekid_cave_dweller.general": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"base_pose"
+					]
+				}
+			}
+		},
+		"controller.animation.nicothekid_cave_dweller.look_at_target": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"look_at_target_default"
+					],
+					"transitions": [
+						{
+							"gliding": "query.is_gliding"
+						},
+						{
+							"swimming": "query.is_swimming"
+						}
+					]
+				},
+				"gliding": {
+					"animations": [ "look_at_target_gliding" ],
+					"transitions": [
+						{
+							"swimming": "query.is_swimming"
+						},
+						{
+							"default": "!query.is_gliding"
+						}
+					]
+				},
+				"swimming": {
+					"animations": [ "look_at_target_swimming" ],
+					"transitions": [
+						{
+							"gliding": "query.is_gliding"
+						},
+						{
+							"default": "!query.is_swimming"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.nicothekid_cave_dweller.movement": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"walking"
+					]
+				}
+			}
+		}
+	}
+}

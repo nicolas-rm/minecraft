@@ -1,0 +1,226 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_11",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_13",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_5",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_cat",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_blocks",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_chirp",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_far",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_mall",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_mellohi",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_otherside",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_pigstep",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_stal",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_strad",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_wait",
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:music_disc_ward",
+					"weight": 20
+				},
+				{
+					"type": "empty",
+					"weight": 50
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:paper",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					],
+					"weight": 20
+				},
+				{
+					"type": "item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					],
+					"weight": 15
+				},
+				{
+					"type": "item",
+					"name": "minecraft:feather",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					],
+					"weight": 15
+				},
+				{
+					"type": "item",
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					],
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_nugget",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					],
+					"weight": 10
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:emerald",
+					"weight": 5
+				},
+				{
+					"type": "item",
+					"name": "minecraft:writable_book",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:name_tag",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:ink_sac",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:empty_map",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:cookie",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "minecraft:bowl",
+					"weight": 10
+				},
+				{
+					"type": "empty",
+					"weight": 15
+				}
+			]
+		}
+	]
+}

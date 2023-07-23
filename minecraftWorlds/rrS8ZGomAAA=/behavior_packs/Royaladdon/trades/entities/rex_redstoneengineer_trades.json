@@ -1,0 +1,156 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:redstone",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:quartz",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:redstone_torch",
+              "quantity": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 6
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:redstonesword",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:repeater",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:comparator",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:hopper",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:redstone_block",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:piston",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:sticky_piston",
+              "quantity": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}}

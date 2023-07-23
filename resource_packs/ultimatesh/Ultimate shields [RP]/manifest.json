@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§aultimate shields RP",
+        "name": "ultimate shields RP",
+        "uuid": "9d948527-b3b3-4eb8-bca6-103a9fc2bf87",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 13, 0]
+    },
+    "modules": [
+        {
+        "description": "§aUltimate shields RP",
+            "type": "resources",
+            "uuid": "1782fa0d-6b4d-4a07-8d5c-d6e3682cd5a3",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "fcbe1588-d4bd-4a81-b1de-a965010ef9c5",
+            "version": [1, 0, 0]
+        }
+    ]
+}

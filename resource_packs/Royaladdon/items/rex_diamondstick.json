@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:diamondstick",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:diamondstick",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

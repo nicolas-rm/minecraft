@@ -1,0 +1,46 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:wandering_collector",
+      "textures": {
+        "variant_00": "textures/entity/nicos_mobs/wandering_collectors/nicothekid_collector_crop",
+        "variant_01": "textures/entity/nicos_mobs/wandering_collectors/nicothekid_collector_item",
+        "variant_02": "textures/entity/nicos_mobs/wandering_collectors/nicothekid_collector_oceanic",
+        "variant_03": "textures/entity/nicos_mobs/wandering_collectors/nicothekid_collector_plant",
+        "variant_04": "textures/entity/nicos_mobs/wandering_collectors/nicothekid_collector_stone",
+        "variant_05": "textures/entity/nicos_mobs/wandering_collectors/nicothekid_collector_wild"
+      },
+      "spawn_egg": {
+        "base_color": "#654234",
+        "overlay_color": "#525252"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_wandering_collector"
+      },
+      "materials": {
+        "default": "wandering_collector",
+        "invisible": "wandering_collector_invisible" 
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_wandering_collector"
+      ],
+      "particle_effects": {
+        "spell": "nicothekid:collector_spell_particle"
+      },
+      "animations": {
+        "general": "animation.nicothekid_wandering_collector.general",
+        "look_at_target": "animation.humanoid.look_at_target.default.v1.0",
+        "move": "animation.villager.move",
+        "targeting": "animation.nicothekid_wandering_collector.targeting"
+      },
+      "animation_controllers": [
+        { "general": "controller.animation.nicothekid_wandering_collector.general" },
+        { "move": "controller.animation.villager.move" }
+      ],
+      "scripts": {
+        "scale": "0.9375"
+      }
+    }
+  }
+}

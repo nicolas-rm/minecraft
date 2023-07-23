@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"IsraOrbit"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.0"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "§4Horde Of Mobs",
+		"description": "Greatly increases the number of hostile mobs that spawn in the world. By §9Is§bra§dOr§5bit ",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "eef56df0-2356-4c55-a628-317614a4346b",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "2f59db03-3269-414d-9ff2-2117907e3631",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedsteelingot_4764f3b4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptnugget",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedsteelingot",
+      "count": 1
+    }
+  }
+}

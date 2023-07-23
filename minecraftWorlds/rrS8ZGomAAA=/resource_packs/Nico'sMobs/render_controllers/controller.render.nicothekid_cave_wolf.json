@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.nicothekid_cave_wolf": {
+      "geometry": "geometry.default",
+      "part_visibility": [
+        {
+          "saddle": "query.is_saddled"
+        }
+      ],
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+				"array.skins[query.variant]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.variant_0",
+						"Texture.variant_1"
+					]
+				}
+			}
+    }
+  }
+}

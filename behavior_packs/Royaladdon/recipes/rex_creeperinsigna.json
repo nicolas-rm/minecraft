@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "creeperinsigna_0870e067"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gunpowder",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:creeperinsigna",
+      "count": 1
+    }
+  }
+}

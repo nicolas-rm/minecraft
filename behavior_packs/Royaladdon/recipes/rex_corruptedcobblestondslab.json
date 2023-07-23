@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedcobblestondslab_d89ee345"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedcobblestone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedcobblestondslab",
+      "count": 1
+    }
+  }
+} }
+}

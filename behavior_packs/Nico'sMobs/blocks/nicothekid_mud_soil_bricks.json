@@ -1,0 +1,40 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nicothekid:mud_soil_bricks",
+      "menu_category": {
+				"category": "construction",
+        "group": "itemGroup.name.stoneBrick"
+			}
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nicothekid_mud_soil_bricks",
+          "render_method": "opaque",
+          "ambient_occlusion": true,
+					"face_dimming": true
+        }
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:map_color": "#7B603D",
+      "minecraft:breathability": "solid",
+      "minecraft:light_dampening": 15,
+      "minecraft:light_emission": 0,
+      "minecraft:friction": 0.4,
+      "minecraft:flammable": false,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30.0
+      },
+      "minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.4
+			},
+      "minecraft:loot": "loot_tables/nicos_mobs/blocks/nicothekid_mud_soil_bricks.json",
+      
+      "tag:mud_soil_bricks": {},
+      "tag:custom_bricks_block": {},
+      "tag:stone": {}
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ed:claimcore",
+			"is_spawnable": false,
+			"is_summonable": true
+		},
+		"component_groups": {
+			"ed:despawn": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": true
+				}
+			}
+		},
+		"components": {
+			"minecraft:block_sensor": {
+				"sensor_radius": 1,
+				"on_break": [
+					{
+						"block_list": [
+							"ed:end_respawn_anchor_stage_4"
+						],
+						"on_block_broken": "ed:despawn"
+					}
+				]
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			}
+		},
+		"events": {
+			"ed:despawn": {
+				"add": {
+					"component_groups": [
+						"ed:despawn"
+					]
+				}
+			}
+		}
+	}
+}

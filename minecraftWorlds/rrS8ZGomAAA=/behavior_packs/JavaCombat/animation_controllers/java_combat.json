@@ -1,0 +1,145 @@
+//bridge-file-version: #112
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.attacking": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"attacking": "variable.attack_time"
+						}
+					]
+				},
+				"attacking": {
+					"transitions": [
+						{
+							"default": "!variable.attack_time"
+						}
+					],
+					"on_entry": [
+						"/function set_0"
+					]
+				}
+			}
+		},
+		"controller.animation.critical_hit": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"off_ground": "query.is_jumping"
+						}
+					]
+				},
+				"off_ground": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/tag @s add critical_hit",
+						"/tag @s add kb_resistance",
+						"/scoreboard players set @s kb_resistance 1"
+					]
+				}
+			}
+		},
+		"controller.animation.sprinting": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"springting": "query.is_sprinting"
+						},
+						{
+							"off_springting": "!(query.is_sprinting)"
+						}
+					]
+				},
+				"springting": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/tag @s add sprinting",
+						"/tag @s remove sweeping_edge"
+					]
+				},
+				"off_springting": {
+					"on_entry": [
+						"/tag @s remove sprinting",
+						"/tag @s remove kb_sprint"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.blocking_test": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"blocking": "(query.get_equipped_item_name('main_hand') == 'shield') || (query.get_equipped_item_name('off_hand') == 'shield') && query.blocking && !variable.attack_time"
+						},
+						{
+							"not_blocking": "!(query.blocking) || variable.attack_time || (query.get_equipped_item_name(1,0) != 'shield') "
+						}
+					]
+				},
+				"blocking": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/tag @s[tag=!disable_shield] add shield",
+						"/execute @s[tag=!no_sound] ~ ~ ~ playsound armor.equip_generic @a[rm=0.1,r=3]",
+						"/tag @s add no_sound"
+					]
+				},
+				"not_blocking": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/tag @s remove shield",
+						"/tag @s remove no_sound"
+					]
+				}
+			}
+		},
+		"controller.animation.durability": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"durability": "query.remaining_durability\t>= 1"
+						}
+					]
+				},
+				"durability": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/summon pig"
+					]
+				}
+			}
+		}
+	}
+}

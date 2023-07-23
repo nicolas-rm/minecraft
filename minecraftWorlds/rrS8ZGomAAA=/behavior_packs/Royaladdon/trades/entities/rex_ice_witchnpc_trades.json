@@ -1,0 +1,50 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "rex:desejo",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_apple",
+              "quantity": 30
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:desejo",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:appleenchanted",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "rex:desejo",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "rex:regeneration_necklace",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "chestplate_from_beyond_75803ea2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:bar_from_beyond",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:chestplate_from_beyond",
+      "count": 1
+    }
+  }
+}

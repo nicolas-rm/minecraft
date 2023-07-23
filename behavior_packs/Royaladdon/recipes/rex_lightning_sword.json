@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lightning_sword_d0bf6a04"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "EFE"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_block",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:gold_block",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:coppersword",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:lightning_rod",
+        "data": 0
+      },
+      "F": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:lightning_sword",
+      "count": 1
+    }
+  }
+}

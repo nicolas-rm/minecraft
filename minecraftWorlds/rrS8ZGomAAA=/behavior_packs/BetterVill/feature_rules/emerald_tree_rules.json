@@ -1,0 +1,66 @@
+{
+  "minecraft:feature_rules" : {
+    "distribution" : {
+      "y" : "query.heightmap(variable.worldx, variable.worldz)",
+      "z" : {
+        "extent" : [
+          0,
+          8
+        ],
+        "distribution" : "uniform"
+      },
+      "iterations" : 8,
+      "x" : {
+        "extent" : [
+          0,
+          8
+        ],
+        "distribution" : "uniform"
+      }
+    },
+    "conditions" : {
+      "minecraft:biome_filter" : [
+        {
+          "any_of" : [
+            {
+              "operator" : "==",
+              "value" : "warped_forest",
+              "test" : "has_biome_tag"
+            },
+            {
+              "operator" : "==",
+              "value" : "soulsand_valley",
+              "test" : "has_biome_tag"
+            },
+            {
+              "operator" : "==",
+              "value" : "crimson_forest",
+              "test" : "has_biome_tag"
+            },
+            {
+              "operator" : "==",
+              "value" : "basalt_deltas",
+              "test" : "has_biome_tag"
+            },
+            {
+              "operator" : "==",
+              "value" : "birch_forest",
+              "test" : "has_biome_tag"
+            },
+            {
+              "operator" : "==",
+              "value" : "forest",
+              "test" : "has_biome_tag"
+            }
+          ]
+        }
+      ],
+      "placement_pass" : "surface_pass"
+    },
+    "description" : {
+      "places_feature" : "cc:emerald_tree",
+      "identifier" : "cc:emerald_tree_rules"
+    }
+  },
+  "format_version" : "1.13.0"
+}

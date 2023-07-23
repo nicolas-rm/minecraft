@@ -1,0 +1,51 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+
+		"controller.animation.fire": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"light_up": "query.is_on_fire"
+						}
+					]
+				},
+				"light_up": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],					
+					"on_entry": [
+						"/function dynamic_light",
+						"/say yes"
+					]					
+				}
+			}
+		},
+		"controller.animation.not_fire": {
+			"initial_state" : "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"remove": "!query.is_on_fire"
+						}
+					]
+				},
+				"remove": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air 0 replace light_block -1"
+					]
+				}
+			}
+		}
+	}
+}

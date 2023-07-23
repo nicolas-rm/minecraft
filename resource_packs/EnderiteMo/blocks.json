@@ -1,0 +1,74 @@
+{
+	"format_version": "1.0.0",
+	"ed:enderite": {
+		"textures": {
+			"up": "enderite_up",
+			"down": "enderite_down",
+			"side": "enderite_side"
+		},
+		"sound": "stone"
+	},
+	"ed:enderite_block": {
+		"textures": {
+			"up": "enderite_block_up",
+			"down": "enderite_block_down",
+			"side": "enderite_block_side"
+		},
+		"sound": "stone"
+	},
+	"ed:end_crafting_table": {
+		"textures": {
+			"up": "end_crafting_table_up",
+			"down": "end_crafting_table_down",
+			"north": "end_crafting_table_north",
+			"south": "end_crafting_table_south",
+			"east": "end_crafting_table_east",
+			"west": "end_crafting_table_west"
+		},
+		"sound": "stone"
+	},
+	"ed:enderite_cracked": {
+		"textures": "enderite_cracked",
+		"sound": "stone"
+	},
+	"ed:end_respawn_anchor_stage_0": {
+		"textures": {
+			"up": "end_respawn_stage_0_up",
+			"down": "end_respawn_down",
+			"side": "ed_end_respawn_anchor_stage_0_side"
+		},
+		"sound": "stone"
+	},
+	"ed:end_respawn_anchor_stage_1": {
+		"textures": {
+			"up": "end_respawn_up",
+			"down": "end_respawn_down",
+			"side": "ed_end_respawn_anchor_stage_1_side"
+		},
+		"sound": "stone"
+	},
+	"ed:end_respawn_anchor_stage_4": {
+		"textures": {
+			"up": "end_respawn_up",
+			"down": "end_respawn_down",
+			"side": "ed_end_respawn_anchor_stage_4_side"
+		},
+		"sound": "stone"
+	},
+	"ed:end_respawn_anchor_stage_3": {
+		"textures": {
+			"up": "end_respawn_up",
+			"down": "end_respawn_down",
+			"side": "ed_end_respawn_anchor_stage_3_side"
+		},
+		"sound": "stone"
+	},
+	"ed:end_respawn_anchor_stage_2": {
+		"textures": {
+			"up": "end_respawn_up",
+			"down": "end_respawn_down",
+			"side": "ed_end_respawn_anchor_stage_2_side"
+		},
+		"sound": "stone"
+	}
+}

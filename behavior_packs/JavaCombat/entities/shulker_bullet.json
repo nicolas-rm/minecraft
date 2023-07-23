@@ -1,0 +1,76 @@
+//bridge-file-version: #48
+{
+	"format_version": "1.10.0",
+	"minecraft:entity": {
+		"description": {
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"identifier": "raiyon:sweeping_edge",
+			"runtime_identifier": "minecraft:egg"
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:physics": {
+				"has_collision": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"max_optimized_distance": 80,
+					"max_dropped_ticks": 10,
+					"use_motion_prediction_hints": true
+				}
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": 2,
+						"knockback": true
+					}
+				},
+				"power": 0.4,
+				"gravity": 0,
+				"angle_offset": 0,
+				"uncertainty_base": 50,
+				"uncertainty_multiplier": 1
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time": [
+					0.2,
+					0.2
+				],
+				"time_down_event": {
+					"event": "despawn",
+					"target": "self"
+				}
+			},
+			"minecraft:type_family": {
+				"family": [
+					"sweep"
+				]
+			}
+		}
+	}
+}

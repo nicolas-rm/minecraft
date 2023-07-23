@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mobbarrierredsand_3518df05"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:sand",
+        "data": 1
+      },
+      "B": {
+        "item": "rex:mobbarrier",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:mobbarrierredsand",
+      "count": 1
+    }
+  }
+}

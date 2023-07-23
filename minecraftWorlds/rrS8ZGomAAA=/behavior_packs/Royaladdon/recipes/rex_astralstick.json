@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "astralstick_c27d2d47"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:astral",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:cablemold",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:astralstick",
+      "count": 1
+    }
+  }
+}

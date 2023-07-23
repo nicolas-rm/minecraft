@@ -1,0 +1,264 @@
+{
+  "rex:astralore": {
+    "textures": "rex_astralore",
+    "sound": "stone"
+  },
+  "rex:mineblock": {
+    "textures": "rex_mineblock",
+    "sound": "stone"
+  },
+  "rex:skeletonbossblock": {
+    "textures": "rex_skeletonbossblock",
+    "sound": "stone"
+  },
+  "rex:uptable": {
+    "textures": {
+      "up": "rex_uptable_up",
+      "down": "rex_uptable_down",
+      "north": "rex_uptable_north",
+      "south": "rex_uptable_south",
+      "east": "rex_uptable_east",
+      "west": "rex_uptable_west"
+    },
+    "sound": "wood"
+  },
+  "rex:acaileaves": {
+    "textures": "rex_acaileaves",
+    "sound": "grass"
+  },
+  "rex:corrupteddirt": {
+    "textures": "rex_corrupteddirt",
+    "sound": "gravel"
+  },
+  "rex:witherleaves": {
+    "textures": "rex_witherleaves",
+    "sound": "grass"
+  },
+  "rex:corruptedlog": {
+    "textures": {
+      "up": "rex_corruptedlog_up",
+      "down": "rex_corruptedlog_down",
+      "side": "rex_corruptedlog_side"
+    },
+    "sound": "wood"
+  },
+  "rex:corruptedgrass": {
+    "textures": {
+      "up": "rex_corruptedgrass_up",
+      "down": "rex_corruptedgrass_down",
+      "side": "rex_corruptedgrass_side"
+    },
+    "sound": "grass"
+  },
+  "rex:corruptedstone": {
+    "textures": "rex_corruptedstone",
+    "sound": "stone"
+  },
+  "rex:corruptedglass": {
+    "textures": "rex_corruptedglass",
+    "sound": "glass"
+  },
+  "rex:corruptedsand": {
+    "textures": "rex_corruptedsand",
+    "sound": "sand"
+  },
+  "rex:corruptedcobblestone": {
+    "textures": "rex_corruptedcobblestone",
+    "sound": "stone"
+  },
+  "rex:corruptedcraftingtable": {
+    "textures": {
+      "up": "rex_corruptedcraftingtable_up",
+      "down": "rex_corruptedcraftingtable_down",
+      "north": "rex_corruptedcraftingtable_north",
+      "south": "rex_corruptedcraftingtable_south",
+      "east": "rex_corruptedcraftingtable_east",
+      "west": "rex_corruptedcraftingtable_west"
+    },
+    "sound": "wood"
+  },
+  "rex:corruptedslab": {
+    "sound": "wood",
+    "textures": "rex_corruptedslab"
+  },
+  "rex:corruptedplanks": {
+    "textures": "rex_corruptedplanks",
+    "sound": "wood"
+  },
+  "rex:corruptedsteelore": {
+    "textures": "rex_corruptedsteelore",
+    "sound": "stone"
+  },
+  "rex:corruptedgravel": {
+    "textures": "rex_corruptedgravel",
+    "sound": "gravel"
+  },
+  "rex:corruptedclay": {
+    "textures": "rex_corruptedclay",
+    "sound": "gravel"
+  },
+  "rex:corruptedice": {
+    "textures": "rex_corruptedice",
+    "sound": "glass"
+  },
+  "rex:corruptedobsidian": {
+    "textures": "rex_corruptedobsidian",
+    "sound": "stone"
+  },
+  "rex:corruptedsandstone": {
+    "textures": "rex_corruptedsandstone",
+    "sound": "stone"
+  },
+  "rex:corruptedstairs": {
+    "sound": "wood",
+    "textures": "rex_corruptedstairs"
+  },
+  "rex:corruptedbookshelf": {
+    "textures": "rex_corruptedbookshelf",
+    "sound": "wood"
+  },
+  "rex:corruptedslime": {
+    "textures": "rex_corruptedslime",
+    "sound": "slime"
+  },
+  "rex:corruptedblock": {
+    "textures": "rex_corruptedblock",
+    "sound": "stone"
+  },
+  "rex:corruptedsteelblock": {
+    "textures": "rex_corruptedsteelblock",
+    "sound": "stone"
+  },
+  "rex:puregemore": {
+    "textures": "rex_puregemore",
+    "sound": "stone"
+  },
+  "rex:corruptedmushroomstem": {
+    "textures": "rex_corruptedmushroomstem",
+    "sound": "wood"
+  },
+  "rex:coblestairs": {
+    "sound": "stone",
+    "textures": "rex_coblestairs"
+  },
+  "rex:corruptedmushroomblock": {
+    "textures": "rex_corruptedmushroomblock",
+    "sound": "wood"
+  },
+  "rex:puregemblock": {
+    "textures": "rex_puregemblock",
+    "sound": "stone"
+  },
+  "rex:corruptedconcrete": {
+    "textures": "rex_corruptedconcrete",
+    "sound": "stone"
+  },
+  "rex:corruptedsandstairs": {
+    "sound": "stone",
+    "textures": "rex_corruptedsandstairs"
+  },
+  "rex:corruptedgrasspath": {
+    "textures": "rex_corruptedgrasspath",
+    "sound": "grass"
+  },
+  "rex:corruptedstonebrick": {
+    "textures": "rex_corruptedstonebrick",
+    "sound": "stone"
+  },
+  "rex:corruptedcobblestondslab": {
+    "sound": "stone",
+    "textures": "rex_corruptedcobblestondslab"
+  },
+  "rex:corruptedwool": {
+    "textures": "rex_corruptedwool",
+    "sound": "cloth"
+  },
+  "rex:corruptedglowstone": {
+    "textures": "rex_corruptedglowstone",
+    "sound": "glass"
+  },
+  "rex:mobbarriersand": {
+    "textures": "rex_mobbarriersand",
+    "sound": "sand"
+  },
+  "rex:mobbarrierdirt": {
+    "textures": "rex_mobbarrierdirt",
+    "sound": "gravel"
+  },
+  "rex:mobbarriercobblestone": {
+    "textures": "rex_mobbarriercobblestone",
+    "sound": "stone"
+  },
+  "rex:mobsbarrierplanks": {
+    "textures": "rex_mobsbarrierplanks",
+    "sound": "wood"
+  },
+  "rex:mobbarrierredsand": {
+    "textures": "rex_mobbarrierredsand",
+    "sound": "sand"
+  },
+  "rex:mobbarrierstone": {
+    "textures": "rex_mobbarrierstone",
+    "sound": "stone"
+  },
+  "rex:barriergrass": {
+    "textures": {
+      "up": "rex_barriergrass_up",
+      "down": "rex_barriergrass_down",
+      "side": "rex_barriergrass_side"
+    },
+    "sound": "grass"
+  },
+  "rex:blacksteelore": {
+    "textures": "rex_blacksteelore",
+    "sound": "stone"
+  },
+  "rex:jadeore": {
+    "textures": "rex_jadeore",
+    "sound": "stone"
+  },
+  "rex:marble": {
+    "textures": "rex_marble",
+    "sound": "stone"
+  },
+  "rex:shine_ore": {
+    "textures": "rex_shine_ore",
+    "sound": "stone"
+  },
+  "rex:temporary_crafting_table": {
+    "textures": {
+      "up": "rex_temporary_crafting_table_up",
+      "down": "rex_temporary_crafting_table_down",
+      "north": "rex_temporary_crafting_table_north",
+      "south": "rex_temporary_crafting_table_south",
+      "east": "rex_temporary_crafting_table_east",
+      "west": "rex_temporary_crafting_table_west"
+    },
+    "sound": "wood"
+  },
+  "rex:portal_frame_on": {
+    "textures": "rex_portal_frame_on",
+    "sound": "glass"
+  },
+  "rex:portal_frame_off": {
+    "textures": "ani_rex_portal_frame_off",
+    "sound": "glass"
+  },
+  "rex:start_block": {
+    "textures": "ani_rex_start_block",
+    "sound": "stone"
+  },
+  "rex:tp_block": {
+    "textures": "rex_tp_block",
+    "sound": "glass"
+  },
+  "rex:brasilianitaore": {
+    "textures": "rex_brasilianitaore",
+    "sound": "stone"
+  },
+  "format_version": [
+    1,
+    1,
+    0
+  ]
+}

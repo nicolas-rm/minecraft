@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "barriergrass_70c77ba6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "rex:mobbarrier",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:grass",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:barriergrass",
+      "count": 1
+    }
+  }
+}

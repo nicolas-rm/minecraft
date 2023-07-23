@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cdiamondpironaxe_3e52b418"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:pironaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:diamondstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:cdiamondpironaxe",
+      "count": 1
+    }
+  }
+}

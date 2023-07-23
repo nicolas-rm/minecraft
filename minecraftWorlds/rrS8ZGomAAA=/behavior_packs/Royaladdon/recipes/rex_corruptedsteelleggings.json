@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedsteelleggings_b442bfea"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedsteelingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedsteelleggings",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:obsidianingot",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:obsidianingot",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

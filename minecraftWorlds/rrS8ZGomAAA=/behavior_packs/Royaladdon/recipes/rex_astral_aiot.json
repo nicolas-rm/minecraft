@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "astral_aiot_a3865f96"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "DEF",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "rex:astral_pickaxe",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:astral_shovel",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:astral_hoe",
+        "data": 0
+      },
+      "D": {
+        "item": "rex:astral_sword",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "F": {
+        "item": "rex:astral_axe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:astral_aiot",
+      "count": 1
+    }
+  }
+}

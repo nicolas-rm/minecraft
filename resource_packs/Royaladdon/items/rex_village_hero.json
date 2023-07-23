@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:village_hero",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:village_hero",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

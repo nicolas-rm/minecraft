@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:giant_moa",
+      "textures": {
+        "giant_moa_awake_variant_0": "textures/entity/nicos_mobs/giant_moa/nicothekid_giant_moa_awake",
+        "giant_moa_sleep_variant_1": "textures/entity/nicos_mobs/giant_moa/nicothekid_giant_moa_sleep"
+      },
+      "spawn_egg": {
+        "base_color": "#453b1f",
+        "overlay_color": "#6f6d2c"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_giant_moa"
+      },
+      "materials": {
+        "default": "giant_moa",
+        "legs": "giant_moa_legs"
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_giant_moa"
+      ],
+      "animations": {
+        "attack": "animation.nicothekid_giant_moa.attack",
+        "baby_transform": "animation.nicothekid_giant_moa.baby_transform",
+        "base_pose": "animation.nicothekid_giant_moa.base_pose",
+        "look_at_target": "animation.nicothekid_giant_moa.look_at_target",
+        "sleeping": "animation.nicothekid_giant_moa.sleeping",
+        "walking": "animation.nicothekid_giant_moa.walking",
+        "controller_general": "controller.animation.nicothekid_giant_moa.general"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "baby_transform": "query.is_baby"
+          },
+          "base_pose",
+          "look_at_target",
+          "controller_general"
+        ]
+      }
+    }
+  }
+}

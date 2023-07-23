@@ -1,0 +1,16 @@
+//bridge-file-version: #48
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.shield_hit": {
+			"timeline": {
+				"0.4": [
+					"/event entity @s shield_hit_remove",
+					"/function shield_controller/shield_durability"
+				]
+			},
+			"animation_length": 0.6,
+			"loop": true
+		}
+	}
+}

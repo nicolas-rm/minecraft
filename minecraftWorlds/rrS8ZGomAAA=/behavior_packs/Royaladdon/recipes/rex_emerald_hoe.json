@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "emerald_hoe_c69a615f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      " B ",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:emerald",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:emerald_hoe",
+      "count": 1
+    }
+  }
+}

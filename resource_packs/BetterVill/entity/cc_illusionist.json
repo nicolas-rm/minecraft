@@ -1,0 +1,44 @@
+{
+  "minecraft:client_entity" : {
+    "description" : {
+      "render_controllers" : [
+        "controller.render.evoker"
+      ],
+      "particle_effects" : {
+        "spell" : "minecraft:evoker_spell"
+      },
+      "materials" : {
+        "default" : "evoker"
+      },
+      "geometry" : {
+        "default" : "geometry.evoker.v1.8"
+      },
+      "animations" : {
+        "look_at_target" : "animation.common.look_at_target",
+        "general" : "animation.evoker.general",
+        "celebrating" : "animation.humanoid.celebrating",
+        "casting" : "animation.evoker.casting",
+        "controller_general" : "controller.animation.evoker.general",
+        "move" : "animation.villager.move",
+        "controller_move" : "controller.animation.villager.move"
+      },
+      "spawn_egg" : {
+        "texture" : "cc:illusionist",
+        "texture_index" : 0
+      },
+      "identifier" : "cc:illusionist",
+      "scripts" : {
+        "scale" : "0.9375",
+        "animate" : [
+          "controller_general",
+          "controller_move"
+        ]
+      },
+      "min_engine_version" : "1.8.0",
+      "textures" : {
+        "default" : "textures\/entity\/craftycraft\/cc_illusionist"
+      }
+    }
+  },
+  "format_version" : "1.10.0"
+}

@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ed:llave"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"e"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:compass"
+			},
+			"e": {
+				"item": "ed:ingot3"
+			}
+		},
+		"result": {
+			"item": "ed:llave",
+			"count": 1
+		}
+	}
+}

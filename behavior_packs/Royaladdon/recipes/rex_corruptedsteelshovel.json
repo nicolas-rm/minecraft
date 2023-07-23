@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "corruptedsteelshovel_4347d839"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:corruptedsteelingot",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:corruptedstick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:corruptedsteelshovel",
+      "count": 1
+    }
+  }
+}

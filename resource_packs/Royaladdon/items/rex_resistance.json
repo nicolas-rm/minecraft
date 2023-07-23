@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:resistance",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:resistance",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

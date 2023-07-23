@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "nicothekid:craft_x_wooden_club_x_warped_planks"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " P ",
+      " P ",
+      " P "
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:warped_planks"
+      }
+    },
+    "result": {
+      "item": "nicothekid:wooden_club",
+      "count": 1
+    }
+  }
+}

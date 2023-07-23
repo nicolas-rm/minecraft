@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sphereofdarkness_4a1ed160"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:blackessence",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:sphereofdarkness",
+      "count": 1
+    }
+  }
+}

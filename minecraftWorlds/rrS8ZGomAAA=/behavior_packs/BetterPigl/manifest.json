@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "This addon improves the barter loot of piglins.",
+        "name": "Better Piglin Bartering",
+        "uuid": "2c4b0247-e029-469c-a45a-a53336eb42fb",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            16,
+            220
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "bb1a7505-9001-416e-964a-498d18d6f0ae",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

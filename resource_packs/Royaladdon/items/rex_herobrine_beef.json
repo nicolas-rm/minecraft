@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:herobrine_beef",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "rex:herobrine_beef",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

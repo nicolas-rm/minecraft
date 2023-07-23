@@ -1,0 +1,28 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "In this addon chests will give you op item made by gamerfile.",
+        "name": "Chests are Op By GamerFile",
+        "uuid": "e0a3fbea-3a01-4b02-baf5-a00b569b2814",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            8,
+            0
+        ]
+    },
+    "modules": [{
+        "description": "Dont mess with the codes",
+        "type": "data",
+        "uuid": "e0a3fbea-3a01-4b02-baf5-a00b569b2815",
+        "version": [
+            0,
+            0,
+            1
+        ]
+    }]
+}

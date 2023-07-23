@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "firerainsword_b154b656"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "rex:insignarei",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:fireball",
+        "data": 0
+      },
+      "C": {
+        "item": "rex:firesword",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:firerainsword",
+      "count": 1
+    }
+  }
+}

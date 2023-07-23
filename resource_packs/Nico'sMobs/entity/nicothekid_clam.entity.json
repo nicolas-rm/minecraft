@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nicothekid:clam",
+      "textures": {
+        "variant_0": "textures/entity/nicos_mobs/clam/empty/clam_v1",
+				"variant_1": "textures/entity/nicos_mobs/clam/empty/clam_v2",
+				"variant_2": "textures/entity/nicos_mobs/clam/empty/clam_v3",
+				"variant_3": "textures/entity/nicos_mobs/clam/empty/clam_v4",
+				"variant_4": "textures/entity/nicos_mobs/clam/pearl/clam_v1",
+				"variant_5": "textures/entity/nicos_mobs/clam/pearl/clam_v2",
+				"variant_6": "textures/entity/nicos_mobs/clam/pearl/clam_v3",
+				"variant_7": "textures/entity/nicos_mobs/clam/pearl/clam_v4"
+      },
+      "spawn_egg": {
+        "base_color": "#79B3B7",
+        "overlay_color": "#9BCBBF"
+      },
+      "geometry": {
+        "default": "geometry.entity.nicothekid_clam_close",
+        "sheared": "geometry.entity.nicothekid_clam_open"
+      },
+      "materials": {
+        "default": "clam",
+        "invisible": "clam_invisible"
+      },
+      "render_controllers": [
+        "controller.render.nicothekid_clam"
+      ],
+      "animations": {
+        "controller_clam_general": "controller.animation.nicothekid_clam.general",
+        "clam_closing": "animation.nicothekid_clam.closing",
+        "clam_opening": "animation.nicothekid_clam.opening"
+      },
+      "scripts": {
+        "animate": [
+          "controller_clam_general"
+        ]
+      }
+    }
+  }
+}

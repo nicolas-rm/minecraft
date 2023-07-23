@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rex:skeletoninsigna",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "rex:skeletoninsigna",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

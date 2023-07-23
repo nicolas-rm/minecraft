@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_26809c5a"
+    },
+    "tags": [
+      "crafting_table",
+      "Block_tool improvement table_custom"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:redstone_block",
+        "data": 0
+      },
+      "B": {
+        "item": "rex:castralpdiamondhoemobsidian",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "rex:castralpdiamondhoemobsidianmredstone",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nicothekid:squirrel_hide",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+				"texture": "nicothekid_squirrel_hide"
+			},
+			"minecraft:display_name": {
+				"value": "item.nicothekid:squirrel_hide.name"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.items"
+			},
+      "minecraft:max_stack_size": 64,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": false
+    }
+  }
+}

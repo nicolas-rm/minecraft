@@ -1,0 +1,65 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.nicothekid_squirrel.interested": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"interested": "query.is_interested"
+						}
+					],
+					"blend_transition": 0.3
+				},
+				"interested": {
+					"animations": [ "interested" ],
+					"transitions": [
+						{
+							"default": "!query.is_interested"
+						}
+					],
+					"blend_transition": 0.3
+				}
+			}
+		},
+		"controller.animation.nicothekid_squirrel.movement": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"walking": "query.modified_move_speed"
+						}
+					],
+					"transitions": [
+					  {
+							"grazing": "query.is_grazing"
+						},
+						{
+							"sitting": "query.is_sitting"
+						}
+					],
+					"blend_transition": 0.3
+				},
+				"grazing": {
+					"animations": [ "grazing" ],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"sitting": {
+					"animations": [ "sitting" ],
+					"transitions": [
+					  {
+					    "default": "!query.is_sitting"
+					  }
+					],
+					"blend_transition": 0.5
+				}
+			}
+		}
+	}
+}

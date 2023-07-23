@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "UI Pack",
+    "description": "§2Enderite Mod V2 §7by §4SrMeliodas88",
+    "uuid": "a122550e-a6be-e32e-4947-da7f30c99b65",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "6fad6f77-91d7-8b48-78c3-4a8953830aca",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
