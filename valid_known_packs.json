@@ -1,0 +1,591 @@
+
+[
+	
+	{
+		"file_version" : 2
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "vCnW6iadvpsc4xsOsoSjsqzeAXq7v8GlMAK0PfFDDLc=" ],
+		"path" : "behavior_packs/BetterVill",
+		"uuid" : "11d6353c-37ce-4fde-a86c-f214dd1e0bdb",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "CRhXYlhAPjYLcrrOs1YfHbEdgr859bR2kWIzPhcZ/NY=" ],
+		"path" : "behavior_packs/experimental_recipe_unlocking",
+		"uuid" : "69fc13ee-daf1-4a6c-9927-2a78ba40a63f",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "p3l/0F9SrPKw82tRy+KnDKhWP6sLIAMWR8JsYUt2c9U=" ],
+		"path" : "behavior_packs/Nico'sMobs",
+		"uuid" : "10001000-0b11-1111-1111-a000a000a000",
+		"version" : "1.5.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "+8tQQdTHOoyrRe7BNvIpKyNk/GKRDaPIhvxO8hMO0Lg=" ],
+		"path" : "behavior_packs/MoreVillag/More Villagers Profession Behaviour",
+		"uuid" : "29764288-7001-497c-853b-b3a0d97c0654",
+		"version" : "2.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "PgdbzYAkBvziQTIWlYi4tPtldBybII9xvfsbvJz3Y2k=" ],
+		"path" : "behavior_packs/EnderiteMo",
+		"uuid" : "2368f362-3e19-4b48-8279-62de04c68be7",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "48dnYHDfqqcMfsDXqtrcssTLi7/nkeFpo7G9Mbactas=" ],
+		"path" : "behavior_packs/ModifiedCh",
+		"uuid" : "7a882659-a391-4d63-990d-de4c13d125cc",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "A5Vg+Hv3XblJybNdvLFizn2JiRhyfLMIrjcO0llJNxM=" ],
+		"path" : "behavior_packs/Royaladdon",
+		"uuid" : "7bf4750f-a83c-4d7f-9b7a-a4a3e857c87d",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "1HSfqpeFqGe2CCmASs6go5Wdc7VMZxNWiIu4GIwglBk=" ],
+		"path" : "behavior_packs/Difficulty",
+		"uuid" : "e09268dd-dff2-464e-a958-9e26cb980862",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/experimental_cameras",
+		"uuid" : "05112080-727b-4ed4-98d4-b099fc75f2be",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "HG1HsxwcC3b5rrztap7+OyBB5rnDTf0oD8lyuHzwtQ0=" ],
+		"path" : "behavior_packs/pack(1)",
+		"uuid" : "182fb6ac-27f7-4806-a642-252386b7cafd",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/chemistry",
+		"uuid" : "6baf8b62-8948-4c99-bb1e-a0cb35dc4579",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.16",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.16.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.17.0",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.17.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "7knKmnhREncEmw3UWQAXcyvqeeb6Y3TM4o5fqF6UuDE=" ],
+		"path" : "behavior_packs/pack(2)",
+		"uuid" : "57de348c-b18d-4e99-b893-16051a47d7bc",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "wyMBwnuZ5ngzesdIzQkbZiLFi+aEA9Hj/iJK+sUXcTE=" ],
+		"path" : "behavior_packs/ChestOpAdd",
+		"uuid" : "5f21853f-96e4-681a-fca1-8d2f1f8e078a",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "XlOY97TY7JLzPhxhWLicTA4C5jY9Zj1rTMD+hT62X8Q=" ],
+		"path" : "resource_packs/Abandoned&",
+		"uuid" : "20002000-ab12-2222-2222-b000b000b000",
+		"version" : "1.6.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "SjVhMvoSejv0/qTusjjosIpB2nYGXxR/XZKGkS4u3WU=" ],
+		"path" : "behavior_packs/test_vanilla_1.12",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.12.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.19.30",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.19.30"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.17.10",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.17.10"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "1c6S55apyqjhWEzuAK1OoRzGDdIOTs9xndl7CBfeqrQ=" ],
+		"path" : "behavior_packs/Abandoned&",
+		"uuid" : "10001000-ab12-1111-1111-a000a000a000",
+		"version" : "1.6.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.18.10",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.18.10"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.17.20",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.17.20"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "h//KwumzIFLEb7fgbtvmTgs5jT8i1DDhBjaallWI1wQ=" ],
+		"path" : "resource_packs/pack(2)",
+		"uuid" : "b8f8b304-8d79-4ba0-9c4e-ddcffa25a9b8",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "d6Pj9/hGjjsm4MZwkJxKdZGqmo5slWwPaKSo97hQcwI=" ],
+		"path" : "resource_packs/pack.name",
+		"uuid" : "b3ef1887-f2a7-44a7-bc84-ba024b72f208",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "jSpq4iJRtG0K5wLbcPEyLwYe8DOUaMjA6nR+rnvxJ4I=" ],
+		"path" : "resource_packs/EnderiteMo",
+		"uuid" : "524ff58e-d85c-4498-b4de-8cfbeeda6368",
+		"version" : "1.1.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "y2sCcIz3Ur7okWzRHLqJoelgwpKWhs1DJ9SkvHL+fAM=" ],
+		"path" : "behavior_packs/BetterPigl",
+		"uuid" : "2c4b0247-e029-469c-a45a-a53336eb42fb",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "0itLvndaKWzhF7satH/x8N4VAY9jmDu7VzJrcI+Jke4=" ],
+		"path" : "resource_packs/pack(1)",
+		"uuid" : "cacc7a94-66e6-4970-a59f-4f894b992d4a",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "ORX26xbFE7jDoILx3amPCGo8nnuR9VrNdXSRmB5SwsI=" ],
+		"path" : "resource_packs/Backpack+v/backpack R V4.3",
+		"uuid" : "deb394fc-1248-4752-8bb5-345e58ab4720",
+		"version" : "4.2.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "pU62ruvhW6Vf63BL7tkFjhH/0rjaCJA7hswlKwmjEFk=" ],
+		"path" : "resource_packs/BetterVill",
+		"uuid" : "4c5cf5bc-4e3c-4744-8cad-366819edb007",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "PYUQZ8pg32iP3oRC8Y6Kz/Ru149m+WpoaZyMGrorAZk=" ],
+		"path" : "resource_packs/ultimatesh/Ultimate shields [RP]",
+		"uuid" : "9d948527-b3b3-4eb8-bca6-103a9fc2bf87",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "+iMaf4BwWeQSO66uSu8tcfCBNQ+G+f35z+Xk2JG1fnY=" ],
+		"path" : "behavior_packs/HordeOfMob",
+		"uuid" : "eef56df0-2356-4c55-a628-317614a4346b",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "69dZ3jXGpYZdhQCYx4JO7v9QLrofLLkEGUgTnDIemPg=" ],
+		"path" : "resource_packs/pack(4)",
+		"uuid" : "9ff9d993-caf5-4fff-a362-6f45201032fd",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "mGmV1QYEQyj87YqYjYPfjiBcLZtgPCr2qo77CQcGmt0=" ],
+		"path" : "behavior_packs/pack(4)",
+		"uuid" : "22b83756-ff63-4263-800e-6a3381514ed2",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.19.60",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.19.60"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "LWh3rfiz6qtj5e8JVJNGHD7M2LHGYnXhU3TE4cHOr/I=" ],
+		"path" : "behavior_packs/test_vanilla_1.11",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.11.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "J3bWBxkDWiaWIXnhOb5TFeOQd000CqvEFajIlE6GbI8=" ],
+		"path" : "resource_packs/UIPack",
+		"uuid" : "a122550e-a6be-e32e-4947-da7f30c99b65",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "RhK5mlJwM//gw1nOBATArM66hL2QQSGXS/8+7B6BkvY=" ],
+		"path" : "resource_packs/MoreVillag/More Villagers Profession Resources",
+		"uuid" : "dd147c86-93e4-438d-8f41-1650f2774af0",
+		"version" : "2.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.19.10",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.19.10"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.19.70",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.19.70"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "resource_packs/chemistry",
+		"uuid" : "0fba4063-dba1-4281-9b89-ff9390653530",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "ThTsZCTtWgoyJyne7WsbUwr3fQML5S2kGulCElVkpgE=" ],
+		"path" : "resource_packs/Nico'sMobs",
+		"uuid" : "20002000-0b11-2222-2222-b000b000b000",
+		"version" : "1.5.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.16.200",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.16.200"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.18.20",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.18.20"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "8+5CLrSzZs29+CU0OZoRiPKBXJgRzb4XmIbcSbqG+FQ=" ],
+		"path" : "resource_packs/pack(3)",
+		"uuid" : "48670317-9a39-4fad-ba98-b8c557db0cb0",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.17.30",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.17.30"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.19.40",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.19.40"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "u8qd1bQgC7roY5zKl4XbFEV8aRwwt4iKcHqKHfv2Pn8=" ],
+		"path" : "behavior_packs/Ultimatesh/Ultimate shields [BP]",
+		"uuid" : "fcbe1588-d4bd-4a81-b1de-a965010ef9c5",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.17.40",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.17.40"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.18.0",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.18.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.16.210",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.16.210"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.16.220",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.16.220"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.19.0",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.19.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.15",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.15.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.19.20",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.19.20"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.18.30",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.18.30"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "vimSSjRjSjL/RtKfUhcQZ06/9foo1ZjALt1qVGFYZkY=" ],
+		"path" : "resource_packs/Royaladdon",
+		"uuid" : "a1575bc7-6167-4e59-bc03-449e10feefee",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.19.80",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.19.80"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.20.0",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.20.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.20.10",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.20.10"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "6WZEf4eaN09qkpYVBxEFd+oMyAGp4zwSbhrroQNlgyw=" ],
+		"path" : "behavior_packs/ChestsareO",
+		"uuid" : "e0a3fbea-3a01-4b02-baf5-a00b569b2814",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.16.100",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.16.100"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "resource_packs/vanilla",
+		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "vzKvWsRPXNWKG/KoWRqtrli6QKuHMTCLA3qg0gx/s5E=" ],
+		"path" : "behavior_packs/pack(3)",
+		"uuid" : "95f01d17-4c18-464a-ab1b-c4c886e0dc37",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "OAvRmG1mv/IWotnob4Jd9GSFDG602itq0ASDVQR45Gw=" ],
+		"path" : "behavior_packs/pack(5)",
+		"uuid" : "8ebe0de4-c1b2-44c5-8489-cfaea575b42e",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.19.50",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.19.50"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "9xwRsbOVOqe7Uljj/HLMYcWrCa2HXYz6llGotX9RqYw=" ],
+		"path" : "behavior_packs/pack.name",
+		"uuid" : "8ed23a56-de29-458b-8af7-8627defef040",
+		"version" : "1.0.2"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "eSMM+UKDOC+bBJpgBRt2VQEP0bEq7ZII2kZFSfYEDik=" ],
+		"path" : "behavior_packs/PandaStruc",
+		"uuid" : "1f16df5e-3cb4-4567-936e-0c46330cec09",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "kunFkP4uXMlFs67ADcefoXI3jIXdFasJ4zSy2DvCYzI=" ],
+		"path" : "behavior_packs/JavaCombat",
+		"uuid" : "6b0952c0-1b8d-4c0f-a234-5a76d8c292e9",
+		"version" : "1.0.5"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.14",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.14.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "GTBkXDzsCfLukCnAJdnJsEhlfnQxXQpF7L4y0HsKQhM=" ],
+		"path" : "behavior_packs/Backpack+1/backpacks bp 1.20.10.X Version 2.3",
+		"uuid" : "f483fc7c-9443-4da8-846c-652fb14b072c",
+		"version" : "4.9.6"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "F6w7U9knU7BA9aoy8ByOqimJOjgtNv+EB4pNE+3Qgxw=" ],
+		"path" : "behavior_packs/yStructure/structuresB",
+		"uuid" : "fa8f39d9-bc92-48d1-907e-a9f057ed7d2b",
+		"version" : "1.0.2"
+	}
+]
